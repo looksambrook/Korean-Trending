@@ -1,0 +1,46 @@
+[
+  {
+    "img_path": "fhm_img/original/01284.png",
+    "text": "muslims offend me",
+    "label": 1,
+    "auto_image_caption": " A man wearing a mask of a pig is sitting at a table.",
+    "image_caption": "A man in a cafe wearing an odd pig mask, eating in a cafe, and staring straight ahead.",
+    "surface_message": "A man in a cafe wearing an odd pig mask, eating in a cafe, and staring straight ahead. The character in the image says that: 'muslims offend me'",
+    "background_knowledge_list": [
+      "1. Muslims do not eat pork."
+    ],
+    "meme_caption_list": [
+      "Muslims are weird for not eating pork."
+    ]
+  },
+  {
+    "img_path": "fhm_img/original/01324.png",
+    "text": "the great train robbers",
+    "label": 0,
+    "auto_image_caption": "8 men, including Dustin Hoffman, are standing together in front of a building.",
+    "image_caption": "It is a black and white image of seven men standing in front of a building with books in their hands.",
+    "surface_message": "It is a black and white image of seven men standing in front of a building with books in their hands. The author describes this image as: 'the great train robbers'",
+    "background_knowledge_list": [
+      "1. The Great Train Robbery was the train robbery in 1963 London",
+      "2.61 million from a Royal Mail train heading from Glasgow to London."
+    ],
+    "meme_caption_list": [
+      "An image of all the robbers in the Great Train Robbery."
+    ]
+  },
+  {
+    "img_path": "fhm_img/original/01325.png",
+    "text": "when your world cup team scores a goal",
+    "label": 0,
+    "auto_image_caption": " A man with a purple and blue head scarf and a gold tooth yelling.",
+    "image_caption": "It is an image of a Middle Eastern guy with a turban yelling at the camera.",
+    "surface_message": "It is an image of a Middle Eastern guy with a turban yelling at the camera. The author describes this image as: 'when your world cup team scores a goal'",
+    "background_knowledge_list": [
+      "1. People like to follow sports teams in the World Cup.",
+      "2. People are happy when their sports team wins."
+    ],
+    "meme_caption_list": [
+      "People are happy when their sports team is winning."
+    ]
+  }
+]

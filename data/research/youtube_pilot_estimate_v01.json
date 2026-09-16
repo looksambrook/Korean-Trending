@@ -1,0 +1,93 @@
+{
+  "plan_version": "youtube-feasibility-proposal-v01",
+  "artifact_type": "offline_proposal_arithmetic",
+  "execution_ready": false,
+  "observed_videos": 0,
+  "model_calls_executed": 0,
+  "youtube_api_calls_executed": 0,
+  "estimated_api_calls": {
+    "channels_list": 1,
+    "playlistItems_list": 18,
+    "videos_list_by_id": 3,
+    "commentThreads_list": 90,
+    "comments_list": 30,
+    "videos_list_chart": 3,
+    "search_list": 6
+  },
+  "quota_estimate": {
+    "search_queries_separate_bucket": 6,
+    "other_units": 145,
+    "reference_checked_on": "2026-09-15",
+    "actual_project_allocation_verified": false,
+    "interpretation": "Totals across all proposed rounds, not daily usage or a dollar price; extra pages/failures excluded"
+  },
+  "cells": [
+    {
+      "condition": "D0U0",
+      "discovery": "D0",
+      "understanding": "U0",
+      "questions_each_repeat": 24,
+      "repeats": 1,
+      "include_missed_families": true
+    },
+    {
+      "condition": "D0U1",
+      "discovery": "D0",
+      "understanding": "U1",
+      "questions_each_repeat": 24,
+      "repeats": 1,
+      "include_missed_families": true
+    },
+    {
+      "condition": "D1U0",
+      "discovery": "D1",
+      "understanding": "U0",
+      "questions_each_repeat": 24,
+      "repeats": 1,
+      "include_missed_families": true
+    },
+    {
+      "condition": "D1U1",
+      "discovery": "D1",
+      "understanding": "U1",
+      "questions_each_repeat": 24,
+      "repeats": 1,
+      "include_missed_families": true
+    }
+  ],
+  "model_estimate": {
+    "calls_by_stage": {
+      "D1_candidate_review": 12,
+      "automatic_structure_two_discovery_sets": 24,
+      "four_DU_cells": 96,
+      "no_support_diagnostic": 24
+    },
+    "total_calls": 156,
+    "input_tokens": 504000,
+    "output_tokens": 84000,
+    "model_only_usd": null,
+    "total_cash_cost_usd": null,
+    "note": "Example token assumptions, not guaranteed caps. Reuse may reduce extraction calls. Embeddings/OCR/ASR/human time/storage are separate."
+  },
+  "annotation_estimate": {
+    "entries_per_round_max_assuming_full_pages": 830,
+    "entry_versions_all_rounds_max": 2490,
+    "independent_annotators_example": 2,
+    "hours_if_every_entry_version_reviewed": 83.0,
+    "note": "Conservative workload before deduplicating unchanged snapshots; excludes viewing, guideline training, disagreements, question writing and final output evaluation. Not recruited people."
+  },
+  "unfinished_before_live_experiment": [
+    "actual_API_project_access_and_quota",
+    "analysis_use_and_retention_scope",
+    "channel_cohort_and_selection_rule",
+    "observation_times_and_evaluation_cutoff",
+    "independent_gold_questions_and_annotation_arrangements",
+    "D0_D1_implementation_and_development_tuning",
+    "retrieval_and_temporal_validation_implementation",
+    "model_version_transfer_scope_and_budget",
+    "actual_token_counts_and_expense_guard",
+    "media_access_if_needed"
+  ],
+  "run_id": "5733f964401c49309d8907595c2b8130",
+  "fingerprint": "621016baefe986360148d6ea4b3372fc88399a2bd7009c39550e36b8c72f7e2f"
+}

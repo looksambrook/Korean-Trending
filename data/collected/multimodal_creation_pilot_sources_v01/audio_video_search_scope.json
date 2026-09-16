@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-09-15T05:39:34.804967+00:00",
+  "queries": [
+    "site.commons.wikimedia.org \"Doge\" \"webm\" \"Licensing\"",
+    "site.commons.wikimedia.org \"???\""
+  ],
+  "scope": "Bounded public search only, at most one relevant 20 MB media file authorized; no relevant eligible file found and no audio/video downloaded",
+  "excluded": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Video_en_el_Centro_de_Mazatl%C3%A1n,_2018.webm",
+      "reason": "Search result was a city video by uploader El Nuevo Doge; not Doge meme content; not downloaded"
+    }
+  ],
+  "finding": "audio_and_video_unacquired_not_proven_absent",
+  "research_model_calls": 0
+}

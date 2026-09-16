@@ -1,0 +1,22 @@
+{
+  "schema_version": "creation-plan-v1",
+  "plan_id": "native_video_control_C0",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "model_run_id": "87512cdb28424b6ca77f756d71f972f2",
+  "text": " Green sign on street.",
+  "visual": {
+    "style": "caption_card",
+    "width": 960,
+    "height": 540,
+    "background_color": "#142032",
+    "foreground_color": "#FFFFFF",
+    "caption": " Green sign on street.",
+    "font_size": 52
+  },
+  "video": {
+    "fps": 12,
+    "duration_seconds": 3,
+    "frame_count": 36
+  }
+}

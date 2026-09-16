@@ -1,0 +1,7 @@
+{
+  "recorded_at": "2026-09-15T05:39:47.774175+00:00",
+  "phase": "finish_not_registration",
+  "error": "ValueError Invalid actual_cost fields: model_calls is not a supported actual_cost field",
+  "state_change_before_failure": false,
+  "correction": "Record zero model calls in notes; cost uses amount, api_units, human_minutes and currency only"
+}

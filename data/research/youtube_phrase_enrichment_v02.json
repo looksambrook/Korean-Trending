@@ -1,0 +1,430 @@
+{
+  "schema_version": "0.2",
+  "run_id": "dc58e776600548c89d58243e477bbfcb",
+  "phrase": "실례카겔",
+  "mode": "observed_phrase_expansion_local_review",
+  "supersedes_for_new_evidence_only": "youtube_phrase_enrichment_v01.json",
+  "prior_version_preserved": true,
+  "input_collection_run_id": "fbfd5698ba994f959bb750623713d378",
+  "input_directory": "data/collected/youtube_search_expansion_20260915_v01/fbfd5698ba994f959bb750623713d378",
+  "review_type": "AI_assisted_metadata_evidence_review",
+  "human_review_performed": false,
+  "independent_gold": false,
+  "unseeded_discovery": false,
+  "source_data_provenance": "actual_collected",
+  "interpretation_provenance": "AI_assisted_inference",
+  "registration_scope": "Registered after input inspection, before structured local review; not a blind preregistered evaluation",
+  "original_pipeline_T": "2026-09-14T18:20:52.811337+00:00",
+  "search_received_at": "2026-09-14T18:28:27.234807+00:00",
+  "search_finished_at": "2026-09-14T18:28:28.861779+00:00",
+  "knowledge_available_at": "2026-09-14T18:31:55.346085+00:00",
+  "eligible_at_original_pipeline_T": false,
+  "exact_posting_dates_known": false,
+  "source_scope": {
+    "transport": "one actual unauthenticated HTTPS public YouTube search-page response",
+    "http_attempts_in_source_collection": 1,
+    "raw_bytes": 1288581,
+    "raw_sha256": "9b776b1341fb5d1d0c7e5b7764620f635f4b1bebc8dee4bd9f858e45b29a0f6b",
+    "raw_sha256_matches_manifest": true,
+    "all_20_extracted_video_ids_present_in_raw": true,
+    "bounded_observations": 20,
+    "full_watch_descriptions": false,
+    "audio_or_video_viewed": false,
+    "comments_or_transcripts_read": false,
+    "initial_page_only": true,
+    "earlier_web_tool_failures": "v01's seven failed watch opens were failures of the web-tool path; they do not contradict this later successful public-search HTTP response. Search cards and full watch pages are different access scopes."
+  },
+  "descriptive_counts_not_performance_metrics": {
+    "exact_phrase_in_NFC_normalized_title_or_snippet": 12,
+    "possible_surface_variant_only": 1,
+    "no_exact_phrase_or_selected_surface_variant": 7,
+    "records_with_nonnull_channel_id": 2,
+    "distinct_confirmed_channel_ids_within_this_search_snapshot": 1,
+    "confirmed_independent_transformations": null,
+    "verified_memes": null,
+    "precision": null,
+    "recall": null,
+    "count_warning": "Text membership in a phrase-selected bounded search result is not meme precision, prevalence or discovery recall."
+  },
+  "observed_facts": [
+    {
+      "fact": "Two separately identified videos are credited in the search metadata to the same SNACKTOWN channel and connect the Korean phrase to Sillaeca Gel / THE LAST TAKE performance titles.",
+      "evidence_video_ids": [
+        "Q9hDqYvhrOU",
+        "jxw1Cudx5lA"
+      ],
+      "channel_id": "UClgQvJio7ylGa9kV9b7VzLQ",
+      "channel_label": "스낵타운 SNACKTOWN",
+      "limits": "The short descriptions are truncated. Different songs and video IDs do not establish independent users or independent meme transformations."
+    },
+    {
+      "fact": "Some retrieved titles explicitly compare the real-band name with the candidate name and talk about an original or strong resemblance.",
+      "evidence_video_ids": [
+        "54StMo--pXU",
+        "IvRXAe9hQo4"
+      ],
+      "limits": "KBS and MBC wording is present in titles, but these parsed cards provide no channel ID. Publisher authenticity and actual comparison footage are not verified."
+    },
+    {
+      "fact": "Retrieved titles separately describe a birth/origin, a comment compilation, and a fancam.",
+      "evidence_video_ids": [
+        "dUugfytAOnk",
+        "UkXUYjmDKIM",
+        "v5K6dCYVoYE"
+      ],
+      "limits": "These are title-level claims. They do not establish first origin, observed comment content, or an independently created performance."
+    },
+    {
+      "fact": "The result set contains a visibly modified spelling as well as cards that only concern the band or an associated person.",
+      "evidence_video_ids": [
+        "wPSGN2Z97kw",
+        "U2iEtbZAqDg",
+        "VlzD_PgcB-c"
+      ],
+      "limits": "Spelling similarity alone is insufficient to merge families; missing phrase text does not prove a nonmeme video."
+    }
+  ],
+  "provisional_knowledge": {
+    "meaning": "실리카겔 관련 공연을 유머스럽게 모방하거나 비교하는 맥락에서 사용되는 변형 명칭일 가능성이 높다. 검색 원문은 이 명칭을 Sillaeca Gel 및 THE LAST TAKE 공연 제목과 연결한다.",
+    "possible_intent": "원공연·원밴드와 닮았다는 점을 드러내며 장난스럽게 비교하는 기능을 가질 수 있다.",
+    "evidence_video_ids": [
+      "Q9hDqYvhrOU",
+      "jxw1Cudx5lA",
+      "54StMo--pXU",
+      "IvRXAe9hQo4",
+      "WO53scyO3wo"
+    ],
+    "status": "AI_inference_from_actual_metadata_not_verified_model_understanding",
+    "not_established": [
+      "정확한 성대모사·몸짓·가사 변형",
+      "최초 기원",
+      "제작자별 의도",
+      "조롱·호감의 구체적 태도",
+      "독립 변형 확산",
+      "일반 문장 빈칸 치환 규칙"
+    ],
+    "usage_boundary": "문구만으로 모든 '실리카겔' 영상을 같은 밈에 연결하지 않는다. 밴드 공연 자체·패러디 공연·패러디를 설명하는 영상·클립 재게시를 구분해야 한다.",
+    "evidence_injection_rule": "This knowledge version may only be used after knowledge_available_at; no retroactive enrichment of the original T run."
+  },
+  "review_examples": [
+    {
+      "video_id": "Q9hDqYvhrOU",
+      "role": "same_channel_performance_name_evidence",
+      "direct_metadata": "제목이 NO PAIN 공연을 식별하고 설명 조각이 후보 이름을 표시함",
+      "admit_as_independent_transform": false,
+      "reason": "동일 SNACKTOWN 채널의 여러 공연물; 독립 제작·변형 미검증"
+    },
+    {
+      "video_id": "jxw1Cudx5lA",
+      "role": "same_channel_second_work_name_evidence",
+      "direct_metadata": "제목이 BIG VOID 공연을 식별하고 설명 조각이 후보 이름을 표시함",
+      "admit_as_independent_transform": false,
+      "reason": "앞 행과 같은 채널; 곡 차이를 별도 밈 또는 독립 사용자로 계산하지 않음"
+    },
+    {
+      "video_id": "54StMo--pXU",
+      "role": "comparison_reference_title",
+      "direct_metadata": "두 명칭의 원본 여부를 비교하는 제목",
+      "admit_as_independent_transform": false,
+      "reason": "실제 내용 및 게시 채널 미확인; 제목의 KBS 표기를 검증된 creator ID로 사용하지 않음"
+    },
+    {
+      "video_id": "IvRXAe9hQo4",
+      "role": "similarity_reference_title",
+      "direct_metadata": "두 명칭의 유사성을 강조하는 제목",
+      "admit_as_independent_transform": false,
+      "reason": "비교·언급인지 독립 패러디인지 미확인; 제목의 방송사 해시태그는 게시자 신원 확정 근거가 아님"
+    },
+    {
+      "video_id": "dUugfytAOnk",
+      "role": "origin_claim_requires_verification",
+      "direct_metadata": "탄생이라는 제목 표현",
+      "admit_as_origin": false,
+      "reason": "제목 주장을 최초 기원의 정답으로 바꾸지 않음"
+    },
+    {
+      "video_id": "UkXUYjmDKIM",
+      "role": "possible_compilation",
+      "direct_metadata": "댓글 모음이라는 제목 표현",
+      "admit_as_independent_comments": false,
+      "reason": "댓글 자체를 수집하거나 읽지 않음"
+    },
+    {
+      "video_id": "v5K6dCYVoYE",
+      "role": "possible_fancam_or_repost",
+      "direct_metadata": "직캠이라는 제목 표현",
+      "admit_as_independent_transform": false,
+      "reason": "촬영·클립·재게시 및 원공연 관계 미확인"
+    },
+    {
+      "video_id": "wPSGN2Z97kw",
+      "role": "possible_surface_variant",
+      "direct_metadata": "실례리례리카겔",
+      "admit_as_confirmed_family_edge": false,
+      "reason": "표면형 변형은 보이지만 동일 계열의 의미·원자료 관계 미확인"
+    },
+    {
+      "video_id": "U2iEtbZAqDg",
+      "role": "false_positive_risk_related_topic",
+      "direct_metadata": "밴드 기타에 관한 제목이며 후보 표현 없음",
+      "admit_as_positive_meme_evidence": false,
+      "reason": "검색에 포함됐다는 사실만으로 후보 밈 용례로 채택하지 않음; 가짜 영상이라는 뜻은 아님"
+    },
+    {
+      "video_id": "VlzD_PgcB-c",
+      "role": "false_positive_risk_associated_person",
+      "direct_metadata": "음감·인물 관련 제목이며 후보 표현 없음",
+      "admit_as_positive_meme_evidence": false,
+      "reason": "본문을 확인하지 않아 연관된 인물·주제 검색 결과일 가능성만 남김"
+    },
+    {
+      "video_id": "mdZyignFp3U",
+      "role": "possible_related_paraphrase_without_exact_name",
+      "direct_metadata": "보급형이라는 비교 표현과 밴드·인물 이름",
+      "admit_as_positive_meme_evidence": false,
+      "reason": "정확 문구가 없더라도 관련 패러디일 수 있어 자동 음성사례로 확정하지 않음"
+    }
+  ],
+  "all_reviewed_observation_references": [
+    {
+      "observation_id": "youtube:search:r_CYLQgBjis:6747a7f47d1349695e410e9f",
+      "video_id": "r_CYLQgBjis",
+      "source_url": "https://www.youtube.com/watch?v=r_CYLQgBjis",
+      "search_rank": 1,
+      "channel_id": null,
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": true,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:6q66yrTBgo8:431b84318219e94efc679c57",
+      "video_id": "6q66yrTBgo8",
+      "source_url": "https://www.youtube.com/watch?v=6q66yrTBgo8",
+      "search_rank": 2,
+      "channel_id": null,
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": true,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:54StMo--pXU:5527993175994830914b5e9c",
+      "video_id": "54StMo--pXU",
+      "source_url": "https://www.youtube.com/watch?v=54StMo--pXU",
+      "search_rank": 3,
+      "channel_id": null,
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": true,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:TBqvX5m2qlI:d0d36422a138178b72677cef",
+      "video_id": "TBqvX5m2qlI",
+      "source_url": "https://www.youtube.com/watch?v=TBqvX5m2qlI",
+      "search_rank": 4,
+      "channel_id": null,
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": true,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:Wti0TA11uxA:488a00663fec566ffb4e77fa",
+      "video_id": "Wti0TA11uxA",
+      "source_url": "https://www.youtube.com/watch?v=Wti0TA11uxA",
+      "search_rank": 5,
+      "channel_id": null,
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": true,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:jxw1Cudx5lA:685639c9f2b28d2fbc734600",
+      "video_id": "jxw1Cudx5lA",
+      "source_url": "https://www.youtube.com/watch?v=jxw1Cudx5lA",
+      "search_rank": 6,
+      "channel_id": "UClgQvJio7ylGa9kV9b7VzLQ",
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": true,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:Q9hDqYvhrOU:0fb055a13bebb8a4ce78670f",
+      "video_id": "Q9hDqYvhrOU",
+      "source_url": "https://www.youtube.com/watch?v=Q9hDqYvhrOU",
+      "search_rank": 7,
+      "channel_id": "UClgQvJio7ylGa9kV9b7VzLQ",
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": true,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:U2iEtbZAqDg:11e4f2a43a2200128690171f",
+      "video_id": "U2iEtbZAqDg",
+      "source_url": "https://www.youtube.com/watch?v=U2iEtbZAqDg",
+      "search_rank": 8,
+      "channel_id": null,
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": false,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:dUugfytAOnk:5bfccf4f0856534f51879a4d",
+      "video_id": "dUugfytAOnk",
+      "source_url": "https://www.youtube.com/watch?v=dUugfytAOnk",
+      "search_rank": 9,
+      "channel_id": null,
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": true,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:WO53scyO3wo:14c4799feacd11cfdd2a498b",
+      "video_id": "WO53scyO3wo",
+      "source_url": "https://www.youtube.com/watch?v=WO53scyO3wo",
+      "search_rank": 10,
+      "channel_id": null,
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": true,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:dR9FmR3kD8c:983fe9bfb852f1e2eb96a6bd",
+      "video_id": "dR9FmR3kD8c",
+      "source_url": "https://www.youtube.com/watch?v=dR9FmR3kD8c",
+      "search_rank": 11,
+      "channel_id": null,
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": false,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:UkXUYjmDKIM:30bddf8e5a88800d909504b3",
+      "video_id": "UkXUYjmDKIM",
+      "source_url": "https://www.youtube.com/watch?v=UkXUYjmDKIM",
+      "search_rank": 12,
+      "channel_id": null,
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": true,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:v5K6dCYVoYE:7a8838e4a476188589e64b7c",
+      "video_id": "v5K6dCYVoYE",
+      "source_url": "https://www.youtube.com/watch?v=v5K6dCYVoYE",
+      "search_rank": 13,
+      "channel_id": null,
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": true,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:wPSGN2Z97kw:de3a3aa1b437f535efaeda29",
+      "video_id": "wPSGN2Z97kw",
+      "source_url": "https://www.youtube.com/watch?v=wPSGN2Z97kw",
+      "search_rank": 14,
+      "channel_id": null,
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": false,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:IvRXAe9hQo4:8dda1592b46a836d6ce2d2ee",
+      "video_id": "IvRXAe9hQo4",
+      "source_url": "https://www.youtube.com/watch?v=IvRXAe9hQo4",
+      "search_rank": 15,
+      "channel_id": null,
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": true,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:VlzD_PgcB-c:434d04eae23bda465e40cd1f",
+      "video_id": "VlzD_PgcB-c",
+      "source_url": "https://www.youtube.com/watch?v=VlzD_PgcB-c",
+      "search_rank": 16,
+      "channel_id": null,
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": false,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:m3bcoF8vRQM:beb7ac11db34130beb2ef586",
+      "video_id": "m3bcoF8vRQM",
+      "source_url": "https://www.youtube.com/watch?v=m3bcoF8vRQM",
+      "search_rank": 17,
+      "channel_id": null,
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": false,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:TbS2vk6KLEc:df679a06771623655c503f54",
+      "video_id": "TbS2vk6KLEc",
+      "source_url": "https://www.youtube.com/watch?v=TbS2vk6KLEc",
+      "search_rank": 18,
+      "channel_id": null,
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": false,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:WgrQr_KcY7I:d98be20606399fe44abfddeb",
+      "video_id": "WgrQr_KcY7I",
+      "source_url": "https://www.youtube.com/watch?v=WgrQr_KcY7I",
+      "search_rank": 19,
+      "channel_id": null,
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": false,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    },
+    {
+      "observation_id": "youtube:search:mdZyignFp3U:f80214a54bad35044ffcc413",
+      "video_id": "mdZyignFp3U",
+      "source_url": "https://www.youtube.com/watch?v=mdZyignFp3U",
+      "search_rank": 20,
+      "channel_id": null,
+      "evidence_available_at": "2026-09-14T18:28:27.234807+00:00",
+      "exact_phrase_in_NFC_text": false,
+      "membership_label": "unassessed",
+      "not_independent_gold": true
+    }
+  ],
+  "validation": {
+    "ground_truth_available": false,
+    "multimodal_similarity_checked": false,
+    "gold_labels_created": false,
+    "researcher_or_AI_authored_examples_mixed_into_observations": false
+  },
+  "cost": {
+    "new_network_calls_in_this_review": 0,
+    "paid_model_api_calls": 0,
+    "human_review_minutes": null,
+    "human_review_performed": false,
+    "agent_token_cost": null,
+    "agent_token_cost_status": "not_measured_here"
+  },
+  "local_review_process_note": "The first compact console read stopped on a cp949 Unicode display error after log registration. A UTF-8 console reread succeeded. Source files and registered phrase remained correct and unchanged.",
+  "input_hashes": {
+    "data\\collected\\youtube_search_expansion_20260915_v01\\fbfd5698ba994f959bb750623713d378\\manifest.json": "aec9c8919d1a17c9a2463d446ebae137bf216f17b342494cdc5babeac599354f",
+    "data\\collected\\youtube_search_expansion_20260915_v01\\fbfd5698ba994f959bb750623713d378\\observations.jsonl": "bafa1177907e3ae7a79b11ed10493a4631312a71d8aeedb92db123c14e9cebdd",
+    "data\\collected\\youtube_search_expansion_20260915_v01\\fbfd5698ba994f959bb750623713d378\\raw\\query_01.html": "9b776b1341fb5d1d0c7e5b7764620f635f4b1bebc8dee4bd9f858e45b29a0f6b"
+  }
+}

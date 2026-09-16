@@ -1,0 +1,37 @@
+Input #0, matroska,webm, from 'C:\Users\user\Korean-Treanding\data\collected\multimodal_creation_media_sources_v02\media\mazatlan_2018.webm':
+  Metadata:
+    COMPATIBLE_BRANDS: isomiso2avc1mp41
+    MAJOR_BRAND     : isom
+    MINOR_VERSION   : 512
+    ENCODER         : Lavf58.76.100
+  Duration: 00:00:30.01, start: -0.007000, bitrate: 4647 kb/s
+  Stream #0:0: Video: vp9 (Profile 0), yuv420p(tv, progressive), 640x430, SAR 1:1 DAR 64:43, 24 fps, 24 tbr, 1k tbn (default)
+      Metadata:
+        HANDLER_NAME    : VideoHandler
+        VENDOR_ID       : [0][0][0][0]
+        ENCODER         : Lavc58.134.100 libvpx-vp9
+        DURATION        : 00:00:30.007000000
+  Stream #0:1: Audio: opus, 48000 Hz, stereo, fltp (default)
+      Metadata:
+        HANDLER_NAME    : IsoMedia File Produced by Google, 5-11-2011
+        VENDOR_ID       : [0][0][0][0]
+        ENCODER         : Lavc58.134.100 libopus
+        DURATION        : 00:00:30.008000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp9 (native) -> png (native))
+Output #0, image2, to 'C:\Users\user\Korean-Treanding\data\derived\creation_media_decode_v02\control_video_frame_00s.png':
+  Metadata:
+    COMPATIBLE_BRANDS: isomiso2avc1mp41
+    MAJOR_BRAND     : isom
+    MINOR_VERSION   : 512
+    encoder         : Lavf61.7.100
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown, progressive), 640x430 [SAR 1:1 DAR 64:43], q=2-31, 200 kb/s, 24 fps, 24 tbn (default)
+      Metadata:
+        HANDLER_NAME    : VideoHandler
+        VENDOR_ID       : [0][0][0][0]
+        DURATION        : 00:00:30.007000000
+        encoder         : Lavc61.19.100 png
+[image2 @ 00000197d7320280] The specified filename 'C:\Users\user\Korean-Treanding\data\derived\creation_media_decode_v02\control_video_frame_00s.png' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 00000197d7320280] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 00000197d7361980] video:367KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.661x    

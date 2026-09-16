@@ -1,0 +1,188 @@
+{
+  "run_id": "41c48389e93647b39f50244f7480f433",
+  "fingerprint": "b1fc9ef1c520a32325b63dd9b82c0ce6d896b5e672e4e38258658bd6ea17b114",
+  "status": "succeeded",
+  "started_at": "2026-09-15T05:35:25.639454+00:00",
+  "finished_at": "2026-09-15T05:39:47.923168+00:00",
+  "retry_of": null,
+  "retry_reason": null,
+  "spec": {
+    "code_hashes": {
+      "research_log.py": "27f212b06b72571cf06e276963dffeb942d1b6b2595e37a3a0c763ba8c82a330"
+    },
+    "config_hashes": {},
+    "data_snapshots": [],
+    "modality": [
+      "image",
+      "text"
+    ],
+    "objective": "Collect a small rights-documented actual Korean meme text and image support candidate bundle, not evaluation gold",
+    "parameters": {
+      "allowed_hosts": [
+        "ko.wikipedia.org",
+        "ko.wiktionary.org",
+        "commons.wikimedia.org",
+        "upload.wikimedia.org",
+        "creativecommons.org"
+      ],
+      "budget_usd": 0,
+      "initial_search_scope": "Find Wikimedia text/image pages; no files downloaded; registration is not retroactively claimed",
+      "initial_web_search_before_registration": true,
+      "max_families": 3,
+      "no_human_gold": true,
+      "no_model_calls": true,
+      "raw_downloads_before_registration": 0,
+      "sampling": "known_seed_retrieval"
+    },
+    "prompt_hashes": {},
+    "provenance": "actual_collected",
+    "stage": "access_probe"
+  },
+  "finish": {
+    "actual_cost": {
+      "amount": 0,
+      "api_units": 0,
+      "currency": "USD",
+      "human_minutes": 0
+    },
+    "artifacts": [
+      {
+        "bytes": 690,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\audio_video_search_scope.json",
+        "sha256": "3b0cec877203d097ea6962036f14abb8164b7bc009114771e5bb0d6556feae13"
+      },
+      {
+        "bytes": 7968,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\collect_sources.py",
+        "sha256": "226d46cecff931f7e5d2d00f6cc417f26a458391a511b4536066145eb01226f7"
+      },
+      {
+        "bytes": 969,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\earlier_attempts.json",
+        "sha256": "37209b94750747fdefd9d6b32fed3b282c8976304a202a01c2603501df69ab37"
+      },
+      {
+        "bytes": 1491,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\extract_context.py",
+        "sha256": "f1ee5973646f77e06bf81cc65fa3c5740585a97db251fd6778b905063c87ab8f"
+      },
+      {
+        "bytes": 355,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\finish_attempt_error.json",
+        "sha256": "42ee8ba1d817480897ac2a5a0b82d250ee56d4e8b9539d7ea0146e6474d71f1a"
+      },
+      {
+        "bytes": 11031,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\manifest.json",
+        "sha256": "e88e27bd0da28232fe7b5c6ba4251899050406e4a3147411b164451c702e4b06"
+      },
+      {
+        "bytes": 3710,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\README.md",
+        "sha256": "a41291fa476da740972ebfef7c450b42a065252ed2597a13947d97384e9bda12"
+      },
+      {
+        "bytes": 2668,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\registration.json",
+        "sha256": "7a745230347f3c554380740608555b31a1b1ef17892b95a31cd0dc92796abd36"
+      },
+      {
+        "bytes": 5950,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\sources.jsonl",
+        "sha256": "b61a2d18e369bf768a6c50263ee333305265061bddeeb8f9ec4410bb65c1afb2"
+      },
+      {
+        "bytes": 2981,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\verification.json",
+        "sha256": "0367acf11dccec5ea045ddda79c0f1ae13ce95ebe4ec39f5f5f7abf31143838f"
+      },
+      {
+        "bytes": 344647,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_macro.png",
+        "sha256": "86d72de4f8dcceddc33f6cd76b00d9b4a23b200472684217a11063e2d1a3284a"
+      },
+      {
+        "bytes": 561,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_macro.png.receipt.json",
+        "sha256": "6092df079963d8a688c4ffb8cbbf3c1ce53a1ce1965963b3404e2ce7751bdbe8"
+      },
+      {
+        "bytes": 707853,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_original.jpg",
+        "sha256": "d70b4c272582f6b36b571f57e333d78c779cb3c5ba184b675949736a428dad26"
+      },
+      {
+        "bytes": 577,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_original.jpg.receipt.json",
+        "sha256": "523e7757cba981a6a5e01c5d9f167556629b184efa2b31cfc10d340913aef96b"
+      },
+      {
+        "bytes": 36369,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\raw\\cc_by_sa_4_deed.html",
+        "sha256": "28992f54960ab9cfc905cb82df808498c13706a7890d6f06baf74fa2e3ad9230"
+      },
+      {
+        "bytes": 389,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\raw\\cc_by_sa_4_deed.html.receipt.json",
+        "sha256": "27c355e835785bf9ccb6b3eebd59159ecbd4390bec326c26e94f7e6c9d40f2f5"
+      },
+      {
+        "bytes": 73361,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\raw\\doge_kowiki.html",
+        "sha256": "1f59506eda867b33c66e77d93460abc275fa67bc5bd472ea6ee1b2e56d020acc"
+      },
+      {
+        "bytes": 420,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\raw\\doge_kowiki.html.receipt.json",
+        "sha256": "f718c71a85de0e9e98323d2008ac9be1e49f3cf03743a1966961c52eae073ac1"
+      },
+      {
+        "bytes": 114340,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\raw\\doge_taiki_macro_commons.html",
+        "sha256": "89b2d3915f327c35c4771140285a9e0c0820c4e9bfdc0148ad9c8c863343bed1"
+      },
+      {
+        "bytes": 412,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\raw\\doge_taiki_macro_commons.html.receipt.json",
+        "sha256": "0db352fbf3d276623f2814e8f2f67650cd59afd5961083a1010c4d3fbfe4ed37"
+      },
+      {
+        "bytes": 109705,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\raw\\doge_taiki_original_commons.html",
+        "sha256": "cb8c39f2233ca948bdf09e3e4995c1b5f477281715d2a3e11db81161a7e44ab6"
+      },
+      {
+        "bytes": 427,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\raw\\doge_taiki_original_commons.html.receipt.json",
+        "sha256": "f69a75ea33dcd7df631ad301e7806b07f5ac9719d772f66a0de7324c29d0cbd2"
+      },
+      {
+        "bytes": 88182,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\raw\\muyaho_kowiki.html",
+        "sha256": "b8471014a513d0dd8dd06ff01afae7a37358f31ef4fb97ff9307606533a533a1"
+      },
+      {
+        "bytes": 408,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\raw\\muyaho_kowiki.html.receipt.json",
+        "sha256": "def43e14aa284ecb111b8f2c15678e49ebc5da11667d231fe4d64aa0d29e4394"
+      },
+      {
+        "bytes": 10655,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\text\\article_paragraph_candidates.jsonl",
+        "sha256": "38e3a81501d5d958673db6c6ec5afabdf28e6913e3ed9acd4868b475d378d68c"
+      },
+      {
+        "bytes": 475,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\text\\doge_lead_ko.txt",
+        "sha256": "b5dd0b2ebb654ca4fb4b1f59da71163d2f84532b5d0ea4785431e5af8dd73cef"
+      },
+      {
+        "bytes": 476,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\text\\muyaho_lead_ko.txt",
+        "sha256": "7c99cde380fcbf0e93aeffc22b3b32c791933b1a1245dbffded58d27a79f57a4"
+      }
+    ],
+    "notes": "Collected 2 explicitly seeded actual Wikimedia text-description families and 2 related Doge/Taiki image files with direct page license declarations, raw HTTP bodies, receipts and hashes. Text is Wikipedia editorial description, not original broadcast evidence or independent gold. Partial parser, socket and log-finish validation failures retained. Initial web search before registration disclosed. No audio/video, research model calls, human evaluation or paid work. Source candidates only; current acquisition is not backdated to meme origins.",
+    "status": "succeeded"
+  }
+}

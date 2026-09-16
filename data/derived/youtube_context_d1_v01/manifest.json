@@ -1,0 +1,40 @@
+{
+  "status": "paired_inputs_prepared_not_understanding_experiment",
+  "discovery_condition": "D1",
+  "generated_at": "2026-09-14T18:31:13.498383+00:00",
+  "evaluation_t": "2026-09-14T18:31:13.498383+00:00",
+  "source_discovery_evidence_cutoff": "2026-09-14T18:20:52.811337+00:00",
+  "source_candidate_generated_at": "2026-09-14T18:26:14.577504+00:00",
+  "selected_candidate_ids": [
+    "ytc_61f848117c3650dfa150",
+    "ytc_d461e593e1710b229564",
+    "ytc_cd3c02c6ea5a92241f87"
+  ],
+  "sample_selection": "top_ranked_bounded_preparation",
+  "candidate_count": 3,
+  "paired_input_count": 6,
+  "provenance": "actual_collected",
+  "record_origin": "automatic_rule_based",
+  "raw_evidence_identical_across_u_conditions": true,
+  "semantic_structure_generated": false,
+  "model_calls": 0,
+  "model_weights_updated": false,
+  "human_review_minutes": 0,
+  "independent_questions_prepared": 0,
+  "limitations": [
+    "Observed metadata structure only; the planned semantic U1 condition remains incomplete.",
+    "No model execution, correctness score, independent gold or understanding success.",
+    "Candidate-selected bundles do not measure missed memes or false candidates.",
+    "Any future semantic model output needs its own response-time availability and evaluation cutoff."
+  ],
+  "run_id": "57f8e444de2f4f01b004faf8465b0b30",
+  "source_artifact_hashes": {
+    "candidates.jsonl": "97528760e4d65e71d3a55b52a28eb7c8854376507f94ea8a7df4f1d3cd52d655",
+    "evidence.jsonl": "19cfa10bbaa04dd0d8d361b884995f8b5876613c8c877c5ec5b01d1aafdc32ef",
+    "summary.json": "9204b64e6f96946b655b74a76e4d888cf1b26fe5db33c32054d863a620220c3d"
+  },
+  "prompt_hashes": {
+    "youtube_knowledge_v01.txt": "a0275f770a56398cf9237ae2a9f851fcfd12be71ea06eed1837b30774c00f505",
+    "youtube_understanding_v01.txt": "5a480c2090f38a19c529e0ad91a48a5db90902a53c4230c459ded42140a28205"
+  }
+}

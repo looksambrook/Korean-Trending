@@ -1,0 +1,12 @@
+[
+  {
+    "case_id": "mu_eval_01",
+    "family_id": "muyaho",
+    "brief": "몇 달 동안 연습한 자전거 타기를 처음으로 성공했다. 친구들에게 올릴 짧은 기쁨의 글을 써 줘.",
+    "requested_outputs": [
+      "text",
+      "image",
+      "video"
+    ]
+  }
+]

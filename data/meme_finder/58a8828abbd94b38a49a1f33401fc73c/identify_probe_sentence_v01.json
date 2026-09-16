@@ -1,0 +1,229 @@
+{
+  "schema_version": "meme-identification-v1",
+  "created_at": "2026-09-15T00:16:05.594240+00:00",
+  "as_of": "2026-09-15T00:16:05.579703+00:00",
+  "input": {
+    "text": "고도로 발달한 커피는 식사와 구분할 수 없다",
+    "provenance": "ai_synthetic",
+    "is_collected_source_example": false
+  },
+  "status": "tentative_match",
+  "reason": "저장된 용례에 근거한 잠정 연결입니다.",
+  "matches": [
+    {
+      "family_id": "mfamily_9d01338c34236af148f0",
+      "label": "고도로 발달한 {A}는 {B}와 구분/구별할 수 없다",
+      "kind": "sentence_comparison",
+      "family_evidence_status": "supported_textual_reuse",
+      "match_type": "shared_observed_sentence_frame",
+      "decision": "tentative_match",
+      "reason": "입력의 수식과 비교 구조가 저장된 실제 제목의 구조와 일치합니다. 새 대상에 같은 밈 의도가 있는지는 이 구조만으로 확정하지 않습니다.",
+      "source_examples": [
+        {
+          "observation_id": "youtube:feed:MxCIV2tlGdI:796acf53a59cc6f703c4",
+          "video_id": "MxCIV2tlGdI",
+          "title": "고도로 발달한 마법은 갓생과 구분할 수 없다",
+          "description": "▶같이 보면 좋은 추천 영상\nhttps://youtu.be/eNF2lT5s2Lc?si=rzJW0zeldg7mUUbv\n▶'침착맨과 알아보자' 모아보기\nhttps://www.youtube.com/playlist?list=PLif_jr7pPZACqDgKQRDHeOIFoMI8WFPdq\n\n▶이 영상의 생방송 원본\n  •2026년 8월 17일 방송분: https://www.youtube.com/live/ahc0aBK5DSM?si=GL3eQib2M1OkjLmk\n  •2026년 8월 13일 방송분: https://www.youtube.com/live/GLchv5_4w7c?si=N0twwW6DenJJwoIa\n\n▶출연: 침착맨\n▶편집: 7수자 \n▶썸네일: 7수자 \n\n▶협업제안: info@chimchakman.com\n\n#침착맨 #마법사 #유체이탈 #위키하우 #알아보기",
+          "channel_id": "UCUj6rrhMTR9pipbAWBAMvUQ",
+          "channel_label": "침착맨",
+          "source_url": "https://www.youtube.com/watch?v=MxCIV2tlGdI",
+          "posted_at": "2026-09-14T10:00:02+00:00",
+          "available_at": "2026-09-15T00:14:01.977704+00:00",
+          "provenance": "actual_collected",
+          "discovery_origin": {
+            "sampling": {
+              "mode": "channel_feed",
+              "known_meme_name_seed": false,
+              "selection": "convenience_access_probe",
+              "past_completeness": "unknown",
+              "pipeline_origin": "name_free_channel_observation"
+            },
+            "initial_seed_ids": [
+              "mseed_453ccf7ff81f418e4342"
+            ],
+            "pipeline_origin": "name_free_channel_observation",
+            "observed_pipeline_origins": [
+              "name_free_channel_observation"
+            ],
+            "posthoc_expansion_seed_ids": []
+          },
+          "collection_snapshots": [
+            {
+              "observation_id": "youtube:feed:MxCIV2tlGdI:796acf53a59cc6f703c4",
+              "available_at": "2026-09-15T00:14:01.977704+00:00",
+              "discovery_origin": "name_free_channel_observation",
+              "sampling": {
+                "mode": "channel_feed",
+                "known_meme_name_seed": false,
+                "selection": "convenience_access_probe",
+                "past_completeness": "unknown"
+              }
+            }
+          ],
+          "original_or_repost": "unknown"
+        },
+        {
+          "observation_id": "youtube:watch:N7UPueuKt_4:b658c532c1a68a50a5a43a0b",
+          "video_id": "N7UPueuKt_4",
+          "title": "고도로 발달한 닭껍질교자는 고추와 구분할 수 없다",
+          "description": "▶관련 영상\n  •사이좋게 나눠먹는 분식: https://youtu.be/FwAf4mbaVis\n\n▶관련 재생목록\n  •침착맨의 식욕저하 다이어트 먹방: https://url.kr/a4vk8m\n\n▶생방송 원본\n  •2023년 2월 20일 방송분: https://www.youtube.com/live/UeCzPtMWtMw\n\n▶출연\n  •주호민(@joopearl), 침착맨\n\n#침착맨 #주호민 #먹방",
+          "channel_id": "UCUj6rrhMTR9pipbAWBAMvUQ",
+          "channel_label": "침착맨",
+          "source_url": "https://www.youtube.com/watch?v=N7UPueuKt_4",
+          "posted_at": "2023-03-08T10:00:22+00:00",
+          "available_at": "2026-09-15T00:14:18.197286+00:00",
+          "provenance": "actual_collected",
+          "discovery_origin": {
+            "sampling": {
+              "mode": "public_watch_html",
+              "posthoc_expansion": true,
+              "unseeded_discovery": false,
+              "video_and_audio_examined": false,
+              "pipeline_origin": "observed_phrase_expansion"
+            },
+            "initial_seed_ids": [],
+            "pipeline_origin": "observed_phrase_expansion",
+            "observed_pipeline_origins": [
+              "observed_phrase_expansion"
+            ],
+            "posthoc_expansion_seed_ids": [
+              "mseed_453ccf7ff81f418e4342"
+            ]
+          },
+          "collection_snapshots": [
+            {
+              "observation_id": "youtube:watch:N7UPueuKt_4:b658c532c1a68a50a5a43a0b",
+              "available_at": "2026-09-15T00:14:18.197286+00:00",
+              "discovery_origin": "observed_phrase_expansion",
+              "sampling": {
+                "mode": "public_watch_html",
+                "posthoc_expansion": true,
+                "unseeded_discovery": false,
+                "video_and_audio_examined": false
+              }
+            }
+          ],
+          "original_or_repost": "unknown"
+        },
+        {
+          "observation_id": "youtube:watch:NFUUP6Och1w:662862518a067d5eada77db7",
+          "video_id": "NFUUP6Och1w",
+          "title": "고도로 발달한 치어리딩은 걸그룹과 구분할 수 없다. | 뛰어야 산다",
+          "description": "#MBN #뛰어야산다 #마라톤 #러닝 #러닝크루 #걸그룹 #걸그룹춤 #걸그룹응원 #걸그룹마라톤 #연예인마라톤\n\n☞ MBN Entertainment 구독하기 : https://www.youtube.com/c/MBN_Entertainment",
+          "channel_id": "UCYyLIlOJyqkAFKlVjzX5img",
+          "channel_label": "MBN Entertainment",
+          "source_url": "https://www.youtube.com/watch?v=NFUUP6Och1w",
+          "posted_at": "2025-06-25T04:44:57+00:00",
+          "available_at": "2026-09-15T00:14:16.316152+00:00",
+          "provenance": "actual_collected",
+          "discovery_origin": {
+            "sampling": {
+              "mode": "public_watch_html",
+              "posthoc_expansion": true,
+              "unseeded_discovery": false,
+              "video_and_audio_examined": false,
+              "pipeline_origin": "observed_phrase_expansion"
+            },
+            "initial_seed_ids": [],
+            "pipeline_origin": "observed_phrase_expansion",
+            "observed_pipeline_origins": [
+              "observed_phrase_expansion"
+            ],
+            "posthoc_expansion_seed_ids": [
+              "mseed_453ccf7ff81f418e4342"
+            ]
+          },
+          "collection_snapshots": [
+            {
+              "observation_id": "youtube:watch:NFUUP6Och1w:662862518a067d5eada77db7",
+              "available_at": "2026-09-15T00:14:16.316152+00:00",
+              "discovery_origin": "observed_phrase_expansion",
+              "sampling": {
+                "mode": "public_watch_html",
+                "posthoc_expansion": true,
+                "unseeded_discovery": false,
+                "video_and_audio_examined": false
+              }
+            }
+          ],
+          "original_or_repost": "unknown"
+        },
+        {
+          "observation_id": "youtube:watch:PxbIQJ0ZMhw:14a668314aeba7b8bd834fdf",
+          "video_id": "PxbIQJ0ZMhw",
+          "title": "고도로 발달한 고감도는 무반동과 구분할 수 없다",
+          "description": "#발로란트 #네온유튜브 #코밈",
+          "channel_id": "UC8L-Mu0hMleJPpNjl3qrDag",
+          "channel_label": "코밈의 게임세상",
+          "source_url": "https://www.youtube.com/watch?v=PxbIQJ0ZMhw",
+          "posted_at": "2025-09-12T10:04:57+00:00",
+          "available_at": "2026-09-15T00:14:14.273214+00:00",
+          "provenance": "actual_collected",
+          "discovery_origin": {
+            "sampling": {
+              "mode": "public_watch_html",
+              "posthoc_expansion": true,
+              "unseeded_discovery": false,
+              "video_and_audio_examined": false,
+              "pipeline_origin": "observed_phrase_expansion"
+            },
+            "initial_seed_ids": [],
+            "pipeline_origin": "observed_phrase_expansion",
+            "observed_pipeline_origins": [
+              "observed_phrase_expansion"
+            ],
+            "posthoc_expansion_seed_ids": [
+              "mseed_453ccf7ff81f418e4342"
+            ]
+          },
+          "collection_snapshots": [
+            {
+              "observation_id": "youtube:watch:PxbIQJ0ZMhw:14a668314aeba7b8bd834fdf",
+              "available_at": "2026-09-15T00:14:14.273214+00:00",
+              "discovery_origin": "observed_phrase_expansion",
+              "sampling": {
+                "mode": "public_watch_html",
+                "posthoc_expansion": true,
+                "unseeded_discovery": false,
+                "video_and_audio_examined": false
+              }
+            }
+          ],
+          "original_or_repost": "unknown"
+        }
+      ],
+      "stored_meaning": "제목에서 ‘고도로 발달한’이라는 수식 뒤의 대상 A를 B와 구분하기 어렵다고 비교한다. 대상만 바꾼 재사용이 관찰된다.",
+      "stored_meaning_method": "deterministic_surface_grammar_and_source_cues",
+      "knowledge_available_at": "2026-09-15T00:14:47.194386+00:00",
+      "uncertainties": [
+        "원출처",
+        "독립 제작 여부",
+        "영상·음성의 실제 내용",
+        "현재 확산 규모",
+        "모든 맥락에서의 의미",
+        "입력 문맥의 실제 밈 사용 의도",
+        "동일 표현의 다른 의미 가능성",
+        "사람 검수 미실시"
+      ],
+      "input_structure": {
+        "shared_modifier": "고도로 발달한",
+        "A": "커피",
+        "B": "식사",
+        "provenance": "ai_synthetic",
+        "is_collected_source_example": false
+      },
+      "is_definitive_identification": false
+    }
+  ],
+  "eligible_family_count": 4,
+  "excluded_knowledge": [],
+  "source_run_id": "58a8828abbd94b38a49a1f33401fc73c",
+  "method": "deterministic_source_retrieval_and_observed_frame_matching",
+  "model_calls": 0,
+  "model_weights_trained": false,
+  "human_review_minutes": 0,
+  "interpretation_notice": "저장된 근거를 조회하여 규칙으로 연결합니다. LLM의 의미 이해 평가나 가중치 학습 결과가 아닙니다.",
+  "collection_cost_usd": 0,
+  "run_id": "ee2b495e9058488eac871e1191c41181",
+  "source_snapshot_sha256": "6843d58255c96486d2d5c087c620f93bb71d0eb98d0e788a0f023f001ec42893"
+}

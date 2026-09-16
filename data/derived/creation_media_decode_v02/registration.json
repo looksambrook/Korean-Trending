@@ -1,0 +1,67 @@
+{
+  "run_id": "da0ef22bb3464f6db10aa021861d60d8",
+  "fingerprint": "5d4cce2259dd1edea7ffbdafaef94d4a3600fd42e043bc958c2d320ce2280da3",
+  "status": "started",
+  "started_at": "2026-09-15T05:52:24.800486+00:00",
+  "finished_at": null,
+  "retry_of": null,
+  "retry_reason": null,
+  "spec": {
+    "code_hashes": {
+      "decoder": "5bf813d08e4d9815a0a2d345d310a0863b9b609e6ece461fc436a9ddb994e5cf",
+      "research_log": "27f212b06b72571cf06e276963dffeb942d1b6b2595e37a3a0c763ba8c82a330"
+    },
+    "config_hashes": {
+      "ffmpeg_executable": "2ce797a0f88d7f067180338fb227f7b1928ea727bd9a4d7a1d022f7c52af71a3"
+    },
+    "data_snapshots": [
+      {
+        "id": "audio_source",
+        "sha256": "11af354e68a4a1eea2474ff2d277dc8b7a6bb82679ab53b755ca3ee2b83972fd"
+      },
+      {
+        "id": "collection_manifest",
+        "sha256": "0204600fc69c2d97205d678478c7ca52c506b62876b4c51d1cf473441c348a24"
+      },
+      {
+        "id": "video_source",
+        "sha256": "efc30525d68d63b343065ff35cda7d17d18531933d5f16f967f37e31805a82ea"
+      }
+    ],
+    "modality": [
+      "audio",
+      "image",
+      "video"
+    ],
+    "objective": "Decode collected reused soundtrack and nonmeme control video locally; preserve original bytes",
+    "parameters": {
+      "audio_filter": "aresample=16000,atrim=end_sample=240000",
+      "audio_seconds": 15,
+      "channels": 1,
+      "ffmpeg_threads": 1,
+      "frame_offsets_seconds": [
+        0,
+        5
+      ],
+      "human_evaluations": 0,
+      "max_frame_bytes": 33554432,
+      "max_frame_pixels": 16000000,
+      "max_input_bytes": 134217728,
+      "max_log_bytes": 2097152,
+      "max_wav_bytes": 524288,
+      "model_calls": 0,
+      "network_access": false,
+      "pcm": "s16le",
+      "process_timeout_seconds": 60,
+      "sample_rate": 16000,
+      "source_roles": [
+        "documented_reused_comedic_soundtrack_candidate",
+        "nonmeme_control_candidate"
+      ]
+    },
+    "prompt_hashes": {},
+    "provenance": "actual_collected",
+    "stage": "offline_validation"
+  },
+  "finish": null
+}

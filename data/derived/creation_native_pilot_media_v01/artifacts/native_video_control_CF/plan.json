@@ -1,0 +1,22 @@
+{
+  "schema_version": "creation-plan-v1",
+  "plan_id": "native_video_control_CF",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "model_run_id": "87512cdb28424b6ca77f756d71f972f2",
+  "text": " A green sign on a street corner. A person in a white shirt. A white car. A yellow sign. A green sign. A person in a white shirt. A yellow sign. A person in a white shirt. A person in",
+  "visual": {
+    "style": "caption_card",
+    "width": 960,
+    "height": 540,
+    "background_color": "#142032",
+    "foreground_color": "#FFFFFF",
+    "caption": " A green sign on a street corner. A person in a white shirt. A white car. A yellow sign. A green sign. A person in a white shirt. A yellow sign. A person in a white shirt. A person in",
+    "font_size": 52
+  },
+  "video": {
+    "fps": 12,
+    "duration_seconds": 3,
+    "frame_count": 36
+  }
+}

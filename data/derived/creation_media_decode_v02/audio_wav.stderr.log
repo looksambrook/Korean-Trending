@@ -1,0 +1,15 @@
+Input #0, ogg, from 'C:\Users\user\Korean-Treanding\data\collected\multimodal_creation_media_sources_v02\media\monkeys_spinning_monkeys.ogg':
+  Duration: 00:02:05.30, start: 0.000000, bitrate: 112 kb/s
+  Stream #0:0(eng): Audio: vorbis, 44100 Hz, stereo, fltp, 128 kb/s
+      Metadata:
+        encoder         : Lavf58.20.100
+Stream mapping:
+  Stream #0:0 -> #0:0 (vorbis (native) -> pcm_s16le (native))
+Output #0, wav, to 'C:\Users\user\Korean-Treanding\data\derived\creation_media_decode_v02\soundtrack_first15s_16k_mono.wav':
+  Metadata:
+    ISFT            : Lavf61.7.100
+  Stream #0:0(eng): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s
+      Metadata:
+        encoder         : Lavc61.19.100 pcm_s16le
+[out#0/wav @ 0000022546571b40] video:0KiB audio:469KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.016250%
+size=     469KiB time=00:00:15.00 bitrate= 256.0kbits/s speed= 427x    

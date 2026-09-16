@@ -1,0 +1,125 @@
+{
+  "schema_version": "youtube-watch-metadata-manifest-v1",
+  "run_id": "e335655ae43d4f458edc5c1d8d845ac3",
+  "status": "completed",
+  "started_at": "2026-09-14T23:15:38.498004+00:00",
+  "finished_at": "2026-09-14T23:15:45.029752+00:00",
+  "config": {
+    "version": "youtube-watch-metadata-v1",
+    "mode": "posthoc_search_expansion",
+    "video_ids": [
+      "aHMIC_kQC9A",
+      "4bISpDOBAcY",
+      "viEJSCPHnFg"
+    ],
+    "source_run_id": "abe84626bee744478fca2f6ee49d33c1",
+    "source_manifest": "data/collected/youtube_meme_topic_20260915_v01/abe84626bee744478fca2f6ee49d33c1/manifest.json",
+    "source_observations": "data/collected/youtube_meme_topic_20260915_v01/abe84626bee744478fca2f6ee49d33c1/observations.jsonl",
+    "selection_reason": "일반 요즘 밈 검색의 실제 제목에서 발견한 숫자451, 다게스탄, 확대 밈을 다루는 3개 공개 watch HTML 메타데이터를 읽어 날짜와 설명을 확인한다. AI가 제목을 검토하여 후보를 선택했으며 자동 밈 발견이나 독립 사용 검증은 아니다. 영상과 음성은 아직 읽지 않는다.",
+    "timeout_seconds": 15,
+    "max_response_bytes": 8000000,
+    "retention_days": 30
+  },
+  "provenance": "actual_collected",
+  "test_only": false,
+  "http_attempts": 3,
+  "observations": 3,
+  "requests": [
+    {
+      "video_id": "aHMIC_kQC9A",
+      "source_url": "https://www.youtube.com/watch?v=aHMIC_kQC9A&hl=ko",
+      "started_at": "2026-09-14T23:15:38.503163+00:00",
+      "status": "succeeded",
+      "received_at": "2026-09-14T23:15:39.630371+00:00",
+      "raw_file": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_topic_metadata_20260915_v01\\e335655ae43d4f458edc5c1d8d845ac3\\raw\\aHMIC_kQC9A.html",
+      "raw_sha256": "5220629940f3146eb7d355991d89a3a1a3248688e68e2d0505ce5c720fdc25bd",
+      "raw_bytes": 1376953,
+      "retention_due_at": "2026-10-14T23:15:39.630371+00:00",
+      "channel_id_available": true,
+      "exact_publication_time_available": true,
+      "posted_precision": "timestamp",
+      "description_available": true
+    },
+    {
+      "video_id": "4bISpDOBAcY",
+      "source_url": "https://www.youtube.com/watch?v=4bISpDOBAcY&hl=ko",
+      "started_at": "2026-09-14T23:15:40.876812+00:00",
+      "status": "succeeded",
+      "received_at": "2026-09-14T23:15:41.682316+00:00",
+      "raw_file": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_topic_metadata_20260915_v01\\e335655ae43d4f458edc5c1d8d845ac3\\raw\\4bISpDOBAcY.html",
+      "raw_sha256": "6b2e053efdfd505e2868a49670132fa219fe81fcb67e997f5eb1c64078ac5f28",
+      "raw_bytes": 1240840,
+      "retention_due_at": "2026-10-14T23:15:41.682316+00:00",
+      "channel_id_available": true,
+      "exact_publication_time_available": true,
+      "posted_precision": "timestamp",
+      "description_available": false
+    },
+    {
+      "video_id": "viEJSCPHnFg",
+      "source_url": "https://www.youtube.com/watch?v=viEJSCPHnFg&hl=ko",
+      "started_at": "2026-09-14T23:15:43.080425+00:00",
+      "status": "succeeded",
+      "received_at": "2026-09-14T23:15:43.785626+00:00",
+      "raw_file": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_topic_metadata_20260915_v01\\e335655ae43d4f458edc5c1d8d845ac3\\raw\\viEJSCPHnFg.html",
+      "raw_sha256": "9f5b8fe92f021687c46df4b084d9ed08230047379846450245c68b2d319e3c6c",
+      "raw_bytes": 1219430,
+      "retention_due_at": "2026-10-14T23:15:43.785626+00:00",
+      "channel_id_available": true,
+      "exact_publication_time_available": true,
+      "posted_precision": "timestamp",
+      "description_available": true
+    }
+  ],
+  "issues": [],
+  "channel_ids_available": 3,
+  "exact_publication_timestamps": 3,
+  "date_only_publications": 0,
+  "paid_api_calls": 0,
+  "model_calls": 0,
+  "human_review_minutes": 0,
+  "verified_meme_count": null,
+  "posthoc_expansion": true,
+  "discovery_evaluation_eligible": false,
+  "history_reconstruction": false,
+  "video_and_audio_examined": false,
+  "input_snapshots": [
+    {
+      "id": "source_manifest",
+      "sha256": "40c34bc33da58ab493e771a5ae59afd6f6852d0b49d1457bbda8a412f658dfe6"
+    },
+    {
+      "id": "source_observations",
+      "sha256": "01330da81c895978ea6b69678131769929587998cd164eb6dd067aac7e4b201a"
+    }
+  ],
+  "limitations": [
+    "Public source metadata only; no video/audio content examination or meme accuracy claim.",
+    "Query-selected posthoc expansion remains excluded from independent discovery evaluation.",
+    "Date-only publication labels and upload dates are not converted into exact publication timestamps.",
+    "All metadata becomes available at actual retrieval time, never retroactively at publication time.",
+    "Channel attribution does not establish the origin of an expression or distinguish copies from independent reuse."
+  ],
+  "artifacts": [
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_topic_metadata_20260915_v01\\e335655ae43d4f458edc5c1d8d845ac3\\observations.jsonl",
+      "sha256": "1944e290b7b991118e0d2a83162814a8acbada964270bfccb011f586bac598f4",
+      "bytes": 7501
+    },
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_topic_metadata_20260915_v01\\e335655ae43d4f458edc5c1d8d845ac3\\raw\\aHMIC_kQC9A.html",
+      "sha256": "5220629940f3146eb7d355991d89a3a1a3248688e68e2d0505ce5c720fdc25bd",
+      "bytes": 1376953
+    },
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_topic_metadata_20260915_v01\\e335655ae43d4f458edc5c1d8d845ac3\\raw\\4bISpDOBAcY.html",
+      "sha256": "6b2e053efdfd505e2868a49670132fa219fe81fcb67e997f5eb1c64078ac5f28",
+      "bytes": 1240840
+    },
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_topic_metadata_20260915_v01\\e335655ae43d4f458edc5c1d8d845ac3\\raw\\viEJSCPHnFg.html",
+      "sha256": "9f5b8fe92f021687c46df4b084d9ed08230047379846450245c68b2d319e3c6c",
+      "bytes": 1219430
+    }
+  ]
+}

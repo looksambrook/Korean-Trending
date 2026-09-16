@@ -1,0 +1,41 @@
+{
+  "run_id": "a9e24976a77e4a4cadb903ab0678872f",
+  "observations": [
+    {
+      "video_id": "viEJSCPHnFg",
+      "url": "https://i.ytimg.com/vi/viEJSCPHnFg/maxresdefault.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYPiBlKDowDw==&rs=AOn4CLDSGl09G7xbVubc7AV28ovIMQaTNQ",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_topic_metadata_20260915_v01\\e335655ae43d4f458edc5c1d8d845ac3\\raw\\viEJSCPHnFg.html",
+      "source_sha256": "9f5b8fe92f021687c46df4b084d9ed08230047379846450245c68b2d319e3c6c",
+      "status": "succeeded",
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_thumbnails_20260915_v01\\a9e24976a77e4a4cadb903ab0678872f\\viEJSCPHnFg.jpg",
+      "sha256": "f8b0681329627e2f02745b611ec365ffd6ddcd3b6cb6ebaa565e325c51763907",
+      "bytes": 47619,
+      "received_at": "2026-09-14T23:21:34.747501+00:00"
+    },
+    {
+      "video_id": "dY_aF0dHn8U",
+      "url": "https://i.ytimg.com/vi/dY_aF0dHn8U/maxres2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYQCBlKD4wDw==&rs=AOn4CLBAjWSWEx8nI8EFxXEfEJMpVKweBQ",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_smurf_metadata_20260915_v01\\c2f755e0220f4e3782c9c05a38381440\\raw\\dY_aF0dHn8U.html",
+      "source_sha256": "481900745174ca470c15fe3918b254c51f9c7c24a3b6ec3fcc72844eb4745b7c",
+      "status": "succeeded",
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_thumbnails_20260915_v01\\a9e24976a77e4a4cadb903ab0678872f\\dY_aF0dHn8U.jpg",
+      "sha256": "93a6c1612da014ff356447db58b743674bf8f395a4c74511d516a5dd7c7e2d17",
+      "bytes": 36785,
+      "received_at": "2026-09-14T23:21:35.029868+00:00"
+    },
+    {
+      "video_id": "tjJJhCrUuCE",
+      "url": "https://i.ytimg.com/vi/tjJJhCrUuCE/maxresdefault.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYEyBeKH8wDw==&rs=AOn4CLAl5Mvz-Z5h47H2AYEDNosZtm21EQ",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_smurf_metadata_20260915_v01\\c2f755e0220f4e3782c9c05a38381440\\raw\\tjJJhCrUuCE.html",
+      "source_sha256": "19339737045e47e68a22f1ce122c0f954b49fb35a9a9fe783bc19258a48de764",
+      "status": "succeeded",
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_thumbnails_20260915_v01\\a9e24976a77e4a4cadb903ab0678872f\\tjJJhCrUuCE.jpg",
+      "sha256": "9a5cc87980a0cb3d63257a104180966e3195a26c1325ff647aff315d7685df9c",
+      "bytes": 30579,
+      "received_at": "2026-09-14T23:21:35.344739+00:00"
+    }
+  ],
+  "paid_api_calls": 0,
+  "human_review_minutes": 0,
+  "scope": "Public still thumbnails only; visual interpretation is a separate AI assessment."
+}

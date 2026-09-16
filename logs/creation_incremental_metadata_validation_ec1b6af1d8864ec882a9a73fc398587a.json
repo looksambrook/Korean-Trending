@@ -1,0 +1,41 @@
+{
+  "run_id": "ec1b6af1d8864ec882a9a73fc398587a",
+  "checks": [
+    {
+      "name": "actual_prior_identity",
+      "passed": true,
+      "tensor_hash": {
+        "sha256": "c1b2b3b79290a48462e7a0fd30c5359ab18721e09cd6634f6ae0ca88098097e4",
+        "parameters": 270336
+      }
+    },
+    {
+      "name": "bad_file_hash",
+      "passed": true,
+      "rejected_with": "initial_adapter_file_hash_mismatch"
+    },
+    {
+      "name": "rank_mismatch",
+      "passed": true,
+      "rejected_with": "prior_lora_configuration_mismatch_rank"
+    },
+    {
+      "name": "fp16_mismatch",
+      "passed": true,
+      "rejected_with": "this_incremental_diagnostic_requires_same_fp32_base"
+    },
+    {
+      "name": "registered_artifact_hashes",
+      "passed": true
+    },
+    {
+      "name": "safetensors_header",
+      "passed": true,
+      "tensor_count": 96,
+      "parameters": 270336
+    }
+  ],
+  "model_loads": 0,
+  "torch_imported": false,
+  "status": "succeeded"
+}

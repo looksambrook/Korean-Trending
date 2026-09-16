@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-09-11",
+  "purpose": "Domestic prior-work full-text access and review audit; not experiment data",
+  "sources": [
+    {
+      "id": "lee_lee_2023",
+      "authors": ["이대규", "이찬규"],
+      "title": "인터넷 밈 번역 시스템 개발을 위한 데이터 구축 방안",
+      "year": 2023,
+      "doi": "10.46397/JAIH.15.4",
+      "doi_verification": "KCI bibliographic page and rendered official preview cover",
+      "kci_id": "ART003044747",
+      "journal": "인공지능인문학연구",
+      "volume": "15",
+      "pages_by_source": {"KCI": "128-154", "KISS": "127-154"},
+      "review_status": "abstract_and_one_page_preview_only",
+      "read_sections": ["KCI public abstract", "KISS table of contents", "Official KCI one-page PDF preview, English abstract"],
+      "not_read": ["Section 3 full text", "Section 4 full text", "Section 5 full text", "Appendix"],
+      "canonical_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003044747",
+      "access_attempts": [
+        {"url": "https://doi.org/10.46397/JAIH.15.4", "method": "web open", "outcome": "tool internal error; does not establish permanent unavailability"},
+        {"url": "https://kiss.kstudy.com/Detail/Ar?key=4068375", "method": "web search/open", "outcome": "abstract, metadata, contents available; full text not obtained"},
+        {"url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiOrteView.kci?sereArticleSearchBean.artiId=ART003044747", "method": "official preview link", "outcome": "HTML publicly embeds the following preview PDF"},
+        {"url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/artiPreView.kci?sereArticleSearchBean.artiId=ART003044747&v=2019", "method": "normal session with referring public page", "outcome": "327118-byte one-page image PDF obtained and rendered"},
+        {"url": "https://aihumanities.org/ko/journals/past/?board_page=5&order_by=fn_pid&order_type=asc&vid=98", "method": "publisher issue archive lead from search (another article in volume 15), web open and direct read", "outcome": "web cache miss; direct connection timed out (WinError 10060); target article attachment not located"}
+      ],
+      "local_file": "data/literature/private_fulltexts/lee_lee_2023_kci_preview.pdf",
+      "sha256": "39b773bb686eb443a6e5ea7d6382ab8337d913ed9b18085c030c63687dceca4e",
+      "pdf_page_count": 1,
+      "reuse_status": "private review copy; redistribution and model-input permission not established"
+    },
+    {
+      "id": "woo_2026",
+      "authors": ["우성미"],
+      "title": "생성형 AI 기반 인터넷 밈의 표현 구조와 유형 체계 연구",
+      "year": 2026,
+      "doi": "10.25111/jcd.2026.96.03",
+      "doi_verification": "Downloaded official KCI PDF cover; also KISS metadata",
+      "kci_id": "ART003366058",
+      "journal": "커뮤니케이션디자인학연구",
+      "volume": "96",
+      "pages_by_source": {"KCI_and_JAMS": "41-58", "KISS": "42-58", "downloaded_pdf": "unnumbered cover followed by printed pages 43-58; 17 pages total"},
+      "review_status": "full_pdf_obtained_relevant_sections_read",
+      "read_sections": ["1-2 pp.45-46", "3-2 p.48, Table 3", "4 pp.48-55, Tables 4-11", "5 pp.55-56"],
+      "visual_checks": ["PDF page 1 cover", "PDF page 4 printed p.45 method", "PDF page 8 printed p.49 Tables 4-5", "PDF page 9 printed p.50 Table 5 continuation", "PDF page 15 printed p.56 conclusion"],
+      "canonical_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003366058",
+      "access_attempts": [
+        {"url": "https://doi.org/10.25111/jcd.2026.96.03", "method": "web open", "outcome": "tool internal error; DOI itself verified from PDF"},
+        {"url": "https://kiss.kstudy.com/Detail/Ar?key=4269927", "method": "web", "outcome": "metadata, abstract and contents obtained"},
+        {"url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003366058", "method": "KOAJ link from KCI page", "outcome": "web tool internal error"},
+        {"url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiOrteServHistIFrame.kci?sereArticleSearchBean.artiId=ART003366058&sereArticleSearchBean.orteFileId=KCI_FI003366058", "method": "actual public download button function; normal cookie session and Referer from the public article page", "outcome": "public PDF downloaded without login or payment; initial request without session returned instruction to enter via KCI"},
+        {"url": "https://www.kci.go.kr/kciportal/co/download/popup/poDownload.kci?storFileBean.orteFileId=KCI_FI003366058", "method": "redirect issued by public download action", "outcome": "1890017-byte PDF"}
+      ],
+      "local_file": "data/literature/private_fulltexts/woo_2026_kci.pdf",
+      "sha256": "2d24b6ea44670869edf9597b5a816f6ceddd473623165e476f3b3b3f7541906e",
+      "pdf_page_count": 17,
+      "reuse_status": "KCI says CCL information not provided; private review copy; public access does not establish redistribution or model-input permission"
+    },
+    {
+      "id": "hong_2025",
+      "authors": ["홍소람"],
+      "title": "국내 밈 주요 유형 연구",
+      "year": 2025,
+      "doi": "10.3743/KOSIM.2025.42.1.183",
+      "doi_verification": "Official society-hosted PDF first page",
+      "journal": "정보관리학회지",
+      "volume": "42",
+      "issue": "1",
+      "pages": "183-212",
+      "review_status": "full_pdf_obtained_relevant_sections_read",
+      "read_sections": ["Abstract p.183", "Related conceptual discussion pp.185-189", "Section 3 pp.192-196 including Table 2", "Sections 4.2-4.3 selected passages pp.201-206", "Section 5 pp.206-207"],
+      "visual_checks": ["Table 2 pp.193-194 rendered and rotated; image table has no extractable text"],
+      "canonical_url": "https://www.accesson.kr/kosim/assets/pdf/55396/journal-42-1-183.pdf",
+      "access_attempts": [
+        {"url": "https://www.accesson.kr/kosim/assets/pdf/55396/journal-42-1-183.pdf", "method": "web PDF and normal HTTPS download", "outcome": "5181049-byte, 30-page public PDF"}
+      ],
+      "local_file": "data/literature/private_fulltexts/hong_2025_accesson.pdf",
+      "sha256": "9dd273628bcfe55d7f775816bf165665e39cb5b621b7c5fd9bf884d7545aa2b7",
+      "pdf_page_count": 30,
+      "license_as_printed": "CC BY-NC-ND 4.0",
+      "reuse_status": "private review copy; any redistribution must separately respect printed license and third-party content rights",
+      "secondary_citation_warning": "Hong discusses Lee and Lee 2023 and Oh 2021; those descriptions are not a substitute for reading the originals"
+    }
+  ]
+}

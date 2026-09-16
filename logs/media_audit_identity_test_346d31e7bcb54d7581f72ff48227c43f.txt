@@ -1,0 +1,6 @@
+test_asset_byte_change_is_new_condition_and_empty_input_fails (test_multimodal_media_audit.MediaAuditTests.test_asset_byte_change_is_new_condition_and_empty_input_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 1.543s
+
+OK

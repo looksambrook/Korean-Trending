@@ -1,0 +1,23 @@
+{
+  "schema_version": "creation-plan-v1",
+  "plan_id": "doge_eval_02_CF",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "model_run_id": "7c2d5c379f704581ac21f26419c3e406",
+  "text": "wow. such. very. comfortable. much. happy. very. satisfied.",
+  "visual": {
+    "style": "image_caption",
+    "width": 960,
+    "height": 540,
+    "background_color": "#142032",
+    "foreground_color": "#FFFFFF",
+    "caption": "wow. such. very. comfortable. much. happy. very. satisfied.",
+    "font_size": 52
+  },
+  "video": {
+    "fps": 12,
+    "duration_seconds": 3,
+    "frame_count": 36
+  },
+  "source_image_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_original.jpg"
+}

@@ -1,0 +1,8 @@
+{
+  "returncode": 2,
+  "stdout": "Duplicate specification: 5733f964401c49309d8907595c2b8130 (succeeded). Inspect it; a terminal run can be retried only with retry_of and retry_reason.\n",
+  "stderr": "",
+  "unexpected_output_exists": false,
+  "original_unchanged": true,
+  "passed": true
+}

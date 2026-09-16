@@ -1,0 +1,73 @@
+{
+  "status": "retrieval_completed_not_meme_validation",
+  "method": "D1",
+  "text_scope": "metadata_content",
+  "boilerplate_min_videos": 3,
+  "suppressed_fragments": 269,
+  "suppression_reasons": {
+    "production_or_contact_notice": 51,
+    "same_channel_repeated_description_line": 65,
+    "upload_or_navigation_notice": 26,
+    "url_or_email_fragment": 127
+  },
+  "suppression_claim": "heuristic_content_filter_not_gold_non_meme_labels",
+  "ngram_boundary_policy": "within_field_line_and_unmasked_span_only",
+  "hashtag_policy": "standalone_tokens_preserved_from_ngram_absorption",
+  "metadata_ranking_policy": "D1 experimental context priority: title support first; hashtag-only candidates seen in >=80% of each observed channel panel ranked lower",
+  "experimental_context_ranking": true,
+  "input_observations": 45,
+  "eligible_observations": 45,
+  "excluded_observations": 0,
+  "exclusion_reasons": {},
+  "eligible_source_documents": 45,
+  "eligible_source_videos": 45,
+  "eligible_channels": 3,
+  "eligible_by_modality": {
+    "video_metadata": 45
+  },
+  "eligible_by_provenance": {
+    "actual_collected": 45
+  },
+  "candidate_count": 52,
+  "candidate_count_before_output_limit": 52,
+  "phrase_nodes_before_limit": 474,
+  "phrase_nodes_retained": 474,
+  "variant_pairs_compared": 179,
+  "variant_pair_limit_reached": false,
+  "ranking_dimensions_descending": [
+    "content_priority",
+    "title_support",
+    "channel_count",
+    "distinct_observed_content_count",
+    "possible_variant_edge_count",
+    "source_video_count"
+  ],
+  "cutoff": "2026-09-14T18:20:52.811337+00:00",
+  "generated_at": "2026-09-14T18:26:14.577504+00:00",
+  "growth_used_for_ranking": false,
+  "baseline_end": null,
+  "sample_window_source_denominators": {},
+  "verified_meme_count": null,
+  "independent_gold_count": 0,
+  "recall": null,
+  "precision": null,
+  "false_candidate_count": null,
+  "missed_meme_count": null,
+  "family_link_error_count": null,
+  "independent_use_validation": "not_performed",
+  "context_semantic_validation": "not_performed",
+  "understanding_model_calls": 0,
+  "paid_api_calls": 0,
+  "human_review_minutes": 0,
+  "limitations": [
+    "Text only; no video, audio, visual or intonation understanding.",
+    "General phrases, series names, advertisements and copied text can become candidates.",
+    "Distinct sources and surface variants do not establish independent meme use.",
+    "False positives, missed memes and incorrect family links require independent gold annotation.",
+    "D1 surface links are a retrieval prototype; contextual/independent-use verification remains incomplete.",
+    "Sampling representativeness and known-name contamination depend on the supplied collection.",
+    "Finite ngrams and disclosed resource limits can miss expressions and variants."
+  ],
+  "run_id": "fa7417e8e81940c8a0d45d1ca88a7efa",
+  "input_sha256": "ee3df40a35a7598a41c55432411b4c07c90477ab6e688d36f43c8072acac5738"
+}

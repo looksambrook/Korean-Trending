@@ -1,0 +1,104 @@
+[
+  {
+    "example_id": "native_doge_train_01",
+    "asset": "original",
+    "prompt": "Write only a short Doge-style caption for this dog receiving a bag of treats.",
+    "target": "wow. such snacks. much tasty. very happy.",
+    "images": [
+      {
+        "local_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_original.jpg",
+        "sha256": "d70b4c272582f6b36b571f57e333d78c779cb3c5ba184b675949736a428dad26",
+        "kind": "image",
+        "source_group_id": "taiki_roberto_vasarri_2008"
+      }
+    ],
+    "provenance": "ai_synthetic",
+    "target_provenance": "ai_synthetic",
+    "visual_source_provenance": "actual_collected"
+  },
+  {
+    "example_id": "native_doge_train_02",
+    "asset": "original",
+    "prompt": "Write only a short Doge-style caption for this dog relaxing under a blanket.",
+    "target": "wow. such blanket. much cozy. very nap.",
+    "images": [
+      {
+        "local_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_original.jpg",
+        "sha256": "d70b4c272582f6b36b571f57e333d78c779cb3c5ba184b675949736a428dad26",
+        "kind": "image",
+        "source_group_id": "taiki_roberto_vasarri_2008"
+      }
+    ],
+    "provenance": "ai_synthetic",
+    "target_provenance": "ai_synthetic",
+    "visual_source_provenance": "actual_collected"
+  },
+  {
+    "example_id": "native_doge_train_03",
+    "asset": "macro",
+    "prompt": "Use the meme style visible in this image, but write new words about getting a new toy. Output only the caption.",
+    "target": "wow. such toy. much play. very lucky.",
+    "images": [
+      {
+        "local_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_macro.png",
+        "sha256": "86d72de4f8dcceddc33f6cd76b00d9b4a23b200472684217a11063e2d1a3284a",
+        "kind": "image",
+        "source_group_id": "taiki_roberto_vasarri_2008"
+      }
+    ],
+    "provenance": "ai_synthetic",
+    "target_provenance": "ai_synthetic",
+    "visual_source_provenance": "actual_collected"
+  },
+  {
+    "example_id": "native_doge_train_04",
+    "asset": "macro",
+    "prompt": "Use the meme style visible in this image, but write new words about a sunny walk. Output only the caption.",
+    "target": "wow. such sunshine. much walk. very outside.",
+    "images": [
+      {
+        "local_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_macro.png",
+        "sha256": "86d72de4f8dcceddc33f6cd76b00d9b4a23b200472684217a11063e2d1a3284a",
+        "kind": "image",
+        "source_group_id": "taiki_roberto_vasarri_2008"
+      }
+    ],
+    "provenance": "ai_synthetic",
+    "target_provenance": "ai_synthetic",
+    "visual_source_provenance": "actual_collected"
+  },
+  {
+    "example_id": "native_doge_train_05",
+    "asset": "original",
+    "prompt": "Write a plain factual caption for this photograph. Do not use a meme or invent an event.",
+    "target": "A brown and white Shiba Inu dog faces the camera.",
+    "images": [
+      {
+        "local_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_original.jpg",
+        "sha256": "d70b4c272582f6b36b571f57e333d78c779cb3c5ba184b675949736a428dad26",
+        "kind": "image",
+        "source_group_id": "taiki_roberto_vasarri_2008"
+      }
+    ],
+    "provenance": "ai_synthetic",
+    "target_provenance": "ai_synthetic",
+    "visual_source_provenance": "actual_collected"
+  },
+  {
+    "example_id": "native_doge_train_06",
+    "asset": "macro",
+    "prompt": "Describe how the text is used in this meme image.",
+    "target": "Short phrases in different colors are placed over a Shiba Inu photograph. The phrases include wow, many readers, and such knowledge.",
+    "images": [
+      {
+        "local_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_macro.png",
+        "sha256": "86d72de4f8dcceddc33f6cd76b00d9b4a23b200472684217a11063e2d1a3284a",
+        "kind": "image",
+        "source_group_id": "taiki_roberto_vasarri_2008"
+      }
+    ],
+    "provenance": "ai_synthetic",
+    "target_provenance": "ai_synthetic",
+    "visual_source_provenance": "actual_collected"
+  }
+]

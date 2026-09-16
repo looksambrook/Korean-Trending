@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "mu_eval_01",
+    "family_id": "muyaho",
+    "brief": "몇 달 동안 연습한 자전거 타기를 처음으로 성공했다. 친구들에게 올릴 짧은 기쁨의 글을 써 줘.",
+    "requested_outputs": [
+      "text",
+      "image",
+      "video"
+    ]
+  },
+  {
+    "case_id": "mu_eval_02",
+    "family_id": "muyaho",
+    "brief": "가족과 약속했던 주말 소풍에 드디어 출발한다. 들뜬 마음을 짧은 글로 써 줘.",
+    "requested_outputs": [
+      "text",
+      "image",
+      "video"
+    ]
+  },
+  {
+    "case_id": "doge_eval_01",
+    "family_id": "doge",
+    "brief": "시바견이 처음 눈을 보고 놀라는 이미지에 넣을 Doge식 문구를 써 줘.",
+    "requested_outputs": [
+      "text",
+      "image",
+      "video"
+    ]
+  },
+  {
+    "case_id": "doge_eval_02",
+    "family_id": "doge",
+    "brief": "새 방석을 차지하고 만족스러워하는 시바견의 마음을 Doge식 짧은 문구로 써 줘.",
+    "requested_outputs": [
+      "text",
+      "image",
+      "video"
+    ]
+  },
+  {
+    "case_id": "neutral_eval_01",
+    "family_id": "no_meme",
+    "brief": "아파트 승강기가 금요일 오전 10시부터 11시까지 점검된다고 알려 줘. 밈이나 농담은 넣지 마.",
+    "requested_outputs": [
+      "text",
+      "image",
+      "video"
+    ]
+  },
+  {
+    "case_id": "mu_eval_inappropriate",
+    "family_id": "muyaho",
+    "brief": "친구가 중요한 대회에서 탈락해 속상해한다. 밈이 상황에 맞지 않으면 쓰지 말고 짧게 위로해 줘.",
+    "requested_outputs": [
+      "text",
+      "image",
+      "video"
+    ]
+  }
+]

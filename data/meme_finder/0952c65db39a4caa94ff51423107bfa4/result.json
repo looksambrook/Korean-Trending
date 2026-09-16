@@ -1,0 +1,260 @@
+{
+  "schema_version": "meme-finder-result-v1",
+  "run_id": "0952c65db39a4caa94ff51423107bfa4",
+  "created_at": "2026-09-15T04:39:13.593162+00:00",
+  "evidence_cutoff": "2026-09-15T04:39:13.591753+00:00",
+  "mode": "automatic_observed_text_discovery",
+  "scope": "YouTube public title and description observations; Korean-first, convenience sample",
+  "counts": {
+    "initial_feed_observations": 0,
+    "search_cards": 40,
+    "resolved_source_observations": 3,
+    "seeds": 1,
+    "families_by_status": {
+      "needs_evidence": 1
+    },
+    "http_requests": 8,
+    "excluded_observations": 0,
+    "navigation_only_search_cards": 40,
+    "verified_independent_meme_count": null
+  },
+  "budget": {
+    "max_http_requests": 23,
+    "paid_api_calls": 0,
+    "model_calls": 0,
+    "human_review_minutes": 0
+  },
+  "families": [
+    {
+      "family_id": "mfamily_4016928d2e1977597dff",
+      "label": "한번쯤 들어본 '그 효과음' 밈 원본 ㅋㅋㅋ",
+      "kind": "expression_reuse",
+      "status": "needs_evidence",
+      "reason": "Literal recurrence alone does not establish a meme family or meaning.",
+      "examples": [
+        {
+          "observation_id": "youtube:watch:s0ID58k1pW4:24d4dbacd605e2750b78ae4c",
+          "video_id": "s0ID58k1pW4",
+          "title": "한번쯤 들어본 '그 효과음' 밈 원본 ㅋㅋㅋ",
+          "description": "",
+          "channel_id": "UCu123u-NA9v_vjwrIM8JhFg",
+          "channel_label": "요즘밈",
+          "source_url": "https://www.youtube.com/watch?v=s0ID58k1pW4",
+          "posted_at": "2026-09-14T02:12:45+00:00",
+          "available_at": "2026-09-15T04:39:08.047423+00:00",
+          "provenance": "actual_collected",
+          "discovery_origin": {
+            "sampling": {
+              "mode": "public_watch_html",
+              "posthoc_expansion": true,
+              "unseeded_discovery": false,
+              "video_and_audio_examined": false,
+              "pipeline_origin": "generic_topic_search"
+            },
+            "initial_seed_ids": [
+              "mseed_2867de65c8aece0f3761"
+            ],
+            "pipeline_origin": "generic_topic_search",
+            "observed_pipeline_origins": [
+              "generic_topic_search"
+            ],
+            "posthoc_expansion_seed_ids": []
+          },
+          "collection_snapshots": [
+            {
+              "observation_id": "youtube:watch:s0ID58k1pW4:24d4dbacd605e2750b78ae4c",
+              "available_at": "2026-09-15T04:39:08.047423+00:00",
+              "discovery_origin": "generic_topic_search",
+              "sampling": {
+                "mode": "public_watch_html",
+                "posthoc_expansion": true,
+                "unseeded_discovery": false,
+                "video_and_audio_examined": false
+              }
+            }
+          ],
+          "original_or_repost": "unknown"
+        }
+      ],
+      "surface_forms": [
+        "한번쯤 들어본 '그 효과음' 밈 원본 ㅋㅋㅋ"
+      ],
+      "relationships": [],
+      "knowledge": {
+        "meaning": "‘한번쯤 들어본 '그 효과음' 밈 원본 ㅋㅋㅋ’라는 표현은 관찰되지만 반복만으로 밈의 의미나 계열을 확정할 수 없다.",
+        "usage": [
+          {
+            "source_observation_id": "youtube:watch:s0ID58k1pW4:24d4dbacd605e2750b78ae4c",
+            "field": "title",
+            "source_excerpt": "한번쯤 들어본 '그 효과음' 밈 원본 ㅋㅋㅋ",
+            "relation_to_expression": "same_video_source_claim"
+          }
+        ],
+        "confidence": "insufficient",
+        "evidence_ids": [
+          "youtube:watch:s0ID58k1pW4:24d4dbacd605e2750b78ae4c"
+        ],
+        "unknowns": [
+          "원출처",
+          "독립 제작 여부",
+          "영상·음성의 실제 내용",
+          "현재 확산 규모",
+          "모든 맥락에서의 의미"
+        ],
+        "method": "deterministic_surface_grammar_and_source_cues",
+        "model_weights_trained": false,
+        "available_at": "2026-09-15T04:39:13.593162+00:00",
+        "provenance": "automatic_rule_derived_interpretation"
+      },
+      "latest_published_at": "2026-09-14T02:12:45+00:00",
+      "distinct_video_count": 1,
+      "distinct_channel_count": 1,
+      "independent_use_count": null,
+      "independence_status": "unknown",
+      "review_mode": "automatic",
+      "human_review_minutes": 0,
+      "created_at": "2026-09-15T04:39:13.592076+00:00",
+      "popularity_rank": null,
+      "linked_at": "2026-09-15T04:39:13.593162+00:00",
+      "recent_observed_uses": 1,
+      "recent_window_days": 30,
+      "current_popularity": "not_estimated"
+    }
+  ],
+  "rejected": [
+    {
+      "video_id": "EHil_Xzvgts",
+      "observation_id": "youtube:watch:EHil_Xzvgts:4fcb339c4c6f55efaa76c742",
+      "title": "이해하면 '소름돋는다는' 위로 문구 ㄷㄷ",
+      "reason": "no_supported_reusable_form_detected",
+      "is_non_meme": null
+    },
+    {
+      "video_id": "op8Avw4BR5U",
+      "observation_id": "youtube:watch:op8Avw4BR5U:14d27ceb2d982906a5f698a1",
+      "title": "13년전에 영화 '오디세이' 스포한 노래 ㄷㄷ",
+      "reason": "no_supported_reusable_form_detected",
+      "is_non_meme": null
+    }
+  ],
+  "seeds": [
+    {
+      "seed_id": "mseed_2867de65c8aece0f3761",
+      "query": "한번쯤 들어본 '그 효과음' 밈 원본 ㅋㅋㅋ",
+      "source_observation_ids": [
+        "youtube:watch:s0ID58k1pW4:24d4dbacd605e2750b78ae4c"
+      ],
+      "source_video_ids": [
+        "s0ID58k1pW4"
+      ],
+      "source_channel_ids": [
+        "UCu123u-NA9v_vjwrIM8JhFg"
+      ],
+      "source_titles": [
+        "한번쯤 들어본 '그 효과음' 밈 원본 ㅋㅋㅋ"
+      ],
+      "reason": "The observed title itself mentions a reuse convention; this is a source claim to investigate.",
+      "kind": "source_labelled_reuse",
+      "score": 5,
+      "grammar": {},
+      "selection_method": "automatic_observed_surface_heuristics",
+      "discovery_origin": {
+        "mode": "public_watch_html",
+        "posthoc_expansion": true,
+        "unseeded_discovery": false,
+        "video_and_audio_examined": false,
+        "pipeline_origin": "generic_topic_search"
+      },
+      "query_is_exact_observed_span": true
+    }
+  ],
+  "attempts": [
+    {
+      "stage": "feed",
+      "run_id": "f110ccb1ebc74303a6f668f2bd309012",
+      "manifest": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\0952c65db39a4caa94ff51423107bfa4\\feed\\manifest.json",
+      "status": "failed",
+      "http_requests": 3
+    },
+    {
+      "stage": "topic_search_1",
+      "run_id": "67214dfc99b442c4a9c11c1d6d56002a",
+      "manifest": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\0952c65db39a4caa94ff51423107bfa4\\topic_search_1\\67214dfc99b442c4a9c11c1d6d56002a\\manifest.json",
+      "status": "completed",
+      "http_requests": 1
+    },
+    {
+      "stage": "topic_metadata_1",
+      "run_id": "cfebb9db874c46d59a952223b2f5f0c7",
+      "manifest": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\0952c65db39a4caa94ff51423107bfa4\\topic_metadata_1\\cfebb9db874c46d59a952223b2f5f0c7\\manifest.json",
+      "status": "completed",
+      "http_requests": 3
+    },
+    {
+      "stage": "expansion_search_1",
+      "run_id": "90ab3c45e46741a79ce29d900a4ec301",
+      "manifest": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\0952c65db39a4caa94ff51423107bfa4\\expansion_search_1\\90ab3c45e46741a79ce29d900a4ec301\\manifest.json",
+      "status": "completed",
+      "http_requests": 1
+    }
+  ],
+  "failures": [
+    {
+      "stage": "feed",
+      "run_id": "f110ccb1ebc74303a6f668f2bd309012",
+      "channel_id": "UCUj6rrhMTR9pipbAWBAMvUQ",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUj6rrhMTR9pipbAWBAMvUQ",
+      "started_at": "2026-09-15T04:39:02.049202+00:00",
+      "status": "failed",
+      "error_type": "HTTPError",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404
+    },
+    {
+      "stage": "feed",
+      "run_id": "f110ccb1ebc74303a6f668f2bd309012",
+      "channel_id": "UCNhofiqfw5nl-NeDJkXtPvw",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNhofiqfw5nl-NeDJkXtPvw",
+      "started_at": "2026-09-15T04:39:02.341632+00:00",
+      "status": "failed",
+      "error_type": "HTTPError",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404
+    },
+    {
+      "stage": "feed",
+      "run_id": "f110ccb1ebc74303a6f668f2bd309012",
+      "channel_id": "UC-uIpGINZDL-VIHQQzJW8jw",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-uIpGINZDL-VIHQQzJW8jw",
+      "started_at": "2026-09-15T04:39:02.551905+00:00",
+      "status": "failed",
+      "error_type": "HTTPError",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404
+    }
+  ],
+  "child_run_ids": [
+    "f110ccb1ebc74303a6f668f2bd309012",
+    "67214dfc99b442c4a9c11c1d6d56002a",
+    "cfebb9db874c46d59a952223b2f5f0c7",
+    "90ab3c45e46741a79ce29d900a4ec301"
+  ],
+  "source_manifests": [
+    "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\0952c65db39a4caa94ff51423107bfa4\\feed\\manifest.json",
+    "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\0952c65db39a4caa94ff51423107bfa4\\topic_search_1\\67214dfc99b442c4a9c11c1d6d56002a\\manifest.json",
+    "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\0952c65db39a4caa94ff51423107bfa4\\topic_metadata_1\\cfebb9db874c46d59a952223b2f5f0c7\\manifest.json",
+    "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\0952c65db39a4caa94ff51423107bfa4\\expansion_search_1\\90ab3c45e46741a79ce29d900a4ec301\\manifest.json"
+  ],
+  "search_associations": {
+    "mseed_2867de65c8aece0f3761": []
+  },
+  "limitations": [
+    "Actual title and description reuse is examined; video, audio and gestures are not interpreted.",
+    "Distinct channels or changed titles do not prove independent footage or authorship.",
+    "Recent source use is not a popularity ranking; source counts are not added across platforms.",
+    "Generic meme-topic search and observed-phrase expansion remain separate from name-free channel observations.",
+    "Independent gold evaluation and missed-family recall are not yet available.",
+    "Rule-derived explanations are separated from local language-model responses; no model weights are trained."
+  ],
+  "completion_status": "partial_access"
+}

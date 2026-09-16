@@ -1,0 +1,20 @@
+Input #0, matroska,webm, from 'C:\Users\user\Korean-Treanding\data\collected\multimodal_creation_media_sources_v02\media\mazatlan_2018.webm':
+  Metadata:
+    COMPATIBLE_BRANDS: isomiso2avc1mp41
+    MAJOR_BRAND     : isom
+    MINOR_VERSION   : 512
+    ENCODER         : Lavf58.76.100
+  Duration: 00:00:30.01, start: -0.007000, bitrate: 4647 kb/s
+  Stream #0:0: Video: vp9 (Profile 0), yuv420p(tv, progressive), 640x430, SAR 1:1 DAR 64:43, 24 fps, 24 tbr, 1k tbn (default)
+      Metadata:
+        HANDLER_NAME    : VideoHandler
+        VENDOR_ID       : [0][0][0][0]
+        ENCODER         : Lavc58.134.100 libvpx-vp9
+        DURATION        : 00:00:30.007000000
+  Stream #0:1: Audio: opus, 48000 Hz, stereo, fltp (default)
+      Metadata:
+        HANDLER_NAME    : IsoMedia File Produced by Google, 5-11-2011
+        VENDOR_ID       : [0][0][0][0]
+        ENCODER         : Lavc58.134.100 libopus
+        DURATION        : 00:00:30.008000000
+At least one output file must be specified

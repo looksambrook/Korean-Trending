@@ -1,0 +1,390 @@
+{
+  "schema_version": "multimodal-creation-study-v1",
+  "proposal_revision": 4,
+  "supersedes_log_run": "a3467329a3c945bba5661bdc23f8e8e2",
+  "scope_confirmation_log_run": "b86a1a3e34d3409d98d6eac86e35daa9",
+  "status": "output_media_confirmed_data_preparation_needed_compute_scope_undecided",
+  "author_origin": "ai_authored_proposal",
+  "execution_ready": false,
+  "research_primary_goal": "content_creation_with_changing_multimodal_meme_knowledge",
+  "primary_comparison": [
+    "CR_RAG",
+    "CF_FINETUNING"
+  ],
+  "baseline": "C0_NO_ADDED_MEMORY",
+  "optional_hybrid_diagnostic": {
+    "enabled": false,
+    "arm_id": "CRF_HYBRID"
+  },
+  "scope": {
+    "collection_assumption": "multimodal_meme_resources_are_expected_as_inputs_not_verified_by_this_config",
+    "input_modalities": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "selected_platforms": null,
+    "selected_output_formats": ["video", "image", "text"],
+    "output_formats_choice_status": "user_confirmed",
+    "output_format_specifications": {
+      "video": null,
+      "image": null,
+      "text": null
+    },
+    "standalone_audio_output_selected": null,
+    "primary_task": null,
+    "proposed_primary_task": "family_conditioned_content_creation",
+    "primary_task_choice_status": "proposal_not_selected",
+    "secondary_free_family_selection_task": null,
+    "prior_discovery_and_understanding_conditions_are_primary": false
+  },
+  "models": {
+    "common_base_model_id": null,
+    "common_base_revision": null,
+    "common_base_weights_sha256": null,
+    "common_base_available_at": null,
+    "tokenizer_revision": null,
+    "media_processor_revision": null,
+    "native_input_capabilities_verified": null,
+    "native_output_capabilities_verified": null,
+    "finetuning_capabilities_verified": null,
+    "execution_backend": null,
+    "no_model_substitution_inside_primary_comparison": true
+  },
+  "arms": {
+    "C0_NO_ADDED_MEMORY": {
+      "weights": "common_base",
+      "external_memory": false,
+      "research_corpus_weight_updates": false
+    },
+    "CR_RAG": {
+      "weights": "common_base",
+      "external_memory": "cutoff_eligible_index",
+      "research_corpus_weight_updates": false
+    },
+    "CF_FINETUNING": {
+      "weights": "actual_trained_checkpoint_or_adapter",
+      "external_memory": false,
+      "research_corpus_weight_updates": true
+    }
+  },
+  "data": {
+    "user_reported_preparation_status": "preparation_needed",
+    "canonical_record_schema": "data/schemas/multimodal_meme_record.schema.json",
+    "canonical_dataset_jsonl": null,
+    "ingest_manifest": null,
+    "snapshot_manifest": null,
+    "normalized_tables_below_are_contract_not_existing_exports": true,
+    "assets_jsonl": null,
+    "media_links_jsonl": null,
+    "family_versions_jsonl": null,
+    "adaptation_examples_jsonl": null,
+    "briefs_jsonl": null,
+    "snapshots_jsonl": null,
+    "private_gold_jsonl": null,
+    "data_root": null,
+    "provenance_values": [
+      "actual_collected",
+      "researcher_authored",
+      "ai_synthetic"
+    ],
+    "same_adaptation_pool_for_rag_and_ft": true,
+    "include_same_authored_or_synthetic_training_targets_in_rag_pool": true,
+    "evaluation_briefs_and_gold_in_adaptation_pool": false,
+    "required_asset_fields": [
+      "asset_id",
+      "source_id",
+      "source_group_id",
+      "family_id",
+      "lineage_group_id",
+      "modality",
+      "uri",
+      "sha256",
+      "mime_type",
+      "published_at",
+      "observed_at",
+      "available_at",
+      "content_version",
+      "provenance",
+      "allowed_uses",
+      "access_status"
+    ],
+    "required_media_link_fields": [
+      "link_id",
+      "from_asset_id",
+      "to_asset_id",
+      "relation",
+      "evidence_ids",
+      "available_at",
+      "origin",
+      "review_status"
+    ],
+    "required_snapshot_fields": [
+      "snapshot_id",
+      "source_cutoff",
+      "evaluation_at",
+      "asset_ids",
+      "link_ids",
+      "family_version_ids",
+      "adaptation_ids",
+      "representation_ids",
+      "content_hashes",
+      "partition_manifest_id",
+      "partition_manifest_sha256",
+      "mode",
+      "locked_at"
+    ],
+    "required_adaptation_fields": [
+      "adaptation_id",
+      "family_id",
+      "source_group_ids",
+      "input_asset_ids",
+      "training_brief",
+      "target_artifact_ids",
+      "target_text",
+      "representation_ids",
+      "available_at",
+      "provenance",
+      "review_status"
+    ],
+    "required_brief_fields": [
+      "brief_id",
+      "snapshot_id",
+      "family_id",
+      "lineage_group_id",
+      "family_partition",
+      "brief_text",
+      "shared_family_hint",
+      "output_format",
+      "audience",
+      "intended_context",
+      "constraints",
+      "authorship",
+      "created_at",
+      "lock_id"
+    ],
+    "asset_uses_to_resolve": [
+      "storage",
+      "retrieval",
+      "training",
+      "external_transfer",
+      "creation"
+    ]
+  },
+  "modalities": {
+    "selected_strata": null,
+    "allowed_strata": [
+      "native",
+      "proxy",
+      "planner_renderer"
+    ],
+    "pool_native_and_proxy_scores": false,
+    "representation_pipeline": null,
+    "representation_version": null,
+    "same_representation_pool_for_rag_and_ft": true,
+    "transcript_is_audio_or_video_observation": false,
+    "common_renderer": {
+      "enabled": null,
+      "model_id": null,
+      "revision": null,
+      "config_path": null,
+      "same_across_arms": true
+    },
+    "plan_only_counts_as_completed_media": false,
+    "media_readability_audit_module": "src/multimodal_media_audit.py",
+    "media_readability_audit_limit": "PCM_WAV_audio_and_selected_video_pixels; video_audio_streams_uninspected; no_semantic_verification",
+    "media_audit_validation_run_id": "52632b9cb810427eb5d65bc0e13613f1"
+  },
+  "splits": {
+    "development_unit": "lineage_group_id_with_source_group_and_cross_modal_links",
+    "family_partition_manifest": null,
+    "family_partition_manifest_sha256": null,
+    "partition_fixed_across_snapshots": true,
+    "partition_implementation_status": "preparatory_exporters_implemented_and_synthetic_checks_passed; study_runner_not_implemented",
+    "new_group_assignment_rule": null,
+    "existing_assignment_may_change": false,
+    "new_member_linked_to_one_partition": "inherit_existing_partition",
+    "cross_partition_new_link_policy": "block_affected_component_export_and_evaluation_log_conflict_no_reassignment",
+    "partition_conflict_log": null,
+    "partition_conflict_resolution": "new_study_partition_and_clean_base_reset_never_claim_data_deletion_unlearned_weights",
+    "checkpoint_must_record_training_exposure_and_partition_version": true,
+    "partition_seed": null,
+    "partition_sizes": null,
+    "evaluation_family_past_support_allowed_for_locked_adaptation": null,
+    "proposed_evaluation_family_past_support": "allow_identical_time_eligible_support_to_both_locked_methods",
+    "adaptation_support_vs_evaluation_brief_axis_implementation": "available_in_src/multimodal_creation_split.py; explicit_mode_and_locked_family_selection_required",
+    "current_exporter_partition_scope": "base_exporter_train_only; separate_two_axis_exporter_supports_explicit_locked_family_past_support",
+    "evaluation_family_adaptation_is_zero_shot": false,
+    "evaluation_requests_targets_and_ratings_excluded_from_adaptation": true,
+    "same_original_media_derivatives_must_remain_grouped": true,
+    "two_axis_preparer_usage": "docs/multimodal_creation_split_usage.md",
+    "two_axis_validation_run_id": "5cca4862959e48fead22869981ba605c"
+  },
+  "temporal": {
+    "mode": null,
+    "allowed_modes": [
+      "prospective",
+      "historical_artifact_replay"
+    ],
+    "historical_artifact_replay_requires_all_original_artifacts_available_by_T": true,
+    "historical_artifact_replay_may_rebuild_with_later_models_or_knowledge": false,
+    "historical_artifact_replay_is_observed_historical_service_performance": false,
+    "posthoc_processing_simulation": {
+      "selected": false,
+      "included_in_primary_comparison": false,
+      "may_claim_T_performance": false
+    },
+    "snapshot_schedule": null,
+    "source_cutoffs": null,
+    "evaluation_times": null,
+    "require_asset_representation_link_and_knowledge_available_by_cutoff": true,
+    "require_source_cutoff_not_after_evaluation_at": true,
+    "require_base_renderer_index_and_checkpoint_available_by_evaluation_at": true,
+    "backdate_newly_created_knowledge_or_checkpoint": false,
+    "primary_update_policy": null,
+    "proposed_primary_update_policy": "continual_updates_on_same_schedule",
+    "update_policy_choice_status": "proposal_not_selected",
+    "independent_replicate_reset": "common_base_and_empty_research_index_fixed_partition_then_time_eligible_schedule",
+    "ft_rebuild_from_base_diagnostic": null,
+    "update_strata": [
+      "new_family",
+      "changed_meaning_or_context",
+      "retained_legacy_usage",
+      "unresolved_or_ambiguous"
+    ]
+  },
+  "rag": {
+    "retriever_id": null,
+    "index_version": null,
+    "embedding_model_id": null,
+    "reranker_id": null,
+    "top_k": null,
+    "context_budget": null,
+    "old_version_filter_policy": null
+  },
+  "finetuning": {
+    "method": null,
+    "trained_parameter_scope": null,
+    "learning_rate": null,
+    "epochs_or_steps": null,
+    "batch_size": null,
+    "training_compute_cap": null,
+    "replay_policy": null,
+    "checkpoint_selection_rule": null,
+    "require_actual_optimizer_and_parameter_artifacts": true
+  },
+  "generation": {
+    "shared_system_prompt_path": null,
+    "output_contract_path": null,
+    "temperature": null,
+    "top_p": null,
+    "max_output_budget": null,
+    "repeats": null,
+    "randomization_seed": null,
+    "retry_policy": null,
+    "manual_quality_rewrite_allowed": false,
+    "proposed_shared_system_prompt_path": "prompts/multimodal_creator_system_v01.txt",
+    "proposed_prompt_has_been_run_on_model": false
+  },
+  "evaluation": {
+    "primary_metrics_to_lock_after_pilot": null,
+    "candidate_dimensions": [
+      "meme_fidelity",
+      "brief_and_context_appropriateness",
+      "content_quality",
+      "temporal_appropriateness",
+      "harmful_or_stale_misuse",
+      "ambiguity_handling",
+      "artifact_completion"
+    ],
+    "independent_human_gold_required": true,
+    "self_llm_judge_is_gold": false,
+    "annotator_count": null,
+    "rater_count": null,
+    "recruitment_scope": null,
+    "compensation": null,
+    "scale_and_anchors": null,
+    "condition_blinding": true,
+    "include_all_planned_items_in_failure_denominator": true,
+    "complete_pair_only_quality_is_primary": false,
+    "failure_taxonomy": [
+      "input_unavailable",
+      "retrieval_failed",
+      "training_failed",
+      "generation_failed",
+      "format_invalid",
+      "renderer_failed",
+      "refusal",
+      "rating_missing"
+    ],
+    "treat_appropriate_refusal_as_automatic_worst_score": false,
+    "statistical_model": null,
+    "confidence_interval_method": null,
+    "multiplicity_policy": null,
+    "minimum_effect_of_interest": null,
+    "family_and_brief_sample_sizes": null,
+    "number_of_independent_training_replicates": null,
+    "proposed_annotation_guide_path": "docs/multimodal_creation_annotation_guide_v01.md"
+  },
+  "costs": {
+    "user_reported_compute_and_budget_status": "undecided",
+    "currency": null,
+    "pilot_spending_cap": null,
+    "total_spending_cap": null,
+    "compute_time_cap": null,
+    "unit_rates": null,
+    "human_hourly_rate": null,
+    "record_components": [
+      "data_preparation",
+      "modality_transformation",
+      "index_build_and_update",
+      "training_and_update",
+      "inference_and_retrieval",
+      "common_renderer",
+      "storage",
+      "retries_and_failures",
+      "human_annotation_and_review"
+    ],
+    "report_initial_update_per_request_and_total_cost_separately": true,
+    "local_compute_assumed_free": false
+  },
+  "paper": {
+    "submission_venue": null,
+    "study_period": null,
+    "sample_size_is_kci_official_requirement": false,
+    "publication_guaranteed": false
+  },
+  "readiness_gates": [
+    {
+      "id": "G0",
+      "requirement": "actual_data_model_output_and_execution_scope_confirmed",
+      "status": "unresolved"
+    },
+    {
+      "id": "G1",
+      "requirement": "real_C0_CR_CF_generation_and_actual_FT_artifacts",
+      "status": "not_run"
+    },
+    {
+      "id": "G2",
+      "requirement": "independent_development_pilot_ratings_and_costs",
+      "status": "not_run"
+    },
+    {
+      "id": "G3",
+      "requirement": "locked_evaluation_data_methods_and_analysis",
+      "status": "not_locked"
+    },
+    {
+      "id": "G4",
+      "requirement": "all_planned_temporal_runs_and_independent_ratings_accounted_for",
+      "status": "not_run"
+    },
+    {
+      "id": "G5",
+      "requirement": "paper_results_traceable_to_real_artifacts",
+      "status": "not_available"
+    }
+  ]
+}

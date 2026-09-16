@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-09-15T05:48:25.857568+00:00",
+  "receipt_hash_checks": 7,
+  "all_match": true,
+  "media_checks": [
+    {
+      "path": "media/mazatlan_2018.webm",
+      "sha256": "efc30525d68d63b343065ff35cda7d17d18531933d5f16f967f37e31805a82ea",
+      "sha1_matches_commons_source": true,
+      "header_hex": "1a45dfa39f428681",
+      "decoded": false
+    },
+    {
+      "path": "media/monkeys_spinning_monkeys.ogg",
+      "sha256": "11af354e68a4a1eea2474ff2d277dc8b7a6bb82679ab53b755ca3ee2b83972fd",
+      "sha1_matches_commons_source": true,
+      "header_hex": "4f67675300020000",
+      "decoded": false
+    }
+  ],
+  "video_audio_track_presence": "source_declared_not_locally_verified",
+  "video_source_stated_codecs": [
+    "VP9",
+    "Opus"
+  ],
+  "model_calls": 0,
+  "human_evaluations": 0,
+  "registration_failures": [],
+  "collection_failures": [],
+  "original_meme_variation_independence_verified": false
+}

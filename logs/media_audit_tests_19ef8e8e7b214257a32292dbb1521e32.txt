@@ -1,0 +1,11 @@
+test_actual_utf8_image_and_pcm_samples_decode_without_source_changes (test_multimodal_media_audit.MediaAuditTests.test_actual_utf8_image_and_pcm_samples_decode_without_source_changes) ... ok
+test_byte_and_root_guards_skip_before_decode (test_multimodal_media_audit.MediaAuditTests.test_byte_and_root_guards_skip_before_decode) ... ok
+test_duplicate_runs_require_explicit_linked_retry (test_multimodal_media_audit.MediaAuditTests.test_duplicate_runs_require_explicit_linked_retry) ... ok
+test_false_hash_and_corrupt_image_cannot_be_read_success (test_multimodal_media_audit.MediaAuditTests.test_false_hash_and_corrupt_image_cannot_be_read_success) ... ok
+test_unsupported_audio_and_duplicate_failure_stay_unavailable (test_multimodal_media_audit.MediaAuditTests.test_unsupported_audio_and_duplicate_failure_stay_unavailable) ... ok
+test_video_pixels_decode_but_audio_absence_is_never_inferred (test_multimodal_media_audit.MediaAuditTests.test_video_pixels_decode_but_audio_absence_is_never_inferred) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 8.294s
+
+OK

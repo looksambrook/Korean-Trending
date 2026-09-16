@@ -1,0 +1,2 @@
+# Only for explicitly scoped live execution; offline preparation/tests use stdlib.
+openai==2.36.0

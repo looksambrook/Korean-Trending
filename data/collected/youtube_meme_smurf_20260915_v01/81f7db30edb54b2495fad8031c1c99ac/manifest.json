@@ -1,0 +1,93 @@
+{
+  "schema_version": "youtube-public-search-manifest-v1",
+  "run_id": "81f7db30edb54b2495fad8031c1c99ac",
+  "status": "completed",
+  "started_at": "2026-09-14T23:16:26.213477+00:00",
+  "finished_at": "2026-09-14T23:16:28.040207+00:00",
+  "config": {
+    "version": "youtube-public-search-v1",
+    "search_mode": "discovered_phrase_expansion",
+    "queries": [
+      {
+        "query": "스머프캣",
+        "evidence_ids": [
+          "youtube:watch:viEJSCPHnFg:ee96af3f5087e8e8df16028c"
+        ]
+      }
+    ],
+    "selection_reason": "특정명 미지정 일반 검색에서 발견한 확대 밈 영상의 실제 제작자 설명에 스머프캣 및 Smurf Cat in big 26이라고 적혀 있어 추가 사용을 사후 검색한다. 기존 캐릭터의 존재와 2026년 확대 변형은 구분하여 보고하며 화면·음성을 보지 않고 동작이나 원본을 확정하지 않는다.",
+    "known_meme_seed_names": [],
+    "discovery_run_id": "e335655ae43d4f458edc5c1d8d845ac3",
+    "discovery_observations": "data/collected/youtube_meme_topic_metadata_20260915_v01/e335655ae43d4f458edc5c1d8d845ac3/observations.jsonl",
+    "discovery_manifest": "data/collected/youtube_meme_topic_metadata_20260915_v01/e335655ae43d4f458edc5c1d8d845ac3/manifest.json",
+    "discovery_method": "AI selection from publisher description resolved after generic topic search; no independent discovery evaluation",
+    "max_results_per_query": 20,
+    "max_results_total": 20,
+    "timeout_seconds": 15,
+    "max_response_bytes": 8000000,
+    "retention_days": 30
+  },
+  "provenance": "actual_collected",
+  "test_only": false,
+  "http_attempts": 1,
+  "observations": 20,
+  "requests": [
+    {
+      "query": "스머프캣",
+      "source_search_url": "https://www.youtube.com/results?search_query=%EC%8A%A4%EB%A8%B8%ED%94%84%EC%BA%A3&hl=ko&gl=KR",
+      "started_at": "2026-09-14T23:16:26.217821+00:00",
+      "status": "succeeded",
+      "received_at": "2026-09-14T23:16:27.140597+00:00",
+      "raw_file": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_smurf_20260915_v01\\81f7db30edb54b2495fad8031c1c99ac\\raw\\query_01.html",
+      "raw_sha256": "915447b56c9358ada3f4340177caca84455dcd83a141028c91d1c379e8e416a4",
+      "raw_bytes": 1162788,
+      "retention_due_at": "2026-10-14T23:16:27.140597+00:00",
+      "parse": {
+        "renderer_cards_examined": 20,
+        "returned_observations": 20,
+        "exclusions": [],
+        "coverage": "initial_page_bounded",
+        "pagination_attempted": false,
+        "ranking_personalization": "unknown_public_unauthenticated_response"
+      }
+    }
+  ],
+  "issues": [],
+  "paid_api_calls": 0,
+  "model_calls": 0,
+  "human_review_minutes": 0,
+  "verified_meme_count": null,
+  "unseeded_discovery": false,
+  "discovery_evaluation_eligible": false,
+  "temporal_eligible_observations": 0,
+  "history_reconstruction": false,
+  "input_snapshots": [
+    {
+      "id": "discovery_manifest",
+      "sha256": "802896d223056b62f4eff325f5f2c33b745729ec48c8e6a8c566bacebe907571"
+    },
+    {
+      "id": "discovery_observations",
+      "sha256": "1944e290b7b991118e0d2a83162814a8acbada964270bfccb011f586bac598f4"
+    }
+  ],
+  "limitations": [
+    "Search query expansion is not independent discovery or population coverage.",
+    "Result cards lack verified exact publication timestamps; feed/API resolution is needed before temporal analysis.",
+    "Only public initial HTML is inspected; no continuation, video playback, captions, comments or authentication.",
+    "Repeated names, topics, series labels and phrases are not proof of independent meme use.",
+    "The local retention review deadline does not grant a data reuse licence."
+  ],
+  "artifacts": [
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_smurf_20260915_v01\\81f7db30edb54b2495fad8031c1c99ac\\observations.jsonl",
+      "sha256": "95ab259d6b3ec7feeb0f2c635a26a65d67f20e6f766aa61c31173b1436f12a19",
+      "bytes": 49047
+    },
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_smurf_20260915_v01\\81f7db30edb54b2495fad8031c1c99ac\\raw\\query_01.html",
+      "sha256": "915447b56c9358ada3f4340177caca84455dcd83a141028c91d1c379e8e416a4",
+      "bytes": 1162788
+    }
+  ]
+}

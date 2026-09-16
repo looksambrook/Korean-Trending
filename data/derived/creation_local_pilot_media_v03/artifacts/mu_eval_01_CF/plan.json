@@ -1,0 +1,22 @@
+{
+  "schema_version": "creation-plan-v1",
+  "plan_id": "mu_eval_01_CF",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "model_run_id": "a09dceb9872646c18941c24f7be250d4",
+  "text": "무야호! 1달 만에 연습한 자전거는 처음으로 성공했다. 오늘은 이렇게 편하게 떠나고도 좋았다.",
+  "visual": {
+    "style": "caption_card",
+    "width": 960,
+    "height": 540,
+    "background_color": "#142032",
+    "foreground_color": "#FFFFFF",
+    "caption": "무야호! 1달 만에 연습한 자전거는 처음으로 성공했다. 오늘은 이렇게 편하게 떠나고도 좋았다.",
+    "font_size": 52
+  },
+  "video": {
+    "fps": 12,
+    "duration_seconds": 3,
+    "frame_count": 36
+  }
+}

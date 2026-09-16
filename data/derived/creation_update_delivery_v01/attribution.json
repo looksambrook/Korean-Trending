@@ -1,0 +1,17 @@
+{
+  "audio": [
+    {
+      "author": "Kevin MacLeod (incompetech.com)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_~_Monkeys_Spinning_Monkeys.ogg",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "bfa597083ad0c3bb1aa50f999adefd221622a062b17928952f0a8e3aa10b4287",
+      "provenance": "actual_collected",
+      "changes": "원본에서 디코딩한 16 kHz 모노 WAV의 앞 3초를 잘라 AAC로 인코딩하고 해당 요청의 모든 조건 영상에 같은 음원으로 결합했습니다.",
+      "native_audio_model_input": false,
+      "music_generated": false
+    }
+  ],
+  "original_artifact_source": "data/derived/creation_incremental_media_v01/render_summary.json",
+  "original_artifacts_preserved": true
+}

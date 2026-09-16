@@ -1,0 +1,55 @@
+{
+  "status": "retrieval_completed_not_meme_validation",
+  "method": "D0",
+  "input_observations": 45,
+  "eligible_observations": 45,
+  "excluded_observations": 0,
+  "exclusion_reasons": {},
+  "eligible_source_documents": 45,
+  "eligible_source_videos": 45,
+  "eligible_channels": 3,
+  "eligible_by_modality": {
+    "video_metadata": 45
+  },
+  "eligible_by_provenance": {
+    "actual_collected": 45
+  },
+  "candidate_count": 100,
+  "candidate_count_before_output_limit": 166,
+  "phrase_nodes_before_limit": 1582,
+  "phrase_nodes_retained": 1582,
+  "variant_pairs_compared": 0,
+  "variant_pair_limit_reached": false,
+  "ranking_dimensions_descending": [
+    "source_document_frequency",
+    "source_video_count"
+  ],
+  "cutoff": "2026-09-14T18:20:52.811337+00:00",
+  "generated_at": "2026-09-14T18:21:02.545759+00:00",
+  "growth_used_for_ranking": false,
+  "baseline_end": null,
+  "sample_window_source_denominators": {},
+  "verified_meme_count": null,
+  "independent_gold_count": 0,
+  "recall": null,
+  "precision": null,
+  "false_candidate_count": null,
+  "missed_meme_count": null,
+  "family_link_error_count": null,
+  "independent_use_validation": "not_performed",
+  "context_semantic_validation": "not_performed",
+  "understanding_model_calls": 0,
+  "paid_api_calls": 0,
+  "human_review_minutes": 0,
+  "limitations": [
+    "Text only; no video, audio, visual or intonation understanding.",
+    "General phrases, series names, advertisements and copied text can become candidates.",
+    "Distinct sources and surface variants do not establish independent meme use.",
+    "False positives, missed memes and incorrect family links require independent gold annotation.",
+    "D1 surface links are a retrieval prototype; contextual/independent-use verification remains incomplete.",
+    "Sampling representativeness and known-name contamination depend on the supplied collection.",
+    "Finite ngrams and disclosed resource limits can miss expressions and variants."
+  ],
+  "run_id": "cd6ff63d001945dc9161fa33b3bb0f22",
+  "input_sha256": "ee3df40a35a7598a41c55432411b4c07c90477ab6e688d36f43c8072acac5738"
+}

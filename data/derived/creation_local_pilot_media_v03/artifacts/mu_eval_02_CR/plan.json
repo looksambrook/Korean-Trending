@@ -1,0 +1,22 @@
+{
+  "schema_version": "creation-plan-v1",
+  "plan_id": "mu_eval_02_CR",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "model_run_id": "a09dceb9872646c18941c24f7be250d4",
+  "text": "**작업 시작**\n\n먼저, \"무야호\"라는 이름의 인터넷 밈을 찾아보겠습니다.\n\n**결과**\n무야호는 대한민국에서 유행하기 시작한 인터넷 밈입니다. MBC 무한도전의 2010년",
+  "visual": {
+    "style": "caption_card",
+    "width": 960,
+    "height": 540,
+    "background_color": "#142032",
+    "foreground_color": "#FFFFFF",
+    "caption": "**작업 시작**\n\n먼저, \"무야호\"라는 이름의 인터넷 밈을 찾아보겠습니다.\n\n**결과**\n무야호는 대한민국에서 유행하기 시작한 인터넷 밈입니다. MBC 무한도전의 2010년",
+    "font_size": 52
+  },
+  "video": {
+    "fps": 12,
+    "duration_seconds": 3,
+    "frame_count": 36
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "run_id": "467cee14b97e478c96f74826b46f0e6c",
+  "execution_started_at": "2026-09-15T05:38:54.805601+00:00",
+  "execution_finished_at": "2026-09-15T05:38:56.125057+00:00",
+  "recorded_at": "2026-09-15T05:38:56.125082+00:00",
+  "command": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_creation_artifact_renderer.py",
+    "-v"
+  ],
+  "stdout": "",
+  "stderr": "test_real_text_png_mp4_and_wav_decode_with_unchanged_sources (test_creation_artifact_renderer.CreationArtifactRendererTests.test_real_text_png_mp4_and_wav_decode_with_unchanged_sources) ... ok\ntest_unsupported_plan_is_classified_and_existing_outputs_are_preserved (test_creation_artifact_renderer.CreationArtifactRendererTests.test_unsupported_plan_is_classified_and_existing_outputs_are_preserved) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.411s\n\nOK\n",
+  "exit_code": 0,
+  "file_sha256": {
+    "src/creation_artifact_renderer.py": "9f4a5b9a39715411f9dd46cf0bfa62703c4dbb6b885903dc94bd626b3c38336f",
+    "tests/test_creation_artifact_renderer.py": "36e8486e992b0156a97fddbdef488168c41b3104458fcfa5ad18b7e66cecc747"
+  },
+  "fixture_provenance": "ai_synthetic",
+  "actual_meme_data_used": false,
+  "model_generation_run_performed": false,
+  "model_training_performed": false,
+  "external_generation_api_calls": 0
+}

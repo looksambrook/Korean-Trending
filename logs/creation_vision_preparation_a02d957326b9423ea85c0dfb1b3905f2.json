@@ -1,0 +1,52 @@
+{
+  "run_id": "a02d957326b9423ea85c0dfb1b3905f2",
+  "model_revision": "7e3e67edbbed1bf9888184d9df282b700a323964",
+  "sources": [
+    {
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/commit/7e3e67edbbed1bf9888184d9df282b700a323964",
+      "read_scope": "commit identity"
+    },
+    {
+      "url": "https://pypi.org/project/transformers/4.49.0/",
+      "read_scope": "wheel metadata and SHA256; py3-none-any"
+    },
+    {
+      "url": "https://pypi.org/project/tokenizers/0.21.0/",
+      "read_scope": "Windows x86-64 cp39-abi3 wheel metadata and SHA256; CPython3.9+"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/huggingface/transformers/v4.49.0/src/transformers/dependency_versions_table.py",
+      "read_scope": "runtime requirements"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/huggingface/transformers/v4.49.0/src/transformers/models/idefics3/modeling_idefics3.py",
+      "read_scope": "native pixel path and vision/text module structure"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/huggingface/transformers/v4.49.0/src/transformers/models/idefics3/processing_idefics3.py",
+      "read_scope": "image sequence expansion and kwargs"
+    }
+  ],
+  "observed_failures": [
+    {
+      "operation": "web tool HF API metadata",
+      "outcome": "safe-open rejected; revision obtained from official commit page instead"
+    },
+    {
+      "operation": "sandbox urllib PyPI metadata",
+      "outcome": "WinError10013; public metadata verified via web tool instead"
+    },
+    {
+      "operation": "sandbox read of pip-installed isolated dependency files",
+      "outcome": "PermissionError; elevated read succeeds; source read only, model not loaded"
+    }
+  ],
+  "acquisition_run_id": "14fc850323e84f4da504613a04fadd0b",
+  "implementation": {
+    "file": "src/creation_vision_backend.py",
+    "sha256": "bc0a4392f1d31f591b047de831bf11eb28f45f13d57c40fb4c7521c9e611b79a",
+    "inputs": "actual image pixel_values + text; selected video frames only; audio unsupported",
+    "lora": "frozen vision+connector; trainable language q/v rank decomposition",
+    "validation": "syntax parsed; no model load or execution yet; root will schedule after other model releases memory"
+  }
+}

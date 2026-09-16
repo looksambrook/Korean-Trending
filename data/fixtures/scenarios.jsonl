@@ -1,0 +1,2 @@
+{"scenario_id": "fx_sq", "family_id": "fx_quote", "situation": "긴 모임을 마쳤다는 소감을 짧게 적고 싶다.", "split": "dev", "provenance": "ai_synthetic", "locked": false}
+{"scenario_id": "fx_sd", "family_id": "fx_dialogue", "situation": "쉬는 날 동료와 주고받을 짧은 인사를 쓰고 싶다.", "split": "dev", "provenance": "ai_synthetic", "locked": false}

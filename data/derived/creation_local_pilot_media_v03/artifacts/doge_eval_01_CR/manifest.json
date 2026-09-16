@@ -1,0 +1,80 @@
+{
+  "schema_version": "creation-artifacts-v1",
+  "created_at": "2026-09-15T05:51:48.325187+00:00",
+  "status": "succeeded",
+  "renderer": "fixed_local_compositor_v1",
+  "artifacts": {
+    "text": {
+      "path": "body.txt",
+      "sha256": "84279ed9b1de6762aaee783e99c0c000ddf7cc8f3640386f30989d50aca5c085",
+      "mime": "text/plain; charset=utf-8",
+      "verified": true
+    },
+    "image": {
+      "path": "image.png",
+      "sha256": "f40b086e288236cc9ad15c53d48df535ad6bdd9dcaf7eb3931191370a1660de7",
+      "mime": "image/png",
+      "verified": true,
+      "decoded_size": [
+        960,
+        540
+      ],
+      "layout": {
+        "font_size": 52,
+        "line_count": 2,
+        "font_path": "C:\\Windows\\Fonts\\malgun.ttf",
+        "font_sha256": "7a183cf1c6c56b9609fcc16eda8b5229fbc11758a21e669ec00343239b02192f"
+      }
+    },
+    "video": {
+      "path": "video.mp4",
+      "sha256": "7d4690bed5307231ad12c92b56046bebfa3cd1c3d11c59a3836718c330e98474",
+      "mime": "video/mp4",
+      "verified": true,
+      "codec_requested": "mp4v",
+      "writer_backend": "FFMPEG",
+      "decoded_frames": 36,
+      "decoded_fps": 12.0,
+      "decoded_duration_seconds": 3.0,
+      "decoded_size": [
+        960,
+        540
+      ],
+      "maximum_frame_mean_absolute_pixel_error": 2.2795267489711932,
+      "motion_style": "static_card",
+      "audio_muxed": false
+    }
+  },
+  "source_assets": [
+    {
+      "kind": "source_image",
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_original.jpg",
+      "sha256": "d70b4c272582f6b36b571f57e333d78c779cb3c5ba184b675949736a428dad26",
+      "decoded_size": [
+        2175,
+        2563
+      ]
+    }
+  ],
+  "renderer_versions": {
+    "Pillow": "11.2.1",
+    "OpenCV": "4.13.0",
+    "NumPy": "2.2.6"
+  },
+  "external_generation_api_calls": 0,
+  "model_weights_trained_by_renderer": false,
+  "supported_styles": [
+    "caption_card",
+    "image_caption"
+  ],
+  "audio_mux_supported": false,
+  "scope": "UTF-8 body, composed card image, silent static-card video, optional byte-preserved PCM WAV; not general animation or native generative media synthesis",
+  "plan_id": "doge_eval_01_CR",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "declared_model_run_id": "a09dceb9872646c18941c24f7be250d4",
+  "model_run_verified_by_renderer": false,
+  "original_plan_sha256": "5ac4b595347beaac826d9e60625f4bcdc309c012796b0c621ab6d16d3cd9f7d1",
+  "error": null,
+  "finished_at": "2026-09-15T05:51:49.641359+00:00"
+}

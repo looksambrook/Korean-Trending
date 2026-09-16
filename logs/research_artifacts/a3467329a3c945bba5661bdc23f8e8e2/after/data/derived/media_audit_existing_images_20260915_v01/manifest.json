@@ -1,0 +1,164 @@
+{
+  "schema_version": "multimodal-media-audit-v1",
+  "run_id": "919155a8770243e08d5c1d833f63d53b",
+  "started_at": "2026-09-15T05:07:27.329069+00:00",
+  "status": "completed",
+  "input_sha256": "7e1cfd5d11f55a399074498977759df3e8f88305a20be8f9b58457be9f7a43d0",
+  "test_only": false,
+  "limits": {
+    "max_assets": 20,
+    "max_file_bytes": 33554432,
+    "max_total_bytes": 134217728,
+    "max_manifest_bytes": 4194304,
+    "timeout_seconds": 15,
+    "max_pixels": 12000000,
+    "max_image_frames": 12,
+    "max_audio_seconds": 30,
+    "max_decoded_audio_bytes": 67108864,
+    "max_video_frames": 12,
+    "video_mode": "sample_frames"
+  },
+  "decoders": {
+    "python": "3.13.3",
+    "wave": {
+      "available": true,
+      "scope": "PCM WAV via Python stdlib"
+    },
+    "PIL": {
+      "available": true,
+      "version": "11.2.1",
+      "adapter_implemented": true
+    },
+    "cv2": {
+      "available": true,
+      "version": "4.13.0.92",
+      "adapter_implemented": true
+    },
+    "av": {
+      "available": false,
+      "version": null,
+      "adapter_implemented": false
+    },
+    "soundfile": {
+      "available": false,
+      "version": null,
+      "adapter_implemented": false
+    },
+    "imageio_ffmpeg": {
+      "available": false,
+      "version": null,
+      "adapter_implemented": false
+    },
+    "ffmpeg": {
+      "path": null,
+      "adapter_implemented": false
+    },
+    "ffprobe": {
+      "path": null,
+      "adapter_implemented": false
+    }
+  },
+  "results": [
+    {
+      "asset_id": "existing_local_viEJSCPHnFg",
+      "input_line": 1,
+      "declared_modality": "image",
+      "declared_provenance": null,
+      "expected_sha256": "f8b0681329627e2f02745b611ec365ffd6ddcd3b6cb6ebaa565e325c51763907",
+      "checked_at": "2026-09-15T05:07:27.331398+00:00",
+      "resolved_local_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_thumbnails_20260915_v01\\a9e24976a77e4a4cadb903ab0678872f\\viEJSCPHnFg.jpg",
+      "file_bytes": 47619,
+      "measured_sha256": "f8b0681329627e2f02745b611ec365ffd6ddcd3b6cb6ebaa565e325c51763907",
+      "status": "decoded_full",
+      "decoder": "Pillow",
+      "decoder_version": "11.2.1",
+      "format_detected": "JPEG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGB",
+      "frame_count_declared": 1,
+      "decoded_frame_indices": [
+        0
+      ],
+      "coverage": "all_image_frames",
+      "decode_wall_seconds": 0.118827,
+      "decode_cpu_seconds": 0.09375,
+      "process_wall_seconds": 0.453718,
+      "decoder_stderr_bytes": 0,
+      "post_read_sha256": "f8b0681329627e2f02745b611ec365ffd6ddcd3b6cb6ebaa565e325c51763907",
+      "source_bytes_unchanged": true
+    },
+    {
+      "asset_id": "existing_local_dY_aF0dHn8U",
+      "input_line": 2,
+      "declared_modality": "image",
+      "declared_provenance": null,
+      "expected_sha256": "93a6c1612da014ff356447db58b743674bf8f395a4c74511d516a5dd7c7e2d17",
+      "checked_at": "2026-09-15T05:07:27.791037+00:00",
+      "resolved_local_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_thumbnails_20260915_v01\\a9e24976a77e4a4cadb903ab0678872f\\dY_aF0dHn8U.jpg",
+      "file_bytes": 36785,
+      "measured_sha256": "93a6c1612da014ff356447db58b743674bf8f395a4c74511d516a5dd7c7e2d17",
+      "status": "decoded_full",
+      "decoder": "Pillow",
+      "decoder_version": "11.2.1",
+      "format_detected": "JPEG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGB",
+      "frame_count_declared": 1,
+      "decoded_frame_indices": [
+        0
+      ],
+      "coverage": "all_image_frames",
+      "decode_wall_seconds": 0.119676,
+      "decode_cpu_seconds": 0.109375,
+      "process_wall_seconds": 0.459206,
+      "decoder_stderr_bytes": 0,
+      "post_read_sha256": "93a6c1612da014ff356447db58b743674bf8f395a4c74511d516a5dd7c7e2d17",
+      "source_bytes_unchanged": true
+    },
+    {
+      "asset_id": "existing_local_tjJJhCrUuCE",
+      "input_line": 3,
+      "declared_modality": "image",
+      "declared_provenance": null,
+      "expected_sha256": "9a5cc87980a0cb3d63257a104180966e3195a26c1325ff647aff315d7685df9c",
+      "checked_at": "2026-09-15T05:07:28.254576+00:00",
+      "resolved_local_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_thumbnails_20260915_v01\\a9e24976a77e4a4cadb903ab0678872f\\tjJJhCrUuCE.jpg",
+      "file_bytes": 30579,
+      "measured_sha256": "9a5cc87980a0cb3d63257a104180966e3195a26c1325ff647aff315d7685df9c",
+      "status": "decoded_full",
+      "decoder": "Pillow",
+      "decoder_version": "11.2.1",
+      "format_detected": "JPEG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGB",
+      "frame_count_declared": 1,
+      "decoded_frame_indices": [
+        0
+      ],
+      "coverage": "all_image_frames",
+      "decode_wall_seconds": 0.120536,
+      "decode_cpu_seconds": 0.109375,
+      "process_wall_seconds": 0.444651,
+      "decoder_stderr_bytes": 0,
+      "post_read_sha256": "9a5cc87980a0cb3d63257a104180966e3195a26c1325ff647aff315d7685df9c",
+      "source_bytes_unchanged": true
+    }
+  ],
+  "issues": [],
+  "total_audited_file_bytes": 114983,
+  "source_content_modified": false,
+  "source_provenance_verified": false,
+  "model_calls": 0,
+  "network_requests": 0,
+  "human_review_minutes": 0,
+  "local_compute_cost": null,
+  "claim_scope": "existing_local_file_readability_only_not_meme_understanding_generation_or_training",
+  "planned_assets": 3,
+  "readability_verified_assets": 3,
+  "unavailable_or_failed_or_limited_assets": 0,
+  "finished_at": "2026-09-15T05:07:28.703058+00:00",
+  "wall_seconds": 1.373918
+}

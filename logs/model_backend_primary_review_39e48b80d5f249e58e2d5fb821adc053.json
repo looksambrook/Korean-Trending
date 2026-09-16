@@ -1,0 +1,52 @@
+{
+  "run_id": "39e48b80d5f249e58e2d5fb821adc053",
+  "reviewed_at": "2026-09-15",
+  "sources": [
+    {
+      "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct",
+      "read_scope": "model card introduction, requirements, quickstart; Korean included in multilingual list; text only"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct/tree/main",
+      "read_scope": "file inventory; model.safetensors 988 MB displayed"
+    },
+    {
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct",
+      "read_scope": "summary, technical summary, usage and fine-tuning link; image+text to text; English; no image generation"
+    },
+    {
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/blob/main/config.json",
+      "read_scope": "idefics3 architecture and transformer version metadata"
+    },
+    {
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/tree/main",
+      "read_scope": "file inventory; model.safetensors 513 MB displayed"
+    },
+    {
+      "url": "https://huggingface.co/docs/transformers/v4.45.2/en/model_doc/qwen2",
+      "read_scope": "Qwen2 model documentation overview"
+    },
+    {
+      "url": "https://huggingface.co/gogamza/kobart-summarization",
+      "read_scope": "model card native Korean news summarization and usage; fallback investigated but not selected"
+    },
+    {
+      "url": "https://arxiv.org/abs/2106.09685",
+      "read_scope": "abstract only; frozen base with trainable low rank matrices; full paper not read in this review"
+    }
+  ],
+  "local_inventory": {
+    "torch": "2.7.1+cu118",
+    "transformers": "4.45.2",
+    "accelerate": "1.8.1",
+    "peft": null,
+    "bitsandbytes": null,
+    "qwen2_implementation_present": true,
+    "idefics3_implementation_present": false
+  },
+  "decision": "Root selected Qwen2.5-0.5B-Instruct; root owns download. Backend is text-only development proxy, not main multimodal evidence. No inference or training executed by this review.",
+  "prepared_code": {
+    "backend": "3bca3907898783cfbdbaa1da1474283734550a52f59917c0a40dcc37c6364216",
+    "runner": "3c865dbe601994b6674e0f8329326279454633b99de55c2957da2e3e6be5f624"
+  }
+}

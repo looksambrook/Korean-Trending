@@ -1,0 +1,33 @@
+{
+  "objective": "Read official-linked YouTube chart rows in current tools",
+  "stage": "access_probe",
+  "parameters": {
+    "urls": [
+      "https://charts.youtube.com/charts/TrendingTrailers/US",
+      "https://charts.youtube.com/charts/TrendingVideos/us/weekly",
+      "https://www.youtube.com/gaming"
+    ],
+    "tools": [
+      "web",
+      "cua.getBrowser"
+    ],
+    "requested_region": "official_help_default_US",
+    "browser_connection": "unavailable",
+    "retrospective_registration": true,
+    "reviewed_on": "2026-09-15"
+  },
+  "data_snapshots": [
+    {
+      "id": "research_handoff_20260915",
+      "sha256": "230ac438f189dd231cb0ec07f19596dca4dfee16df1c953b08eae3010f4a9899"
+    }
+  ],
+  "code_hashes": {},
+  "prompt_hashes": {},
+  "config_hashes": {},
+  "modality": [
+    "text",
+    "metadata"
+  ],
+  "provenance": "not_applicable"
+}

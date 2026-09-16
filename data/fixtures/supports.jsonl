@@ -1,0 +1,2 @@
+{"support_id": "fx_q1", "family_id": "fx_quote", "text": "회의는 끝났고, 커피는 남았다.", "context": "AI가 만든 형식 점검 문장. 실제 유행어가 아님.", "source_id": "fixture_q", "source_group_id": "fixture_q", "provenance": "ai_synthetic", "verification_status": "synthetic"}
+{"support_id": "fx_d1", "family_id": "fx_dialogue", "text": "오늘의 주인공은? 쉬는 사람!", "context": "AI가 만든 짧은 대화형 형식 점검 문장. 실제 유행어가 아님.", "source_id": "fixture_d", "source_group_id": "fixture_d", "provenance": "ai_synthetic", "verification_status": "synthetic"}

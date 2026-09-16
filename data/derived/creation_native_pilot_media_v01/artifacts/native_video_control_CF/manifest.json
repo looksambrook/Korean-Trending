@@ -1,0 +1,70 @@
+{
+  "schema_version": "creation-artifacts-v1",
+  "created_at": "2026-09-15T05:56:27.224176+00:00",
+  "status": "succeeded",
+  "renderer": "fixed_local_compositor_v1",
+  "artifacts": {
+    "text": {
+      "path": "body.txt",
+      "sha256": "70eb6a74520894d9795e8e500429bcd298c01e991a198806f00beb19212531be",
+      "mime": "text/plain; charset=utf-8",
+      "verified": true
+    },
+    "image": {
+      "path": "image.png",
+      "sha256": "9bb4e714257c53faed9c8f4ae71ca1fdb419a67a4dba5f4ae3bc7ed9e48f16ab",
+      "mime": "image/png",
+      "verified": true,
+      "decoded_size": [
+        960,
+        540
+      ],
+      "layout": {
+        "font_size": 52,
+        "line_count": 5,
+        "font_path": "C:\\Windows\\Fonts\\malgun.ttf",
+        "font_sha256": "7a183cf1c6c56b9609fcc16eda8b5229fbc11758a21e669ec00343239b02192f"
+      }
+    },
+    "video": {
+      "path": "video.mp4",
+      "sha256": "d2155a801d7b17c9edbd0b37cc6db0b6bcede60c4ea09fa28f7cd7cf8ef41ed2",
+      "mime": "video/mp4",
+      "verified": true,
+      "codec_requested": "mp4v",
+      "writer_backend": "FFMPEG",
+      "decoded_frames": 36,
+      "decoded_fps": 12.0,
+      "decoded_duration_seconds": 3.0,
+      "decoded_size": [
+        960,
+        540
+      ],
+      "maximum_frame_mean_absolute_pixel_error": 2.5928227880658437,
+      "motion_style": "static_card",
+      "audio_muxed": false
+    }
+  },
+  "source_assets": [],
+  "renderer_versions": {
+    "Pillow": "11.2.1",
+    "OpenCV": "4.13.0",
+    "NumPy": "2.2.6"
+  },
+  "external_generation_api_calls": 0,
+  "model_weights_trained_by_renderer": false,
+  "supported_styles": [
+    "caption_card",
+    "image_caption"
+  ],
+  "audio_mux_supported": false,
+  "scope": "UTF-8 body, composed card image, silent static-card video, optional byte-preserved PCM WAV; not general animation or native generative media synthesis",
+  "plan_id": "native_video_control_CF",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "declared_model_run_id": "87512cdb28424b6ca77f756d71f972f2",
+  "model_run_verified_by_renderer": false,
+  "original_plan_sha256": "fbbd79dd6f49f06d036d6fe330a92fdd86c59a789a64c7e8215c4659fa854744",
+  "error": null,
+  "finished_at": "2026-09-15T05:56:28.354663+00:00"
+}

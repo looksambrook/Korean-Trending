@@ -1,0 +1,87 @@
+{
+  "version": "youtube-feasibility-proposal-v01",
+  "status": "proposal_not_authorized_execution",
+  "platforms": ["youtube"],
+  "expansion_target": "multiple_platforms_after_youtube_feasibility",
+  "access": {
+    "mode": "planning_only",
+    "api_project_verified": false,
+    "analysis_use_confirmed": false,
+    "retention_plan_confirmed": false,
+    "external_model_transfer_confirmed": false
+  },
+  "sampling": {
+    "channel_ids": [],
+    "channel_count_example": 6,
+    "max_videos_example": 30,
+    "observation_rounds_example": 3,
+    "playlist_pages_per_channel_per_round": 1,
+    "top_level_pages_per_video_per_round": 1,
+    "comment_page_size": 20,
+    "reply_pages_total_per_round": 10,
+    "reply_page_size": 20,
+    "chart_pages_per_round": 1,
+    "search_pages_per_round": 2,
+    "region_code": "KR",
+    "relevance_language": "ko",
+    "search_query": null,
+    "known_meme_seed_names": [],
+    "comment_order": "time",
+    "window_start": null,
+    "window_end": null,
+    "evaluation_cutoff": null,
+    "round_times": []
+  },
+  "quota_reference": {
+    "checked_on": "2026-09-15",
+    "search_queries_per_day_default": 100,
+    "other_units_per_day_default": 10000,
+    "read_endpoint_units": 1,
+    "actual_project_allocation": null,
+    "sources": [
+      "https://developers.google.com/youtube/v3/getting-started",
+      "https://developers.google.com/youtube/v3/determine_quota_cost",
+      "https://developers.google.com/youtube/v3/docs/search/list"
+    ]
+  },
+  "experiment": {
+    "discovery_conditions": {
+      "D0": "simple_phrase_frequency_and_growth",
+      "D1": "variant_structure_independent_use_and_context"
+    },
+    "understanding_conditions": {
+      "U0": "discovered_raw_examples_and_context",
+      "U1": "same_raw_examples_and_context_plus_automatic_structure"
+    },
+    "candidate_review_cap_per_discovery": 12,
+    "evaluation_questions_example": 24,
+    "generation_repeats_example": 1,
+    "no_support_diagnostic": true,
+    "manual_record_correction_in_main_conditions": false,
+    "common_model_version": null,
+    "fixed_gold_family_set": null,
+    "prompt_paths": [
+      "prompts/youtube_discovery_review_v01.txt",
+      "prompts/youtube_knowledge_v01.txt",
+      "prompts/youtube_understanding_v01.txt"
+    ]
+  },
+  "cost_assumptions": {
+    "candidate_review_input_tokens": 2000,
+    "candidate_review_output_tokens": 400,
+    "structure_input_tokens": 3000,
+    "structure_output_tokens": 800,
+    "understanding_input_tokens": 4000,
+    "understanding_output_tokens": 500,
+    "no_support_input_tokens": 1000,
+    "no_support_output_tokens": 500,
+    "input_usd_per_million_tokens": null,
+    "output_usd_per_million_tokens": null,
+    "embedding_usd": null,
+    "ocr_asr_usd": null,
+    "human_hourly_cost": null,
+    "human_review_minutes_per_document_example": 1,
+    "independent_annotators_example": 2,
+    "budget_usd": null
+  }
+}

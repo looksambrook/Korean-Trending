@@ -1,0 +1,58 @@
+{
+  "record_kind": "user_scope_clarification_not_experiment",
+  "run_id": "b86a1a3e34d3409d98d6eac86e35daa9",
+  "date": "2026-09-15",
+  "record_author": "ai_assistant",
+  "user_answers_verbatim": {
+    "final_outputs": "영상·이미지·글 등 여러 결과물",
+    "dataset_readiness": "자료 준비 필요",
+    "compute_and_budget": "미정"
+  },
+  "confirmed_output_media": ["video", "image", "text"],
+  "retained_input_modalities": ["text", "image", "audio", "video"],
+  "dataset_preparation_status": "needed",
+  "compute_environment": null,
+  "computation_spending_cap": null,
+  "output_detail_specifications": null,
+  "model_selection": null,
+  "standalone_audio_output": null,
+  "prior_output_media_question_resolved": true,
+  "prior_request_for_existing_user_dataset_path_resolved_as_not_ready": true,
+  "old_dependency_audit_reused_as_current": false,
+  "comparison_inference_calls_in_this_work": 0,
+  "comparison_training_runs_in_this_work": 0,
+  "independent_human_evaluations_in_this_work": 0,
+  "paid_actions_in_this_work": 0,
+  "goal_completed": false,
+  "local_material_reuse_review": {
+    "scope": "Read-only review of existing workspace data, collection manifests and selected metadata; no new collection or media decoding",
+    "inventory_extensions": [".jpg", ".jpeg", ".png", ".webp", ".gif", ".mp4", ".mkv", ".mov", ".webm", ".avi", ".wav", ".mp3", ".flac", ".m4a", ".aac", ".ogg", ".opus"],
+    "existing_collected_jpeg_thumbnails": 3,
+    "literature_page_pngs_excluded_from_meme_corpus": 16,
+    "audio_or_video_files_found_under_data_for_listed_extensions": 0,
+    "thumbnail_manifest": "data/collected/youtube_meme_thumbnails_20260915_v01/a9e24976a77e4a4cadb903ab0678872f/manifest.json",
+    "thumbnail_reuse_status": "source leads and technical checks only; training and creation uses unverified",
+    "explicit_restriction_example": {
+      "source_id": "RP0MS9BBRwk",
+      "local_evidence": "data/meme_finder/c73daaa572d840fd935d89b42877382a/expansion_metadata_3/95c555cb79ba4e3396e2031a0e16e1da/observations.jsonl",
+      "field": "description",
+      "observed_text": "무단 전재, 재배포 및  AI학습 이용 금지",
+      "study_selection": "not_selected_for_shared_RAG_FT_adaptation_pool",
+      "scope_limit": "Observed restriction in stored source description, not a blanket legal finding about other assets"
+    },
+    "canonical_study_corpus_ready": false,
+    "independent_gold_ready": false,
+    "synthetic_fixtures_count_as_real_meme_data": false,
+    "next_data_preparation": [
+      "Confirm source, acquisition path, available media and permitted study uses for candidate materials before constructing the shared adaptation pool",
+      "Acquire actual audio and video content where permitted; keep metadata and selected-frame proxies separately labelled",
+      "Preserve timestamps, source groups and derivation links; prepare independent evaluation references separately from authored or AI-generated adaptation examples"
+    ]
+  },
+  "scope_notes": [
+    "비교할 방식은 문맥/RAG와 실제 파인튜닝이며 모델과 제작기의 구성은 아직 선택하지 않았다.",
+    "자료 준비 필요라는 답은 실제 자료·독립 정답·학습용 사용 범위가 확보됐다는 뜻이 아니다.",
+    "미정 예산을 0원 총예산 또는 무제한 유료 실행 허용으로 해석하지 않는다.",
+    "기존 자료·실패 로그와 변경 전 문서·설정을 보존한다."
+  ]
+}

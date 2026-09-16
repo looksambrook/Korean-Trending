@@ -1,0 +1,62 @@
+{
+  "attempted_at": "2026-09-15T05:57:47.005191+00:00",
+  "spec": {
+    "objective": "Verify one public independently human-annotated meme reference dataset and acquire at most 5 MB of actual annotation artifacts under stated research-use terms",
+    "stage": "access_probe",
+    "parameters": {
+      "candidate": "MemeCap_or_comparable_one_dataset",
+      "search_minutes_cap": 5,
+      "total_download_bytes_cap": 5000000,
+      "purpose": "external_human_caption_or_understanding_references_not_creation_quality_gold",
+      "new_human_recruitment": false,
+      "model_execution": false,
+      "paid_cost_cap_usd": 0,
+      "code_and_data_licences_separate": true
+    },
+    "data_snapshots": [],
+    "code_hashes": {
+      "research_log.py": "27f212b06b72571cf06e276963dffeb942d1b6b2595e37a3a0c763ba8c82a330"
+    },
+    "prompt_hashes": {},
+    "config_hashes": {},
+    "modality": [
+      "text"
+    ],
+    "provenance": "actual_collected"
+  },
+  "registration": {
+    "run_id": "703814ca7d6b46dd8b000d50aae54517",
+    "fingerprint": "61ad816254ce5de9ef1be53485b35a9db7b89e1156a687135c4f5b9f398d90db",
+    "status": "started",
+    "started_at": "2026-09-15T05:57:47.013865+00:00",
+    "finished_at": null,
+    "retry_of": null,
+    "retry_reason": null,
+    "spec": {
+      "code_hashes": {
+        "research_log.py": "27f212b06b72571cf06e276963dffeb942d1b6b2595e37a3a0c763ba8c82a330"
+      },
+      "config_hashes": {},
+      "data_snapshots": [],
+      "modality": [
+        "text"
+      ],
+      "objective": "Verify one public independently human-annotated meme reference dataset and acquire at most 5 MB of actual annotation artifacts under stated research-use terms",
+      "parameters": {
+        "candidate": "MemeCap_or_comparable_one_dataset",
+        "code_and_data_licences_separate": true,
+        "model_execution": false,
+        "new_human_recruitment": false,
+        "paid_cost_cap_usd": 0,
+        "purpose": "external_human_caption_or_understanding_references_not_creation_quality_gold",
+        "search_minutes_cap": 5,
+        "total_download_bytes_cap": 5000000
+      },
+      "prompt_hashes": {},
+      "provenance": "actual_collected",
+      "stage": "access_probe"
+    },
+    "finish": null
+  },
+  "status": "registered"
+}

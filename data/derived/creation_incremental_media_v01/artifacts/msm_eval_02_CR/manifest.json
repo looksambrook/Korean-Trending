@@ -1,0 +1,70 @@
+{
+  "schema_version": "creation-artifacts-v1",
+  "created_at": "2026-09-15T06:01:53.185736+00:00",
+  "status": "succeeded",
+  "renderer": "fixed_local_compositor_v1",
+  "artifacts": {
+    "text": {
+      "path": "body.txt",
+      "sha256": "bee54595cd5ea60ae06ba1f22d5dc7f3764c418bd2462c2bfe86e79781906c1d",
+      "mime": "text/plain; charset=utf-8",
+      "verified": true
+    },
+    "image": {
+      "path": "image.png",
+      "sha256": "896bd689baf8c2e4b0b24ca7133f0abe51b3d5fc8c038dfa8aa2a089ea94f903",
+      "mime": "image/png",
+      "verified": true,
+      "decoded_size": [
+        960,
+        540
+      ],
+      "layout": {
+        "font_size": 45,
+        "line_count": 7,
+        "font_path": "C:\\Windows\\Fonts\\malgun.ttf",
+        "font_sha256": "7a183cf1c6c56b9609fcc16eda8b5229fbc11758a21e669ec00343239b02192f"
+      }
+    },
+    "video": {
+      "path": "video.mp4",
+      "sha256": "1812e5cf346b1cb090126676ed78c59f152281a644984b2b26e7e524007641ab",
+      "mime": "video/mp4",
+      "verified": true,
+      "codec_requested": "mp4v",
+      "writer_backend": "FFMPEG",
+      "decoded_frames": 36,
+      "decoded_fps": 12.0,
+      "decoded_duration_seconds": 3.0,
+      "decoded_size": [
+        960,
+        540
+      ],
+      "maximum_frame_mean_absolute_pixel_error": 2.18725887345679,
+      "motion_style": "static_card",
+      "audio_muxed": false
+    }
+  },
+  "source_assets": [],
+  "renderer_versions": {
+    "Pillow": "11.2.1",
+    "OpenCV": "4.13.0",
+    "NumPy": "2.2.6"
+  },
+  "external_generation_api_calls": 0,
+  "model_weights_trained_by_renderer": false,
+  "supported_styles": [
+    "caption_card",
+    "image_caption"
+  ],
+  "audio_mux_supported": false,
+  "scope": "UTF-8 body, composed card image, silent static-card video, optional byte-preserved PCM WAV; not general animation or native generative media synthesis",
+  "plan_id": "msm_eval_02_CR",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "declared_model_run_id": "7c2d5c379f704581ac21f26419c3e406",
+  "model_run_verified_by_renderer": false,
+  "original_plan_sha256": "47aa691d5542b8cff56a703d5e22617fb3a0de025ac63d9c1ab1c2a943fe43d7",
+  "error": null,
+  "finished_at": "2026-09-15T06:01:54.140967+00:00"
+}

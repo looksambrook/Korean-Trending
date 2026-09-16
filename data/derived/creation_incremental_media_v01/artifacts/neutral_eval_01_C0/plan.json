@@ -1,0 +1,22 @@
+{
+  "schema_version": "creation-plan-v1",
+  "plan_id": "neutral_eval_01_C0",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "model_run_id": "7c2d5c379f704581ac21f26419c3e406",
+  "text": "아파트 승강기 점검 시간: 금요일 오전 10시부터 11시까지",
+  "visual": {
+    "style": "caption_card",
+    "width": 960,
+    "height": 540,
+    "background_color": "#142032",
+    "foreground_color": "#FFFFFF",
+    "caption": "아파트 승강기 점검 시간: 금요일 오전 10시부터 11시까지",
+    "font_size": 52
+  },
+  "video": {
+    "fps": 12,
+    "duration_seconds": 3,
+    "frame_count": 36
+  }
+}

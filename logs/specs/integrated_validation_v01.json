@@ -1,0 +1,53 @@
+{
+  "objective": "Integrated offline regression after YouTube planning and deduplication log implementation",
+  "stage": "offline_validation",
+  "parameters": {
+    "command": "python -B -m unittest discover -s tests -v",
+    "network_scope": "fake providers and existing localhost-only UI tests; no external API",
+    "purpose": "software_integrity_not_meme_performance"
+  },
+  "data_snapshots": [
+    {
+      "id": "data\\fixtures\\families.jsonl",
+      "sha256": "054ece91d6b438eab382f4a7792547e0058a08c251df0f0503b3ccd57d815230"
+    },
+    {
+      "id": "data\\fixtures\\scenarios.jsonl",
+      "sha256": "51da62619dbba1d0f5c4bf97ca127d3ba3f3a2835f32b109e22fbcae0b60fbf0"
+    },
+    {
+      "id": "data\\fixtures\\supports.jsonl",
+      "sha256": "296f57c8f9b069bcf077662a81e18703c8a808d2d8354b3c4db789db91dd7558"
+    }
+  ],
+  "code_hashes": {
+    "src\\evaluation_app.py": "7c28c1f7e2e53712f710859f8f40193860f3520c9a71717b9d49fc9235a8fb47",
+    "src\\evaluation_store.py": "2bc301081b17287eba452ee8a5dbdb36c7ed46e55505bd3943ab5fad35e455c6",
+    "src\\execute_responses.py": "b95663ffa80a2ee6b1e80a285f1cc2024de40e754a85577233689b6616161fd6",
+    "src\\meme_pipeline.py": "bc6d7739e64cb6e93087ba833c532bb8b81b857773717ef8ecd01c850f58ed30",
+    "src\\research_log.py": "27f212b06b72571cf06e276963dffeb942d1b6b2595e37a3a0c763ba8c82a330",
+    "src\\run_smoke.py": "ab9f063ddfca5950dc000f144c824f995392c4a83f1cc940930edcf28c50189a",
+    "src\\youtube_pilot_plan.py": "454fda05cc7583316096a82e00514556bcfa77d96c340ff3a019e0b1f8d70a0e",
+    "tests\\test_evaluation_app.py": "852f4e48216b5a0d8cd22d71a3436c44748abd3306444df5d3d3d24e341977da",
+    "tests\\test_evaluation_store.py": "59f9abe8b8513918ecdcbc84c4b1f7bb53f1801ea0e9aa7ce949d6e89cf13365",
+    "tests\\test_execute_responses.py": "0a2c0ab6e1a79ae9234c57247be49df7c9a03701fbdb6cae55054725b5eaa2b9",
+    "tests\\test_pipeline.py": "8fe2d2c479df3e2a70337a06fae04b1a731709a03de00ee24abc997799959bf4",
+    "tests\\test_research_log.py": "aa69ea9c04c74d6efcc30436e4185f5b47e9d081631dd7e4624686e4044ecb7a",
+    "tests\\test_youtube_pilot_plan.py": "46834918952c2222959ba4daa2b1da9ec192f515b5efe567606543820927c14e"
+  },
+  "prompt_hashes": {
+    "prompts\\extract_v1.txt": "708c03033853909f10420a2722a32c49a1f710ccfb2c0b48dd1d77207eb041f4",
+    "prompts\\generate_v1.txt": "ddaf8689ade52848e88635dc00b71a16593470c7a42361a844e79e63af49115a",
+    "prompts\\youtube_discovery_review_v01.txt": "2bc0e1dd134ed75af9bc2c5fcd71ba985f9488e73f804f79d127e36c85ab3d60",
+    "prompts\\youtube_knowledge_v01.txt": "a0275f770a56398cf9237ae2a9f851fcfd12be71ea06eed1837b30774c00f505",
+    "prompts\\youtube_understanding_v01.txt": "5a480c2090f38a19c529e0ad91a48a5db90902a53c4230c459ded42140a28205"
+  },
+  "config_hashes": {
+    "configs\\smoke.json": "5ec59c82c049aba628784b2386248fbd27e665397b857198d25d5ad62029b9b5",
+    "configs\\youtube_pilot_v01.json": "32c88878b855c039f453b31afe97a520a33b9215ce9d2ee9916e1f360155aa43"
+  },
+  "modality": [
+    "text"
+  ],
+  "provenance": "ai_synthetic"
+}

@@ -1,0 +1,16 @@
+{
+  "image": {
+    "author": "Roberto Vasarri",
+    "subject": "Taiki, not Kabosu",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Shiba_inu_taiki.jpg",
+    "license_or_use_basis": "Public-domain dedication on creator source page",
+    "changes": "Resized and placed in a fixed panel with verbatim generated text"
+  },
+  "text_support": {
+    "source_manifest": "data/collected/multimodal_creation_pilot_sources_v01/manifest.json",
+    "authors": "Korean Wikipedia contributors",
+    "license": "CC-BY-SA-4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "generated_text_origin": "Qwen base or actual LoRA model outputs, not human gold"
+}

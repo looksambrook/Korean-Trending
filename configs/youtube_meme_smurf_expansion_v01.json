@@ -1,0 +1,16 @@
+{
+  "version": "youtube-public-search-v1",
+  "search_mode": "discovered_phrase_expansion",
+  "queries": [{"query": "스머프캣", "evidence_ids": ["youtube:watch:viEJSCPHnFg:ee96af3f5087e8e8df16028c"]}],
+  "selection_reason": "특정명 미지정 일반 검색에서 발견한 확대 밈 영상의 실제 제작자 설명에 스머프캣 및 Smurf Cat in big 26이라고 적혀 있어 추가 사용을 사후 검색한다. 기존 캐릭터의 존재와 2026년 확대 변형은 구분하여 보고하며 화면·음성을 보지 않고 동작이나 원본을 확정하지 않는다.",
+  "discovery_run_id": "e335655ae43d4f458edc5c1d8d845ac3",
+  "discovery_manifest": "data/collected/youtube_meme_topic_metadata_20260915_v01/e335655ae43d4f458edc5c1d8d845ac3/manifest.json",
+  "discovery_observations": "data/collected/youtube_meme_topic_metadata_20260915_v01/e335655ae43d4f458edc5c1d8d845ac3/observations.jsonl",
+  "discovery_method": "AI selection from publisher description resolved after generic topic search; no independent discovery evaluation",
+  "known_meme_seed_names": [],
+  "max_results_per_query": 20,
+  "max_results_total": 20,
+  "timeout_seconds": 15,
+  "max_response_bytes": 8000000,
+  "retention_days": 30
+}

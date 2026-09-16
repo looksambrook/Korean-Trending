@@ -1,0 +1,51 @@
+{
+  "objective": "YouTube API access fields quota and use constraints official review",
+  "stage": "desk_research",
+  "parameters": {
+    "source_urls": [
+      "https://developers.google.com/youtube/terms/api-services-terms-of-service",
+      "https://developers.google.com/youtube/terms/derived-metrics-policy",
+      "https://developers.google.com/youtube/terms/developer-policies",
+      "https://developers.google.com/youtube/terms/developer-policies-guide",
+      "https://developers.google.com/youtube/v3/determine_quota_cost",
+      "https://developers.google.com/youtube/v3/docs/captions/download",
+      "https://developers.google.com/youtube/v3/docs/captions/list",
+      "https://developers.google.com/youtube/v3/docs/channels",
+      "https://developers.google.com/youtube/v3/docs/channels/list",
+      "https://developers.google.com/youtube/v3/docs/commentThreads",
+      "https://developers.google.com/youtube/v3/docs/commentThreads/list",
+      "https://developers.google.com/youtube/v3/docs/comments",
+      "https://developers.google.com/youtube/v3/docs/comments/list",
+      "https://developers.google.com/youtube/v3/docs/playlistItems",
+      "https://developers.google.com/youtube/v3/docs/playlistItems/list",
+      "https://developers.google.com/youtube/v3/docs/search/list",
+      "https://developers.google.com/youtube/v3/docs/videos",
+      "https://developers.google.com/youtube/v3/docs/videos/list",
+      "https://developers.google.com/youtube/v3/getting-started",
+      "https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits",
+      "https://developers.google.com/youtube/v3/revision_history",
+      "https://research.youtube/",
+      "https://research.youtube/how-it-works/",
+      "https://research.youtube/policies/",
+      "https://support.google.com/youtube/answer/15424877?hl=en",
+      "https://support.google.com/youtube/answer/15930243?hl=en"
+    ],
+    "individual_developer": true,
+    "retrospective_registration": true,
+    "reviewed_on": "2026-09-15"
+  },
+  "data_snapshots": [
+    {
+      "id": "research_handoff_20260915",
+      "sha256": "230ac438f189dd231cb0ec07f19596dca4dfee16df1c953b08eae3010f4a9899"
+    }
+  ],
+  "code_hashes": {},
+  "prompt_hashes": {},
+  "config_hashes": {},
+  "modality": [
+    "text",
+    "metadata"
+  ],
+  "provenance": "not_applicable"
+}

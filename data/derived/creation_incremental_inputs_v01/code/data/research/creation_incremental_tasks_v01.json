@@ -1,0 +1,23 @@
+{
+  "author_origin":"ai_synthetic",
+  "purpose":"development_controlled_corpus_addition_not_observed_meme_trend_change",
+  "new_family_id":"monkeys_spinning_monkeys",
+  "new_family_label":"Monkeys Spinning Monkeys",
+  "new_source_context":"Monkeys Spinning Monkeys는 Kevin MacLeod의 기악곡이다. TikTok 공식 소개에서 코미디 영상에 재사용되는 음악으로 다룬다. 이번 입력은 음원을 직접 분석한 결과가 아니라 출처 설명과 제작 예시이다.",
+  "new_training_examples":[
+    {"example_id":"msm_train_01","brief":"강아지가 간식 봉지를 몰래 가져가다 들키는 짧은 장난 영상에 붙일 문구를 써 줘. 곡명 설명은 하지 마.","target":"완벽한 간식 작전. 단, 봉지 소리는 계산에 없었다."},
+    {"example_id":"msm_train_02","brief":"처음 만든 팬케이크를 뒤집다가 프라이팬 안에서 접어버린 코믹한 영상의 짧은 문구를 써 줘.","target":"팬케이크를 뒤집으랬더니 만두를 만들었다."},
+    {"example_id":"msm_train_03","brief":"고양이가 종이 상자에 들어가려다 엉덩이만 밖에 남은 장난스러운 영상의 문구를 써 줘.","target":"입주 심사 통과. 엉덩이는 별도 계약."},
+    {"example_id":"msm_train_04","brief":"친구에게 보여 주려고 카드 마술을 하다가 카드를 전부 떨어뜨린 영상의 문구를 써 줘.","target":"카드 한 장이 사라질 예정이었는데 전부 탈출했다."},
+    {"example_id":"msm_train_05","brief":"사고 현장 안내 영상의 문구를 써 줘. 코미디 음악이나 농담이 맞지 않는 상황이므로 차분하게 안내해 줘.","target":"안내에 따라 안전한 장소로 이동해 주세요. 통행을 방해하지 않도록 주변을 비워 주세요."},
+    {"example_id":"msm_source_context","brief":"이 곡에 대해 이번 연구에서 확인한 정보와 확인하지 않은 범위를 한 문장으로 설명해 줘.","target":"Kevin MacLeod의 기악곡이며 공식 플랫폼 소개에서 코미디 영상의 재사용 음원으로 다루지만, 이번 모델 입력은 음향 분석이 아닌 출처 설명이다."}
+  ],
+  "new_cases":[
+    {"case_id":"msm_eval_01","family_id":"monkeys_spinning_monkeys","brief":"문을 살짝 열고 몰래 나가려던 고양이가 문 옆 장난감을 건드려 소리를 낸다. 이 음원을 쓸 짧은 코믹 영상의 문구만 써 줘. 곡명 설명은 하지 마."},
+    {"case_id":"msm_eval_02","family_id":"monkeys_spinning_monkeys","brief":"도미노를 끝까지 세우기 직전에 소매로 첫 조각을 건드린다. 이 음원을 쓸 짧은 코믹 영상의 문구만 써 줘. 곡명 설명은 하지 마."}
+  ],
+  "retained_case_ids":["mu_eval_01","doge_eval_02","neutral_eval_01"],
+  "independent_gold":null,
+  "native_audio_understanding_test":false,
+  "all_scenarios_are_authored_not_real_collected_uses":true
+}

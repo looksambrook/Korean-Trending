@@ -1,0 +1,20 @@
+{
+  "schema_version":"native-image-creation-development-tasks-v1",
+  "author_origin":"ai_synthetic",
+  "training_examples":[
+    {"example_id":"native_doge_train_01","asset":"original","prompt":"Write only a short Doge-style caption for this dog receiving a bag of treats.","target":"wow. such snacks. much tasty. very happy."},
+    {"example_id":"native_doge_train_02","asset":"original","prompt":"Write only a short Doge-style caption for this dog relaxing under a blanket.","target":"wow. such blanket. much cozy. very nap."},
+    {"example_id":"native_doge_train_03","asset":"macro","prompt":"Use the meme style visible in this image, but write new words about getting a new toy. Output only the caption.","target":"wow. such toy. much play. very lucky."},
+    {"example_id":"native_doge_train_04","asset":"macro","prompt":"Use the meme style visible in this image, but write new words about a sunny walk. Output only the caption.","target":"wow. such sunshine. much walk. very outside."},
+    {"example_id":"native_doge_train_05","asset":"original","prompt":"Write a plain factual caption for this photograph. Do not use a meme or invent an event.","target":"A brown and white Shiba Inu dog faces the camera."},
+    {"example_id":"native_doge_train_06","asset":"macro","prompt":"Describe how the text is used in this meme image.","target":"Short phrases in different colors are placed over a Shiba Inu photograph. The phrases include wow, many readers, and such knowledge."}
+  ],
+  "cases":[
+    {"case_id":"native_doge_snow","family_id":"doge","asset":"original","brief":"Write only a short Doge-style caption imagining this dog seeing snow for the first time."},
+    {"case_id":"native_doge_cushion","family_id":"doge","asset":"macro","brief":"Use the meme style visible in this image, but write new words about enjoying a new cushion. Output only the caption."}
+  ],
+  "source_observation_notes":"Taiki original photo and same-photo meme derivative are one source lineage. These development requests are not independent test families.",
+  "independent_gold":null,
+  "human_reviewed":false,
+  "korean_creation_performance_measured":false
+}

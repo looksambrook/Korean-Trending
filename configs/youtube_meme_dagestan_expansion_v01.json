@@ -1,0 +1,16 @@
+{
+  "version": "youtube-public-search-v1",
+  "search_mode": "discovered_phrase_expansion",
+  "queries": [{"query": "다게스탄", "evidence_ids": ["youtube:search:4bISpDOBAcY:4c6976d2582b0241b5c97897"]}],
+  "selection_reason": "특정명 미지정 일반주제 검색에서 요즘 다게스탄 유학 보내는 이유라는 제목을 관측하여 밈식 인용 및 변형의 다른 사용 사례를 후속 검색한다. 독립 발견 평가는 제외하며 해설과 원문 인용 및 무관한 지리·뉴스 결과를 구분한다.",
+  "discovery_run_id": "abe84626bee744478fca2f6ee49d33c1",
+  "discovery_manifest": "data/collected/youtube_meme_topic_20260915_v01/abe84626bee744478fca2f6ee49d33c1/manifest.json",
+  "discovery_observations": "data/collected/youtube_meme_topic_20260915_v01/abe84626bee744478fca2f6ee49d33c1/observations.jsonl",
+  "discovery_method": "AI selection of quoted place-as-action candidate from generic topic query metadata; no independent discovery evaluation",
+  "known_meme_seed_names": [],
+  "max_results_per_query": 20,
+  "max_results_total": 20,
+  "timeout_seconds": 15,
+  "max_response_bytes": 8000000,
+  "retention_days": 30
+}

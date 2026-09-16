@@ -1,0 +1,22 @@
+{
+  "schema_version": "creation-plan-v1",
+  "plan_id": "mu_eval_02_C0",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "model_run_id": "a09dceb9872646c18941c24f7be250d4",
+  "text": "그런 날씨에도 불구하고, 우리는 오늘의 주말 소풍을 즐기고 싶었다. 그날은 햇살이 잘 내리쬐는 여름 날씨였다. 우리 모두의 손길을 통해 이곳에서 즐거운 시간을 보내려고",
+  "visual": {
+    "style": "caption_card",
+    "width": 960,
+    "height": 540,
+    "background_color": "#142032",
+    "foreground_color": "#FFFFFF",
+    "caption": "그런 날씨에도 불구하고, 우리는 오늘의 주말 소풍을 즐기고 싶었다. 그날은 햇살이 잘 내리쬐는 여름 날씨였다. 우리 모두의 손길을 통해 이곳에서 즐거운 시간을 보내려고",
+    "font_size": 52
+  },
+  "video": {
+    "fps": 12,
+    "duration_seconds": 3,
+    "frame_count": 36
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "creation-plan-v1",
+  "plan_id": "doge_eval_01_C0",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "model_run_id": "a09dceb9872646c18941c24f7be250d4",
+  "text": "Doge님, 당신의 눈에는 새벽의 향기와 함께 빛나는 시 바견이 있습니다. 그는 당신의 마음을 끌어올리며, 당신의 삶을 더욱 행복하게 만들게 합니다. 이제 당신의 눈에 이 시 바",
+  "visual": {
+    "style": "image_caption",
+    "width": 960,
+    "height": 540,
+    "background_color": "#142032",
+    "foreground_color": "#FFFFFF",
+    "caption": "Doge님, 당신의 눈에는 새벽의 향기와 함께 빛나는 시 바견이 있습니다. 그는 당신의 마음을 끌어올리며, 당신의 삶을 더욱 행복하게 만들게 합니다. 이제 당신의 눈에 이 시 바",
+    "font_size": 52
+  },
+  "video": {
+    "fps": 12,
+    "duration_seconds": 3,
+    "frame_count": 36
+  },
+  "source_image_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_original.jpg"
+}

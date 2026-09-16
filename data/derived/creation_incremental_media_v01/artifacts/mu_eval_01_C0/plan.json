@@ -1,0 +1,22 @@
+{
+  "schema_version": "creation-plan-v1",
+  "plan_id": "mu_eval_01_C0",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "model_run_id": "7c2d5c379f704581ac21f26419c3e406",
+  "text": "무야호님께, 몇 달 동안 연습한 자전거 타기에서 처음으로 성공했습니다! 친구들에게 이 기쁨의 글을 보내드리겠습니다.",
+  "visual": {
+    "style": "caption_card",
+    "width": 960,
+    "height": 540,
+    "background_color": "#142032",
+    "foreground_color": "#FFFFFF",
+    "caption": "무야호님께, 몇 달 동안 연습한 자전거 타기에서 처음으로 성공했습니다! 친구들에게 이 기쁨의 글을 보내드리겠습니다.",
+    "font_size": 52
+  },
+  "video": {
+    "fps": 12,
+    "duration_seconds": 3,
+    "frame_count": 36
+  }
+}

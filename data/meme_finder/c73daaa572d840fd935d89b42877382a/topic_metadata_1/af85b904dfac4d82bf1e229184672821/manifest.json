@@ -1,0 +1,125 @@
+{
+  "schema_version": "youtube-watch-metadata-manifest-v1",
+  "run_id": "af85b904dfac4d82bf1e229184672821",
+  "status": "completed",
+  "started_at": "2026-09-15T00:18:14.094985+00:00",
+  "finished_at": "2026-09-15T00:18:20.946932+00:00",
+  "config": {
+    "version": "youtube-watch-metadata-v1",
+    "mode": "posthoc_search_expansion",
+    "video_ids": [
+      "op8Avw4BR5U",
+      "s0ID58k1pW4",
+      "EHil_Xzvgts"
+    ],
+    "source_run_id": "ff6a94dadb1a499db6283f9cf19d2452",
+    "source_manifest": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\c73daaa572d840fd935d89b42877382a\\topic_search_1\\ff6a94dadb1a499db6283f9cf19d2452\\manifest.json",
+    "source_observations": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\c73daaa572d840fd935d89b42877382a\\topic_search_1\\ff6a94dadb1a499db6283f9cf19d2452\\observations.jsonl",
+    "selection_reason": "Automatically selected query-relevant, diverse source videos; workflow c73daaa572d840fd935d89b42877382a",
+    "timeout_seconds": 15,
+    "max_response_bytes": 8000000,
+    "retention_days": 30
+  },
+  "provenance": "actual_collected",
+  "test_only": false,
+  "http_attempts": 3,
+  "observations": 3,
+  "requests": [
+    {
+      "video_id": "op8Avw4BR5U",
+      "source_url": "https://www.youtube.com/watch?v=op8Avw4BR5U&hl=ko",
+      "started_at": "2026-09-15T00:18:14.101271+00:00",
+      "status": "succeeded",
+      "received_at": "2026-09-15T00:18:14.887870+00:00",
+      "raw_file": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\c73daaa572d840fd935d89b42877382a\\topic_metadata_1\\af85b904dfac4d82bf1e229184672821\\raw\\op8Avw4BR5U.html",
+      "raw_sha256": "b2b734977525d5465d706ab1b0f566a3f96fe4c7a7e1762e99dbfb02e9131355",
+      "raw_bytes": 1373386,
+      "retention_due_at": "2026-10-15T00:18:14.887870+00:00",
+      "channel_id_available": true,
+      "exact_publication_time_available": true,
+      "posted_precision": "timestamp",
+      "description_available": false
+    },
+    {
+      "video_id": "s0ID58k1pW4",
+      "source_url": "https://www.youtube.com/watch?v=s0ID58k1pW4&hl=ko",
+      "started_at": "2026-09-15T00:18:16.467127+00:00",
+      "status": "succeeded",
+      "received_at": "2026-09-15T00:18:17.168463+00:00",
+      "raw_file": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\c73daaa572d840fd935d89b42877382a\\topic_metadata_1\\af85b904dfac4d82bf1e229184672821\\raw\\s0ID58k1pW4.html",
+      "raw_sha256": "3afd2b138db25079b0bfae6d3587a5235e7150b4b1733f5f84cce93e341b7fc1",
+      "raw_bytes": 1177818,
+      "retention_due_at": "2026-10-15T00:18:17.168463+00:00",
+      "channel_id_available": true,
+      "exact_publication_time_available": true,
+      "posted_precision": "timestamp",
+      "description_available": false
+    },
+    {
+      "video_id": "EHil_Xzvgts",
+      "source_url": "https://www.youtube.com/watch?v=EHil_Xzvgts&hl=ko",
+      "started_at": "2026-09-15T00:18:18.671135+00:00",
+      "status": "succeeded",
+      "received_at": "2026-09-15T00:18:19.463855+00:00",
+      "raw_file": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\c73daaa572d840fd935d89b42877382a\\topic_metadata_1\\af85b904dfac4d82bf1e229184672821\\raw\\EHil_Xzvgts.html",
+      "raw_sha256": "59efd9fcc2528cd672ee5041e68de8b0a170471059f936089daec617f4350e60",
+      "raw_bytes": 1215922,
+      "retention_due_at": "2026-10-15T00:18:19.463855+00:00",
+      "channel_id_available": true,
+      "exact_publication_time_available": true,
+      "posted_precision": "timestamp",
+      "description_available": false
+    }
+  ],
+  "issues": [],
+  "channel_ids_available": 3,
+  "exact_publication_timestamps": 3,
+  "date_only_publications": 0,
+  "paid_api_calls": 0,
+  "model_calls": 0,
+  "human_review_minutes": 0,
+  "verified_meme_count": null,
+  "posthoc_expansion": true,
+  "discovery_evaluation_eligible": false,
+  "history_reconstruction": false,
+  "video_and_audio_examined": false,
+  "input_snapshots": [
+    {
+      "id": "source_manifest",
+      "sha256": "645fa7acba3d841fd3ca82b66cd6d3fc98a04e81a072f9421c738fc0eb0594fe"
+    },
+    {
+      "id": "source_observations",
+      "sha256": "851058ef706db63ded051e1222b83114b4067f995b71da4c34aa4dc3076335bb"
+    }
+  ],
+  "limitations": [
+    "Public source metadata only; no video/audio content examination or meme accuracy claim.",
+    "Query-selected posthoc expansion remains excluded from independent discovery evaluation.",
+    "Date-only publication labels and upload dates are not converted into exact publication timestamps.",
+    "All metadata becomes available at actual retrieval time, never retroactively at publication time.",
+    "Channel attribution does not establish the origin of an expression or distinguish copies from independent reuse."
+  ],
+  "artifacts": [
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\c73daaa572d840fd935d89b42877382a\\topic_metadata_1\\af85b904dfac4d82bf1e229184672821\\observations.jsonl",
+      "sha256": "a3583378e32e8900e5c3b70be17192f715eca9a7f88236a1b88670a78f710d3e",
+      "bytes": 6981
+    },
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\c73daaa572d840fd935d89b42877382a\\topic_metadata_1\\af85b904dfac4d82bf1e229184672821\\raw\\op8Avw4BR5U.html",
+      "sha256": "b2b734977525d5465d706ab1b0f566a3f96fe4c7a7e1762e99dbfb02e9131355",
+      "bytes": 1373386
+    },
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\c73daaa572d840fd935d89b42877382a\\topic_metadata_1\\af85b904dfac4d82bf1e229184672821\\raw\\s0ID58k1pW4.html",
+      "sha256": "3afd2b138db25079b0bfae6d3587a5235e7150b4b1733f5f84cce93e341b7fc1",
+      "bytes": 1177818
+    },
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\c73daaa572d840fd935d89b42877382a\\topic_metadata_1\\af85b904dfac4d82bf1e229184672821\\raw\\EHil_Xzvgts.html",
+      "sha256": "59efd9fcc2528cd672ee5041e68de8b0a170471059f936089daec617f4350e60",
+      "bytes": 1215922
+    }
+  ]
+}

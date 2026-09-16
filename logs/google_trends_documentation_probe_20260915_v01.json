@@ -1,0 +1,50 @@
+{
+  "run_id": "e35d03c18bba46789de161df12631aae",
+  "recorded_at": "2026-09-14T18:35:32.746680+00:00",
+  "registration_mode": "documentation/access probes retrospectively registered",
+  "event_times": "not_instrumented",
+  "sources": [
+    {
+      "url": "https://support.google.com/trends/answer/3076011?hl=en",
+      "title": "Explore the searches that are Trending now",
+      "inspection": "official_help_body_read",
+      "verified": [
+        "Trending now offers an Export RSS feed option.",
+        "Queries reflect recent Google Search interest surges and may group related queries.",
+        "Displayed search volume is bucketed traffic; these are not YouTube views."
+      ]
+    },
+    {
+      "url": "https://support.google.com/trends/answer/4365538?hl=en-GB",
+      "title": "Export, embed and cite Trends data",
+      "inspection": "official_help_search_result_body_text_read",
+      "verified": [
+        "Google Trends reuse is subject to Google Terms and requires attribution."
+      ]
+    }
+  ],
+  "access_probes": [
+    {
+      "tool": "web.open",
+      "url": "https://trends.google.com/trending?geo=KR&hl=en",
+      "outcome": "tool_safe_open_failure",
+      "detail": "Tool returned URL not safe to open (non-retryable error); no page inspected."
+    },
+    {
+      "tool": "web.open",
+      "url": "https://trends.google.com/trending/rss?geo=KR",
+      "outcome": "XML_response_not_rendered_by_tool",
+      "detail": "Tool returned Unsupported content-type: text/xml. RSS body and fields were not read; no local collector execution occurred."
+    },
+    {
+      "tool": "cua.getBrowser",
+      "url": "https://trends.google.com/trending?geo=KR&hl=en",
+      "outcome": "no_browser_available",
+      "detail": "One attempted browser selection returned No browser is available. Export menu and exact menu target not inspected. Parent had earlier observed this missing-browser condition; no further CUA retry."
+    }
+  ],
+  "verification_limit": "Official help confirms RSS export. The inferred fixed RSS URL produced an XML content-type response, but its menu link and XML body have not been inspected in these probes. A separately logged bounded collector call must verify actual access and fields.",
+  "news_articles_read": 0,
+  "collection_observations": 0,
+  "paid_calls": 0
+}

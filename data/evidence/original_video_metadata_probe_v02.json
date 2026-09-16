@@ -1,0 +1,56 @@
+{
+  "checked_at_utc": "2026-09-11T06:17:55.321253+00:00",
+  "purpose": "public_metadata_only_original_video_followup",
+  "video_id": "EVymd_HtMtM",
+  "direct_audio_observation": false,
+  "direct_caption_observation": false,
+  "original_phrase_verified": false,
+  "attempts": [
+    {
+      "kind": "oembed",
+      "requested_url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEVymd_HtMtM&format=json",
+      "http_status": 200,
+      "content_type": "application/json",
+      "bytes_read": 956,
+      "body_sha256": "7fba4e9d906a581b13a899cdbfd1904cae359a1b1662a3dd3665e1d0c00aa636",
+      "public_metadata": {
+        "title": "공주님의 안전귀가를 위해 #안전귀가 #늑구",
+        "author_name": "팔리아치",
+        "author_url": "https://www.youtube.com/@82achii",
+        "provider_name": "YouTube",
+        "type": "video"
+      }
+    },
+    {
+      "kind": "watch",
+      "requested_url": "https://www.youtube.com/watch?v=EVymd_HtMtM",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 1173268,
+      "body_sha256": "afe51594731520cb1ae4296fa51f7be334081a37d249e7c6689952fc92ef2e47",
+      "public_metadata": {
+        "videoId": "EVymd_HtMtM",
+        "title": "공주님의 안전귀가를 위해 #안전귀가 #늑구",
+        "author": "팔리아치",
+        "channelId": "UCBk8oleC_xGffYOg9AyWLog",
+        "lengthSeconds": "63",
+        "isLiveContent": false
+      },
+      "playability": {
+        "status": "OK",
+        "reason": null
+      },
+      "public_dates": {
+        "publishDate": "2026-06-08T05:17:20-07:00",
+        "uploadDate": "2026-06-08T05:17:20-07:00"
+      },
+      "caption_track_metadata": [
+        {
+          "languageCode": "ko",
+          "kind": "asr",
+          "vssId": "a.ko"
+        }
+      ]
+    }
+  ]
+}

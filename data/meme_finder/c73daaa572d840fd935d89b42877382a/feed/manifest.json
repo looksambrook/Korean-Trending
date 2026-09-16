@@ -1,0 +1,99 @@
+{
+  "run_id": "2c0bcd13e94f4b92838038c60eebbf2b",
+  "status": "complete",
+  "snapshot_id": "meme_finder_c73daaa572d840fd935d89b42877382a",
+  "provenance": "actual_collected",
+  "finished_at": "2026-09-15T00:18:12.119549+00:00",
+  "history_reconstruction": false,
+  "source_method": "official_channel_atom_feed",
+  "counts": {
+    "requests": 3,
+    "channels_ok": 3,
+    "channels_failed": 0,
+    "observations": 45,
+    "exclusions": 0
+  },
+  "requests": [
+    {
+      "channel_id": "UCUj6rrhMTR9pipbAWBAMvUQ",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUj6rrhMTR9pipbAWBAMvUQ",
+      "started_at": "2026-09-15T00:18:11.106251+00:00",
+      "received_at": "2026-09-15T00:18:11.524133+00:00",
+      "http_status": 200,
+      "content_type": "text/xml; charset=UTF-8",
+      "raw_file": "raw/UCUj6rrhMTR9pipbAWBAMvUQ.xml",
+      "sha256": "4e11e8a6fedd5930cac3dfef172da836be1fbe265da6a296938eacd84345da69",
+      "bytes": 21428,
+      "status": "succeeded",
+      "feed": {
+        "channel_id": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "channel_label": "침착맨",
+        "entry_count": 15,
+        "description_entries": 15,
+        "pagination_available": false,
+        "historical_completeness": "unknown"
+      },
+      "observations": 15,
+      "exclusions": 0
+    },
+    {
+      "channel_id": "UCNhofiqfw5nl-NeDJkXtPvw",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNhofiqfw5nl-NeDJkXtPvw",
+      "started_at": "2026-09-15T00:18:11.529302+00:00",
+      "received_at": "2026-09-15T00:18:11.780440+00:00",
+      "http_status": 200,
+      "content_type": "text/xml; charset=UTF-8",
+      "raw_file": "raw/UCNhofiqfw5nl-NeDJkXtPvw.xml",
+      "sha256": "174ddfb43758c4dc7bdbdaf863326ca139f03404f07b2c6f3b1563df56b4b4cc",
+      "bytes": 30201,
+      "status": "succeeded",
+      "feed": {
+        "channel_id": "UCNhofiqfw5nl-NeDJkXtPvw",
+        "channel_label": "빠니보틀 Pani Bottle",
+        "entry_count": 15,
+        "description_entries": 15,
+        "pagination_available": false,
+        "historical_completeness": "unknown"
+      },
+      "observations": 15,
+      "exclusions": 0
+    },
+    {
+      "channel_id": "UC-uIpGINZDL-VIHQQzJW8jw",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-uIpGINZDL-VIHQQzJW8jw",
+      "started_at": "2026-09-15T00:18:11.788712+00:00",
+      "received_at": "2026-09-15T00:18:12.115302+00:00",
+      "http_status": 200,
+      "content_type": "text/xml; charset=UTF-8",
+      "raw_file": "raw/UC-uIpGINZDL-VIHQQzJW8jw.xml",
+      "sha256": "29ae93843f5439e23f4cbb3b1afe804da13c64938a2318d2e6bc7bcfe416b466",
+      "bytes": 23146,
+      "status": "succeeded",
+      "feed": {
+        "channel_id": "UC-uIpGINZDL-VIHQQzJW8jw",
+        "channel_label": "TEO 테오",
+        "entry_count": 15,
+        "description_entries": 15,
+        "pagination_available": false,
+        "historical_completeness": "unknown"
+      },
+      "observations": 15,
+      "exclusions": 0
+    }
+  ],
+  "files": {
+    "observations": "observations.jsonl",
+    "exclusions": "exclusions.jsonl"
+  },
+  "limitations": [
+    "Convenience channel cohort; no platform-wide or historical completeness",
+    "Metadata only; no comments, captions, audio or video",
+    "Repeated phrases are candidates, not confirmed memes",
+    "Retention due date is a local review deadline, not a licence"
+  ],
+  "cost": {
+    "paid_api_calls": 0,
+    "model_calls": 0,
+    "human_review_minutes": null
+  }
+}

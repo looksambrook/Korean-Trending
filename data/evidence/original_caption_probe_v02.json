@@ -1,0 +1,14 @@
+{
+  "checked_at_utc": "2026-09-11T06:18:32.224461+00:00",
+  "video_url": "https://www.youtube.com/watch?v=EVymd_HtMtM",
+  "observed_modality": "public_asr_caption_endpoint_probe",
+  "direct_audio_observation": false,
+  "caption_text_observed": false,
+  "original_phrase_verified": false,
+  "http_status": 200,
+  "caption_kind": "asr",
+  "caption_language": "ko",
+  "body_bytes": 0,
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "outcome": "Endpoint returned empty body; caption contents not observed. No bypass or alternate client used."
+}

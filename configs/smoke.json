@@ -1,0 +1,21 @@
+{
+  "config_version": "0.1",
+  "mode": "smoke",
+  "dataset_version": "synthetic_software_fixture_v0.1",
+  "model_id": "SMOKE_NO_MODEL",
+  "temperature": 0.7,
+  "max_output_tokens": 128,
+  "extraction_temperature": 0,
+  "extraction_max_output_tokens": 1600,
+  "generation_repeats": 1,
+  "seed": 20260911,
+  "conditions": ["B1", "B2", "B3"],
+  "allow_network": false,
+  "cost_limit_usd": null,
+  "input_usd_per_million": null,
+  "output_usd_per_million": null,
+  "evaluator_count": null,
+  "extract_prompt": "prompts/extract_v1.txt",
+  "generate_prompt": "prompts/generate_v1.txt",
+  "record_origin": "smoke_fixture"
+}

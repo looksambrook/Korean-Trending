@@ -1,0 +1,13 @@
+{
+  "run_id": "6b61af473a2440b8bafb44103b005e28",
+  "software_tests": 76,
+  "software_tests_passed": true,
+  "actual_feed_rows_matched_to_raw": 45,
+  "report_feed_documents": 45,
+  "report_expansion_documents": 20,
+  "javascript_syntax": "passed",
+  "visual_browser_review": "not_performed",
+  "meme_accuracy": null,
+  "model_understanding_score": null,
+  "network_requests": 0
+}

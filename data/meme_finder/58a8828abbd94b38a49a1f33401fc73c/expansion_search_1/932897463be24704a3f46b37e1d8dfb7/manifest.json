@@ -1,0 +1,93 @@
+{
+  "schema_version": "youtube-public-search-manifest-v1",
+  "run_id": "932897463be24704a3f46b37e1d8dfb7",
+  "status": "completed",
+  "started_at": "2026-09-15T00:14:11.497457+00:00",
+  "finished_at": "2026-09-15T00:14:13.432102+00:00",
+  "config": {
+    "version": "youtube-public-search-v1",
+    "search_mode": "discovered_phrase_expansion",
+    "queries": [
+      {
+        "query": "고도로 발달한",
+        "evidence_ids": [
+          "youtube:feed:MxCIV2tlGdI:796acf53a59cc6f703c4"
+        ]
+      }
+    ],
+    "selection_reason": "Automatic pipeline selection from observed source text; workflow 58a8828abbd94b38a49a1f33401fc73c",
+    "known_meme_seed_names": [],
+    "discovery_run_id": "18f38e7a4c32496f9fcbdcf77f6173b8",
+    "discovery_observations": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\58a8828abbd94b38a49a1f33401fc73c\\feed\\observations.jsonl",
+    "discovery_manifest": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\58a8828abbd94b38a49a1f33401fc73c\\feed\\manifest.json",
+    "discovery_method": "automatic_observed_form_seed; initial origin=name_free_channel_observation",
+    "max_results_per_query": 20,
+    "max_results_total": 20,
+    "timeout_seconds": 15,
+    "max_response_bytes": 8000000,
+    "retention_days": 30
+  },
+  "provenance": "actual_collected",
+  "test_only": false,
+  "http_attempts": 1,
+  "observations": 20,
+  "requests": [
+    {
+      "query": "고도로 발달한",
+      "source_search_url": "https://www.youtube.com/results?search_query=%EA%B3%A0%EB%8F%84%EB%A1%9C+%EB%B0%9C%EB%8B%AC%ED%95%9C&hl=ko&gl=KR",
+      "started_at": "2026-09-15T00:14:11.504059+00:00",
+      "status": "succeeded",
+      "received_at": "2026-09-15T00:14:12.237145+00:00",
+      "raw_file": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\58a8828abbd94b38a49a1f33401fc73c\\expansion_search_1\\932897463be24704a3f46b37e1d8dfb7\\raw\\query_01.html",
+      "raw_sha256": "8cad212634fb076745c63b59cf2fcb877806374200d409144767846736c5147d",
+      "raw_bytes": 1298479,
+      "retention_due_at": "2026-10-15T00:14:12.237145+00:00",
+      "parse": {
+        "renderer_cards_examined": 20,
+        "returned_observations": 20,
+        "exclusions": [],
+        "coverage": "initial_page_bounded",
+        "pagination_attempted": false,
+        "ranking_personalization": "unknown_public_unauthenticated_response"
+      }
+    }
+  ],
+  "issues": [],
+  "paid_api_calls": 0,
+  "model_calls": 0,
+  "human_review_minutes": 0,
+  "verified_meme_count": null,
+  "unseeded_discovery": false,
+  "discovery_evaluation_eligible": false,
+  "temporal_eligible_observations": 0,
+  "history_reconstruction": false,
+  "input_snapshots": [
+    {
+      "id": "discovery_manifest",
+      "sha256": "ea9ace96e7698fd80d3539cbca2923463a18034d41acdf6ca87a3a6cd31fe152"
+    },
+    {
+      "id": "discovery_observations",
+      "sha256": "2349ec5933befe149aae04e0c77bb96cdbca6b2c39c06287eec7232cae949cae"
+    }
+  ],
+  "limitations": [
+    "Search query expansion is not independent discovery or population coverage.",
+    "Result cards lack verified exact publication timestamps; feed/API resolution is needed before temporal analysis.",
+    "Only public initial HTML is inspected; no continuation, video playback, captions, comments or authentication.",
+    "Repeated names, topics, series labels and phrases are not proof of independent meme use.",
+    "The local retention review deadline does not grant a data reuse licence."
+  ],
+  "artifacts": [
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\58a8828abbd94b38a49a1f33401fc73c\\expansion_search_1\\932897463be24704a3f46b37e1d8dfb7\\observations.jsonl",
+      "sha256": "0ea2311a402210bc5fdbea8b2dbf6272956a96c26be68c1759123695c25f2b37",
+      "bytes": 50975
+    },
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\58a8828abbd94b38a49a1f33401fc73c\\expansion_search_1\\932897463be24704a3f46b37e1d8dfb7\\raw\\query_01.html",
+      "sha256": "8cad212634fb076745c63b59cf2fcb877806374200d409144767846736c5147d",
+      "bytes": 1298479
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "creation-plan-v1",
+  "plan_id": "mu_eval_01_CR",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "model_run_id": "a09dceb9872646c18941c24f7be250d4",
+  "text": "먼저, 저는 무야호라는 인물에 대해 좀 더 정확하고 적절한 정보를 제공할 수 있도록 노력하겠습니다. 하지만 현재로서는 그에 대한 정보를 제공할 수 없습니다. \n\n무야호는 대한민국에서 유행하는 인터넷 밈입니다. 그",
+  "visual": {
+    "style": "caption_card",
+    "width": 960,
+    "height": 540,
+    "background_color": "#142032",
+    "foreground_color": "#FFFFFF",
+    "caption": "먼저, 저는 무야호라는 인물에 대해 좀 더 정확하고 적절한 정보를 제공할 수 있도록 노력하겠습니다. 하지만 현재로서는 그에 대한 정보를 제공할 수 없습니다. \n\n무야호는 대한민국에서 유행하는 인터넷 밈입니다. 그",
+    "font_size": 52
+  },
+  "video": {
+    "fps": 12,
+    "duration_seconds": 3,
+    "frame_count": 36
+  }
+}

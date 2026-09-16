@@ -1,0 +1,51 @@
+{
+  "run_id": "66698825b98749ae9cf8d57e9af86e74",
+  "platform": "google_trends",
+  "endpoint": "https://trends.google.com/trending/rss?geo=KR",
+  "config": {
+    "snapshot_id": "google_trends_kr_20260915_0750",
+    "geo": "KR",
+    "max_requests": 1,
+    "timeout_seconds": 15,
+    "max_response_bytes": 2097152,
+    "max_entries": 200
+  },
+  "provenance": "actual_collected",
+  "test_only": false,
+  "status": "collected_metadata_not_meme_validation",
+  "model_calls": 0,
+  "verified_meme_count": null,
+  "official_help_sources": [
+    "https://support.google.com/trends/answer/3076011?hl=en",
+    "https://support.google.com/trends/answer/4365538?hl=en"
+  ],
+  "news_article_bodies_read": false,
+  "cross_platform_metric_aggregation": "prohibited_different_measures",
+  "limitations": [
+    "Provider-selected Google Search trend metadata, not YouTube trends or verified memes.",
+    "Traffic is retained as provider-formatted approximate text; no exact counts inferred.",
+    "One current snapshot cannot establish historical discovery, sustained popularity or origin.",
+    "Linked news bodies are not fetched; headlines and snippets are RSS metadata only."
+  ],
+  "received_at": "2026-09-14T22:50:30.730841+00:00",
+  "http_status": 200,
+  "content_type": "text/xml; charset=utf-8",
+  "raw_bytes": 18857,
+  "raw_sha256": "cbbf1262c8375062a88e0d00e8e74b3e654099410a69f69dc3efd9d9fd867c2b",
+  "feed": {
+    "title": "Daily Search Trends",
+    "link": "https://trends.google.com/trending/rss?geo=KR",
+    "description": "Recent searches",
+    "item_count": 10,
+    "extension_namespaces_observed": [
+      "http://www.w3.org/2005/Atom",
+      "https://trends.google.com/trending/rss"
+    ],
+    "pagination_used": false
+  },
+  "observation_count": 10,
+  "exclusion_count": 0,
+  "http_requests_attempted": 1,
+  "fixture_reads": 0,
+  "finished_at": "2026-09-14T22:50:30.738237+00:00"
+}

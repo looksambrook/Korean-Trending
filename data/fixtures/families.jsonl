@@ -1,0 +1,2 @@
+{"family_id": "fx_quote", "lineage_group_id": "fx_quote", "canonical_text": "회의는 끝났고, 커피는 남았다.", "split": "dev", "eligibility": "smoke_fixture"}
+{"family_id": "fx_dialogue", "lineage_group_id": "fx_dialogue", "canonical_text": "오늘의 주인공은? 쉬는 사람!", "split": "dev", "eligibility": "smoke_fixture"}

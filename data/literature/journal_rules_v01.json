@@ -1,0 +1,47 @@
+{
+  "schema_version": "journal-rules-0.1",
+  "checked_on": "2026-09-11",
+  "purpose": "two_existing_candidate_journals_official_rules_review",
+  "researcher_context": {"submission_target": "2026-11-30", "evaluator_availability_self_report": "at_least_6_excluding_researcher", "journal_selected": false, "budget_approved": false},
+  "scope_policy": {"official_sources_only": true, "no_login_or_paid_access": true, "no_messages_sent": true, "acceptance_prediction": null, "journal_minimum_dataset_size": null, "absence_of_discovered_ai_clause_is_permission": false},
+  "sources": [
+    {"id": "jaih_rules_20260203", "url": "https://aihumanities.jams.or.kr/co/com/EgovMenu.kci?s_MenuId=MENU-000000000011000&s_tabId=1&s_url=%2Fsj%2Fconfig%2FsoceHomePgConf%2Fguide%2FsjGuidEssiontialView.kci%3FguidDivCd%3D02", "title": "인공지능인문학연구 투고규정", "publisher": "중앙대학교 인공지능인문학연구소 공식 JAMS", "access_scope": "official_rule_html_body", "rule_revision_date": "2026-02-03", "accessed_on": "2026-09-11", "decision": "홈페이지 논문투고 규정 링크의 본문 확인"},
+    {"id": "jaih_call22_20260210", "url": "https://aihumanities.jams.or.kr/co/com/EgovMenu.kci?notiSeq=000000051185&s_MenuId=MENU-000000000061000&s_url=%2Fmobile%2Fpo%2Fcommunity%2Fnotice%2FnoticeView.kci", "title": "제22권 원고 모집", "publisher": "중앙대학교 인공지능인문학연구소 공식 JAMS", "access_scope": "official_call_html_body", "published_on": "2026-02-10", "accessed_on": "2026-09-11", "decision": "당시 공고 본문 확인; 후속 호 공고를 대체하지 않음"},
+    {"id": "jaih_kci", "url": "https://www.kci.go.kr/kciportal/po/search/poCitaView.kci?sereId=SER000005443", "title": "인공지능인문학연구 KCI 학술지 정보", "publisher": "한국연구재단 KCI", "access_scope": "official_journal_metadata", "published_on": null, "accessed_on": "2026-09-11", "decision": "KCI 등재 표시 확인"},
+    {"id": "jaih_ethics", "url": "https://kci.go.kr/kciportal/po/search/poInsiSearReinView.kci?insiGeneInfoBean.insiId=INS000005022", "title": "인공지능인문학연구소 기관정보·연구윤리규정", "publisher": "한국연구재단 KCI", "access_scope": "official_institution_page_embedded_rules_body", "rule_revision_date": "2023-03-01", "accessed_on": "2026-09-11", "decision": "웹에 게시된 윤리규정 범위 확인; 학회에 더 최신 규정 존재 여부 미확인"},
+    {"id": "jaih_recent_notice_index", "url": "https://aihumanities.jams.or.kr/co/com/EgovMenu.kci?s_MenuId=MENU-000000000061000&s_url=%2Fmobile%2Fpo%2Fcommunity%2Fnotice%2FnoticeList.kci", "title": "JAMS 공지사항 목록", "publisher": "중앙대학교 인공지능인문학연구소 공식 JAMS", "access_scope": "search_index_only_direct_open_error", "latest_notice_date_visible": "2026-06-10", "accessed_on": "2026-09-11", "decision": "잘린 제목·날짜만 관찰; 내용과 마감 추정 금지"},
+    {"id": "jok_authors", "url": "https://jok.kiise.or.kr/static/guideA", "title": "Guide for Authors", "publisher": "한국정보과학회 정보과학회논문지", "access_scope": "official_rule_html_body_english", "rule_effective_date": "2024-06-27", "accessed_on": "2026-09-11", "decision": "접속일 현재 공식 페이지 본문 확인; 최신 별도 국문 공지와의 일치 미확인"},
+    {"id": "jok_ethics", "url": "https://jok.kiise.or.kr/journals/jok/static/ethics", "title": "Policies and Guidelines", "publisher": "한국정보과학회 정보과학회논문지", "access_scope": "official_rule_html_body_english", "rule_effective_date": null, "accessed_on": "2026-09-11", "decision": "윤리·저자 책임·심사 관련 본문 확인"},
+    {"id": "jok_kci", "url": "https://www.kci.go.kr/kciportal/po/search/poInsiResearchTrendDetail.kci?poResearchTrendSearchBean.insiId=INS000001216", "title": "한국정보과학회 발행기관별 연구동향", "publisher": "한국연구재단 KCI", "access_scope": "official_journal_metadata", "published_on": null, "accessed_on": "2026-09-11", "decision": "정보과학회논문지 ISSN 2383-630X 우수등재 표시 확인"},
+    {"id": "jok_current_contents", "url": "https://jok.kiise.or.kr/?lang=ko", "title": "정보과학회논문지 공식 목차", "publisher": "한국정보과학회 정보과학회논문지", "access_scope": "official_contents_and_abstracts_not_full_papers", "accessed_on": "2026-09-11", "decision": "한국어 NLP 및 멀티모달 유해 밈 탐지 주제 확인"}
+  ],
+  "journals": [
+    {
+      "id": "JAIH",
+      "name": "인공지능인문학연구",
+      "status": {"value": "KCI 등재", "source": "jaih_kci"},
+      "scope": {"value": ["AI 관계소통", "AI 사회문화", "인문데이터 해석"], "source": "jaih_rules_20260203"},
+      "fit_assessment": {"value": "언어문화·소통 해석을 중심으로 한 원고 후보", "kind": "research_plan_to_scope_inference_not_editorial_decision"},
+      "submission": {"mode": "상시 접수", "regular_issue_cutoffs": ["03-10", "07-10", "11-10"], "regular_publication_days": ["04-30", "08-31", "12-31"], "exceptions": "편집위원회 결정", "source": "jaih_rules_20260203", "target_implication": "연말호 목표라면 11월 10일; 11월 30일 단순 투고와 구분"},
+      "format": {"languages": ["Korean", "English"], "approx_pages": 25, "abstract_words_each_approx": 150, "keywords_min": 5, "references_language": "English", "template": "공식 모집공고 HWP 연결; 파일 미열람", "source": "jaih_rules_20260203"},
+      "fees_krw": {"review": 60000, "publication_base": 100000, "publication_funded": 300000, "publication_waiver": "저자 전원 대학원생", "extra_page": 10000, "source": "jaih_rules_20260203", "additional_abstract_edit_per_word": 55, "additional_fee_source": "jaih_call22_20260210", "total_quote": null},
+      "review_duration": {"value": null, "decision": "공개 확인 불가"},
+      "ai_disclosure": {"specific_clause_verified": false, "decision": "열람한 규정에서 발견하지 못함; 면제 또는 허용 판정 아님", "sources": ["jaih_rules_20260203", "jaih_call22_20260210", "jaih_ethics"]},
+      "pending": ["선정 후 최신호 공고 재확인", "AI 사용 공개 위치·문구", "저자 신분·사사별 최종 비용", "심사 소요기간"]
+    },
+    {
+      "id": "JOK",
+      "name": "정보과학회논문지",
+      "status": {"value": "우수등재", "source": "jok_kci"},
+      "scope": {"value": ["AI", "HCI", "NLP", "정보검색"], "source": "jok_authors"},
+      "fit_assessment": {"value": "NLP 방법·동일 모델 통제실험·재현성을 중심으로 한 원고 후보", "kind": "research_plan_to_scope_inference_not_editorial_decision"},
+      "submission": {"mode": "연중 온라인 접수", "system": "https://journal.kiise.or.kr/", "source": "jok_authors", "target_implication": "11월 30일 접수 목표와 양립; 게재일 미보장"},
+      "format": {"review_file": "PDF", "final_file": ["HWP", "Word"], "anonymous_review_file": true, "korean_abstract_characters": "300-500", "english_abstract_words": "100-200", "keywords": "4-6", "figure_table_text": "English", "captions": "Korean_and_English", "short_paper_max_pages": 5, "general_paper_max_pages": null, "source": "jok_authors"},
+      "fees_krw": {"review_general": 50000, "review_two_month": 500000, "publication_general_table": {"pages_1_to_6_per_page": 15000, "pages_7_to_8_per_page": 30000, "pages_9_plus_per_page": 50000}, "short_paper_publication": 100000, "nonmember_surcharge_percent": 50, "funding_acknowledgement_extra": 100000, "no_funding_acknowledgement_discount_percent": 20, "table_application_and_discount_order": "최종 확인 전 총액 미산출", "source": "jok_authors", "total_quote": null},
+      "review": {"double_blind": true, "journal_reviewers_min": 3, "research_evaluators_not_same_as_journal_reviewers": true, "general_duration": null, "two_month_option_selected": false, "two_month_option_caveat": "저자 원인 지연 제외 등 환불 조건; 채택·게재 보장 아님", "source": "jok_authors"},
+      "ai_disclosure": {"specific_clause_verified": false, "decision": "열람한 공개 지침에서 발견하지 못함; 면제 또는 허용 판정 아님", "sources": ["jok_authors", "jok_ethics"]},
+      "pending": ["선정 후 최신 국문 공지·서식 대조", "AI 사용 공개 위치·문구", "페이지 요율 적용·회원·사사별 최종 비용", "일반논문 처리기간"]
+    }
+  ],
+  "bounded_search_limitations": ["일부 공식 페이지 빈 응답·오류; 같은 실패 페이지 반복 안 함", "2026-06-10 JAIH 공지 내용 미확인", "일부 web 호출이 예기치 않게 장기 지연하여 추가 탐색 범위를 기존 2개 후보로 유지", "유료 열람/로그인/문의 전송/투고 실행 없음"]
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "seed_id": "mseed_453ccf7ff81f418e4342",
+    "query": "고도로 발달한",
+    "source_observation_ids": [
+      "youtube:feed:MxCIV2tlGdI:796acf53a59cc6f703c4"
+    ],
+    "source_video_ids": [
+      "MxCIV2tlGdI"
+    ],
+    "source_channel_ids": [
+      "UCUj6rrhMTR9pipbAWBAMvUQ"
+    ],
+    "source_titles": [
+      "고도로 발달한 마법은 갓생과 구분할 수 없다"
+    ],
+    "reason": "A modifier plus an indistinguishability comparison offers a testable reusable sentence form.",
+    "kind": "sentence_comparison",
+    "score": 12,
+    "grammar": {
+      "prefix": "고도로 발달한",
+      "left": "마법",
+      "right": "갓생",
+      "frame_key": "고도로 발달한|indistinguishable",
+      "observed_predicate": "구분",
+      "frame": "고도로 발달한 {A}는 {B}와 구분/구별할 수 없다"
+    },
+    "selection_method": "automatic_observed_surface_heuristics",
+    "discovery_origin": {
+      "mode": "channel_feed",
+      "known_meme_name_seed": false,
+      "selection": "convenience_access_probe",
+      "past_completeness": "unknown",
+      "pipeline_origin": "name_free_channel_observation"
+    },
+    "query_is_exact_observed_span": true
+  },
+  {
+    "seed_id": "mseed_70b437df5babd6c93d00",
+    "query": "실례카겔",
+    "source_observation_ids": [
+      "youtube:feed:TBqvX5m2qlI:f59ccbc3a206bbcb2749"
+    ],
+    "source_video_ids": [
+      "TBqvX5m2qlI"
+    ],
+    "source_channel_ids": [
+      "UCUj6rrhMTR9pipbAWBAMvUQ"
+    ],
+    "source_titles": [
+      "실리카겔 실례카겔"
+    ],
+    "reason": "Adjacent similar but unequal spellings may mark a parody name; collected uses must establish the relation.",
+    "kind": "orthographic_wordplay",
+    "score": 8,
+    "grammar": {
+      "observed_pair": [
+        "실리카겔",
+        "실례카겔"
+      ]
+    },
+    "selection_method": "automatic_observed_surface_heuristics",
+    "discovery_origin": {
+      "mode": "channel_feed",
+      "known_meme_name_seed": false,
+      "selection": "convenience_access_probe",
+      "past_completeness": "unknown",
+      "pipeline_origin": "name_free_channel_observation"
+    },
+    "query_is_exact_observed_span": true
+  },
+  {
+    "seed_id": "mseed_4e2f24b672393e96f227",
+    "query": "갈테야 갈테야",
+    "source_observation_ids": [
+      "youtube:feed:2akc0XnNkKo:25ca6b31c217608bb467"
+    ],
+    "source_video_ids": [
+      "2akc0XnNkKo"
+    ],
+    "source_channel_ids": [
+      "UC-uIpGINZDL-VIHQQzJW8jw"
+    ],
+    "source_titles": [
+      "[8화 예고] 갈테야 갈테야, 속세로 갈테야🚩 | 짐쌀라비움"
+    ],
+    "reason": "An exact repeated phrase in a title can be followed into distinct contexts.",
+    "kind": "repeated_catchphrase",
+    "score": 7,
+    "grammar": {},
+    "selection_method": "automatic_observed_surface_heuristics",
+    "discovery_origin": {
+      "mode": "channel_feed",
+      "known_meme_name_seed": false,
+      "selection": "convenience_access_probe",
+      "past_completeness": "unknown",
+      "pipeline_origin": "name_free_channel_observation"
+    },
+    "query_is_exact_observed_span": true
+  },
+  {
+    "seed_id": "mseed_df4caa1ecfb0ffdbc64e",
+    "query": "조명, 온도, 습도까지 완벽하다",
+    "source_observation_ids": [
+      "youtube:feed:NJxDQ1MWNPo:518be2eec23dd1cd9a9b"
+    ],
+    "source_video_ids": [
+      "NJxDQ1MWNPo"
+    ],
+    "source_channel_ids": [
+      "UC-uIpGINZDL-VIHQQzJW8jw"
+    ],
+    "source_titles": [
+      "[스페셜 클립] 조명, 온도, 습도까지 완벽하다..☆ | 짐쌀라비움"
+    ],
+    "reason": "A compact enumerated sentence may be a reusable quotation; frequency alone will not establish that.",
+    "kind": "rhetorical_catchphrase",
+    "score": 6,
+    "grammar": {},
+    "selection_method": "automatic_observed_surface_heuristics",
+    "discovery_origin": {
+      "mode": "channel_feed",
+      "known_meme_name_seed": false,
+      "selection": "convenience_access_probe",
+      "past_completeness": "unknown",
+      "pipeline_origin": "name_free_channel_observation"
+    },
+    "query_is_exact_observed_span": true
+  }
+]

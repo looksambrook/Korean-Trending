@@ -1,0 +1,69 @@
+{
+  "schema_version": "youtube-candidate-expansion-workflow-v1",
+  "run_id": "3ffa9c85a8ae4a8c93a11fa7d6f4b4b7",
+  "status": "completed",
+  "started_at": "2026-09-14T18:38:04.190963+00:00",
+  "finished_at": "2026-09-14T18:38:04.440320+00:00",
+  "candidate_id": "ytc_8bacec8b9f26b796bf29",
+  "candidate_phrase": "실례카겔",
+  "candidate_run_id": "fa7417e8e81940c8a0d45d1ca88a7efa",
+  "collection_run_id": "a92df7a913dc46538b6a7b7afdcb0bdd",
+  "source_observations": 45,
+  "candidate_evidence_ids": [
+    "youtube:feed:TBqvX5m2qlI:f59ccbc3a206bbcb2749",
+    "youtube:feed:yN_GxazmPT8:5157383d55906b982095"
+  ],
+  "query_evidence_ids": [
+    "youtube:feed:TBqvX5m2qlI:f59ccbc3a206bbcb2749",
+    "youtube:feed:yN_GxazmPT8:5157383d55906b982095"
+  ],
+  "search_run_id": "fbfd5698ba994f959bb750623713d378",
+  "search_manifest": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_search_expansion_20260915_v01\\fbfd5698ba994f959bb750623713d378\\manifest.json",
+  "search_observations": 20,
+  "metadata_run_id": "327a6507765a468ca985b01da2352971",
+  "metadata_manifest": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_metadata_expansion_20260915_v01\\327a6507765a468ca985b01da2352971\\manifest.json",
+  "metadata_observations": 3,
+  "selected_metadata_video_ids": [
+    "jxw1Cudx5lA",
+    "Q9hDqYvhrOU",
+    "54StMo--pXU"
+  ],
+  "actions": {
+    "search": "reuse_supplied_manifest",
+    "metadata": "reuse_supplied_manifest_with_original_selection"
+  },
+  "new_http_attempts": 0,
+  "paid_api_calls": 0,
+  "model_calls": 0,
+  "human_review_minutes": 0,
+  "verified_meme_count": null,
+  "posthoc_expansion": true,
+  "discovery_evaluation_eligible": false,
+  "report": {
+    "report": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\youtube_expand_20260915_v01\\report.html",
+    "run_id": "1d413170fca24105aba2b6b7fca5868c",
+    "action": "copied_verified_existing_identical_report",
+    "copied_from": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\youtube_observatory_20260915_v02.html"
+  },
+  "issues": [],
+  "selection_rule_for_new_calls": "first_three_in_search_order_with_NFC_phrase_in_observed_text",
+  "reuse_selection_policy": "Keep and disclose the already-recorded selection; do not pretend it used the new automatic selection rule.",
+  "input_hashes": {
+    "collection_manifest": "b63faa1b17d76414ee25faa70414a517333ee0fa30f518495dc3675c48c9ab0a",
+    "collection_observations": "ee3df40a35a7598a41c55432411b4c07c90477ab6e688d36f43c8072acac5738",
+    "candidate_summary": "9204b64e6f96946b655b74a76e4d888cf1b26fe5db33c32054d863a620220c3d",
+    "candidate_records": "97528760e4d65e71d3a55b52a28eb7c8854376507f94ea8a7df4f1d3cd52d655",
+    "candidate_exclusions": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "candidate_suppressed": "f6167427a2023ba896e65b63b13a0162ea77c5aa04ad0ea40c622d25ea6278f8",
+    "reuse_search_manifest": "aec9c8919d1a17c9a2463d446ebae137bf216f17b342494cdc5babeac599354f",
+    "reuse_search_observations": "bafa1177907e3ae7a79b11ed10493a4631312a71d8aeedb92db123c14e9cebdd",
+    "reuse_metadata_manifest": "debba96e78e8b3ec6fc9ec14b8fc7d977e819f2a8138f7919d2a0ce9e367c2df",
+    "reuse_metadata_observations": "8eb7c1b7815445650f65efed4f52fd20c063c499ad7efff861a8a98b1d83a749"
+  },
+  "artifacts": [
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\youtube_expand_20260915_v01\\report.html",
+      "sha256": "b7eeecc765071a5a0cba0c418491e8c0d710bec5ce2f17fdc7c61cd357cc3f62"
+    }
+  ]
+}

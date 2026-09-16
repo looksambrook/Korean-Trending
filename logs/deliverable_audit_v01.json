@@ -1,0 +1,39 @@
+{
+  "scope": "YouTube methods research and experiment-log preparation; not empirical meme identification",
+  "passed": true,
+  "issues": [],
+  "database_integrity": "ok",
+  "official_access_source_urls": 26,
+  "papers_selected_sections_inspected": 7,
+  "tests_passed": 77,
+  "persistent_duplicate_guard_passed": true,
+  "preserved_handoff_sha256": "230ac438f189dd231cb0ec07f19596dca4dfee16df1c953b08eae3010f4a9899",
+  "deliverable_sha256": {
+    "README.md": "a3bd0ba6129ea09e2346996cde12e12df1bcf9ac234827c45e8e7662e1a79e51",
+    "docs/youtube_research_plan_v01.md": "6c157171b3fdb732ec59f523aaafcf426e4c146c1dee2aa5825ec6d578da6fc9",
+    "docs/youtube_access_review_v01.md": "24faffdd4f094c604ed863131097ffecd8968d4952350658468f45daffea36fe",
+    "docs/youtube_methods_literature_v01.md": "145804c4814b8855bbdf3364ef9e303be899d51466355ac96cc6c0c5a69c2aea",
+    "docs/research_log.md": "90ec2616ae5229fab5d42960845c83e221e0ec75df741ffa93fd9059f28d6e31",
+    "logs/README.md": "1055756f10210807b18dfff2727ba1a437586d0af8d9783a3b9ebdb8292ec93a",
+    "src/research_log.py": "27f212b06b72571cf06e276963dffeb942d1b6b2595e37a3a0c763ba8c82a330",
+    "src/youtube_pilot_plan.py": "454fda05cc7583316096a82e00514556bcfa77d96c340ff3a019e0b1f8d70a0e",
+    "configs/youtube_pilot_v01.json": "32c88878b855c039f453b31afe97a520a33b9215ce9d2ee9916e1f360155aa43",
+    "data/research/youtube_pilot_estimate_v01.json": "bdab80969d63e35b2b81c0a4af5af8d1bbd16489a054999ab3e8a0a28c9d84ec",
+    "data/research/youtube_access_sources_v01.json": "661fea4c4ef9f620cd5c5c4a4f3bb013904e890379b9c78680361ccd8324f2c1",
+    "data/research/youtube_literature_sources_v01.json": "faaaaee6c4b97290baa0992ab85aa7daec858976795249888967a039b10781ba",
+    "data/research/youtube_public_surfaces_v01.json": "15f073417adf397f96cf59285ac78bb06d020663a462e55ca3bdb867e24ee85d",
+    "logs/integrated_validation_v01.txt": "05fd1e752d4397ecf338e963c1f4e7a1c9f1041c3289d40eaf490240ba45e86a",
+    "logs/duplicate_guard_v01.json": "42f4930372714072b8c4363bb2206b8ae26ede15344e722e1be80f3907f0e8c2"
+  },
+  "live_api_access_verified": false,
+  "current_chart_rows_observed": false,
+  "actual_meme_detection_understanding_validated": false,
+  "remaining_for_future_empirical_work": [
+    "API project access and actual quota",
+    "analysis-use and retention scope",
+    "cohort and observation/evaluation times",
+    "independent gold and evaluator arrangements",
+    "D0/D1/retrieval implementation",
+    "model version transfer permissions and budget"
+  ]
+}

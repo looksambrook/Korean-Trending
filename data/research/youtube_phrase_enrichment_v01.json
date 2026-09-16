@@ -1,0 +1,272 @@
+{
+  "schema_version": "0.1",
+  "run_id": "4d618955325f49da9c81a57bba1b5c54",
+  "phrase": "실례카겔",
+  "mode": "observed_phrase_expansion",
+  "selection": "AI_assisted_review_of_actual_collected_metadata",
+  "review_type": "AI_assisted_evidence_review_not_independent_gold",
+  "original_collection_run_id": "a92df7a913dc46538b6a7b7afdcb0bdd",
+  "original_pipeline_T": "2026-09-14T18:20:52.811337+00:00",
+  "review_registered_at": "2026-09-14T18:22:31.598461+00:00",
+  "knowledge_available_at": "2026-09-14T18:26:14.959493+00:00",
+  "eligible_at_original_pipeline_T": false,
+  "source_posting_dates_do_not_backdate_knowledge": true,
+  "automatic_detection_audit": {
+    "file": "data/derived/youtube_feed_20260915_d0_v01/candidates.jsonl",
+    "checked_at": "2026-09-14T18:23:43+00:00",
+    "representative_phrases_containing_exact_observed_phrase": 0,
+    "interpretation": "The phrase occurs in two source observations but was not present in this saved D0 candidate output. This enrichment is an AI-selected source-review lead, not proof of D0 discovery."
+  },
+  "registration_encoding_defect": {
+    "field": "spec.parameters.phrase and Korean query text",
+    "stored_phrase": "????",
+    "correct_phrase": "실례카겔",
+    "cause": "PowerShell stdin encoding while passing inline Python",
+    "handling": "Immutable initial log preserved. Correct executed phrase and queries recorded in this artifact and finish notes; no claim that the Korean text was preregistered correctly.",
+    "unaffected": [
+      "original snapshot hashes",
+      "original run ID",
+      "original T",
+      "observed_phrase_expansion mode",
+      "primary-page limit"
+    ]
+  },
+  "search_trace": [
+    {
+      "accessed_at": "2026-09-14T18:22:37+00:00",
+      "queries": [
+        "실례카겔 [domain youtube.com]",
+        "실례카겔 스낵타운 [domain youtube.com]"
+      ],
+      "outcome": "no results"
+    },
+    {
+      "accessed_at": "2026-09-14T18:22:43+00:00",
+      "queries": [
+        "\"실례카겔\"",
+        "\"실례카겔\" \"스낵타운\""
+      ],
+      "outcome": "Secondary link leads; no primary source text in this batch"
+    },
+    {
+      "accessed_at": "2026-09-14T18:22:51+00:00",
+      "queries": [
+        "\"실례카겔\" \"김쇼츠\"",
+        "\"실례카겔\" \"Silica Gel\" \"youtube\""
+      ],
+      "outcome": "YouTube-origin search metadata for Guriri cover read"
+    },
+    {
+      "accessed_at": "2026-09-14T18:22:57+00:00",
+      "queries": [
+        "\"Sillaeca Gel - NO PAIN / THE LAST TAKE\"",
+        "\"Sillaeca Gel - BIG VOID / THE LAST TAKE\"",
+        "\"실례카겔\" \"실리카겔\" \"패러디\" \"YouTube\""
+      ],
+      "outcome": "Further secondary leads; not used as verified creator evidence"
+    },
+    {
+      "accessed_at": "2026-09-14T18:23:13+00:00",
+      "queries": [
+        "https://www.youtube.com/watch?v=Q9hDqYvhrOU",
+        "\"스낵타운\" \"Sillaeca Gel\" \"NO PAIN\"",
+        "\"실례카겔\" \"COVER\""
+      ],
+      "outcome": "YouTube-origin search metadata for SNACKTOWN MR/BB video read"
+    },
+    {
+      "accessed_at": "2026-09-14T18:25:39+00:00",
+      "queries": [
+        "\"스낵타운 SNACKTOWN\" \"youtube.com/channel\"",
+        "\"구리리 Guriri\" \"youtube.com/channel\""
+      ],
+      "outcome": "No results; two channel IDs remain unknown"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "local_chim_title",
+      "url": "https://www.youtube.com/watch?v=TBqvX5m2qlI",
+      "video_id": "TBqvX5m2qlI",
+      "creator_label": "침착맨",
+      "creator_channel_id": "UCUj6rrhMTR9pipbAWBAMvUQ",
+      "title": "실리카겔 실례카겔",
+      "published_at": "2026-09-07T07:00:36+00:00",
+      "available_at": "2026-09-14T18:20:52.192526+00:00",
+      "metadata_provenance": "actual_collected",
+      "access_scope": "Official Atom metadata stored locally; no video/audio/transcript viewing",
+      "local_observation_id": "youtube:feed:TBqvX5m2qlI:f59ccbc3a206bbcb2749",
+      "local_path": "data/collected/youtube_feed_20260915_v02/observations.jsonl",
+      "short_excerpt": "#침착맨 #실리카겔 #실례카겔",
+      "role": "Observed juxtaposition of real band label and the candidate label; same creator as local_chim_credit"
+    },
+    {
+      "source_id": "local_chim_credit",
+      "url": "https://www.youtube.com/watch?v=yN_GxazmPT8",
+      "video_id": "yN_GxazmPT8",
+      "creator_label": "침착맨",
+      "creator_channel_id": "UCUj6rrhMTR9pipbAWBAMvUQ",
+      "title": "침착맨을 만난 밴드 실리카겔",
+      "published_at": "2026-09-07T10:00:27+00:00",
+      "available_at": "2026-09-14T18:20:52.192526+00:00",
+      "metadata_provenance": "actual_collected",
+      "access_scope": "Official Atom title and description stored locally; referenced visual material not watched",
+      "local_observation_id": "youtube:feed:yN_GxazmPT8:5157383d55906b982095",
+      "local_path": "data/collected/youtube_feed_20260915_v02/observations.jsonl",
+      "short_excerpt": "*실례카겔 자료 화면 출처\n유튜브 '스낵타운 SNACKTOWN' @SNACKTOWN",
+      "role": "Explicit attribution edge from an observed creator to SNACKTOWN; not independent variant evidence"
+    },
+    {
+      "source_id": "web_guriri_cover",
+      "url": "https://www.youtube.com/watch?v=2r0hfTp7LMI",
+      "video_id": "2r0hfTp7LMI",
+      "creator_label": "구리리 Guriri",
+      "creator_channel_id": null,
+      "title": "Silica Gel 실리카겔 - NO PAIN / COVER (2)",
+      "displayed_published_date": "2026-04-20",
+      "published_at": null,
+      "accessed_at": "2026-09-14T18:22:51+00:00",
+      "available_at": "2026-09-14T18:22:51+00:00",
+      "metadata_provenance": "public_web_search_extraction_of_youtube_metadata",
+      "access_scope": "Search tool returned YouTube page title, By creator, date and description. Separate watch-page open failed. No raw HTML, video, audio, or transcript read.",
+      "short_excerpt": "실례카겔    • Sillaeca Gel - NO PAIN / THE LAST TAKE",
+      "role": "A separately labelled creator's cover description explicitly references the candidate-labelled work; independent performance or parody not verified"
+    },
+    {
+      "source_id": "web_snacktown_mrbb",
+      "url": "https://www.youtube.com/watch?v=4R5e1ka0Vi8",
+      "video_id": "4R5e1ka0Vi8",
+      "creator_label": "스낵타운 SNACKTOWN",
+      "creator_channel_id": null,
+      "title": "[요청영상] Sillaeca Gel - NO PAIN (MR / BB 제거)",
+      "displayed_published_date": "2026-04-17",
+      "published_at": null,
+      "accessed_at": "2026-09-14T18:23:13+00:00",
+      "available_at": "2026-09-14T18:23:13+00:00",
+      "metadata_provenance": "public_web_search_extraction_of_youtube_metadata",
+      "access_scope": "Search tool returned YouTube title, By creator, date and description with explicit hashtag and official handle. Separate watch-page open failed. No video/audio/transcript read.",
+      "short_excerpt": "그래서 실례카겔이 'MR / BB 제거' 버전을 전격 공개합니다.",
+      "description_claims_paraphrase": "The metadata presents Sillaeca Gel as a named group associated with @snacktown and includes the Korean candidate hashtag.",
+      "role": "Creator's own metadata ties the Korean phrase to a named performance work; original first use remains unknown"
+    }
+  ],
+  "failed_primary_opens": [
+    {
+      "url": "https://www.youtube.com/watch?v=TBqvX5m2qlI",
+      "accessed_at": "2026-09-14T18:22:43+00:00",
+      "outcome": "web tool Internal Error; local Atom metadata remains separate evidence"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=yN_GxazmPT8",
+      "accessed_at": "2026-09-14T18:22:43+00:00",
+      "outcome": "web tool Internal Error; local Atom metadata remains separate evidence"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Q9hDqYvhrOU",
+      "accessed_at": "2026-09-14T18:22:51+00:00",
+      "outcome": "Cache miss; title and alleged attribution seen in secondary embeds only, excluded from verified primary set"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jxw1Cudx5lA",
+      "accessed_at": "2026-09-14T18:22:51+00:00",
+      "outcome": "Cache miss; secondary embed lead only"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/r_CYLQgBjis",
+      "accessed_at": "2026-09-14T18:22:51+00:00",
+      "outcome": "Cache miss; secondary embed lead only"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2r0hfTp7LMI",
+      "accessed_at": "2026-09-14T18:22:57+00:00",
+      "outcome": "Internal Error; separately returned search metadata is limited evidence"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=4R5e1ka0Vi8",
+      "accessed_at": "2026-09-14T18:23:27+00:00",
+      "outcome": "Cache miss; separately returned search metadata is limited evidence"
+    }
+  ],
+  "knowledge_claims": [
+    {
+      "claim": "The observed label is used in YouTube metadata associated with a performance group/work, rather than only as an ordinary apology expression.",
+      "type": "AI_inference_supported_by_metadata",
+      "evidence_source_ids": [
+        "local_chim_title",
+        "local_chim_credit",
+        "web_snacktown_mrbb"
+      ]
+    },
+    {
+      "claim": "A provisional interpretation is a humorous/parodic label related to Silica Gel and a NO PAIN performance context.",
+      "type": "tentative_AI_interpretation",
+      "evidence_source_ids": [
+        "local_chim_title",
+        "web_guriri_cover",
+        "web_snacktown_mrbb"
+      ],
+      "limits": "Exact joke, gestures, vocal imitation and whether each use is a parody require the audiovisual works or competent reviewers. Not asserted as validated model understanding."
+    },
+    {
+      "claim": "There are three distinct displayed creator labels among four metadata records.",
+      "type": "observed_metadata_count",
+      "evidence_source_ids": [
+        "local_chim_title",
+        "local_chim_credit",
+        "web_guriri_cover",
+        "web_snacktown_mrbb"
+      ],
+      "limits": "Two records share one channel. Two web results lack channel IDs. Distinct labels do not prove three independent creators or independent transformations."
+    }
+  ],
+  "relation_hypotheses": [
+    {
+      "from": "local_chim_credit",
+      "to_creator_label": "스낵타운 SNACKTOWN",
+      "relation": "explicit_source_credit",
+      "status": "supported_by_local_description",
+      "available_at": "2026-09-14T18:26:14.959493+00:00"
+    },
+    {
+      "from": "web_guriri_cover",
+      "to_title": "Sillaeca Gel - NO PAIN / THE LAST TAKE",
+      "relation": "explicit_named_reference",
+      "status": "supported_by_search_description_target_url_not_resolved",
+      "available_at": "2026-09-14T18:26:14.959493+00:00"
+    },
+    {
+      "from_label": "실례카겔",
+      "to_label": "실리카겔",
+      "relation": "possible_parodic_name_variant",
+      "status": "AI_inference_not_gold",
+      "available_at": "2026-09-14T18:26:14.959493+00:00"
+    }
+  ],
+  "unknowns": [
+    "first origin",
+    "independent transformation count",
+    "repost/clip overlap",
+    "reach or trend prevalence",
+    "audio/visual similarity",
+    "intended social meaning in each occurrence",
+    "independent gold labels",
+    "model understanding accuracy"
+  ],
+  "evaluation_status": "Not used as independent evaluation material; selected after seeing the collection and not eligible at original T",
+  "cost": {
+    "paid_external_api_calls": 0,
+    "model_api_calls": 0,
+    "human_review_minutes": null,
+    "human_review_performed": false,
+    "agent_token_cost": null,
+    "agent_token_cost_status": "not_measured_here",
+    "web_search_batches": 6,
+    "primary_page_open_attempts": 7
+  },
+  "retention": {
+    "raw_video_or_audio_stored": false,
+    "web_full_descriptions_stored": false,
+    "source_text": "Minimal metadata excerpts; original RSS records keep their own retention deadlines",
+    "review_due_at": "2026-10-14T18:26:14.959493+00:00"
+  }
+}

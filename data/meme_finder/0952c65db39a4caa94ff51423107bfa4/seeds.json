@@ -1,0 +1,31 @@
+[
+  {
+    "seed_id": "mseed_2867de65c8aece0f3761",
+    "query": "한번쯤 들어본 '그 효과음' 밈 원본 ㅋㅋㅋ",
+    "source_observation_ids": [
+      "youtube:watch:s0ID58k1pW4:24d4dbacd605e2750b78ae4c"
+    ],
+    "source_video_ids": [
+      "s0ID58k1pW4"
+    ],
+    "source_channel_ids": [
+      "UCu123u-NA9v_vjwrIM8JhFg"
+    ],
+    "source_titles": [
+      "한번쯤 들어본 '그 효과음' 밈 원본 ㅋㅋㅋ"
+    ],
+    "reason": "The observed title itself mentions a reuse convention; this is a source claim to investigate.",
+    "kind": "source_labelled_reuse",
+    "score": 5,
+    "grammar": {},
+    "selection_method": "automatic_observed_surface_heuristics",
+    "discovery_origin": {
+      "mode": "public_watch_html",
+      "posthoc_expansion": true,
+      "unseeded_discovery": false,
+      "video_and_audio_examined": false,
+      "pipeline_origin": "generic_topic_search"
+    },
+    "query_is_exact_observed_span": true
+  }
+]

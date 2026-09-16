@@ -1,0 +1,22 @@
+{
+  "schema_version": "creation-plan-v1",
+  "plan_id": "msm_eval_02_CR",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "model_run_id": "7c2d5c379f704581ac21f26419c3e406",
+  "text": "**음원 설명:** \"무엇을 먹으셨나요? 간식 봉지에 갇히셨나요?\" \n\n**입력 예시:** \"무엇을 먹으셨나요? 간식 봉지에 갇히셨나요?\"\n\n",
+  "visual": {
+    "style": "caption_card",
+    "width": 960,
+    "height": 540,
+    "background_color": "#142032",
+    "foreground_color": "#FFFFFF",
+    "caption": "**음원 설명:** \"무엇을 먹으셨나요? 간식 봉지에 갇히셨나요?\" \n\n**입력 예시:** \"무엇을 먹으셨나요? 간식 봉지에 갇히셨나요?\"\n\n",
+    "font_size": 52
+  },
+  "video": {
+    "fps": 12,
+    "duration_seconds": 3,
+    "frame_count": 36
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "creation-plan-v1",
+  "plan_id": "msm_eval_02_C0",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "model_run_id": "7c2d5c379f704581ac21f26419c3e406",
+  "text": "\"Monkeys Spinning Monkeys\" - 2023년 1월 15일\n\n\"도미노를 끝까지 세우기 직전에 소매로 첫 조각을 건드린다.\" - 2023년 1월 14",
+  "visual": {
+    "style": "caption_card",
+    "width": 960,
+    "height": 540,
+    "background_color": "#142032",
+    "foreground_color": "#FFFFFF",
+    "caption": "\"Monkeys Spinning Monkeys\" - 2023년 1월 15일\n\n\"도미노를 끝까지 세우기 직전에 소매로 첫 조각을 건드린다.\" - 2023년 1월 14",
+    "font_size": 52
+  },
+  "video": {
+    "fps": 12,
+    "duration_seconds": 3,
+    "frame_count": 36
+  }
+}

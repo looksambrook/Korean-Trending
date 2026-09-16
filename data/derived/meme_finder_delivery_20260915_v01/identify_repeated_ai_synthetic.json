@@ -1,0 +1,223 @@
+{
+  "schema_version": "meme-identification-v1",
+  "created_at": "2026-09-15T00:21:21.348121+00:00",
+  "as_of": "2026-09-15T00:21:21.328774+00:00",
+  "input": {
+    "text": "갈테야 갈테야 퇴근하러 갈테야",
+    "provenance": "ai_synthetic",
+    "is_collected_source_example": false
+  },
+  "status": "tentative_match",
+  "reason": "저장된 용례에 근거한 잠정 연결입니다.",
+  "matches": [
+    {
+      "family_id": "mfamily_3fd89acfc18e56032b97",
+      "label": "갈테야 갈테야",
+      "kind": "repeated_catchphrase",
+      "family_evidence_status": "supported_textual_reuse",
+      "match_type": "exact_observed_expression",
+      "decision": "tentative_match",
+      "reason": "입력에 저장된 자료에서 관찰한 표현이 포함되어 있습니다. 같은 이름이나 문구의 다른 뜻일 수 있으므로 실제 사용 의도는 확정하지 않습니다.",
+      "source_examples": [
+        {
+          "observation_id": "youtube:feed:2akc0XnNkKo:25ca6b31c217608bb467",
+          "video_id": "2akc0XnNkKo",
+          "title": "[8화 예고] 갈테야 갈테야, 속세로 갈테야🚩 | 짐쌀라비움",
+          "description": "속세행 튜브 열차🛟\n지금 바로 급류 속으로 출발합니다🌊\n\n✶짐쌀라비움 | 매주 (토) 저녁 7:50 ENA\n\n#짐쌀라비움 #AbracaEmpty\n\n◼️TEO 공식 SNS \n➡️https://www.youtube.com/@TEO_universe\n➡️https://www.instagram.com/teo.universe/\n➡️https://twitter.com/TEO_universe_",
+          "channel_id": "UC-uIpGINZDL-VIHQQzJW8jw",
+          "channel_label": "TEO 테오",
+          "source_url": "https://www.youtube.com/watch?v=2akc0XnNkKo",
+          "posted_at": "2026-09-13T00:00:24+00:00",
+          "available_at": "2026-09-15T00:18:12.115302+00:00",
+          "provenance": "actual_collected",
+          "discovery_origin": {
+            "sampling": {
+              "mode": "channel_feed",
+              "known_meme_name_seed": false,
+              "selection": "convenience_access_probe",
+              "past_completeness": "unknown",
+              "pipeline_origin": "name_free_channel_observation"
+            },
+            "initial_seed_ids": [
+              "mseed_4e2f24b672393e96f227"
+            ],
+            "pipeline_origin": "name_free_channel_observation",
+            "observed_pipeline_origins": [
+              "name_free_channel_observation"
+            ],
+            "posthoc_expansion_seed_ids": []
+          },
+          "collection_snapshots": [
+            {
+              "observation_id": "youtube:feed:2akc0XnNkKo:25ca6b31c217608bb467",
+              "available_at": "2026-09-15T00:18:12.115302+00:00",
+              "discovery_origin": "name_free_channel_observation",
+              "sampling": {
+                "mode": "channel_feed",
+                "known_meme_name_seed": false,
+                "selection": "convenience_access_probe",
+                "past_completeness": "unknown"
+              }
+            }
+          ],
+          "original_or_repost": "unknown"
+        },
+        {
+          "observation_id": "youtube:watch:RP0MS9BBRwk:2dd59aaa911ede9c9ffce296",
+          "video_id": "RP0MS9BBRwk",
+          "title": "[ENG] 갈테야 갈테야 무대하러 갈테야 |  석션⚡| [앓던니] 안무 연습 비하인드",
+          "description": "갈테야 갈테야 무대하러 갈테야 | 석션⚡| [앓던니] 안무 연습 비하인드\n\n[문화체육관광부 · 한국콘텐츠진흥원 제작 지원작]\n\n무대를 향한⚡석션⚡의 피나는 안무 연습 비하인드\n\n---\n\n*본 영상과 무관한 내용의 댓글과 출연자에 대한 무분별한 욕설, 비난 및 조롱 등 악의적인 댓글은 무통보 삭제될 수 있습니다.\n\nCopyright © 2026 RECOV All rights reserved. 무단 전재, 재배포 및  AI학습 이용 금지\n\n【석션】\n💌 비즈니스 문의 : harry.shin@recovent.co.kr\n#권혁수 #나르샤 #나현영 #엠제이 #하이루엔터 #석션",
+          "channel_id": "UCqIiCKXO-Cf-1VdeNKmLtHg",
+          "channel_label": "하이루 엔터",
+          "source_url": "https://www.youtube.com/watch?v=RP0MS9BBRwk",
+          "posted_at": "2026-03-02T09:00:39+00:00",
+          "available_at": "2026-09-15T00:18:45.949398+00:00",
+          "provenance": "actual_collected",
+          "discovery_origin": {
+            "sampling": {
+              "mode": "public_watch_html",
+              "posthoc_expansion": true,
+              "unseeded_discovery": false,
+              "video_and_audio_examined": false,
+              "pipeline_origin": "observed_phrase_expansion"
+            },
+            "initial_seed_ids": [],
+            "pipeline_origin": "observed_phrase_expansion",
+            "observed_pipeline_origins": [
+              "observed_phrase_expansion"
+            ],
+            "posthoc_expansion_seed_ids": [
+              "mseed_4e2f24b672393e96f227"
+            ]
+          },
+          "collection_snapshots": [
+            {
+              "observation_id": "youtube:watch:RP0MS9BBRwk:2dd59aaa911ede9c9ffce296",
+              "available_at": "2026-09-15T00:18:45.949398+00:00",
+              "discovery_origin": "observed_phrase_expansion",
+              "sampling": {
+                "mode": "public_watch_html",
+                "posthoc_expansion": true,
+                "unseeded_discovery": false,
+                "video_and_audio_examined": false
+              }
+            }
+          ],
+          "original_or_repost": "unknown"
+        },
+        {
+          "observation_id": "youtube:watch:aQsZEhTY0kY:4917bd6260a4095bf07ddb4a",
+          "video_id": "aQsZEhTY0kY",
+          "title": "갈테야 갈테야 정신병원으로 갈테야_【최애의 아이】_34화_하이라이트_[Aniplus]",
+          "description": "🌟 【최애의 아이】 다시보기 : https://laftel.net/item/44283\n📺 TV 본방송: 매주(수) 밤12시 방송\n\n34화 개인 간 오디션\n'거짓말이란 뭘까?' 호시노 루비라는 역할을, 텐도지 사리나라는 역할을 연기해온 그녀의 '거짓을 토해내는' 연기는──? 그리고, 아쿠아가 만들려는 영화에 대해 알게 된 루비는──\n\n\nNEW & HIGH 한일 동시방영 애니메이션 채널 ANIPLUS\n📺 www.aniplustv.com\n🐤 Twitter. @ANIPLUSTV\n🌈 Instagram. @aniplus_k\n\n#최애의아이 #애니플러스",
+          "channel_id": "UCciFL1bEM7JxsFX4W2HzqnA",
+          "channel_label": "AniplusTV",
+          "source_url": "https://www.youtube.com/watch?v=aQsZEhTY0kY",
+          "posted_at": "2026-04-03T10:00:03+00:00",
+          "available_at": "2026-09-15T00:18:43.756652+00:00",
+          "provenance": "actual_collected",
+          "discovery_origin": {
+            "sampling": {
+              "mode": "public_watch_html",
+              "posthoc_expansion": true,
+              "unseeded_discovery": false,
+              "video_and_audio_examined": false,
+              "pipeline_origin": "observed_phrase_expansion"
+            },
+            "initial_seed_ids": [],
+            "pipeline_origin": "observed_phrase_expansion",
+            "observed_pipeline_origins": [
+              "observed_phrase_expansion"
+            ],
+            "posthoc_expansion_seed_ids": [
+              "mseed_4e2f24b672393e96f227"
+            ]
+          },
+          "collection_snapshots": [
+            {
+              "observation_id": "youtube:watch:aQsZEhTY0kY:4917bd6260a4095bf07ddb4a",
+              "available_at": "2026-09-15T00:18:43.756652+00:00",
+              "discovery_origin": "observed_phrase_expansion",
+              "sampling": {
+                "mode": "public_watch_html",
+                "posthoc_expansion": true,
+                "unseeded_discovery": false,
+                "video_and_audio_examined": false
+              }
+            }
+          ],
+          "original_or_repost": "unknown"
+        },
+        {
+          "observation_id": "youtube:watch:rzNQs9vl46E:5bcb75318b24770d4844da61",
+          "video_id": "rzNQs9vl46E",
+          "title": "갈테야 갈테야 굽네 장각구이 먹으러 갈테야",
+          "description": "",
+          "channel_id": "UCwx2AFi2Zg8_SYzjaJ7Hfmg",
+          "channel_label": "굽네",
+          "source_url": "https://www.youtube.com/watch?v=rzNQs9vl46E",
+          "posted_at": "2025-09-19T08:53:49+00:00",
+          "available_at": "2026-09-15T00:18:48.264182+00:00",
+          "provenance": "actual_collected",
+          "discovery_origin": {
+            "sampling": {
+              "mode": "public_watch_html",
+              "posthoc_expansion": true,
+              "unseeded_discovery": false,
+              "video_and_audio_examined": false,
+              "pipeline_origin": "observed_phrase_expansion"
+            },
+            "initial_seed_ids": [],
+            "pipeline_origin": "observed_phrase_expansion",
+            "observed_pipeline_origins": [
+              "observed_phrase_expansion"
+            ],
+            "posthoc_expansion_seed_ids": [
+              "mseed_4e2f24b672393e96f227"
+            ]
+          },
+          "collection_snapshots": [
+            {
+              "observation_id": "youtube:watch:rzNQs9vl46E:5bcb75318b24770d4844da61",
+              "available_at": "2026-09-15T00:18:48.264182+00:00",
+              "discovery_origin": "observed_phrase_expansion",
+              "sampling": {
+                "mode": "public_watch_html",
+                "posthoc_expansion": true,
+                "unseeded_discovery": false,
+                "video_and_audio_examined": false
+              }
+            }
+          ],
+          "original_or_repost": "unknown"
+        }
+      ],
+      "stored_meaning": "‘갈테야’를 앞에서 두 번, 뒤에서 한 번 반복하고 그 사이 내용을 바꾸는 제목 표현이다. 서로 다른 맥락의 변형이 관찰된다.",
+      "stored_meaning_method": "deterministic_surface_grammar_and_source_cues",
+      "knowledge_available_at": "2026-09-15T00:18:51.580535+00:00",
+      "uncertainties": [
+        "원출처",
+        "독립 제작 여부",
+        "영상·음성의 실제 내용",
+        "현재 확산 규모",
+        "모든 맥락에서의 의미",
+        "입력 문맥의 실제 밈 사용 의도",
+        "동일 표현의 다른 의미 가능성",
+        "사람 검수 미실시"
+      ],
+      "input_structure": null,
+      "is_definitive_identification": false
+    }
+  ],
+  "eligible_family_count": 4,
+  "excluded_knowledge": [],
+  "source_run_id": "c73daaa572d840fd935d89b42877382a",
+  "method": "deterministic_source_retrieval_and_observed_frame_matching",
+  "model_calls": 0,
+  "model_weights_trained": false,
+  "human_review_minutes": 0,
+  "interpretation_notice": "저장된 근거를 조회하여 규칙으로 연결합니다. LLM의 의미 이해 평가나 가중치 학습 결과가 아닙니다.",
+  "collection_cost_usd": 0,
+  "run_id": "f111ca2d3a0b4f06b29f8013235d7852",
+  "source_snapshot_sha256": "343c8f84cb5406443aa026f3d59ce13b35a3534f012a471e7a72db940b02722d"
+}

@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:korean-meme-research:multimodal-record:v1",
+  "title": "Locally available meme record with explicit provenance and time versions",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["meme_id", "family_id", "version", "available_at", "published_at", "provenance", "assets"],
+  "properties": {
+    "meme_id": {"$ref": "#/$defs/id"},
+    "family_id": {"$ref": "#/$defs/id"},
+    "version": {"type": ["string", "integer"]},
+    "available_at": {"$ref": "#/$defs/time"},
+    "published_at": {"anyOf": [{"$ref": "#/$defs/time"}, {"type": "null"}]},
+    "provenance": {"$ref": "#/$defs/provenance"},
+    "title": {"type": "string"},
+    "platform": {"type": "string"},
+    "split": {"$ref": "#/$defs/split"},
+    "assets": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/asset"}},
+    "relationships": {"type": "array", "items": {"$ref": "#/$defs/relationship"}},
+    "knowledge": {"type": "array", "items": {"$ref": "#/$defs/knowledge"}},
+    "annotations": {"type": "array", "items": {"$ref": "#/$defs/annotation"}},
+    "creation_examples": {"type": "array", "items": {"$ref": "#/$defs/creation_example"}}
+  },
+  "$defs": {
+    "id": {"type": "string", "minLength": 1},
+    "time": {"type": "string", "format": "date-time", "description": "Explicit timezone required. Supplied availability is preserved, not inferred from publication."},
+    "provenance": {"enum": ["actual_collected", "researcher_authored", "ai_synthetic"]},
+    "split": {"enum": ["train", "dev", "test", null]},
+    "ids": {"type": "array", "items": {"$ref": "#/$defs/id"}, "uniqueItems": true},
+    "author": {
+      "type": "object", "required": ["id", "type"], "additionalProperties": false,
+      "properties": {"id": {"$ref": "#/$defs/id"}, "type": {"enum": ["human", "ai", "system"]}}
+    },
+    "asset": {
+      "type": "object", "additionalProperties": false,
+      "required": ["asset_id", "source_group_id", "source_url", "local_path", "mime", "modality", "license_or_use_basis", "status", "provenance", "purpose"],
+      "properties": {
+        "asset_id": {"$ref": "#/$defs/id"},
+        "source_group_id": {"$ref": "#/$defs/id", "description": "Original media and its frames/audio/OCR derivatives must share this id."},
+        "parent_asset_ids": {"$ref": "#/$defs/ids"},
+        "source_url": {"type": ["string", "null"]},
+        "local_path": {"type": ["string", "null"], "description": "Existing path resolving within the project. Never downloaded by importer."},
+        "original_local_path": {"type": "string"},
+        "sha256": {"anyOf": [{"type": "string", "pattern": "^[0-9a-f]{64}$"}, {"type": "null"}], "description": "May be omitted on input; measured and checked during ingest."},
+        "mime": {"type": "string", "pattern": "^(text|image|audio|video)/.+$"},
+        "modality": {"enum": ["text", "image", "audio", "video"]},
+        "license_or_use_basis": {"type": "string", "minLength": 1},
+        "status": {"enum": ["available", "restricted", "missing", "excluded"]},
+        "provenance": {"$ref": "#/$defs/provenance"},
+        "purpose": {"enum": ["source_evidence", "training_target", "evaluation_only"]},
+        "available_at": {"$ref": "#/$defs/time", "description": "Defaults to record available_at. Must not be later than record version availability."},
+        "published_at": {"anyOf": [{"$ref": "#/$defs/time"}, {"type": "null"}]}
+      },
+      "allOf": [{"if": {"properties": {"status": {"const": "available"}}}, "then": {"properties": {"local_path": {"type": "string", "minLength": 1}}}}]
+    },
+    "relationship": {
+      "type": "object", "additionalProperties": false,
+      "required": ["relationship_id", "target_meme_id", "relation", "available_at", "provenance"],
+      "properties": {
+        "relationship_id": {"$ref": "#/$defs/id"}, "target_meme_id": {"$ref": "#/$defs/id"},
+        "relation": {"$ref": "#/$defs/id"}, "available_at": {"$ref": "#/$defs/time"},
+        "provenance": {"$ref": "#/$defs/provenance"}, "basis_asset_ids": {"$ref": "#/$defs/ids"}
+      }
+    },
+    "knowledge": {
+      "type": "object", "additionalProperties": false,
+      "required": ["knowledge_id", "version", "available_at", "text", "provenance", "purpose", "source_asset_ids"],
+      "properties": {
+        "knowledge_id": {"$ref": "#/$defs/id"}, "version": {"type": ["string", "integer"]},
+        "available_at": {"$ref": "#/$defs/time"}, "text": {"type": "string", "minLength": 1},
+        "provenance": {"$ref": "#/$defs/provenance"}, "purpose": {"enum": ["source_context", "evaluation_gold"]},
+        "source_asset_ids": {"$ref": "#/$defs/ids", "minItems": 1}, "derived_from_annotation_ids": {"$ref": "#/$defs/ids"}
+      }
+    },
+    "annotation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["annotation_id", "author", "role", "available_at", "provenance"],
+      "properties": {
+        "annotation_id": {"$ref": "#/$defs/id"}, "author": {"$ref": "#/$defs/author"},
+        "role": {"enum": ["source_context", "quality_review", "evaluation_gold"]},
+        "available_at": {"$ref": "#/$defs/time"}, "content": {}, "provenance": {"$ref": "#/$defs/provenance"},
+        "human_minutes": {"type": ["number", "null"], "minimum": 0}
+      }
+    },
+    "creation_example": {
+      "type": "object", "additionalProperties": false,
+      "required": ["example_id", "brief", "available_at", "provenance", "purpose"],
+      "properties": {
+        "example_id": {"$ref": "#/$defs/id"}, "brief": {"type": "string", "minLength": 1},
+        "target_asset_ids": {"$ref": "#/$defs/ids"}, "target_text": {"type": ["string", "null"]},
+        "available_at": {"$ref": "#/$defs/time"}, "provenance": {"$ref": "#/$defs/provenance"},
+        "purpose": {"enum": ["training_supervision", "evaluation_only"]},
+        "split": {"$ref": "#/$defs/split"}, "author": {"$ref": "#/$defs/author"}
+      },
+      "anyOf": [{"required": ["target_text"], "properties": {"target_text": {"type": "string", "minLength": 1}}}, {"required": ["target_asset_ids"], "properties": {"target_asset_ids": {"minItems": 1}}}]
+    }
+  }
+}

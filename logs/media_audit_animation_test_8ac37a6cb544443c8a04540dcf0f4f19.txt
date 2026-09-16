@@ -1,0 +1,6 @@
+test_animation_first_frame_does_not_claim_full_decode (test_multimodal_media_audit.MediaAuditTests.test_animation_first_frame_does_not_claim_full_decode) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.870s
+
+OK

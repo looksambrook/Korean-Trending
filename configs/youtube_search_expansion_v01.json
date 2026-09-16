@@ -1,0 +1,24 @@
+{
+  "version": "youtube-public-search-v1",
+  "search_mode": "discovered_phrase_expansion",
+  "queries": [
+    {
+      "query": "실례카겔",
+      "evidence_ids": [
+        "youtube:feed:TBqvX5m2qlI:f59ccbc3a206bbcb2749",
+        "youtube:feed:yN_GxazmPT8:5157383d55906b982095"
+      ]
+    }
+  ],
+  "selection_reason": "실수집한 침착맨 최근 업로드의 제목·설명 해시태그에 관측된 표현을 개발 중 선택하여 공개 검색으로 용례를 보강한다. AI가 관측 문구를 보고 해시태그 누락을 보정한 뒤의 후보 ytc_8bacec8b9f26b796bf29 및 탐지 실행 d74d01b5a40f493d9d8d26d106afc878와 관련되므로, 독립 시험자료에서의 자동 발견이나 비명명 발견 평가로 사용하지 않는다.",
+  "discovery_run_id": "a92df7a913dc46538b6a7b7afdcb0bdd",
+  "discovery_manifest": "data/collected/youtube_feed_20260915_v02/manifest.json",
+  "discovery_observations": "data/collected/youtube_feed_20260915_v02/observations.jsonl",
+  "discovery_method": "development_observed_phrase_selection_after_hashtag_tokenizer_correction; originating collection run, not heldout automatic discovery",
+  "known_meme_seed_names": [],
+  "max_results_per_query": 20,
+  "max_results_total": 20,
+  "timeout_seconds": 15,
+  "max_response_bytes": 8000000,
+  "retention_days": 30
+}

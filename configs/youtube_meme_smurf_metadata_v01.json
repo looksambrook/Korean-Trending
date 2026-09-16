@@ -1,0 +1,12 @@
+{
+  "version": "youtube-watch-metadata-v1",
+  "mode": "posthoc_search_expansion",
+  "video_ids": ["dY_aF0dHn8U", "tjJJhCrUuCE", "2mGs9rXazWk"],
+  "source_run_id": "81f7db30edb54b2495fad8031c1c99ac",
+  "source_manifest": "data/collected/youtube_meme_smurf_20260915_v01/81f7db30edb54b2495fad8031c1c99ac/manifest.json",
+  "source_observations": "data/collected/youtube_meme_smurf_20260915_v01/81f7db30edb54b2495fad8031c1c99ac/observations.jsonl",
+  "selection_reason": "사후 스머프캣 검색에서 변신, DIY 공예, 돌아왔다는 제목이 보인 3개 영상의 제작자·날짜·설명을 확인한다. 제목만으로 실제 영상의 공예·변신 장면을 본 것으로 서술하지 않고 재게시 여부 및 확대 편집 동일 계열은 미확정으로 둔다.",
+  "timeout_seconds": 15,
+  "max_response_bytes": 8000000,
+  "retention_days": 30
+}

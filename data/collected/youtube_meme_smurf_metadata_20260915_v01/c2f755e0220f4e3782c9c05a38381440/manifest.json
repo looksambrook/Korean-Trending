@@ -1,0 +1,125 @@
+{
+  "schema_version": "youtube-watch-metadata-manifest-v1",
+  "run_id": "c2f755e0220f4e3782c9c05a38381440",
+  "status": "completed",
+  "started_at": "2026-09-14T23:16:51.138377+00:00",
+  "finished_at": "2026-09-14T23:16:58.101632+00:00",
+  "config": {
+    "version": "youtube-watch-metadata-v1",
+    "mode": "posthoc_search_expansion",
+    "video_ids": [
+      "dY_aF0dHn8U",
+      "tjJJhCrUuCE",
+      "2mGs9rXazWk"
+    ],
+    "source_run_id": "81f7db30edb54b2495fad8031c1c99ac",
+    "source_manifest": "data/collected/youtube_meme_smurf_20260915_v01/81f7db30edb54b2495fad8031c1c99ac/manifest.json",
+    "source_observations": "data/collected/youtube_meme_smurf_20260915_v01/81f7db30edb54b2495fad8031c1c99ac/observations.jsonl",
+    "selection_reason": "사후 스머프캣 검색에서 변신, DIY 공예, 돌아왔다는 제목이 보인 3개 영상의 제작자·날짜·설명을 확인한다. 제목만으로 실제 영상의 공예·변신 장면을 본 것으로 서술하지 않고 재게시 여부 및 확대 편집 동일 계열은 미확정으로 둔다.",
+    "timeout_seconds": 15,
+    "max_response_bytes": 8000000,
+    "retention_days": 30
+  },
+  "provenance": "actual_collected",
+  "test_only": false,
+  "http_attempts": 3,
+  "observations": 3,
+  "requests": [
+    {
+      "video_id": "dY_aF0dHn8U",
+      "source_url": "https://www.youtube.com/watch?v=dY_aF0dHn8U&hl=ko",
+      "started_at": "2026-09-14T23:16:51.144933+00:00",
+      "status": "succeeded",
+      "received_at": "2026-09-14T23:16:51.871059+00:00",
+      "raw_file": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_smurf_metadata_20260915_v01\\c2f755e0220f4e3782c9c05a38381440\\raw\\dY_aF0dHn8U.html",
+      "raw_sha256": "481900745174ca470c15fe3918b254c51f9c7c24a3b6ec3fcc72844eb4745b7c",
+      "raw_bytes": 1248376,
+      "retention_due_at": "2026-10-14T23:16:51.871059+00:00",
+      "channel_id_available": true,
+      "exact_publication_time_available": true,
+      "posted_precision": "timestamp",
+      "description_available": true
+    },
+    {
+      "video_id": "tjJJhCrUuCE",
+      "source_url": "https://www.youtube.com/watch?v=tjJJhCrUuCE&hl=ko",
+      "started_at": "2026-09-14T23:16:53.490263+00:00",
+      "status": "succeeded",
+      "received_at": "2026-09-14T23:16:54.333046+00:00",
+      "raw_file": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_smurf_metadata_20260915_v01\\c2f755e0220f4e3782c9c05a38381440\\raw\\tjJJhCrUuCE.html",
+      "raw_sha256": "19339737045e47e68a22f1ce122c0f954b49fb35a9a9fe783bc19258a48de764",
+      "raw_bytes": 1226491,
+      "retention_due_at": "2026-10-14T23:16:54.333046+00:00",
+      "channel_id_available": true,
+      "exact_publication_time_available": true,
+      "posted_precision": "timestamp",
+      "description_available": true
+    },
+    {
+      "video_id": "2mGs9rXazWk",
+      "source_url": "https://www.youtube.com/watch?v=2mGs9rXazWk&hl=ko",
+      "started_at": "2026-09-14T23:16:55.991893+00:00",
+      "status": "succeeded",
+      "received_at": "2026-09-14T23:16:56.933859+00:00",
+      "raw_file": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_smurf_metadata_20260915_v01\\c2f755e0220f4e3782c9c05a38381440\\raw\\2mGs9rXazWk.html",
+      "raw_sha256": "8000c8421c54f5b40c2b57d7cecd3b420e3e9c2e9169545c763883279a871fdd",
+      "raw_bytes": 1219024,
+      "retention_due_at": "2026-10-14T23:16:56.933859+00:00",
+      "channel_id_available": true,
+      "exact_publication_time_available": true,
+      "posted_precision": "timestamp",
+      "description_available": true
+    }
+  ],
+  "issues": [],
+  "channel_ids_available": 3,
+  "exact_publication_timestamps": 3,
+  "date_only_publications": 0,
+  "paid_api_calls": 0,
+  "model_calls": 0,
+  "human_review_minutes": 0,
+  "verified_meme_count": null,
+  "posthoc_expansion": true,
+  "discovery_evaluation_eligible": false,
+  "history_reconstruction": false,
+  "video_and_audio_examined": false,
+  "input_snapshots": [
+    {
+      "id": "source_manifest",
+      "sha256": "a2f84d6911f59040b257a06a750c354ab3eac0c7a9f9ab4cbc76bb1cdaa973ce"
+    },
+    {
+      "id": "source_observations",
+      "sha256": "95ab259d6b3ec7feeb0f2c635a26a65d67f20e6f766aa61c31173b1436f12a19"
+    }
+  ],
+  "limitations": [
+    "Public source metadata only; no video/audio content examination or meme accuracy claim.",
+    "Query-selected posthoc expansion remains excluded from independent discovery evaluation.",
+    "Date-only publication labels and upload dates are not converted into exact publication timestamps.",
+    "All metadata becomes available at actual retrieval time, never retroactively at publication time.",
+    "Channel attribution does not establish the origin of an expression or distinguish copies from independent reuse."
+  ],
+  "artifacts": [
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_smurf_metadata_20260915_v01\\c2f755e0220f4e3782c9c05a38381440\\observations.jsonl",
+      "sha256": "a4a90c4e341fdcac14a9f20ce11119c094b370cf2934470b36855fc6cac660eb",
+      "bytes": 8082
+    },
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_smurf_metadata_20260915_v01\\c2f755e0220f4e3782c9c05a38381440\\raw\\dY_aF0dHn8U.html",
+      "sha256": "481900745174ca470c15fe3918b254c51f9c7c24a3b6ec3fcc72844eb4745b7c",
+      "bytes": 1248376
+    },
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_smurf_metadata_20260915_v01\\c2f755e0220f4e3782c9c05a38381440\\raw\\tjJJhCrUuCE.html",
+      "sha256": "19339737045e47e68a22f1ce122c0f954b49fb35a9a9fe783bc19258a48de764",
+      "bytes": 1226491
+    },
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_smurf_metadata_20260915_v01\\c2f755e0220f4e3782c9c05a38381440\\raw\\2mGs9rXazWk.html",
+      "sha256": "8000c8421c54f5b40c2b57d7cecd3b420e3e9c2e9169545c763883279a871fdd",
+      "bytes": 1219024
+    }
+  ]
+}

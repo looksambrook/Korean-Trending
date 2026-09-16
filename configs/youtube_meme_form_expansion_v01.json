@@ -1,0 +1,15 @@
+{
+  "search_mode": "discovered_phrase_expansion",
+  "queries": [{"query": "고도로 발달한", "evidence_ids": ["youtube:feed:MxCIV2tlGdI:796acf53a59cc6f703c4"]}],
+  "selection_reason": "초기 이름 미지정 채널 관측에서 나온 문장 구조를 AI가 검토해 선택했다. 반복 빈도 기준에서 빠진 단일 용례의 인용·변형 가능성을 확인하는 사후 구조 확장이며 독립 발견 성능 평가가 아니다. 일반 급상승 주제는 밈으로 사용하지 않는다.",
+  "known_meme_seed_names": [],
+  "discovery_run_id": "a92df7a913dc46538b6a7b7afdcb0bdd",
+  "discovery_observations": "data/collected/youtube_feed_20260915_v02/observations.jsonl",
+  "discovery_manifest": "data/collected/youtube_feed_20260915_v02/manifest.json",
+  "discovery_method": "AI_selected_form_from_actual_initial_channel_observation; subsequent_phrase_expansion_not_heldout_discovery",
+  "max_results_per_query": 20,
+  "max_results_total": 20,
+  "timeout_seconds": 15,
+  "max_response_bytes": 8000000,
+  "retention_days": 30
+}

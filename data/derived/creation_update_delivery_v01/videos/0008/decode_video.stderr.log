@@ -1,0 +1,27 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\user\Korean-Treanding\data\derived\creation_update_delivery_v01\videos\0008\playback.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Duration: 00:00:03.00, start: 0.000000, bitrate: 166 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 960x540 [SAR 1:1 DAR 16:9], 162 kb/s, 12 fps, 12 tbr, 12288 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> rawvideo (native))
+Output #0, framemd5, to 'C:\Users\user\Korean-Treanding\data\derived\creation_update_delivery_v01\videos\0008\decoded_frames.framemd5':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Stream #0:0(und): Video: rawvideo (RGB[24] / 0x18424752), rgb24(pc, gbr/unknown/unknown, progressive), 960x540 [SAR 1:1 DAR 16:9], q=2-31, 149299 kb/s, 12 fps, 12 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 rawvideo
+[out#0/framemd5 @ 0000019eca0fca40] video:54675KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=   36 fps=0.0 q=-0.0 Lsize=       3KiB time=00:00:03.00 bitrate=   8.3kbits/s speed=15.5x    

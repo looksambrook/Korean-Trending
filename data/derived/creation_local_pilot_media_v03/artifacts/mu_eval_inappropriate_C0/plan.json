@@ -1,0 +1,22 @@
+{
+  "schema_version": "creation-plan-v1",
+  "plan_id": "mu_eval_inappropriate_C0",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "model_run_id": "a09dceb9872646c18941c24f7be250d4",
+  "text": "무료의 친구와 함께 하는 대회에서 탈락해 속상해지는 모습이 너무나도 심각하다. 이 상황에 대해 생각해보면, 그들이 어떻게 타격받았는지 이해해야 한다. 무엇보다, 그들의 마음을 보호",
+  "visual": {
+    "style": "caption_card",
+    "width": 960,
+    "height": 540,
+    "background_color": "#142032",
+    "foreground_color": "#FFFFFF",
+    "caption": "무료의 친구와 함께 하는 대회에서 탈락해 속상해지는 모습이 너무나도 심각하다. 이 상황에 대해 생각해보면, 그들이 어떻게 타격받았는지 이해해야 한다. 무엇보다, 그들의 마음을 보호",
+    "font_size": 52
+  },
+  "video": {
+    "fps": 12,
+    "duration_seconds": 3,
+    "frame_count": 36
+  }
+}

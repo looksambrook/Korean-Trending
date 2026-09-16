@@ -1,0 +1,150 @@
+{
+  "schema_version": "original-source-followup-0.1",
+  "collected_on": "2026-09-11",
+  "collector": "codex_separate_evidence_agent",
+  "collection_started_utc": "2026-09-11 04:51:18 UTC",
+  "collection_stopped_utc": "2026-09-11 04:52:43 UTC",
+  "collection_status": "bounded_public_access_followup_stopped_with_access_failures",
+  "source_file": "data/evidence/pilot_evidence.json",
+  "source_file_sha256": "8d70777cb92d90865b8da72a0337af73982d2c9a3954845fb05febdea9c25f10",
+  "notes": [
+    "기존 지원 용례의 원자료 경로를 추적한 관리 기록이다. 신규 용례·분류·평가 상황·정답을 추가하지 않는다.",
+    "아래 확인은 공개 HTML·검색 색인·링크 대상 경로 수준을 구분한다. 영상 재생·음성 청취·자막 또는 대본의 직접 확인은 0건이다.",
+    "cache miss는 웹 도구가 페이지를 가져오지 못했다는 뜻이다. 영상 삭제·비공개·연령 제한이라고 단정하지 않는다.",
+    "로컬 네트워크 권한 오류 뒤 권한 상향·프록시·미러·로그인·구독·유료 요청을 시도하지 않았다.",
+    "검색에 나타난 제3자 재게시·해설은 신규 근거로 채택하거나 추가 열람하지 않았다.",
+    "원형·최초발화일·창작자 관계·재이용 허가는 기존 미검증 상태를 유지한다."
+  ],
+  "families": [
+    {
+      "family_id": "geoje_yaho",
+      "related_evidence_ids": ["geoje_reported_original_20260617"],
+      "source_relation_status": "reported_channel_name_found_original_video_url_not_identified",
+      "canonical_origin_verified": false,
+      "first_utterance_date": null,
+      "original_video_published_date_verified": false,
+      "original_phrase_directly_verified_in_primary_material": false,
+      "direct_video_observation": false,
+      "direct_audio_observation": false,
+      "direct_captions_observation": false,
+      "direct_script_observation": false,
+      "article_entry_point": {
+        "url": "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N1008613629",
+        "title": "\"거제 야호\" 한마디에 퍼졌다…재작년 발매한 곡 역주행",
+        "publisher": "SBS 뉴스",
+        "published_date": "2026-06-17",
+        "verification_level": "article_html_directly_read",
+        "exact_credit_excerpt": "유튜브 '안녕하세요원이입니다잘부탁드립니다'",
+        "observation": "인쇄 페이지에는 제작자 채널명이 화면출처로 표기되어 있으나 대상 원영상으로 향하는 링크는 확인되지 않았다. 기사 속 원이·미나미 발화 설명은 기존 보도 인용 수준이다.",
+        "rights_observed": "SBS 저작권과 무단 전재·재배포·AI학습 이용 금지 표시를 본문 하단에서 확인.",
+        "external_model_use_cleared": false
+      },
+      "primary_channel_relation_leads": [
+        {
+          "url": "https://teamsolfa.com/work",
+          "publisher_candidate": "솔파스튜디오",
+          "verification_level": "publisher_search_index_only_direct_html_failed",
+          "indexed_text_fragments": ["자체 운영 채널", "안녕하세요원이입니다잘부탁드립니다"],
+          "indexed_relation": "제작사 작업목록 검색 색인에서 위 채널명이 오리지널·자체 운영 채널 목록에 나타남.",
+          "direct_open_result": "HTTP 403 Forbidden reported by web tool",
+          "rights_observed": null,
+          "limitation": "검색 색인에 나타난 제작사-채널 관계 후보일 뿐 공식 본문 직접 확인이 아니다. 원구절·대상 원영상·최초시점은 확인하지 못함."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8r-YPb_tKlM",
+          "verification_level": "youtube_search_index_metadata_only_direct_html_failed",
+          "indexed_title": "Anwon Jalbu unreleased footage",
+          "indexed_author": "안녕하세요원이입니다잘부탁드립니다",
+          "indexed_published_date": "2026-07-17",
+          "indexed_production_credit": "Produced by Solfa Studio",
+          "rights_observed": "YouTube 검색 메타데이터의 설명란에 2026년 Solfa Studio all rights reserved 표시. 직접 본문은 미열람.",
+          "direct_open_result": "Cache miss reported by web tool",
+          "limitation": "채널명과 제작사 관계를 추적하는 후보 자료이며 원구절의 해당 영상으로 식별한 자료가 아니다. 게시일을 유행어의 원발화일로 사용하지 않는다."
+        }
+      ],
+      "decision": "기존 기사 인용의 검증 수준을 유지. 원영상·원구절 직접 확인으로 승격하지 않음.",
+      "next_verifiable_step": "공식 채널의 해당 원게시물 URL을 확보한 뒤 공개 제목·게시일·자막 유무와 구절 위치를 독립적으로 대조. 현재 근거로 특정 촬영일 또는 최초발화일을 채우지 않음."
+    },
+    {
+      "family_id": "who_returned",
+      "related_evidence_ids": ["return_hsad_original_quote_20260715"],
+      "source_relation_status": "article_embed_target_identified_target_content_unverified",
+      "canonical_origin_verified": false,
+      "first_utterance_date": null,
+      "original_video_published_date_verified": false,
+      "original_phrase_directly_verified_in_primary_material": false,
+      "direct_video_observation": false,
+      "direct_audio_observation": false,
+      "direct_captions_observation": false,
+      "direct_script_observation": false,
+      "article_entry_point": {
+        "url": "https://www.adic.or.kr/journal/column/show.do?ukey=595073",
+        "title": "[월간 2026밈] 07월 편 - 90년대에서 누가 돌아왔~게",
+        "publisher": "광고정보센터 매거진",
+        "attributed_author": "HS Ad",
+        "published_date": "2026-07-15",
+        "verification_level": "article_html_and_outbound_target_directly_read",
+        "exact_link_label": "공주님의 안전귀가를 위해 #안전귀가 #늑구",
+        "creator_attributed_by_article": "팔리아치 유튜브",
+        "linked_embed_url": "https://www.youtube.com/embed/EVymd_HtMtM",
+        "video_id": "EVymd_HtMtM",
+        "observation": "기사의 공개 링크를 따라가 영상 ID를 확인했다. 기사에 적힌 제목·창작자 표기는 대상 영상의 직접 확인과 다르다.",
+        "rights_observed": "기사 본문에서 별도 재사용 허락을 확인하지 못함.",
+        "external_model_use_cleared": false
+      },
+      "target_access_attempts": [
+        {
+          "url": "https://www.youtube.com/embed/EVymd_HtMtM",
+          "method": "web_open_from_article_link",
+          "result": "Cache miss",
+          "content_observed": false
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=EVymd_HtMtM",
+          "method": "web_open_public_watch_page",
+          "result": "Internal Error; page text unavailable",
+          "content_observed": false
+        },
+        {
+          "url": "https://www.youtube.com/shorts/EVymd_HtMtM",
+          "method": "web_open_public_short_page_for_same_video_id",
+          "result": "Cache miss",
+          "content_observed": false
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEVymd_HtMtM&format=json",
+          "method": "web_open_public_oembed_metadata_for_same_video_id",
+          "result": "Cache miss",
+          "content_observed": false
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=EVymd_HtMtM",
+          "method": "single_unauthenticated_urllib_request_with_default_permissions_and_15_second_timeout",
+          "result": "URLError / WinError 10013 local socket access permission denied",
+          "content_observed": false,
+          "note": "서버의 로그인 요구나 영상 공개 상태를 확인한 응답이 아니다. 로컬 네트워크 접근 자체가 실패했으며 권한상향·우회 없이 종료."
+        }
+      ],
+      "target_rights_observed": null,
+      "external_model_use_cleared": false,
+      "decision": "기사 인용은 원래 수준으로 유지. 영상 ID 경로만 구체화했고 공개 제목·작성자·게시일·원구절은 primary 직접 확인으로 승격하지 않음.",
+      "next_verifiable_step": "해당 공개 영상의 공식 업로더와 제목을 확인한 뒤 게시된 자막·공개 대본이 있으면 타임스탬프와 함께 대조. 원자료가 없으면 미확인으로 유지하며 제3자 해설을 대신 사용하지 않음."
+    }
+  ],
+  "counts": {
+    "families_traced": 2,
+    "new_support_observations": 0,
+    "original_video_targets_resolved_from_existing_article_links": 1,
+    "target_phrases_directly_verified_in_original_creator_material": 0,
+    "video_or_audio_viewings": 0,
+    "caption_or_script_documents_verified": 0,
+    "paid_calls_or_logins": 0
+  },
+  "unchanged_status": {
+    "all_related_families_remain_dev": true,
+    "source_support_files_changed": false,
+    "scope_or_prompt_files_changed": false,
+    "original_dates_or_origins_promoted": false,
+    "legal_permission_determined": false
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "run_id": "a33a763f3f5641c082768fb9d9f48595",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "1ebe62fe99e269a97cfb3db0d1827ce88f4493a0fd08a6049b56fd27b580f328",
+      "bytes": 10416
+    },
+    {
+      "path": "RESEARCH_HANDOFF.md",
+      "sha256": "7e0f6a5461425ef8e68c78c57973413bf19d52ebf258968f8e1512f1d7c804a3",
+      "bytes": 33526
+    },
+    {
+      "path": "configs/multimodal_creation_study_v01.json",
+      "sha256": "4eb1bde67f90cfb46d8b66be48c356f690050498f50d577be0b124c1dae9ed5c",
+      "bytes": 13837
+    },
+    {
+      "path": "data/derived/creation_experiments_20260915_v01/index.html",
+      "sha256": "5bebaa38822a49a0781c3172eb34ac430ba7f11f1b4e3e160be9369761e005b7",
+      "bytes": 7028
+    },
+    {
+      "path": "data/research/creation_execution_results_20260915_v01/summary.json",
+      "sha256": "0daaac657f0a1cb52600b718d8d8a1042c01b19ec9171a7532e159679e3dee64",
+      "bytes": 5192
+    },
+    {
+      "path": "data/research/creation_execution_results_20260915_v01/case_outputs.json",
+      "sha256": "6224c0fdbaedddf688539bb5ce75ad67e4202aa16a5b3c622935562227e71837",
+      "bytes": 24330
+    },
+    {
+      "path": "data/research/creation_execution_results_20260915_v01/case_outputs.csv",
+      "sha256": "3c0e675eaaadea2240117452bef336450f7f77cfcdb0f362e4ac2ce9d38c40a5",
+      "bytes": 9804
+    }
+  ],
+  "historical_handoff_section_unchanged": true,
+  "main_completed_generations": 42,
+  "main_optimizer_steps": 76,
+  "output_token_limit_reached": 11,
+  "independent_human_evaluations": 0,
+  "paper_level_goal_completed": false,
+  "paid_compute_used": false
+}

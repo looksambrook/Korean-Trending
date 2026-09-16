@@ -1,0 +1,41 @@
+{
+  "objective": "Collect bounded official YouTube channel Atom metadata",
+  "stage": "access_probe",
+  "parameters": {
+    "config": {
+      "snapshot_id": "meme_finder_58a8828abbd94b38a49a1f33401fc73c",
+      "channels": [
+        {
+          "channel_id": "UCUj6rrhMTR9pipbAWBAMvUQ",
+          "label": "침착맨"
+        },
+        {
+          "channel_id": "UCNhofiqfw5nl-NeDJkXtPvw",
+          "label": "빠니보틀"
+        },
+        {
+          "channel_id": "UC-uIpGINZDL-VIHQQzJW8jw",
+          "label": "TEO 테오"
+        }
+      ],
+      "max_entries_per_channel": 20,
+      "timeout_seconds": 15,
+      "retention_days": 30,
+      "max_response_bytes": 2000000
+    },
+    "transport": "https",
+    "no_named_meme_seed": true
+  },
+  "data_snapshots": [],
+  "code_hashes": {
+    "collector": "9cd4e1b871cdd8c764479e04eed9ca30704e7b3fae1278d66cea5431e229f052",
+    "registry": "27f212b06b72571cf06e276963dffeb942d1b6b2595e37a3a0c763ba8c82a330"
+  },
+  "prompt_hashes": {},
+  "config_hashes": {},
+  "modality": [
+    "text",
+    "metadata"
+  ],
+  "provenance": "actual_collected"
+}

@@ -1,0 +1,176 @@
+{
+  "schema_version": "creation-pilot-report-v1",
+  "created_at": "2026-09-15T06:02:54.272395+00:00",
+  "pack_id": "PACK-7E926086BE55BBFD3D66",
+  "gallery": "gallery.html",
+  "human_pack": "human_pack/index.html",
+  "private_mapping": "private_mapping.json",
+  "planned_case_count": 3,
+  "planned_condition_count": 3,
+  "planned_unit_count": 9,
+  "reported_output_count": 9,
+  "human_rating_item_count_including_missing_and_retries": 9,
+  "condition_order_in_gallery": [
+    "C0",
+    "CR",
+    "CF"
+  ],
+  "sources": [],
+  "copied_output_assets": [
+    {
+      "response_id": "native_doge_snow_C0",
+      "kind": "image",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_native_pilot_media_v01\\artifacts\\native_doge_snow_C0\\image.png",
+      "sha256": "e848ca7189075a8691a069ace73a808914892636f5c65d1e6bfa70593efaf4cb"
+    },
+    {
+      "response_id": "native_doge_snow_C0",
+      "kind": "video",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_vision_delivery_v01\\videos\\0000\\playback.mp4",
+      "sha256": "a2e1a940a44cd208ecdaf787d956159914ea15557f5a9b425658854913057e33"
+    },
+    {
+      "response_id": "native_doge_snow_CR",
+      "kind": "image",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_native_pilot_media_v01\\artifacts\\native_doge_snow_CR\\image.png",
+      "sha256": "88351746fcf4e9a940a29fed88f5a6ef2f0cf5bb44e33b89f17cdce3e8e61d18"
+    },
+    {
+      "response_id": "native_doge_snow_CR",
+      "kind": "video",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_vision_delivery_v01\\videos\\0001\\playback.mp4",
+      "sha256": "8ee531d1e9864673efe2e7c01dcb588047491e4284060b2e40dcb9daf8ac2aac"
+    },
+    {
+      "response_id": "native_doge_snow_CF",
+      "kind": "image",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_native_pilot_media_v01\\artifacts\\native_doge_snow_CF\\image.png",
+      "sha256": "e441e5dfcae68fa0911796fd05fcbc1293cbfa21e8e1828585b9ae6f78aac7eb"
+    },
+    {
+      "response_id": "native_doge_snow_CF",
+      "kind": "video",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_vision_delivery_v01\\videos\\0002\\playback.mp4",
+      "sha256": "2a1abfe47c65a7094a5a31ef2acf1a1d425e602ee6be8f1c5a97452d08ae98a2"
+    },
+    {
+      "response_id": "native_doge_cushion_C0",
+      "kind": "image",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_native_pilot_media_v01\\artifacts\\native_doge_cushion_C0\\image.png",
+      "sha256": "2844fc6d68ed8fc59af7bda48325be6fa5a66891985aeaf5949bbbf7ec094517"
+    },
+    {
+      "response_id": "native_doge_cushion_C0",
+      "kind": "video",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_vision_delivery_v01\\videos\\0003\\playback.mp4",
+      "sha256": "f6f8b8f07b7ab004cf966b1ddcc366be6bc39459d2488c86263be5c89cd59b27"
+    },
+    {
+      "response_id": "native_doge_cushion_CR",
+      "kind": "image",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_native_pilot_media_v01\\artifacts\\native_doge_cushion_CR\\image.png",
+      "sha256": "6f1709cd6f775a08edcb5b9cc20be49750ec198671741cc1c8ee51dc7f05e5dc"
+    },
+    {
+      "response_id": "native_doge_cushion_CR",
+      "kind": "video",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_vision_delivery_v01\\videos\\0004\\playback.mp4",
+      "sha256": "36b34f4956bbc232d5f43e19a20a0bede943447e789ad0c65a342bb6c18f03b2"
+    },
+    {
+      "response_id": "native_doge_cushion_CF",
+      "kind": "image",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_native_pilot_media_v01\\artifacts\\native_doge_cushion_CF\\image.png",
+      "sha256": "49230987ce24e49d0fe65f6a05bcd78bd074befa42550bc6ffa2e3af97b29a94"
+    },
+    {
+      "response_id": "native_doge_cushion_CF",
+      "kind": "video",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_vision_delivery_v01\\videos\\0005\\playback.mp4",
+      "sha256": "d6cc81d4cbaec29914030d6b0c789bf123771e6a0ecac419ebde0509bd0c30c2"
+    },
+    {
+      "response_id": "native_video_control_C0",
+      "kind": "image",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_native_pilot_media_v01\\artifacts\\native_video_control_C0\\image.png",
+      "sha256": "e64417000f030a6eaeb6e6a02a0efa57bf30392cb674486713e14ab80d752c07"
+    },
+    {
+      "response_id": "native_video_control_C0",
+      "kind": "video",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_vision_delivery_v01\\videos\\0006\\playback.mp4",
+      "sha256": "ae216713d240a1a67d6a9089358bf770f4cbfba5b02176a2530f9e62e0b651ff"
+    },
+    {
+      "response_id": "native_video_control_CR",
+      "kind": "image",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_native_pilot_media_v01\\artifacts\\native_video_control_CR\\image.png",
+      "sha256": "e64417000f030a6eaeb6e6a02a0efa57bf30392cb674486713e14ab80d752c07"
+    },
+    {
+      "response_id": "native_video_control_CR",
+      "kind": "video",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_vision_delivery_v01\\videos\\0007\\playback.mp4",
+      "sha256": "ae216713d240a1a67d6a9089358bf770f4cbfba5b02176a2530f9e62e0b651ff"
+    },
+    {
+      "response_id": "native_video_control_CF",
+      "kind": "image",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_native_pilot_media_v01\\artifacts\\native_video_control_CF\\image.png",
+      "sha256": "9bb4e714257c53faed9c8f4ae71ca1fdb419a67a4dba5f4ae3bc7ed9e48f16ab"
+    },
+    {
+      "response_id": "native_video_control_CF",
+      "kind": "video",
+      "source_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_vision_delivery_v01\\videos\\0008\\playback.mp4",
+      "sha256": "17cfd194c32f4884a6c72e4689e79409de902c56552b21f8f3902bc66fd2926c"
+    }
+  ],
+  "independent_human_ratings_collected": false,
+  "quality_scores_generated": false,
+  "external_data_transmission": false,
+  "human_work_time": "self-report only; page/edit elapsed durations stored separately",
+  "model_run_id": "87512cdb28424b6ca77f756d71f972f2",
+  "files_sha256": {
+    "gallery.html": "b88617e3b4fec592cee2e30af53dafc483ebe5c28fc40ee491c34f04195cfd0a",
+    "gallery_assets\\image_27fa96d9571ed705.png": "e64417000f030a6eaeb6e6a02a0efa57bf30392cb674486713e14ab80d752c07",
+    "gallery_assets\\image_3f290a6b92c4dd2d.png": "2844fc6d68ed8fc59af7bda48325be6fa5a66891985aeaf5949bbbf7ec094517",
+    "gallery_assets\\image_546d1395b22cbe91.png": "9bb4e714257c53faed9c8f4ae71ca1fdb419a67a4dba5f4ae3bc7ed9e48f16ab",
+    "gallery_assets\\image_64ad557231c61199.png": "e64417000f030a6eaeb6e6a02a0efa57bf30392cb674486713e14ab80d752c07",
+    "gallery_assets\\image_885bd8f73c991359.png": "e848ca7189075a8691a069ace73a808914892636f5c65d1e6bfa70593efaf4cb",
+    "gallery_assets\\image_bb7797a05101934f.png": "6f1709cd6f775a08edcb5b9cc20be49750ec198671741cc1c8ee51dc7f05e5dc",
+    "gallery_assets\\image_c34e4a789ad9cfe2.png": "e441e5dfcae68fa0911796fd05fcbc1293cbfa21e8e1828585b9ae6f78aac7eb",
+    "gallery_assets\\image_c75bffc1cd8b3b02.png": "49230987ce24e49d0fe65f6a05bcd78bd074befa42550bc6ffa2e3af97b29a94",
+    "gallery_assets\\image_f322ce1d2bdb61f2.png": "88351746fcf4e9a940a29fed88f5a6ef2f0cf5bb44e33b89f17cdce3e8e61d18",
+    "gallery_assets\\video_1272969117f6a5ec.mp4": "17cfd194c32f4884a6c72e4689e79409de902c56552b21f8f3902bc66fd2926c",
+    "gallery_assets\\video_5ded172293125334.mp4": "2a1abfe47c65a7094a5a31ef2acf1a1d425e602ee6be8f1c5a97452d08ae98a2",
+    "gallery_assets\\video_905c087b31748675.mp4": "36b34f4956bbc232d5f43e19a20a0bede943447e789ad0c65a342bb6c18f03b2",
+    "gallery_assets\\video_b47c146936b4c012.mp4": "a2e1a940a44cd208ecdaf787d956159914ea15557f5a9b425658854913057e33",
+    "gallery_assets\\video_bae40b286d196709.mp4": "8ee531d1e9864673efe2e7c01dcb588047491e4284060b2e40dcb9daf8ac2aac",
+    "gallery_assets\\video_d170861b0a2cd908.mp4": "ae216713d240a1a67d6a9089358bf770f4cbfba5b02176a2530f9e62e0b651ff",
+    "gallery_assets\\video_d442b99718ad2b41.mp4": "ae216713d240a1a67d6a9089358bf770f4cbfba5b02176a2530f9e62e0b651ff",
+    "gallery_assets\\video_d899354a2df930a3.mp4": "f6f8b8f07b7ab004cf966b1ddcc366be6bc39459d2488c86263be5c89cd59b27",
+    "gallery_assets\\video_f9bb48a507da0649.mp4": "d6cc81d4cbaec29914030d6b0c789bf123771e6a0ecac419ebde0509bd0c30c2",
+    "human_pack\\assets\\R-063DA90377F0_image.png": "e64417000f030a6eaeb6e6a02a0efa57bf30392cb674486713e14ab80d752c07",
+    "human_pack\\assets\\R-063DA90377F0_video.mp4": "ae216713d240a1a67d6a9089358bf770f4cbfba5b02176a2530f9e62e0b651ff",
+    "human_pack\\assets\\R-5AC1F5E9589F_image.png": "2844fc6d68ed8fc59af7bda48325be6fa5a66891985aeaf5949bbbf7ec094517",
+    "human_pack\\assets\\R-5AC1F5E9589F_video.mp4": "f6f8b8f07b7ab004cf966b1ddcc366be6bc39459d2488c86263be5c89cd59b27",
+    "human_pack\\assets\\R-AE8505EA7487_image.png": "e441e5dfcae68fa0911796fd05fcbc1293cbfa21e8e1828585b9ae6f78aac7eb",
+    "human_pack\\assets\\R-AE8505EA7487_video.mp4": "2a1abfe47c65a7094a5a31ef2acf1a1d425e602ee6be8f1c5a97452d08ae98a2",
+    "human_pack\\assets\\R-AE89DB4B6DBB_image.png": "e64417000f030a6eaeb6e6a02a0efa57bf30392cb674486713e14ab80d752c07",
+    "human_pack\\assets\\R-AE89DB4B6DBB_video.mp4": "ae216713d240a1a67d6a9089358bf770f4cbfba5b02176a2530f9e62e0b651ff",
+    "human_pack\\assets\\R-B1DBFCD27988_image.png": "6f1709cd6f775a08edcb5b9cc20be49750ec198671741cc1c8ee51dc7f05e5dc",
+    "human_pack\\assets\\R-B1DBFCD27988_video.mp4": "36b34f4956bbc232d5f43e19a20a0bede943447e789ad0c65a342bb6c18f03b2",
+    "human_pack\\assets\\R-BBD92D76F92E_image.png": "49230987ce24e49d0fe65f6a05bcd78bd074befa42550bc6ffa2e3af97b29a94",
+    "human_pack\\assets\\R-BBD92D76F92E_video.mp4": "d6cc81d4cbaec29914030d6b0c789bf123771e6a0ecac419ebde0509bd0c30c2",
+    "human_pack\\assets\\R-DCA0D8879432_image.png": "88351746fcf4e9a940a29fed88f5a6ef2f0cf5bb44e33b89f17cdce3e8e61d18",
+    "human_pack\\assets\\R-DCA0D8879432_video.mp4": "8ee531d1e9864673efe2e7c01dcb588047491e4284060b2e40dcb9daf8ac2aac",
+    "human_pack\\assets\\R-E5250B8F74E5_image.png": "e848ca7189075a8691a069ace73a808914892636f5c65d1e6bfa70593efaf4cb",
+    "human_pack\\assets\\R-E5250B8F74E5_video.mp4": "a2e1a940a44cd208ecdaf787d956159914ea15557f5a9b425658854913057e33",
+    "human_pack\\assets\\R-F6C308BBFA2B_image.png": "9bb4e714257c53faed9c8f4ae71ca1fdb419a67a4dba5f4ae3bc7ed9e48f16ab",
+    "human_pack\\assets\\R-F6C308BBFA2B_video.mp4": "17cfd194c32f4884a6c72e4689e79409de902c56552b21f8f3902bc66fd2926c",
+    "human_pack\\index.html": "c13999e6ce5021ddda64574fe8c61fcd498c5fe9c501317ccf4dccd7a77f1ccf",
+    "private_mapping.json": "25131a15ad9a21128ce263d10fda8b2660842406736624ac85ef90a83f56fe13"
+  },
+  "delivery_audio_credits": []
+}

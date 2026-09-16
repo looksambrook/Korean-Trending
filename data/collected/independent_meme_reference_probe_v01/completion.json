@@ -1,0 +1,110 @@
+{
+  "run_id": "703814ca7d6b46dd8b000d50aae54517",
+  "fingerprint": "61ad816254ce5de9ef1be53485b35a9db7b89e1156a687135c4f5b9f398d90db",
+  "status": "succeeded",
+  "started_at": "2026-09-15T05:57:47.013865+00:00",
+  "finished_at": "2026-09-15T06:01:13.058213+00:00",
+  "retry_of": null,
+  "retry_reason": null,
+  "spec": {
+    "code_hashes": {
+      "research_log.py": "27f212b06b72571cf06e276963dffeb942d1b6b2595e37a3a0c763ba8c82a330"
+    },
+    "config_hashes": {},
+    "data_snapshots": [],
+    "modality": [
+      "text"
+    ],
+    "objective": "Verify one public independently human-annotated meme reference dataset and acquire at most 5 MB of actual annotation artifacts under stated research-use terms",
+    "parameters": {
+      "candidate": "MemeCap_or_comparable_one_dataset",
+      "code_and_data_licences_separate": true,
+      "model_execution": false,
+      "new_human_recruitment": false,
+      "paid_cost_cap_usd": 0,
+      "purpose": "external_human_caption_or_understanding_references_not_creation_quality_gold",
+      "search_minutes_cap": 5,
+      "total_download_bytes_cap": 5000000
+    },
+    "prompt_hashes": {},
+    "provenance": "actual_collected",
+    "stage": "access_probe"
+  },
+  "finish": {
+    "actual_cost": {
+      "amount": 0,
+      "api_units": 0,
+      "currency": "USD",
+      "human_minutes": 0
+    },
+    "artifacts": [
+      {
+        "bytes": 5145,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\independent_meme_reference_probe_v01\\collect_reference.py",
+        "sha256": "265f2fa990524a23b944c3a221e00c8670455c339ccb59ebb09d0b8cf7555903"
+      },
+      {
+        "bytes": 152,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\independent_meme_reference_probe_v01\\failures.jsonl",
+        "sha256": "5893343a18747ba9072798750fad5482a84b21ceecc672f88c15f6fc76c56f84"
+      },
+      {
+        "bytes": 4350,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\independent_meme_reference_probe_v01\\manifest.json",
+        "sha256": "55c128cdbd9087042199613ff20e75e87a6fd07c29e9424a9800b5b7d9e99650"
+      },
+      {
+        "bytes": 1232,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\independent_meme_reference_probe_v01\\probe_attempts.json",
+        "sha256": "f8297b715a90dcaf5679434ab00533be40cd93742ad2e698e8c8f8dc3cf45757"
+      },
+      {
+        "bytes": 2254,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\independent_meme_reference_probe_v01\\protected_reference_sample.json",
+        "sha256": "49b557506e9f3d9d078222e3139c6333b524d109f2bfdb70a9c057ca901cc287"
+      },
+      {
+        "bytes": 3329,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\independent_meme_reference_probe_v01\\README.md",
+        "sha256": "2cf197e3b5fc4078de35bb68597880a972e363377972b57e75c57981666db15f"
+      },
+      {
+        "bytes": 2316,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\independent_meme_reference_probe_v01\\registration.json",
+        "sha256": "887e006e76b14e8d9f866d1e11a4a51383852fc0fa8a172f8ff8cc4db4409a2f"
+      },
+      {
+        "bytes": 14797,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\independent_meme_reference_probe_v01\\raw\\commit.json",
+        "sha256": "0bdd8d045e8628086ea43dfb93cdbb52870eb353d81efc613208a53bfed80369"
+      },
+      {
+        "bytes": 423,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\independent_meme_reference_probe_v01\\raw\\commit.json.receipt.json",
+        "sha256": "6023b83ecec61d056e19183dceb2c39187c577d5f7332a8debdc90a7b53dec81"
+      },
+      {
+        "bytes": 10659,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\independent_meme_reference_probe_v01\\raw\\README.upstream.md",
+        "sha256": "d15fc10dd291f7ace6a37314a57467be9dcb4122cd5fcd1b8c6c25932c61ff36"
+      },
+      {
+        "bytes": 506,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\independent_meme_reference_probe_v01\\raw\\README.upstream.md.receipt.json",
+        "sha256": "39c7f328b39cdaf500cfda749adf52a1e113ace0e37fa85c09ccbe0633db90bc"
+      },
+      {
+        "bytes": 900117,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\independent_meme_reference_probe_v01\\raw\\test_data.upstream.json",
+        "sha256": "72ff2951f55b87e6a47b8e91653938fa3aa73af0774e5670926b5a08f2778921"
+      },
+      {
+        "bytes": 560,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\independent_meme_reference_probe_v01\\raw\\test_data.upstream.json.receipt.json",
+        "sha256": "4e7c2f5983f7b205f61164ccb3062616d241cc4a1d5e706f4cd4bed66f9db0c6"
+      }
+    ],
+    "notes": "Acquired official MemeInterpret CC-BY4.0 external human-reference annotations: fixed-commit raw test JSON with 1000 records and 3-row schema probe. Machine auto_image_caption kept distinct. Author README licence preserved; code licence unconfirmed, no upstream code/images acquired. ACL annotation method and terms read via web, PDF local copy rejected at byte cap (one-byte overflow probe documented). Reference-only, adaptation forbidden; English hate-meme domain differs from Korean creation quality. No current model evaluation or new human judgments. Successful raw files 925573 bytes, failures preserved.",
+    "status": "succeeded"
+  }
+}

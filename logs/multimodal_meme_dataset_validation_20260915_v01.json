@@ -1,0 +1,25 @@
+{
+  "run_id": "64a5d3bb121a48429e4e55066c9a5596",
+  "recorded_at": "2026-09-15T04:56:29.491689+00:00",
+  "execution_timestamp": null,
+  "execution_timestamp_note": "Exact wall-clock timestamp was not separately captured. Execution completed before this retrospective record; observed tool chunk 1bb4bb.",
+  "registration_timing": "retrospective; not preregistered",
+  "command": "python -X utf8 -B -m unittest discover -s tests -p test_multimodal_meme_dataset.py -v",
+  "observed_output_summary": "test_fixed_partition_survives_revision_and_blocks_new_bridge ... ok\ntest_group_leakage_and_hash_tampering_are_rejected ... ok\ntest_time_version_and_gold_isolation_preserve_equal_supervision ... ok\nRan 3 tests in 2.065s\nOK\n",
+  "exit_code": 0,
+  "passed_tests": 3,
+  "reported_test_duration_seconds": 2.065,
+  "final_file_sha256": {
+    "src/multimodal_meme_dataset.py": "8bca88a945b3a8360716e1501b7f918115069c5e98f983c37afde0fb6e8fc2c0",
+    "data/schemas/multimodal_meme_record.schema.json": "23e2b3d25ab09793b23fe60e32119bbabef6b1da4f403347588e073c990be211",
+    "tests/test_multimodal_meme_dataset.py": "ec6ad87cd9e572de9b1f855177908eeaac7456d58bb1053e27dc090fb138479d"
+  },
+  "fixture_provenance": "ai_synthetic",
+  "actual_research_data_used": false,
+  "model_experiment_performed": false,
+  "network_requests": 0,
+  "human_evaluation_performed": false,
+  "media_decode_verified": false,
+  "benchmark_completed": false,
+  "temporary_fixture_logs": "Isolated temporary SQLite databases exercised failure and retry behavior; not retained as actual research observations."
+}

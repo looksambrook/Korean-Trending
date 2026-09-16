@@ -1,0 +1,177 @@
+{
+  "run_id": "9de074b3e40b42a49e561f27b4a0937e",
+  "fingerprint": "3af23a344b3f8cabc4ab68f68c5d6dab698129eafcbaf7554e31471b33b5681c",
+  "status": "started",
+  "started_at": "2026-09-15T06:02:39.219177+00:00",
+  "finished_at": null,
+  "retry_of": null,
+  "retry_reason": null,
+  "spec": {
+    "code_hashes": {
+      "delivery": "6bfffea75a06794dc62375192f9cd5f60869350d6372af2652ae38c5ad335417",
+      "registry": "27f212b06b72571cf06e276963dffeb942d1b6b2595e37a3a0c763ba8c82a330",
+      "report": "f1d4765349cc8e02100eb3d82f7987ddc56efe7ebb8686ff9f0c13e565dc290c"
+    },
+    "config_hashes": {
+      "ffmpeg_executable": "2ce797a0f88d7f067180338fb227f7b1928ea727bd9a4d7a1d022f7c52af71a3"
+    },
+    "data_snapshots": [
+      {
+        "id": "model_summary",
+        "sha256": "2f1b15235e55dc483a47f27d23dbbb735b2bf24ec57c1b70de5d1249e6da5b28"
+      },
+      {
+        "id": "original_render_summary",
+        "sha256": "88b8176375b1ae316debb5c72fe14379971885b125813add185c7dcff1a42207"
+      },
+      {
+        "id": "output_0_image",
+        "sha256": "e848ca7189075a8691a069ace73a808914892636f5c65d1e6bfa70593efaf4cb"
+      },
+      {
+        "id": "output_0_text",
+        "sha256": "d81c26e4c07c19d6d45db2b3d33594396a2c0180a208cabf70202f81cbbf9ccf"
+      },
+      {
+        "id": "output_0_video",
+        "sha256": "17a63e9304f60a3758d588541068f47cda0e0322be2edece3f8da5c684eac152"
+      },
+      {
+        "id": "output_1_image",
+        "sha256": "88351746fcf4e9a940a29fed88f5a6ef2f0cf5bb44e33b89f17cdce3e8e61d18"
+      },
+      {
+        "id": "output_1_text",
+        "sha256": "3f26bfb76dc12181d77e342f4ff0c2a18e35612af3eb3d606c6f65b9004b18c8"
+      },
+      {
+        "id": "output_1_video",
+        "sha256": "352d290dcb5efcb1a9dfcf1150f725f4ef30ef16e403adc36f6677834ac9b41f"
+      },
+      {
+        "id": "output_2_image",
+        "sha256": "e441e5dfcae68fa0911796fd05fcbc1293cbfa21e8e1828585b9ae6f78aac7eb"
+      },
+      {
+        "id": "output_2_text",
+        "sha256": "f0b6c7e1d696fc827af06724c3f03cb00d07c965cfe2e42777fe57949daab863"
+      },
+      {
+        "id": "output_2_video",
+        "sha256": "e9652bc3e459b54f30798cfcde83da1f4f23fdf3fc10579f5507e2337929a8d0"
+      },
+      {
+        "id": "output_3_image",
+        "sha256": "2844fc6d68ed8fc59af7bda48325be6fa5a66891985aeaf5949bbbf7ec094517"
+      },
+      {
+        "id": "output_3_text",
+        "sha256": "21cc632dd5b96a2e43b358fa397391eb04ef240144d778d69eb4ca1b1899cc2e"
+      },
+      {
+        "id": "output_3_video",
+        "sha256": "15657f0d02731049d649349ad803b92f67ca302bef7fa601a15f4f74084b68c2"
+      },
+      {
+        "id": "output_4_image",
+        "sha256": "6f1709cd6f775a08edcb5b9cc20be49750ec198671741cc1c8ee51dc7f05e5dc"
+      },
+      {
+        "id": "output_4_text",
+        "sha256": "6f44d8c750cd107ab92cb69118c6311fd51fa9af400efa699dc7c969eb9b9928"
+      },
+      {
+        "id": "output_4_video",
+        "sha256": "118892c4986588906aeeafaabc7452454771c318d42ab4e978554b32180c5ace"
+      },
+      {
+        "id": "output_5_image",
+        "sha256": "49230987ce24e49d0fe65f6a05bcd78bd074befa42550bc6ffa2e3af97b29a94"
+      },
+      {
+        "id": "output_5_text",
+        "sha256": "5ba48cf72b06ca30b139505b99f022d2e493940fd3f9d2ca9644cd7cdf2eb416"
+      },
+      {
+        "id": "output_5_video",
+        "sha256": "0772d01ebd47a2f8adefa8d4b5ffb039b937b704117cb2f66450ecf75d72b94f"
+      },
+      {
+        "id": "output_6_image",
+        "sha256": "e64417000f030a6eaeb6e6a02a0efa57bf30392cb674486713e14ab80d752c07"
+      },
+      {
+        "id": "output_6_text",
+        "sha256": "0663355f3173712689548b8a969fc08ba6731fba786bfcaa3f39882b09309cbb"
+      },
+      {
+        "id": "output_6_video",
+        "sha256": "f07b726bb2adaf35f03d8256fba114b7cb628bc9091ebfb6195d9c73164baefb"
+      },
+      {
+        "id": "output_7_image",
+        "sha256": "e64417000f030a6eaeb6e6a02a0efa57bf30392cb674486713e14ab80d752c07"
+      },
+      {
+        "id": "output_7_text",
+        "sha256": "0663355f3173712689548b8a969fc08ba6731fba786bfcaa3f39882b09309cbb"
+      },
+      {
+        "id": "output_7_video",
+        "sha256": "f07b726bb2adaf35f03d8256fba114b7cb628bc9091ebfb6195d9c73164baefb"
+      },
+      {
+        "id": "output_8_image",
+        "sha256": "9bb4e714257c53faed9c8f4ae71ca1fdb419a67a4dba5f4ae3bc7ed9e48f16ab"
+      },
+      {
+        "id": "output_8_text",
+        "sha256": "70eb6a74520894d9795e8e500429bcd298c01e991a198806f00beb19212531be"
+      },
+      {
+        "id": "output_8_video",
+        "sha256": "d2155a801d7b17c9edbd0b37cc6db0b6bcede60c4ea09fa28f7cd7cf8ef41ed2"
+      },
+      {
+        "id": "study_spec",
+        "sha256": "8c02135928408b4f5d00049577fc2c0a52c70eab4e79bd34acd2b3af104ce277"
+      }
+    ],
+    "modality": [
+      "audio",
+      "image",
+      "text",
+      "video"
+    ],
+    "objective": "Create bounded H264 delivery copies and optional common licensed soundtrack, preserving all original artifacts",
+    "parameters": {
+      "audio_by_family": {},
+      "human_evaluations": 0,
+      "model_calls": 0,
+      "model_run_id": "87512cdb28424b6ca77f756d71f972f2",
+      "original_render_run_id": "32bee37de2454beda3bdb0950b3873d5",
+      "planned_outputs": 9,
+      "settings": {
+        "audio_bitrate": "128k",
+        "audio_codec": "aac",
+        "codec": "libx264",
+        "crf": 18,
+        "duration_limit_seconds": 3,
+        "max_decoded_frames": 180,
+        "max_output_bytes": 36700160,
+        "max_process_log_bytes": 2097152,
+        "max_source_audio_bytes": 8388608,
+        "max_source_video_bytes": 36700160,
+        "max_video_pixels": 2073600,
+        "pixel_format": "yuv420p",
+        "preset": "veryfast",
+        "process_timeout_seconds": 60,
+        "threads": 1
+      }
+    },
+    "prompt_hashes": {},
+    "provenance": "mixed",
+    "stage": "offline_validation"
+  },
+  "finish": null
+}

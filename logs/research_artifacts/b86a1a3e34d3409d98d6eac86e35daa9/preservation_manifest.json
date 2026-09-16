@@ -1,0 +1,58 @@
+{
+  "run_id": "b86a1a3e34d3409d98d6eac86e35daa9",
+  "recorded_at": "2026-09-15T05:21:53.479561+00:00",
+  "preserved_artifacts": [
+    {
+      "path": "logs/research_artifacts/b86a1a3e34d3409d98d6eac86e35daa9/after/README.md",
+      "sha256": "df9104d32f5ef217964efde8e7b27a273afc4fa92f18e5546b84b89375e4e5d2"
+    },
+    {
+      "path": "logs/research_artifacts/b86a1a3e34d3409d98d6eac86e35daa9/after/RESEARCH_HANDOFF.md",
+      "sha256": "fcb2a3a8323d978b3160ffa206a61f199e276145398f26f263ef69839ba50d7f"
+    },
+    {
+      "path": "logs/research_artifacts/b86a1a3e34d3409d98d6eac86e35daa9/after/configs/multimodal_creation_study_v01.json",
+      "sha256": "24ed87686224dae59c0c2d4b50474625ac840a18bfe275a22796cd4800523cf1"
+    },
+    {
+      "path": "logs/research_artifacts/b86a1a3e34d3409d98d6eac86e35daa9/after/docs/multimodal_creation_protocol_v01.md",
+      "sha256": "54073932b1de673c9e021cc48849dbfa812d3fab9a0e12e4c3f19850d8e446e2"
+    },
+    {
+      "path": "logs/research_artifacts/b86a1a3e34d3409d98d6eac86e35daa9/after/data/research/multimodal_creation_user_scope_v04.json",
+      "sha256": "c57db90e5db5c95eef3f1f9b829b4813aa80c4df8fa596f3bc82b0b63af79071"
+    },
+    {
+      "path": "logs/research_artifacts/b86a1a3e34d3409d98d6eac86e35daa9/before/README.md",
+      "sha256": "cfa1baea4c444b8a13a731d63face9029b00863b187dd97d736a4ca6e818e613"
+    },
+    {
+      "path": "logs/research_artifacts/b86a1a3e34d3409d98d6eac86e35daa9/before/RESEARCH_HANDOFF.md",
+      "sha256": "eb4cd1096ee2a95e62f4d00a80232a70a294d1f472e51f902e8bf6dc6140ddd4"
+    },
+    {
+      "path": "logs/research_artifacts/b86a1a3e34d3409d98d6eac86e35daa9/before/configs/multimodal_creation_study_v01.json",
+      "sha256": "4067ac08bcab7d9f5741d0b23e6c408310509f5571ab3f283f146a4abb731ccc"
+    },
+    {
+      "path": "logs/research_artifacts/b86a1a3e34d3409d98d6eac86e35daa9/before/docs/multimodal_creation_protocol_v01.md",
+      "sha256": "5a7578767bf583f2447883c467fc17d4c5f2bf0c16e12b1c4c3462a226cd790c"
+    }
+  ],
+  "reviewed_local_evidence": [
+    {
+      "path": "data/collected/youtube_meme_thumbnails_20260915_v01/a9e24976a77e4a4cadb903ab0678872f/manifest.json",
+      "sha256": "3b16fa2dd8c39bde4a3e35b709f52eb375d6ee6fa5f6797a8ee01a3cffde9019"
+    },
+    {
+      "path": "data/meme_finder/c73daaa572d840fd935d89b42877382a/expansion_metadata_3/95c555cb79ba4e3396e2031a0e16e1da/observations.jsonl",
+      "sha256": "0ef489c52e8491dc4364b220ab194f458c598394a206edd7f4de21f585d18b42"
+    }
+  ],
+  "checks": {
+    "configuration_and_scope_consistent": true,
+    "prior_discovery_sections_preserved": true,
+    "no_model_or_paid_execution": true
+  },
+  "goal_completed": false
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": "youtube-public-search-manifest-v1",
+  "run_id": "7029e198823b40d984b1d85c3298b53a",
+  "status": "completed",
+  "started_at": "2026-09-15T00:14:19.620511+00:00",
+  "finished_at": "2026-09-15T00:14:21.556342+00:00",
+  "config": {
+    "version": "youtube-public-search-v1",
+    "search_mode": "discovered_phrase_expansion",
+    "queries": [
+      {
+        "query": "실례카겔",
+        "evidence_ids": [
+          "youtube:feed:TBqvX5m2qlI:f59ccbc3a206bbcb2749"
+        ]
+      }
+    ],
+    "selection_reason": "Automatic pipeline selection from observed source text; workflow 58a8828abbd94b38a49a1f33401fc73c",
+    "known_meme_seed_names": [],
+    "discovery_run_id": "18f38e7a4c32496f9fcbdcf77f6173b8",
+    "discovery_observations": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\58a8828abbd94b38a49a1f33401fc73c\\feed\\observations.jsonl",
+    "discovery_manifest": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\58a8828abbd94b38a49a1f33401fc73c\\feed\\manifest.json",
+    "discovery_method": "automatic_observed_form_seed; initial origin=name_free_channel_observation",
+    "max_results_per_query": 20,
+    "max_results_total": 20,
+    "timeout_seconds": 15,
+    "max_response_bytes": 8000000,
+    "retention_days": 30
+  },
+  "provenance": "actual_collected",
+  "test_only": false,
+  "http_attempts": 1,
+  "observations": 20,
+  "requests": [
+    {
+      "query": "실례카겔",
+      "source_search_url": "https://www.youtube.com/results?search_query=%EC%8B%A4%EB%A1%80%EC%B9%B4%EA%B2%94&hl=ko&gl=KR",
+      "started_at": "2026-09-15T00:14:19.627906+00:00",
+      "status": "succeeded",
+      "received_at": "2026-09-15T00:14:20.416815+00:00",
+      "raw_file": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\58a8828abbd94b38a49a1f33401fc73c\\expansion_search_2\\7029e198823b40d984b1d85c3298b53a\\raw\\query_01.html",
+      "raw_sha256": "0c153c3b677fd0e024a2379950e6288761ac9ba92bce6a5055f01635c44a342f",
+      "raw_bytes": 1331610,
+      "retention_due_at": "2026-10-15T00:14:20.416815+00:00",
+      "parse": {
+        "renderer_cards_examined": 20,
+        "returned_observations": 20,
+        "exclusions": [],
+        "coverage": "initial_page_bounded",
+        "pagination_attempted": false,
+        "ranking_personalization": "unknown_public_unauthenticated_response"
+      }
+    }
+  ],
+  "issues": [],
+  "paid_api_calls": 0,
+  "model_calls": 0,
+  "human_review_minutes": 0,
+  "verified_meme_count": null,
+  "unseeded_discovery": false,
+  "discovery_evaluation_eligible": false,
+  "temporal_eligible_observations": 0,
+  "history_reconstruction": false,
+  "input_snapshots": [
+    {
+      "id": "discovery_manifest",
+      "sha256": "ea9ace96e7698fd80d3539cbca2923463a18034d41acdf6ca87a3a6cd31fe152"
+    },
+    {
+      "id": "discovery_observations",
+      "sha256": "2349ec5933befe149aae04e0c77bb96cdbca6b2c39c06287eec7232cae949cae"
+    }
+  ],
+  "limitations": [
+    "Search query expansion is not independent discovery or population coverage.",
+    "Result cards lack verified exact publication timestamps; feed/API resolution is needed before temporal analysis.",
+    "Only public initial HTML is inspected; no continuation, video playback, captions, comments or authentication.",
+    "Repeated names, topics, series labels and phrases are not proof of independent meme use.",
+    "The local retention review deadline does not grant a data reuse licence."
+  ],
+  "artifacts": [
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\58a8828abbd94b38a49a1f33401fc73c\\expansion_search_2\\7029e198823b40d984b1d85c3298b53a\\observations.jsonl",
+      "sha256": "9a4beb17e462e5eb6a541d75f8f3f1f503cd00d684404d4278781157b58f7636",
+      "bytes": 49364
+    },
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\58a8828abbd94b38a49a1f33401fc73c\\expansion_search_2\\7029e198823b40d984b1d85c3298b53a\\raw\\query_01.html",
+      "sha256": "0c153c3b677fd0e024a2379950e6288761ac9ba92bce6a5055f01635c44a342f",
+      "bytes": 1331610
+    }
+  ]
+}

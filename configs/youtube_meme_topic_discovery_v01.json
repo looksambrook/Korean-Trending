@@ -1,0 +1,12 @@
+{
+  "version": "youtube-public-search-v1",
+  "search_mode": "topic_query",
+  "queries": [{"query": "요즘 밈"}],
+  "selection_reason": "사용자가 급상승 검색 이슈가 아닌 반복 인용·패러디·변형되는 밈을 요구하여, 특정 밈명을 사전 입력하지 않고 일반 밈 주제 검색의 첫 공개 결과에서 후보 표현을 관찰한다. 밈 해설·추천 콘텐츠와 검색 순위의 선택 편향이 있으며 대표성 있는 비명명 전수 발견은 아니다.",
+  "known_meme_seed_names": [],
+  "max_results_per_query": 20,
+  "max_results_total": 20,
+  "timeout_seconds": 15,
+  "max_response_bytes": 8000000,
+  "retention_days": 30
+}

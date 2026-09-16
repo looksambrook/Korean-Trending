@@ -1,0 +1,44 @@
+{
+  "status": "machine_evidence_triage_completed_not_meme_confirmation",
+  "reviewed_candidates": 52,
+  "decisions": {
+    "likely_topic": 3,
+    "requires_evidence": 49
+  },
+  "family_hint_count": 3,
+  "seed_queue_count": 4,
+  "eligible_observations": 48,
+  "excluded_observations": 20,
+  "title_pairs_compared": 1128,
+  "title_pair_limit_reached": false,
+  "verified_meme_count": null,
+  "human_review_minutes": 0,
+  "paid_api_calls": 0,
+  "cutoff": "2026-09-14T23:17:18.923379+00:00",
+  "created_at": "2026-09-14T23:17:19.137130+00:00",
+  "limitations": [
+    "Text metadata only; images, audio, performance and conversational meaning are not examined.",
+    "Shared sentence fragments may be coincidences, copied captions, or ordinary titles.",
+    "This triage cannot establish meme prevalence, independent reuse, origin, accuracy or recall.",
+    "Every created relation is available at created_at, never backdated to the evidence cutoff."
+  ],
+  "run_id": "e2cc197ed5be4f42a2320d0f9d7f03ab",
+  "input_snapshots": [
+    {
+      "id": "data\\collected\\youtube_feed_20260915_v02\\observations.jsonl",
+      "sha256": "ee3df40a35a7598a41c55432411b4c07c90477ab6e688d36f43c8072acac5738"
+    },
+    {
+      "id": "data\\collected\\youtube_meme_form_expansion_v01\\9d4767b1ac244733951eafdbc325fc88\\observations.jsonl",
+      "sha256": "b15887cd956acd4892a94beea7a8baec665dfc7f5fa1ced0159554cfbb6c57b0"
+    },
+    {
+      "id": "data\\collected\\youtube_meme_form_metadata_v01\\7bbc6054947948ba92df1bc806ba06a5\\observations.jsonl",
+      "sha256": "626862af84a298863c4f22fb4d18d5e9d09de9a9444d18e7ceaaa9f858b9ef85"
+    },
+    {
+      "id": "data\\derived\\youtube_watch_20260915_d1_final\\candidates\\candidates.jsonl",
+      "sha256": "97528760e4d65e71d3a55b52a28eb7c8854376507f94ea8a7df4f1d3cd52d655"
+    }
+  ]
+}

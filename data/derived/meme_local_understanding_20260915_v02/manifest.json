@@ -1,0 +1,166 @@
+{
+  "schema_version": "meme-local-understanding-v1",
+  "run_id": "b15cd1cff9c74375991d41f0ee34637a",
+  "started_at": "2026-09-15T00:18:01.307997+00:00",
+  "interpretation_at": "2026-09-15T00:18:01.307997+00:00",
+  "status": "blocked_local_resources",
+  "result_sha256": "6843d58255c96486d2d5c087c620f93bb71d0eb98d0e788a0f023f001ec42893",
+  "model_identity": {
+    "path": "C:\\Users\\user\\.cache\\huggingface\\hub\\models--riple-saanvi-lab--Saanvi-C1-3B\\snapshots\\54c2ea30bcefcdbbf7fa3cee903737d214ff9345",
+    "snapshot_name": "54c2ea30bcefcdbbf7fa3cee903737d214ff9345",
+    "files": [
+      {
+        "name": "config.json",
+        "bytes": 788,
+        "modified_ns": 1752469977598685700,
+        "sha256": "28c8cf95f2810a39a089f69f6ae9df6e0e3344cb561590fd97343b4c548de14e"
+      },
+      {
+        "name": "generation_config.json",
+        "bytes": 111,
+        "modified_ns": 1752470553954182400,
+        "sha256": "addd4686d6897e83795efec6d00f3a676d666dc62c7379165ebeb159350f39c0"
+      },
+      {
+        "name": "model-00001-of-00002.safetensors",
+        "bytes": 4980712216,
+        "modified_ns": 1752470549259363800,
+        "sha256": null
+      },
+      {
+        "name": "model-00002-of-00002.safetensors",
+        "bytes": 610215224,
+        "modified_ns": 1752470151899552400,
+        "sha256": null
+      },
+      {
+        "name": "model.safetensors.index.json",
+        "bytes": 29396,
+        "modified_ns": 1752470059589013700,
+        "sha256": "a72722a0a4131c4322bf33a694b7987568fdc550fa3c3fa824f00f95f2d46705"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "bytes": 587,
+        "modified_ns": 1752469975832008500,
+        "sha256": "aff38493227d813e29fcf8406e8e90062f1f031aa47d589325e9c31d89ac7cc3"
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 3564303,
+        "modified_ns": 1752469974471467900,
+        "sha256": "d4c0d99d84af59e9126913fafe5210822963e9a3065ee43e6833b358b0c2f825"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 5295,
+        "modified_ns": 1752469971588086700,
+        "sha256": "cf533f85f0cede0650a7295bb4aafd9f70fe1642a409989a5ee862db7032e03c"
+      }
+    ],
+    "weight_hashes": "deferred_until_resource_preflight_passes",
+    "config": {
+      "_name_or_path": "stabilityai/stablelm-zephyr-3b",
+      "architectures": [
+        "StableLmForCausalLM"
+      ],
+      "attention_dropout": 0.0,
+      "bos_token_id": 0,
+      "eos_token_id": 0,
+      "hidden_act": "silu",
+      "hidden_dropout": 0.0,
+      "hidden_size": 2560,
+      "initializer_range": 0.02,
+      "intermediate_size": 6912,
+      "layer_norm_eps": 1e-05,
+      "max_position_embeddings": 4096,
+      "model_type": "stablelm",
+      "num_attention_heads": 32,
+      "num_hidden_layers": 32,
+      "num_key_value_heads": 32,
+      "partial_rotary_factor": 0.25,
+      "qk_layernorm": false,
+      "rope_scaling": null,
+      "rope_theta": 10000,
+      "tie_word_embeddings": false,
+      "torch_dtype": "bfloat16",
+      "transformers_version": "4.49.0",
+      "use_cache": true,
+      "use_parallel_residual": false,
+      "use_qkv_bias": false,
+      "vocab_size": 50304
+    }
+  },
+  "device": "cpu",
+  "dtype": "float32",
+  "test_only": false,
+  "responses": [],
+  "families": [
+    {
+      "family_id": "mfamily_14d4f62d7772de7af868",
+      "conditions": [
+        "U0",
+        "U1"
+      ],
+      "knowledge_exclusion_reason": null,
+      "excluded_examples": [],
+      "included_evidence_ids": [
+        "youtube:watch:E7YPj4vn-wU:6d1a40270e46efd568c67c8f",
+        "youtube:watch:ptBrc0FXo8k:603adfedb5832ed6a101161d",
+        "youtube:watch:s0ID58k1pW4:24d4dbacd605e2750b78ae4c",
+        "youtube:watch:uhAQ_QEu9Dk:21ceb2414235cc06cff1c291"
+      ],
+      "source_excerpts_sha256": "a0a49fb6139fbaeb8e73bd4a794e5731a89e5444e9ac932eb0c2a72d0d583333"
+    }
+  ],
+  "issues": [
+    {
+      "phase": "resource_preflight",
+      "error_type": "MemoryError",
+      "reason": "local_operation_failed"
+    }
+  ],
+  "local_model_calls": 0,
+  "external_api_calls": 0,
+  "model_downloads": 0,
+  "model_weights_trained": false,
+  "human_review_minutes": 0,
+  "semantic_accuracy": null,
+  "limitations": [
+    "Model responses are generated interpretations, not verified annotations.",
+    "No video, audio, comments, original-author or popularity verification.",
+    "Automatic U1 structure can contain rule errors; U0/U1 share source excerpts.",
+    "A present-time local model may contain prior knowledge; this is not a historical model evaluation.",
+    "This is an understanding pilot on available families, not a full discovery recall evaluation."
+  ],
+  "resource_preflight": {
+    "status": "blocked_local_resources",
+    "checked_at": "2026-09-15T00:18:01.360851+00:00",
+    "available_bytes": 1537781760,
+    "total_bytes": 16840990720,
+    "estimated_weight_bytes": 11181854880,
+    "estimated_kv_cache_bytes": 2398617600,
+    "overhead_reserve_bytes": 2147483648,
+    "estimated_required_available_bytes": 15727956128,
+    "estimate_is_not_actual_peak_measurement": true
+  },
+  "prepared_prompts": [
+    {
+      "family_id": "mfamily_14d4f62d7772de7af868",
+      "condition": "U0",
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\meme_local_understanding_20260915_v02\\family_01_U0_prompt.txt",
+      "input_tokens": 1859,
+      "not_sent_to_model": true,
+      "renderer": "cached_tokenizer_json_and_sandboxed_jinja_template"
+    },
+    {
+      "family_id": "mfamily_14d4f62d7772de7af868",
+      "condition": "U1",
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\meme_local_understanding_20260915_v02\\family_01_U1_prompt.txt",
+      "input_tokens": 2542,
+      "not_sent_to_model": true,
+      "renderer": "cached_tokenizer_json_and_sandboxed_jinja_template"
+    }
+  ],
+  "finished_at": "2026-09-15T00:18:01.685936+00:00"
+}

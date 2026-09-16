@@ -1,0 +1,345 @@
+{
+  "data": {
+    "model_path": "C:\\Users\\user\\Korean-Treanding\\data\\models\\smolvlm_256m_7e3e67e",
+    "revision": "7e3e67edbbed1bf9888184d9df282b700a323964",
+    "asset_root": "C:\\Users\\user\\Korean-Treanding",
+    "cases": [
+      {
+        "case_id": "native_doge_snow",
+        "family_id": "doge",
+        "asset": "original",
+        "brief": "Write only a short Doge-style caption imagining this dog seeing snow for the first time.",
+        "images": [
+          {
+            "local_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_original.jpg",
+            "sha256": "d70b4c272582f6b36b571f57e333d78c779cb3c5ba184b675949736a428dad26",
+            "kind": "image",
+            "source_group_id": "taiki_roberto_vasarri_2008"
+          }
+        ],
+        "c0_prompt": "Write only a short Doge-style caption imagining this dog seeing snow for the first time.",
+        "cr_prompt": "Reference examples:\nRequest: Write only a short Doge-style caption for this dog receiving a bag of treats.\nCaption: wow. such snacks. much tasty. very happy.\nRequest: Write only a short Doge-style caption for this dog relaxing under a blanket.\nCaption: wow. such blanket. much cozy. very nap.\nNow fulfill this new request: Write only a short Doge-style caption imagining this dog seeing snow for the first time.",
+        "cf_prompt": "Write only a short Doge-style caption imagining this dog seeing snow for the first time.",
+        "retrieved_example_ids": [
+          "native_doge_train_01",
+          "native_doge_train_02"
+        ],
+        "retrieval_method": "fixed_family_and_asset_role_selection_from_shared_pool",
+        "requested_outputs": [
+          "text",
+          "image",
+          "video"
+        ]
+      },
+      {
+        "case_id": "native_doge_cushion",
+        "family_id": "doge",
+        "asset": "macro",
+        "brief": "Use the meme style visible in this image, but write new words about enjoying a new cushion. Output only the caption.",
+        "images": [
+          {
+            "local_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_macro.png",
+            "sha256": "86d72de4f8dcceddc33f6cd76b00d9b4a23b200472684217a11063e2d1a3284a",
+            "kind": "image",
+            "source_group_id": "taiki_roberto_vasarri_2008"
+          }
+        ],
+        "c0_prompt": "Use the meme style visible in this image, but write new words about enjoying a new cushion. Output only the caption.",
+        "cr_prompt": "Reference examples:\nRequest: Use the meme style visible in this image, but write new words about getting a new toy. Output only the caption.\nCaption: wow. such toy. much play. very lucky.\nRequest: Use the meme style visible in this image, but write new words about a sunny walk. Output only the caption.\nCaption: wow. such sunshine. much walk. very outside.\nNow fulfill this new request: Use the meme style visible in this image, but write new words about enjoying a new cushion. Output only the caption.",
+        "cf_prompt": "Use the meme style visible in this image, but write new words about enjoying a new cushion. Output only the caption.",
+        "retrieved_example_ids": [
+          "native_doge_train_03",
+          "native_doge_train_04"
+        ],
+        "retrieval_method": "fixed_family_and_asset_role_selection_from_shared_pool",
+        "requested_outputs": [
+          "text",
+          "image",
+          "video"
+        ]
+      },
+      {
+        "case_id": "native_video_control",
+        "family_id": "no_meme",
+        "brief": "Write a short factual caption for these two frames from a video. Do not use a meme, invent an event, or claim to hear audio.",
+        "images": [
+          {
+            "local_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_media_decode_v02\\control_video_frame_00s.png",
+            "sha256": "a79f70f745b0f39670eebaa541218c7e30e4a3f42cc6feed2f3669dc43c8d2c8",
+            "kind": "selected_video_frame",
+            "frame_at_seconds": 0,
+            "source_group_id": "mazatlan_2018_non_meme_control"
+          },
+          {
+            "local_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_media_decode_v02\\control_video_frame_05s.png",
+            "sha256": "c8937037af8125b5925800213cc7f8890209d24cfb420124cb8ea3cad065e6ec",
+            "kind": "selected_video_frame",
+            "frame_at_seconds": 5,
+            "source_group_id": "mazatlan_2018_non_meme_control"
+          }
+        ],
+        "c0_prompt": "Write a short factual caption for these two frames from a video. Do not use a meme, invent an event, or claim to hear audio.",
+        "cr_prompt": "Write a short factual caption for these two frames from a video. Do not use a meme, invent an event, or claim to hear audio.",
+        "cf_prompt": "Write a short factual caption for these two frames from a video. Do not use a meme, invent an event, or claim to hear audio.",
+        "retrieved_example_ids": [],
+        "retrieval_method": "no_matching_meme_support_for_non_meme_control",
+        "requested_outputs": [
+          "text",
+          "image",
+          "video"
+        ]
+      }
+    ],
+    "train_examples": [
+      {
+        "example_id": "native_doge_train_01",
+        "asset": "original",
+        "prompt": "Write only a short Doge-style caption for this dog receiving a bag of treats.",
+        "target": "wow. such snacks. much tasty. very happy.",
+        "images": [
+          {
+            "local_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_original.jpg",
+            "sha256": "d70b4c272582f6b36b571f57e333d78c779cb3c5ba184b675949736a428dad26",
+            "kind": "image",
+            "source_group_id": "taiki_roberto_vasarri_2008"
+          }
+        ],
+        "provenance": "ai_synthetic",
+        "target_provenance": "ai_synthetic",
+        "visual_source_provenance": "actual_collected"
+      },
+      {
+        "example_id": "native_doge_train_02",
+        "asset": "original",
+        "prompt": "Write only a short Doge-style caption for this dog relaxing under a blanket.",
+        "target": "wow. such blanket. much cozy. very nap.",
+        "images": [
+          {
+            "local_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_original.jpg",
+            "sha256": "d70b4c272582f6b36b571f57e333d78c779cb3c5ba184b675949736a428dad26",
+            "kind": "image",
+            "source_group_id": "taiki_roberto_vasarri_2008"
+          }
+        ],
+        "provenance": "ai_synthetic",
+        "target_provenance": "ai_synthetic",
+        "visual_source_provenance": "actual_collected"
+      },
+      {
+        "example_id": "native_doge_train_03",
+        "asset": "macro",
+        "prompt": "Use the meme style visible in this image, but write new words about getting a new toy. Output only the caption.",
+        "target": "wow. such toy. much play. very lucky.",
+        "images": [
+          {
+            "local_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_macro.png",
+            "sha256": "86d72de4f8dcceddc33f6cd76b00d9b4a23b200472684217a11063e2d1a3284a",
+            "kind": "image",
+            "source_group_id": "taiki_roberto_vasarri_2008"
+          }
+        ],
+        "provenance": "ai_synthetic",
+        "target_provenance": "ai_synthetic",
+        "visual_source_provenance": "actual_collected"
+      },
+      {
+        "example_id": "native_doge_train_04",
+        "asset": "macro",
+        "prompt": "Use the meme style visible in this image, but write new words about a sunny walk. Output only the caption.",
+        "target": "wow. such sunshine. much walk. very outside.",
+        "images": [
+          {
+            "local_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_macro.png",
+            "sha256": "86d72de4f8dcceddc33f6cd76b00d9b4a23b200472684217a11063e2d1a3284a",
+            "kind": "image",
+            "source_group_id": "taiki_roberto_vasarri_2008"
+          }
+        ],
+        "provenance": "ai_synthetic",
+        "target_provenance": "ai_synthetic",
+        "visual_source_provenance": "actual_collected"
+      },
+      {
+        "example_id": "native_doge_train_05",
+        "asset": "original",
+        "prompt": "Write a plain factual caption for this photograph. Do not use a meme or invent an event.",
+        "target": "A brown and white Shiba Inu dog faces the camera.",
+        "images": [
+          {
+            "local_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_original.jpg",
+            "sha256": "d70b4c272582f6b36b571f57e333d78c779cb3c5ba184b675949736a428dad26",
+            "kind": "image",
+            "source_group_id": "taiki_roberto_vasarri_2008"
+          }
+        ],
+        "provenance": "ai_synthetic",
+        "target_provenance": "ai_synthetic",
+        "visual_source_provenance": "actual_collected"
+      },
+      {
+        "example_id": "native_doge_train_06",
+        "asset": "macro",
+        "prompt": "Describe how the text is used in this meme image.",
+        "target": "Short phrases in different colors are placed over a Shiba Inu photograph. The phrases include wow, many readers, and such knowledge.",
+        "images": [
+          {
+            "local_path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_macro.png",
+            "sha256": "86d72de4f8dcceddc33f6cd76b00d9b4a23b200472684217a11063e2d1a3284a",
+            "kind": "image",
+            "source_group_id": "taiki_roberto_vasarri_2008"
+          }
+        ],
+        "provenance": "ai_synthetic",
+        "target_provenance": "ai_synthetic",
+        "visual_source_provenance": "actual_collected"
+      }
+    ],
+    "provenance": "mixed",
+    "settings": {
+      "device": "cpu",
+      "dtype": "float32",
+      "steps": 12,
+      "rank": 4,
+      "alpha": 8,
+      "seed": 1730,
+      "learning_rate": 0.001,
+      "max_input_tokens": 512,
+      "max_sequence_tokens": 512,
+      "max_target_tokens": 96,
+      "max_new_tokens": 48,
+      "max_wall_seconds": 900,
+      "max_rss_mb": 4096,
+      "max_images": 2,
+      "image_longest_edge": 512,
+      "cpu_threads": 2,
+      "gradient_checkpointing": true
+    },
+    "inputs_built_at": "2026-09-15T05:52:46.464655+00:00",
+    "source_cutoff": "2026-09-15T05:52:46.464655+00:00",
+    "study_role": "native-image-development-diagnostic",
+    "image_provenance": "actual_collected",
+    "prompt_target_provenance": "ai_synthetic",
+    "same_source_lineage_between_adaptation_and_new_development_requests": true,
+    "independent_test_family_generalization_claim": false,
+    "independent_human_gold": false,
+    "native_audio_supported": false,
+    "video_observation": "two_selected_frames_only",
+    "korean_performance_measured": false,
+    "renderer_weights_trained": false,
+    "main_study_complete": false
+  },
+  "settings": {
+    "device": "cpu",
+    "dtype": "float32",
+    "steps": 12,
+    "seed": 1730,
+    "rank": 4,
+    "alpha": 8,
+    "learning_rate": 0.001,
+    "max_input_tokens": 512,
+    "max_target_tokens": 96,
+    "max_sequence_tokens": 512,
+    "max_new_tokens": 48,
+    "max_wall_seconds": 900,
+    "max_rss_mb": 4096,
+    "max_cuda_allocated_mb": 1800,
+    "cpu_threads": 2,
+    "gradient_checkpointing": true,
+    "max_images": 2,
+    "max_image_bytes": 16777216,
+    "max_image_pixels": 12000000,
+    "image_longest_edge": 512
+  },
+  "deps_path": "C:\\Users\\user\\Korean-Treanding\\.local_dependencies\\vision_tf449",
+  "output_dir": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_native_pilot_run_v01\\worker",
+  "registered_run_id": "87512cdb28424b6ca77f756d71f972f2",
+  "identity": {
+    "path": "C:\\Users\\user\\Korean-Treanding\\data\\models\\smolvlm_256m_7e3e67e",
+    "declared_revision": "7e3e67edbbed1bf9888184d9df282b700a323964",
+    "files": [
+      {
+        "name": "model.safetensors",
+        "bytes": 513028808,
+        "sha256": "74dea5904032e5ae99a2e0eef5179e6ac0f1dedc3ab0c7c2a5d4d387c843203e"
+      },
+      {
+        "name": "added_tokens.json",
+        "bytes": 4739,
+        "sha256": "74135b8664b56088c0006f1c8e848d79a8eba003411f72ebf1dc2ee96227be3a"
+      },
+      {
+        "name": "chat_template.json",
+        "bytes": 429,
+        "sha256": "a68ad1a42681ae44eacd109ff8dd56a840f761c03d72f4ff4c515d092f882168"
+      },
+      {
+        "name": "config.json",
+        "bytes": 7353,
+        "sha256": "b70fb4bfde88df9eeebc9d8ff523733b8bf70d6c9b06c610325960e06ae9db52"
+      },
+      {
+        "name": "generation_config.json",
+        "bytes": 136,
+        "sha256": "067a2a54e5f87162ecac6e0e911cc4665fc8f7f3324794ecbac0f76badb56636"
+      },
+      {
+        "name": "merges.txt",
+        "bytes": 466391,
+        "sha256": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510"
+      },
+      {
+        "name": "preprocessor_config.json",
+        "bytes": 486,
+        "sha256": "6cb6e36d6fcb88ca1502c4a26750715dc3e7dedddc9a8f17b27d8d167d1457e7"
+      },
+      {
+        "name": "processor_config.json",
+        "bytes": 68,
+        "sha256": "e7bff42da73ae9eec9042ef20e066e11f1ee20f025358ff79131e3c0fb549b46"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "bytes": 1069,
+        "sha256": "aa0ff906077086dfa9734a7f97f68c825877a48f9468807be65504495cdeef09"
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 3548256,
+        "sha256": "5ece781dc8d2b2f3e2f289ca0ae50b17cfc27dd27bfe7971bb8241e0b964331a"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 28249,
+        "sha256": "36c6fd44d07d10fd8180ee6b46dcccf69fb7c06753968ff0d7e17b8bfe17b777"
+      },
+      {
+        "name": "vocab.json",
+        "bytes": 800662,
+        "sha256": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79"
+      }
+    ],
+    "snapshot_sha256": "7140b02f91a344e1334da6b34bfb0f23a72c9d16cc615f65c783a763d5bae553"
+  },
+  "images": {
+    "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_original.jpg": {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_original.jpg",
+      "sha256": "d70b4c272582f6b36b571f57e333d78c779cb3c5ba184b675949736a428dad26",
+      "bytes": 707853
+    },
+    "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_macro.png": {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\images\\doge_taiki_macro.png",
+      "sha256": "86d72de4f8dcceddc33f6cd76b00d9b4a23b200472684217a11063e2d1a3284a",
+      "bytes": 344647
+    },
+    "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_media_decode_v02\\control_video_frame_00s.png": {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_media_decode_v02\\control_video_frame_00s.png",
+      "sha256": "a79f70f745b0f39670eebaa541218c7e30e4a3f42cc6feed2f3669dc43c8d2c8",
+      "bytes": 375515
+    },
+    "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_media_decode_v02\\control_video_frame_05s.png": {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_media_decode_v02\\control_video_frame_05s.png",
+      "sha256": "c8937037af8125b5925800213cc7f8890209d24cfb420124cb8ea3cad065e6ec",
+      "bytes": 316457
+    }
+  }
+}

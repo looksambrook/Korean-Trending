@@ -1,0 +1,12 @@
+{
+  "version": "youtube-public-search-v1",
+  "search_mode": "topic_query",
+  "queries": [{"query": "한국 챌린지"}],
+  "selection_reason": "일반 밈 검색과 별도로 표현·동작의 반복 및 변형 후보를 찾는다. 특정 챌린지 이름을 입력하지 않으며 검색 순위·대중음악·해설 영상 편향을 기록한다. 이 결과만으로 현재 유행이나 독립 변형을 확정하지 않는다.",
+  "known_meme_seed_names": [],
+  "max_results_per_query": 20,
+  "max_results_total": 20,
+  "timeout_seconds": 15,
+  "max_response_bytes": 8000000,
+  "retention_days": 30
+}

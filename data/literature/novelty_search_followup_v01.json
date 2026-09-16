@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-09-11",
+  "as_of": "2026-09-11",
+  "review_type": "bounded_followup_search_not_systematic",
+  "reviewed_local_context": ["docs/related_work_international.md", "paper/claim_evidence_map_v01.json"],
+  "search_batches": [
+    {"batch": 1, "queries": ["site.arxiv.org meme generation contextual template semantic structure rules 2026", "site.aclanthology.org meme generation template intent preservation 2025 2026", "site.arxiv.org catchphrase slang generation template adaptation 2025 2026"], "selection": "Prioritize structural quote decomposition and cross-cultural meme preservation/adaptation."},
+    {"batch": 2, "queries": ["\"Recontextualizing Famous Quotes for Brand Slogan Generation\" publication", "\"Beyond Translation: Cross-Cultural Meme Transcreation\" conference", "site.arxiv.org \"meme generation\" \"preserve\" \"structure\"", "site.aclanthology.org \"meme generation\" \"template\" 2026"], "selection": "Check publication leads and direct overlap; no further full-text candidates selected."}
+  ],
+  "sources": [
+    {
+      "id": "N01_yang_2026_quote_recontextualization",
+      "title": "Recontextualizing Famous Quotes for Brand Slogan Generation",
+      "authors": ["Ziao Yang", "Zizhang Chen", "Lei Zhang", "Hongfu Liu"],
+      "version": "arXiv:2602.06049v1",
+      "doi": "10.48550/arXiv.2602.06049",
+      "metadata_url": "https://arxiv.org/abs/2602.06049",
+      "fulltext_urls": ["https://arxiv.org/html/2602.06049v1", "https://arxiv.org/pdf/2602.06049"],
+      "publication_status": "arXiv preprint verified; subsequent accepted/published version not verified",
+      "displayed_submission_timestamp_utc": "2026-01-12T04:56:48Z",
+      "html_version_date": "2026-01-12",
+      "pdf_version_date": "2026-01-12",
+      "date_audit": "Official abs history, HTML header and PDF first-page version text agree, but differ from the apparent 2602 identifier month. Reason unresolved; do not infer a replacement date or priority claim.",
+      "verification_level": "primary_metadata_and_selected_fulltext_sections",
+      "reviewed_sections": ["3 Method", "4.1 Experimental Setup", "4.4 Human Evaluation", "Appendix Tables 4-6"],
+      "overlap": "LLM fixed/editable decomposition and source-structure-preserving text adaptation directly overlap.",
+      "remaining_comparison": "Reviewed sections compare fine-tuned QwQ-32B remix with other models; common brand/persona input is not our fixed-source same-LLM B2/B3 intervention.",
+      "metric_boundary": "Table 5 faithfulness concerns brand/persona entailment, not meme-family identity recognition.",
+      "publication_leads_not_used_as_evidence": ["Search exposed an author LinkedIn acceptance mention; original post and official proceedings not verified."],
+      "not_verified": ["Code/data reproduction", "Formal publication status", "Complete source-family and pretraining contamination audit", "Global absence of prose-versus-fields comparisons"],
+      "numeric_effects_transcribed": false
+    },
+    {
+      "id": "N02_zhao_2026_memexgen",
+      "title": "Beyond Translation: Cross-Cultural Meme Transcreation with Vision-Language Models",
+      "authors": ["Yuming Zhao", "Peiyi Zhang", "Oana Ignat"],
+      "version": "arXiv:2602.02510v1",
+      "doi": "10.48550/arXiv.2602.02510",
+      "metadata_url": "https://arxiv.org/abs/2602.02510",
+      "fulltext_urls": ["https://arxiv.org/html/2602.02510v1"],
+      "publication_status": "arXiv preprint verified; later publication not verified",
+      "displayed_submission_timestamp_utc": "2026-01-23T01:04:58Z",
+      "html_version_date": "2026-01-23",
+      "date_audit": "Official displayed date retained; apparent 2602 identifier month differs. No inferred replacement date.",
+      "verification_level": "primary_metadata_and_selected_fulltext_sections",
+      "reviewed_sections": ["3 Hybrid Transcreation Framework", "3.1 Meme Transcreation Pipeline", "4.3 Annotation and Evaluation Split", "5.1-5.3 Evaluation Methodology", "Appendix F Transcreation Prompts"],
+      "overlap": "Separates universal versus culture-specific elements; assesses cultural fit and intent preservation separately.",
+      "remaining_comparison": "Cross-cultural image/caption transcreation differs from fixed Korean family text adaptation; reviewed sections do not establish our same-record B2/B3 comparison.",
+      "automation_boundary": "Section 3.1 includes final manual quality checks; do not describe outputs as wholly unattended automation.",
+      "access_failure": {"url": "https://openreview.net/forum?id=IaZseCdyuD", "observed": "Browser verification challenge; decision/publication metadata not read"},
+      "not_verified": ["Code/data reproduction", "Post-preprint publication", "Full appendix audit", "Global absence of format controls"],
+      "numeric_effects_transcribed": false
+    }
+  ],
+  "screened_only": [
+    {"title": "MemeCraft: Contextual and Stance-Driven Multimodal Meme Generation", "url": "https://arxiv.org/abs/2403.14652", "level": "primary_metadata_and_abstract", "decision": "Adjacent contextual multimodal generation; final publication and detailed controls not reviewed"},
+    {"title": "MemeIntent: Benchmarking Intent Description Generation for Memes", "url": "https://aclanthology.org/2024.sigdial-1.54/", "level": "official_abstract_search_screen", "decision": "Intent explanation rather than new adapted catchphrase; full text not read in this follow-up"}
+  ],
+  "positioning": {
+    "existing_claim_id": "C26",
+    "retain_status": "candidate_not_proven_novel_or_effective",
+    "proposal": "Cite direct overlap before proposing fixed raw evidence, identical automatic records, same-model B1/B2/B3, Korean multi-form identity and contextual-fit evaluation.",
+    "absence_claim_allowed": false,
+    "first_claim_allowed": false,
+    "effectiveness_inferred_from_literature": false
+  },
+  "scope_limits": ["Two search batches/seven queries are not exhaustive coverage.", "Ranking and indexed content can change.", "Secondary search snippets were discovery leads, not substantive evidence.", "No final evaluation data, scenarios, prompts or claim map were edited."]
+}

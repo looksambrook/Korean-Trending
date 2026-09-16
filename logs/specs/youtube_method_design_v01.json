@@ -1,0 +1,51 @@
+{
+  "objective": "Synthesize YouTube observation-to-understanding specification and pilot preparation",
+  "stage": "desk_research",
+  "parameters": {
+    "purpose": "method_and_evaluation_design_not_empirical_result",
+    "retrospective_registration": true,
+    "source_review_date": "2026-09-15",
+    "constraints": [
+      "youtube_first_multiplatform_later",
+      "no_known_name_discovery_credit",
+      "missed_and_false_candidates_in_evaluation",
+      "asof_evidence_and_links",
+      "automatic_vs_human_separate"
+    ]
+  },
+  "data_snapshots": [
+    {
+      "id": "RESEARCH_HANDOFF.md",
+      "sha256": "230ac438f189dd231cb0ec07f19596dca4dfee16df1c953b08eae3010f4a9899"
+    },
+    {
+      "id": "data/research/youtube_access_sources_v01.json",
+      "sha256": "661fea4c4ef9f620cd5c5c4a4f3bb013904e890379b9c78680361ccd8324f2c1"
+    },
+    {
+      "id": "data/research/youtube_literature_sources_v01.json",
+      "sha256": "faaaaee6c4b97290baa0992ab85aa7daec858976795249888967a039b10781ba"
+    },
+    {
+      "id": "data/research/youtube_public_surfaces_v01.json",
+      "sha256": "15f073417adf397f96cf59285ac78bb06d020663a462e55ca3bdb867e24ee85d"
+    }
+  ],
+  "code_hashes": {
+    "planner": "454fda05cc7583316096a82e00514556bcfa77d96c340ff3a019e0b1f8d70a0e",
+    "registry": "27f212b06b72571cf06e276963dffeb942d1b6b2595e37a3a0c763ba8c82a330"
+  },
+  "prompt_hashes": {
+    "prompts/youtube_discovery_review_v01.txt": "2bc0e1dd134ed75af9bc2c5fcd71ba985f9488e73f804f79d127e36c85ab3d60",
+    "prompts/youtube_knowledge_v01.txt": "a0275f770a56398cf9237ae2a9f851fcfd12be71ea06eed1837b30774c00f505",
+    "prompts/youtube_understanding_v01.txt": "5a480c2090f38a19c529e0ad91a48a5db90902a53c4230c459ded42140a28205"
+  },
+  "config_hashes": {
+    "pilot": "32c88878b855c039f453b31afe97a520a33b9215ce9d2ee9916e1f360155aa43"
+  },
+  "modality": [
+    "text",
+    "metadata"
+  ],
+  "provenance": "not_applicable"
+}

@@ -1,0 +1,35 @@
+Input #0, matroska,webm, from 'C:\Users\user\Korean-Treanding\data\collected\multimodal_creation_media_sources_v02\media\mazatlan_2018.webm':
+  Metadata:
+    COMPATIBLE_BRANDS: isomiso2avc1mp41
+    MAJOR_BRAND     : isom
+    MINOR_VERSION   : 512
+    ENCODER         : Lavf58.76.100
+  Duration: 00:00:30.01, start: -0.007000, bitrate: 4647 kb/s
+  Stream #0:0: Video: vp9 (Profile 0), yuv420p(tv, progressive), 640x430, SAR 1:1 DAR 64:43, 24 fps, 24 tbr, 1k tbn (default)
+      Metadata:
+        HANDLER_NAME    : VideoHandler
+        VENDOR_ID       : [0][0][0][0]
+        ENCODER         : Lavc58.134.100 libvpx-vp9
+        DURATION        : 00:00:30.007000000
+  Stream #0:1: Audio: opus, 48000 Hz, stereo, fltp (default)
+      Metadata:
+        HANDLER_NAME    : IsoMedia File Produced by Google, 5-11-2011
+        VENDOR_ID       : [0][0][0][0]
+        ENCODER         : Lavc58.134.100 libopus
+        DURATION        : 00:00:30.008000000
+Stream mapping:
+  Stream #0:1 -> #0:0 (opus (native) -> pcm_s16le (native))
+Output #0, wav, to 'C:\Users\user\Korean-Treanding\data\derived\creation_media_decode_v02\control_video_first15s_16k_mono.wav':
+  Metadata:
+    COMPATIBLE_BRANDS: isomiso2avc1mp41
+    MAJOR_BRAND     : isom
+    MINOR_VERSION   : 512
+    ISFT            : Lavf61.7.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+      Metadata:
+        HANDLER_NAME    : IsoMedia File Produced by Google, 5-11-2011
+        VENDOR_ID       : [0][0][0][0]
+        DURATION        : 00:00:30.008000000
+        encoder         : Lavc61.19.100 pcm_s16le
+[out#0/wav @ 0000022d7ba74440] video:0KiB audio:469KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.016250%
+size=     469KiB time=00:00:15.00 bitrate= 255.9kbits/s speed= 188x    

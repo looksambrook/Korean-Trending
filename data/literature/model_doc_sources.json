@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.1",
+  "record_type": "official_documentation_review_not_experimental_data",
+  "retrieved_on": "2026-09-11",
+  "retrieval_method": "official OpenAI documentation search followed by fetch_openai_doc",
+  "api_execution_performed": false,
+  "notes": [
+    "Claims concern documented API behavior and pricing, not Korean meme quality.",
+    "Account access and actual request parameter acceptance have not been tested.",
+    "The generic Responses create URL returned only a generated-page stub; the Python reference was fetched to inspect definitions.",
+    "No price or token count from the illustrative spending-controller example was reused as an actual rate or measurement."
+  ],
+  "sources": [
+    {
+      "source_id": "openai_models_20260911",
+      "title": "Models",
+      "url": "https://developers.openai.com/api/docs/models",
+      "read_scope": "Fetched catalog; introductory selection guidance and candidate entries inspected.",
+      "supports": ["Luna cost-sensitive positioning", "Terra intelligence-cost balance positioning", "Candidate model-page links"]
+    },
+    {
+      "source_id": "openai_luna_20260911",
+      "title": "GPT-5.6 Luna",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+      "read_scope": "Full short model page, including snapshots, context, reasoning efforts and pricing notes.",
+      "supports": ["Undated documented snapshot gpt-5.6-luna", "Reasoning none support", "Context and output limits", "Separate cache-write multiplier"],
+      "unverified": ["Date-versioned snapshot", "Long-term immutability", "Korean meme quality", "Account access"]
+    },
+    {
+      "source_id": "openai_mini_20260911",
+      "title": "GPT-4.1 Mini",
+      "url": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+      "read_scope": "Full short model page, including dated snapshot, nonreasoning description, endpoints and limits.",
+      "supports": ["Dated snapshot gpt-4.1-mini-2025-04-14", "Nonreasoning behavior", "Responses support", "Context and output limits"],
+      "unverified": ["Korean meme quality", "Account access"]
+    },
+    {
+      "source_id": "openai_terra_20260911",
+      "title": "GPT-5.6 Terra",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
+      "read_scope": "Full short model page, including snapshots, context, reasoning efforts and pricing notes.",
+      "supports": ["Undated documented snapshot gpt-5.6-terra", "Reasoning none support", "Context and output limits", "Separate cache-write multiplier"],
+      "unverified": ["Date-versioned snapshot", "Long-term immutability", "Korean meme quality", "Account access"]
+    },
+    {
+      "source_id": "openai_pricing_20260911",
+      "title": "Pricing",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "read_scope": "Standard text pricing rows for three candidates, regional-processing and tool-charge notes; other modality prices not used.",
+      "supports": ["USD per million standard text-token rates", "Cache-write prices for GPT-5.6", "Short and long context distinction", "Regional-processing surcharge excluded from assumed cap"]
+    },
+    {
+      "source_id": "openai_responses_python_20260911",
+      "title": "Responses create — Python API reference",
+      "url": "https://developers.openai.com/api/reference/python/resources/responses/methods/create",
+      "read_scope": "Fetched generated Python reference; request definitions for max_output_tokens, temperature, service_tier, store, truncation and response usage inspected; searched whole text for seed and found no seed parameter. All nested tool variants were not reviewed.",
+      "supports": ["default is Standard processing", "max_output_tokens includes visible and reasoning tokens", "Generic temperature parameter", "No documented seed request field", "truncation disabled behavior"],
+      "unverified": ["Luna and Terra model-specific custom-temperature combinations"]
+    },
+    {
+      "source_id": "openai_token_counting_20260911",
+      "title": "Counting tokens",
+      "url": "https://developers.openai.com/api/docs/guides/token-counting",
+      "read_scope": "Introductory limitations, same-payload token-count endpoint examples, input formatting and output token accounting sections.",
+      "supports": ["Model input includes formatting tokens", "Local text tokenizers have limitations", "Responses input_tokens count endpoint", "Output count includes invisible formatting and reasoning", "Output cap covers all generated tokens"]
+    },
+    {
+      "source_id": "openai_reasoning_20260911",
+      "title": "Reasoning models",
+      "url": "https://developers.openai.com/api/docs/guides/reasoning",
+      "read_scope": "Reasoning-effort, GPT-5.6 standard/pro mode, output-budget and incomplete-response sections; unrelated advanced tool examples not reviewed.",
+      "supports": ["GPT-5.6 defaults to medium unless effort set", "standard and pro modes", "Incomplete response may consume tokens without visible output", "max_output_tokens total generated-token cap"]
+    },
+    {
+      "source_id": "openai_cache_20260911",
+      "title": "Prompt caching",
+      "url": "https://developers.openai.com/api/docs/guides/prompt-caching",
+      "read_scope": "GPT-5.6 implicit/explicit cache modes, no-breakpoint behavior, cache-write billing and usage-field cost calculation.",
+      "supports": ["explicit mode with no breakpoints avoids reads and writes", "Separate cache-write charge", "input ordinary = input total - cached - cache-write", "cached_tokens and cache_write_tokens usage fields"]
+    },
+    {
+      "source_id": "openai_spending_controller_20260911",
+      "title": "Build a per-run spending controller with the Responses API",
+      "url": "https://developers.openai.com/cookbook/articles/per_run_spending_controller_responses_api",
+      "read_scope": "Budget-reservation rationale, conservative price choice, same-input token count, zero retry requirement and unknown-charge handling; illustrative rates explicitly excluded.",
+      "supports": ["Reserve worst-case request cost before sending", "Unknown charge retains reservation and blocks run", "Disable automatic retries for auditable caps", "Check returned model and service tier"]
+    },
+    {
+      "source_id": "openai_deprecations_20260911",
+      "title": "Deprecations",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "read_scope": "Fetched deprecation list and searched candidate IDs. No retirement entry for the three selected candidates found; Luna/Terra occur as replacements for other models.",
+      "supports": ["No candidate retirement announcement observed on review date"],
+      "unverified": ["Continued availability through submission date"]
+    }
+  ]
+}

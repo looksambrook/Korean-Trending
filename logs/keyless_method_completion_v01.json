@@ -1,0 +1,84 @@
+{
+  "run_id": "584fe5a3dfc5452d9de1d61028b84495",
+  "scope": "Working methods and actual public-source evidence; not completion of the full paper or controlled model-understanding evaluation",
+  "requirements": [
+    {
+      "requirement": "Working keyless platform collection code with live evidence",
+      "evidence": [
+        "feed",
+        "search",
+        "watch",
+        "trends"
+      ],
+      "status": "proved"
+    },
+    {
+      "requirement": "A path from observed expression to source-supported meaning context",
+      "evidence": [
+        "feed",
+        "search",
+        "watch",
+        "meaning_evidence"
+      ],
+      "status": "proved_for_one_development_case",
+      "qualified_claim": "Creator-described Silica Gel performance parody project; not an independently evaluated meme-family label"
+    },
+    {
+      "requirement": "Real currently served trend data from a named platform",
+      "evidence": [
+        "trends"
+      ],
+      "status": "proved_as_Google_Search_provider_RSS_metadata"
+    },
+    {
+      "requirement": "Feature improvement following observed extraction defects",
+      "evidence": [
+        "data/derived/youtube_feed_20260915_d0_v01/summary.json",
+        "data/derived/youtube_watch_20260915_d0_final/candidates/summary.json"
+      ],
+      "status": "proved_development_change_not_heldout_performance"
+    },
+    {
+      "requirement": "A reviewable integrated path with no duplicate collection",
+      "evidence": [
+        "workflow",
+        "report_check"
+      ],
+      "status": "proved_reuse_path_zero_new_HTTP"
+    },
+    {
+      "requirement": "Record attempted methods, failures, retries, inputs and resulting files",
+      "evidence": [
+        "logs/research.sqlite3",
+        "logs/README.md"
+      ],
+      "status": "proved_with_disclosed_retrospective_documentation_entries"
+    }
+  ],
+  "observed_counts": {
+    "youtube_initial_video_metadata": 45,
+    "youtube_named_search_cards": 20,
+    "youtube_detailed_followups_subset": 3,
+    "google_search_trend_topics": 10
+  },
+  "counts_are_not_summed": true,
+  "paid_data_or_model_API_calls": 0,
+  "remaining_full_research_work": [
+    "independent gold and non-meme annotation",
+    "recall and false-candidate evaluation",
+    "repost versus independent-variant decisions",
+    "semantic and independent-use component of D1",
+    "semantic U1 generation and controlled model-understanding evaluation",
+    "cross-platform meme-family linkage evaluation"
+  ],
+  "evidence_hashes": {
+    "feed": "b63faa1b17d76414ee25faa70414a517333ee0fa30f518495dc3675c48c9ab0a",
+    "search": "aec9c8919d1a17c9a2463d446ebae137bf216f17b342494cdc5babeac599354f",
+    "watch": "debba96e78e8b3ec6fc9ec14b8fc7d977e819f2a8138f7919d2a0ce9e367c2df",
+    "trends": "36e82bc1363c50a8dbfa05bad8758b4723adbf3f63e4ae9acfff5ca4e11fb4db",
+    "workflow": "4565683cf059457abe7d86b9f72d16b4648646bcb8df0892e768168b61a0d7f9",
+    "software_check": "115861852b585471755cf6674b0d640550bffd6ba5c90f21cc1bc3c0b5d27eb4",
+    "report_check": "1b3604c48d625b5eb69f48d7ae5253761eda0e747d8aaab3d33f1092a9ebe354",
+    "meaning_evidence": "2a9c0f62a3d8dd0ef0a76730bd54dd51c20438c390ce0aed6480b346db92d8b7"
+  }
+}

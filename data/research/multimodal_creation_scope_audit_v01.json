@@ -1,0 +1,34 @@
+{
+  "run_id": "846768abdf914bffbe698bbfc95d2763",
+  "stage": "offline_validation",
+  "model_calls": 0,
+  "training_runs": 0,
+  "checks": [
+    {
+      "name": "docs\\history\\before_multimodal_creation_20260915_v01\\README.md",
+      "passed": true,
+      "sha256": "8bbebac2fa462d91c2505948bc5ff9e0a0bebad8a013e9f4df55775d9875a686"
+    },
+    {
+      "name": "docs\\history\\before_multimodal_creation_20260915_v01\\RESEARCH_HANDOFF.md",
+      "passed": true,
+      "sha256": "230ac438f189dd231cb0ec07f19596dca4dfee16df1c953b08eae3010f4a9899"
+    },
+    {
+      "name": "README.md",
+      "links_checked": 24,
+      "passed": true
+    },
+    {
+      "name": "RESEARCH_HANDOFF.md",
+      "links_checked": 5,
+      "passed": true
+    },
+    {
+      "name": "docs\\multimodal_creation_literature_v01.md",
+      "links_checked": 0,
+      "passed": true
+    }
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,44 @@
+{
+  "run_id": "4b09d2b4b0e94f5d9ccb5a1ae255b6e9",
+  "checked_at": "2026-09-15T05:15:30.674524+00:00",
+  "previous_goal_turn_classification": "progress",
+  "previous_progress_evidence_run_id": "a3467329a3c945bba5661bdc23f8e8e2",
+  "current_turn_classification": "unchanged_required_dependency_revalidation",
+  "same_blocker_key": "actual_corpus_output_format_compute_scope_unconfirmed",
+  "consecutive_goal_turns_with_same_blocker": 3,
+  "unresolved_configuration": {
+    "canonical_dataset_jsonl": null,
+    "data_root": null,
+    "ingest_manifest": null,
+    "selected_output_formats": null,
+    "execution_backend": null,
+    "total_spending_cap": null,
+    "compute_time_cap": null
+  },
+  "main_log_started_runs_before_audit": [],
+  "comparison_model_inference_calls": 0,
+  "comparison_training_runs": 0,
+  "comparison_independent_human_evaluations": 0,
+  "media_file_inventory_scope": "Common media extensions under workspace/data; observed collected JPEG thumbnails plus literature page PNGs; no selected complete research corpus; external user storage not inspected",
+  "hardware_refresh": {
+    "method": "Win32_VideoController read-only query",
+    "result": "access_denied",
+    "new_hardware_claim": false,
+    "no_escalation_needed_for_this_dependency_decision": true
+  },
+  "prior_failed_resource_checks_rerun": false,
+  "unit_tests_rerun": false,
+  "paid_actions_performed": false,
+  "goal_completed": false,
+  "recommended_goal_status": "blocked",
+  "required_user_information": [
+    "Final content artifact types and intended content use",
+    "Actual meme data paths/composition or statement that research data must be prepared",
+    "Usable GPU/server or approved computation budget scope"
+  ],
+  "preserved_evidence": [
+    "733415a270934b5b98808f024f307e18",
+    "a3467329a3c945bba5661bdc23f8e8e2"
+  ],
+  "resume_rule": "Keep the full paper-level objective; after user supplies needed scope, select the common model/output pipeline and perform real controlled RAG/FT experiments with independent evaluation."
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "creation-plan-v1",
+  "plan_id": "mu_eval_01_CF",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "model_run_id": "7c2d5c379f704581ac21f26419c3e406",
+  "text": "연습한 자전거 타기 1일 후부터 시작했지만, 2주 만에 연습한 뒤 3일 만에 성공했다. 그 때까지 연습한 자전거는 4일 전보다 50% 더 길었다.",
+  "visual": {
+    "style": "caption_card",
+    "width": 960,
+    "height": 540,
+    "background_color": "#142032",
+    "foreground_color": "#FFFFFF",
+    "caption": "연습한 자전거 타기 1일 후부터 시작했지만, 2주 만에 연습한 뒤 3일 만에 성공했다. 그 때까지 연습한 자전거는 4일 전보다 50% 더 길었다.",
+    "font_size": 52
+  },
+  "video": {
+    "fps": 12,
+    "duration_seconds": 3,
+    "frame_count": 36
+  }
+}

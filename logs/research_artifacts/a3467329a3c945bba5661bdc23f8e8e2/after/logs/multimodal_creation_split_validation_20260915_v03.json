@@ -1,0 +1,36 @@
+{
+  "run_id": "5cca4862959e48fead22869981ba605c",
+  "execution_started_at": "2026-09-15T05:08:29.261721+00:00",
+  "execution_finished_at": "2026-09-15T05:08:33.518719+00:00",
+  "recorded_at": "2026-09-15T05:08:33.518738+00:00",
+  "registration": "before execution",
+  "command": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_multimodal_creation_split.py",
+    "-v"
+  ],
+  "stdout": "",
+  "stderr": "test_historical_test_family_support_is_equal_and_distinct_from_evaluation (test_multimodal_creation_split.TwoAxisCreationTests.test_historical_test_family_support_is_equal_and_distinct_from_evaluation) ... ok\ntest_new_cross_partition_link_blocks_adaptation_and_evaluation_exports (test_multimodal_creation_split.TwoAxisCreationTests.test_new_cross_partition_link_blocks_adaptation_and_evaluation_exports) ... ok\ntest_relabelled_or_renamed_support_cannot_become_unseen_evaluation (test_multimodal_creation_split.TwoAxisCreationTests.test_relabelled_or_renamed_support_cannot_become_unseen_evaluation) ... ok\ntest_unknown_permissions_withhold_support_and_invalid_mode_is_logged_retryable (test_multimodal_creation_split.TwoAxisCreationTests.test_unknown_permissions_withhold_support_and_invalid_mode_is_logged_retryable) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 3.976s\n\nOK\n",
+  "exit_code": 0,
+  "file_sha256": {
+    "src/multimodal_creation_split.py": "cec1c18f6f6712c589df890133c2c1a6b87dbdb66b7a22a3b27978246da02351",
+    "src/multimodal_meme_dataset.py": "a479232255e1d249e03f6b85c017f2c552581703bd0bc7e43d9ea5e15977cebc",
+    "tests/test_multimodal_creation_split.py": "2cd21596dc6a1868f4bea6eaca7d883a1fdb81364ae7ff41e3f9c023a6513b8a",
+    "data/schemas/multimodal_meme_record.schema.json": "23e2b3d25ab09793b23fe60e32119bbabef6b1da4f403347588e073c990be211",
+    "docs/multimodal_creation_split_usage.md": "a27eafeb333d4567fc1f656691aa89b0f75aad9f03f1f2209e1592c91b34c4a2"
+  },
+  "fixture_provenance": "ai_synthetic",
+  "actual_research_data_used": false,
+  "model_calls": 0,
+  "independent_gold_verified": false,
+  "native_media_decoding_performed": false
+}

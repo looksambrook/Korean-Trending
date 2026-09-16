@@ -1,0 +1,30 @@
+{
+  "version": "meme-finder-v1",
+  "channels": [
+    {
+      "channel_id": "UCUj6rrhMTR9pipbAWBAMvUQ",
+      "label": "침착맨"
+    },
+    {
+      "channel_id": "UCNhofiqfw5nl-NeDJkXtPvw",
+      "label": "빠니보틀"
+    },
+    {
+      "channel_id": "UC-uIpGINZDL-VIHQQzJW8jw",
+      "label": "TEO 테오"
+    }
+  ],
+  "topic_queries": [
+    "요즘 밈"
+  ],
+  "max_feed_entries": 20,
+  "max_topic_videos": 3,
+  "max_seeds": 4,
+  "max_search_results": 20,
+  "max_followup_videos_per_seed": 3,
+  "max_http_requests": 23,
+  "timeout_seconds": 15,
+  "retention_days": 30,
+  "recent_days": 30,
+  "sampling_note": "채널은 편의 표본이며 플랫폼 전체를 대표하지 않는다. 밈 이름을 입력하지 않는다. 일반 밈 주제 검색은 별도 발견 경로로 표시한다."
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "creation-plan-v1",
+  "plan_id": "msm_eval_01_C0",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "model_run_id": "7c2d5c379f704581ac21f26419c3e406",
+  "text": "\"Monkeys Spinning Monkeys\" - 짧은 코믹 영상으로, 고양이는 문 옆 장난감을 건드려 소리를 낼 때 문을 열어보자.",
+  "visual": {
+    "style": "caption_card",
+    "width": 960,
+    "height": 540,
+    "background_color": "#142032",
+    "foreground_color": "#FFFFFF",
+    "caption": "\"Monkeys Spinning Monkeys\" - 짧은 코믹 영상으로, 고양이는 문 옆 장난감을 건드려 소리를 낼 때 문을 열어보자.",
+    "font_size": 52
+  },
+  "video": {
+    "fps": 12,
+    "duration_seconds": 3,
+    "frame_count": 36
+  }
+}

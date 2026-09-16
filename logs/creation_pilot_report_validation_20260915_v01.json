@@ -1,0 +1,21 @@
+{
+  "run_id": "0928b2d8a1f24623ab384d67a4372239",
+  "execution_started_at": "2026-09-15T05:47:26.910335+00:00",
+  "execution_finished_at": "2026-09-15T05:47:27.190719+00:00",
+  "status": "succeeded",
+  "checks": {
+    "planned_units": 3,
+    "provided_outputs": 1,
+    "missing_preserved": 2,
+    "empty_metric_defaults": 9,
+    "mapping_outside_pack": true,
+    "untrusted_text_escaped": true,
+    "local_image_copied": true,
+    "external_transmission_code_absent": true,
+    "ratings_created": false
+  },
+  "code_sha256": "f1d4765349cc8e02100eb3d82f7987ddc56efe7ebb8686ff9f0c13e565dc290c",
+  "fixture_provenance": "ai_synthetic",
+  "actual_human_evaluation_performed": false,
+  "actual_model_result_generated": false
+}

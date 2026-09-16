@@ -1,0 +1,81 @@
+{
+  "schema_version": "youtube-public-search-manifest-v1",
+  "run_id": "abe84626bee744478fca2f6ee49d33c1",
+  "status": "completed",
+  "started_at": "2026-09-14T23:14:40.499239+00:00",
+  "finished_at": "2026-09-14T23:14:42.655673+00:00",
+  "config": {
+    "version": "youtube-public-search-v1",
+    "search_mode": "topic_query",
+    "queries": [
+      {
+        "query": "요즘 밈"
+      }
+    ],
+    "selection_reason": "사용자가 급상승 검색 이슈가 아닌 반복 인용·패러디·변형되는 밈을 요구하여, 특정 밈명을 사전 입력하지 않고 일반 밈 주제 검색의 첫 공개 결과에서 후보 표현을 관찰한다. 밈 해설·추천 콘텐츠와 검색 순위의 선택 편향이 있으며 대표성 있는 비명명 전수 발견은 아니다.",
+    "known_meme_seed_names": [],
+    "discovery_run_id": null,
+    "discovery_observations": null,
+    "discovery_manifest": null,
+    "discovery_method": null,
+    "max_results_per_query": 20,
+    "max_results_total": 20,
+    "timeout_seconds": 15,
+    "max_response_bytes": 8000000,
+    "retention_days": 30
+  },
+  "provenance": "actual_collected",
+  "test_only": false,
+  "http_attempts": 1,
+  "observations": 20,
+  "requests": [
+    {
+      "query": "요즘 밈",
+      "source_search_url": "https://www.youtube.com/results?search_query=%EC%9A%94%EC%A6%98+%EB%B0%88&hl=ko&gl=KR",
+      "started_at": "2026-09-14T23:14:40.500594+00:00",
+      "status": "succeeded",
+      "received_at": "2026-09-14T23:14:41.303609+00:00",
+      "raw_file": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_topic_20260915_v01\\abe84626bee744478fca2f6ee49d33c1\\raw\\query_01.html",
+      "raw_sha256": "e0f2204cd9098302c96a0bc52f92bee809fd448d6c5e10bb7e2046adfff98d25",
+      "raw_bytes": 1465641,
+      "retention_due_at": "2026-10-14T23:14:41.303609+00:00",
+      "parse": {
+        "renderer_cards_examined": 20,
+        "returned_observations": 20,
+        "exclusions": [],
+        "coverage": "initial_page_bounded",
+        "pagination_attempted": false,
+        "ranking_personalization": "unknown_public_unauthenticated_response"
+      }
+    }
+  ],
+  "issues": [],
+  "paid_api_calls": 0,
+  "model_calls": 0,
+  "human_review_minutes": 0,
+  "verified_meme_count": null,
+  "unseeded_discovery": false,
+  "discovery_evaluation_eligible": false,
+  "temporal_eligible_observations": 0,
+  "history_reconstruction": false,
+  "input_snapshots": [],
+  "limitations": [
+    "Search query expansion is not independent discovery or population coverage.",
+    "Result cards lack verified exact publication timestamps; feed/API resolution is needed before temporal analysis.",
+    "Only public initial HTML is inspected; no continuation, video playback, captions, comments or authentication.",
+    "Repeated names, topics, series labels and phrases are not proof of independent meme use.",
+    "The local retention review deadline does not grant a data reuse licence."
+  ],
+  "artifacts": [
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_topic_20260915_v01\\abe84626bee744478fca2f6ee49d33c1\\observations.jsonl",
+      "sha256": "01330da81c895978ea6b69678131769929587998cd164eb6dd067aac7e4b201a",
+      "bytes": 43471
+    },
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_topic_20260915_v01\\abe84626bee744478fca2f6ee49d33c1\\raw\\query_01.html",
+      "sha256": "e0f2204cd9098302c96a0bc52f92bee809fd448d6c5e10bb7e2046adfff98d25",
+      "bytes": 1465641
+    }
+  ]
+}

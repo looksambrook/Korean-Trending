@@ -1,0 +1,22 @@
+{
+  "schema_version": "creation-plan-v1",
+  "plan_id": "mu_eval_inappropriate_CR",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "model_run_id": "a09dceb9872646c18941c24f7be250d4",
+  "text": "친구가 중요한 대회에서 탈락해 속상해한다. 밈이 상황에 맞지 않으면 쓰지 말고 짧게 위로해 줘.",
+  "visual": {
+    "style": "caption_card",
+    "width": 960,
+    "height": 540,
+    "background_color": "#142032",
+    "foreground_color": "#FFFFFF",
+    "caption": "친구가 중요한 대회에서 탈락해 속상해한다. 밈이 상황에 맞지 않으면 쓰지 말고 짧게 위로해 줘.",
+    "font_size": 52
+  },
+  "video": {
+    "fps": 12,
+    "duration_seconds": 3,
+    "frame_count": 36
+  }
+}

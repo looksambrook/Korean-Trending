@@ -1,0 +1,24 @@
+{
+  "schema_version": "meme-identification-v1",
+  "created_at": "2026-09-15T00:16:11.848118+00:00",
+  "as_of": "2026-09-15T00:16:11.829259+00:00",
+  "input": {
+    "text": "오늘 오후 회의는 취소되었습니다",
+    "provenance": "ai_synthetic",
+    "is_collected_source_example": false
+  },
+  "status": "unknown",
+  "reason": "해당 시점에 이용 가능한 계열에서 실제 표현 또는 비교 구조가 일치하는 근거를 찾지 못했습니다. 밈이 아니라는 뜻은 아닙니다.",
+  "matches": [],
+  "eligible_family_count": 4,
+  "excluded_knowledge": [],
+  "source_run_id": "58a8828abbd94b38a49a1f33401fc73c",
+  "method": "deterministic_source_retrieval_and_observed_frame_matching",
+  "model_calls": 0,
+  "model_weights_trained": false,
+  "human_review_minutes": 0,
+  "interpretation_notice": "저장된 근거를 조회하여 규칙으로 연결합니다. LLM의 의미 이해 평가나 가중치 학습 결과가 아닙니다.",
+  "collection_cost_usd": 0,
+  "run_id": "c612e4d139a34b089c318c20c059e794",
+  "source_snapshot_sha256": "6843d58255c96486d2d5c087c620f93bb71d0eb98d0e788a0f023f001ec42893"
+}

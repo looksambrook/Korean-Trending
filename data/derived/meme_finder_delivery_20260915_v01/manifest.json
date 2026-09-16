@@ -1,0 +1,18 @@
+{
+  "run_id": "301b5ca58ede46ab9169ee892e314349",
+  "created_at": "2026-09-15T00:21:05.157143+00:00",
+  "source_run_id": "c73daaa572d840fd935d89b42877382a",
+  "source_result": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\c73daaa572d840fd935d89b42877382a\\result.json",
+  "source_sha256": "343c8f84cb5406443aa026f3d59ce13b35a3534f012a471e7a72db940b02722d",
+  "report_files": {
+    "report.html": "59f75a52af8eee587b48b85fad09b02343c172a4b6aa300cbaf6a8fd333d947d",
+    "report.md": "b41df4c41bc198e5f8658e0d528ac4a45153c06b519519b75b3371185bc61b50"
+  },
+  "family_count": 4,
+  "meaning_method": "rule-derived source observations",
+  "human_review_minutes": 0,
+  "network_requests": 0,
+  "model_calls": 0,
+  "model_weights_trained": false,
+  "probe_inputs_are_not_collected_evidence": true
+}

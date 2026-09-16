@@ -1,0 +1,81 @@
+{
+  "schema_version": "youtube-public-search-manifest-v1",
+  "run_id": "8d7c8515f982409a8a47bc2b7ffb3943",
+  "status": "completed",
+  "started_at": "2026-09-14T23:14:52.089428+00:00",
+  "finished_at": "2026-09-14T23:14:53.719868+00:00",
+  "config": {
+    "version": "youtube-public-search-v1",
+    "search_mode": "topic_query",
+    "queries": [
+      {
+        "query": "한국 챌린지"
+      }
+    ],
+    "selection_reason": "일반 밈 검색과 별도로 표현·동작의 반복 및 변형 후보를 찾는다. 특정 챌린지 이름을 입력하지 않으며 검색 순위·대중음악·해설 영상 편향을 기록한다. 이 결과만으로 현재 유행이나 독립 변형을 확정하지 않는다.",
+    "known_meme_seed_names": [],
+    "discovery_run_id": null,
+    "discovery_observations": null,
+    "discovery_manifest": null,
+    "discovery_method": null,
+    "max_results_per_query": 20,
+    "max_results_total": 20,
+    "timeout_seconds": 15,
+    "max_response_bytes": 8000000,
+    "retention_days": 30
+  },
+  "provenance": "actual_collected",
+  "test_only": false,
+  "http_attempts": 1,
+  "observations": 20,
+  "requests": [
+    {
+      "query": "한국 챌린지",
+      "source_search_url": "https://www.youtube.com/results?search_query=%ED%95%9C%EA%B5%AD+%EC%B1%8C%EB%A6%B0%EC%A7%80&hl=ko&gl=KR",
+      "started_at": "2026-09-14T23:14:52.092022+00:00",
+      "status": "succeeded",
+      "received_at": "2026-09-14T23:14:52.762811+00:00",
+      "raw_file": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_challenge_20260915_v01\\8d7c8515f982409a8a47bc2b7ffb3943\\raw\\query_01.html",
+      "raw_sha256": "34c5b1e7831649f0317c0e72a838eac409bdb1b0d29572e1289d168bdbe3504f",
+      "raw_bytes": 1153297,
+      "retention_due_at": "2026-10-14T23:14:52.762811+00:00",
+      "parse": {
+        "renderer_cards_examined": 20,
+        "returned_observations": 20,
+        "exclusions": [],
+        "coverage": "initial_page_bounded",
+        "pagination_attempted": false,
+        "ranking_personalization": "unknown_public_unauthenticated_response"
+      }
+    }
+  ],
+  "issues": [],
+  "paid_api_calls": 0,
+  "model_calls": 0,
+  "human_review_minutes": 0,
+  "verified_meme_count": null,
+  "unseeded_discovery": false,
+  "discovery_evaluation_eligible": false,
+  "temporal_eligible_observations": 0,
+  "history_reconstruction": false,
+  "input_snapshots": [],
+  "limitations": [
+    "Search query expansion is not independent discovery or population coverage.",
+    "Result cards lack verified exact publication timestamps; feed/API resolution is needed before temporal analysis.",
+    "Only public initial HTML is inspected; no continuation, video playback, captions, comments or authentication.",
+    "Repeated names, topics, series labels and phrases are not proof of independent meme use.",
+    "The local retention review deadline does not grant a data reuse licence."
+  ],
+  "artifacts": [
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_challenge_20260915_v01\\8d7c8515f982409a8a47bc2b7ffb3943\\observations.jsonl",
+      "sha256": "fd26b26a2690e0d60164d038c2737c360856a3506254e2cf8aab02fd4b9964b3",
+      "bytes": 47092
+    },
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_challenge_20260915_v01\\8d7c8515f982409a8a47bc2b7ffb3943\\raw\\query_01.html",
+      "sha256": "34c5b1e7831649f0317c0e72a838eac409bdb1b0d29572e1289d168bdbe3504f",
+      "bytes": 1153297
+    }
+  ]
+}

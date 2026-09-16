@@ -1,0 +1,12 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\user\Korean-Treanding\data\derived\creation_incremental_media_v01\artifacts\mu_eval_01_C0\video.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    encoder         : Lavf58.76.100
+  Duration: 00:00:03.00, start: 0.000000, bitrate: 447 kb/s
+  Stream #0:0[0x1](und): Video: mpeg4 (Simple Profile) (mp4v / 0x7634706D), yuv420p, 960x540 [SAR 1:1 DAR 16:9], 444 kb/s, 12 fps, 12 tbr, 12288 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+At least one output file must be specified

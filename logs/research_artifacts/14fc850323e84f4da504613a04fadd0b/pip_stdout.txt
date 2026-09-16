@@ -1,0 +1,9 @@
+Collecting transformers==4.49.0 (from -r C:\Users\user\Korean-Treanding\logs\research_artifacts\14fc850323e84f4da504613a04fadd0b\isolated_requirements.txt (line 1))
+  Downloading transformers-4.49.0-py3-none-any.whl (10.0 MB)
+     ---------------------------------------- 10.0/10.0 MB 5.4 MB/s  0:00:01
+Collecting tokenizers==0.21.0 (from -r C:\Users\user\Korean-Treanding\logs\research_artifacts\14fc850323e84f4da504613a04fadd0b\isolated_requirements.txt (line 2))
+  Downloading tokenizers-0.21.0-cp39-abi3-win_amd64.whl (2.4 MB)
+     ---------------------------------------- 2.4/2.4 MB 5.3 MB/s  0:00:00
+Installing collected packages: transformers, tokenizers
+
+Successfully installed tokenizers-0.21.0 transformers-4.49.0

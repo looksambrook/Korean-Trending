@@ -1,0 +1,93 @@
+{
+  "schema_version": "youtube-public-search-manifest-v1",
+  "run_id": "9d4767b1ac244733951eafdbc325fc88",
+  "status": "completed",
+  "started_at": "2026-09-14T23:14:34.939914+00:00",
+  "finished_at": "2026-09-14T23:14:37.183696+00:00",
+  "config": {
+    "version": "youtube-public-search-v1",
+    "search_mode": "discovered_phrase_expansion",
+    "queries": [
+      {
+        "query": "고도로 발달한",
+        "evidence_ids": [
+          "youtube:feed:MxCIV2tlGdI:796acf53a59cc6f703c4"
+        ]
+      }
+    ],
+    "selection_reason": "초기 이름 미지정 채널 관측에서 나온 문장 구조를 AI가 검토해 선택했다. 반복 빈도 기준에서 빠진 단일 용례의 인용·변형 가능성을 확인하는 사후 구조 확장이며 독립 발견 성능 평가가 아니다. 일반 급상승 주제는 밈으로 사용하지 않는다.",
+    "known_meme_seed_names": [],
+    "discovery_run_id": "a92df7a913dc46538b6a7b7afdcb0bdd",
+    "discovery_observations": "data/collected/youtube_feed_20260915_v02/observations.jsonl",
+    "discovery_manifest": "data/collected/youtube_feed_20260915_v02/manifest.json",
+    "discovery_method": "AI_selected_form_from_actual_initial_channel_observation; subsequent_phrase_expansion_not_heldout_discovery",
+    "max_results_per_query": 20,
+    "max_results_total": 20,
+    "timeout_seconds": 15,
+    "max_response_bytes": 8000000,
+    "retention_days": 30
+  },
+  "provenance": "actual_collected",
+  "test_only": false,
+  "http_attempts": 1,
+  "observations": 20,
+  "requests": [
+    {
+      "query": "고도로 발달한",
+      "source_search_url": "https://www.youtube.com/results?search_query=%EA%B3%A0%EB%8F%84%EB%A1%9C+%EB%B0%9C%EB%8B%AC%ED%95%9C&hl=ko&gl=KR",
+      "started_at": "2026-09-14T23:14:34.948498+00:00",
+      "status": "succeeded",
+      "received_at": "2026-09-14T23:14:35.671421+00:00",
+      "raw_file": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_form_expansion_v01\\9d4767b1ac244733951eafdbc325fc88\\raw\\query_01.html",
+      "raw_sha256": "18436a6ae67e1e2e07af1ace43ec68927d4e957f2ff08d5ec860a19bc4557fca",
+      "raw_bytes": 1405171,
+      "retention_due_at": "2026-10-14T23:14:35.671421+00:00",
+      "parse": {
+        "renderer_cards_examined": 20,
+        "returned_observations": 20,
+        "exclusions": [],
+        "coverage": "initial_page_bounded",
+        "pagination_attempted": false,
+        "ranking_personalization": "unknown_public_unauthenticated_response"
+      }
+    }
+  ],
+  "issues": [],
+  "paid_api_calls": 0,
+  "model_calls": 0,
+  "human_review_minutes": 0,
+  "verified_meme_count": null,
+  "unseeded_discovery": false,
+  "discovery_evaluation_eligible": false,
+  "temporal_eligible_observations": 0,
+  "history_reconstruction": false,
+  "input_snapshots": [
+    {
+      "id": "discovery_manifest",
+      "sha256": "b63faa1b17d76414ee25faa70414a517333ee0fa30f518495dc3675c48c9ab0a"
+    },
+    {
+      "id": "discovery_observations",
+      "sha256": "ee3df40a35a7598a41c55432411b4c07c90477ab6e688d36f43c8072acac5738"
+    }
+  ],
+  "limitations": [
+    "Search query expansion is not independent discovery or population coverage.",
+    "Result cards lack verified exact publication timestamps; feed/API resolution is needed before temporal analysis.",
+    "Only public initial HTML is inspected; no continuation, video playback, captions, comments or authentication.",
+    "Repeated names, topics, series labels and phrases are not proof of independent meme use.",
+    "The local retention review deadline does not grant a data reuse licence."
+  ],
+  "artifacts": [
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_form_expansion_v01\\9d4767b1ac244733951eafdbc325fc88\\observations.jsonl",
+      "sha256": "b15887cd956acd4892a94beea7a8baec665dfc7f5fa1ced0159554cfbb6c57b0",
+      "bytes": 51881
+    },
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\youtube_meme_form_expansion_v01\\9d4767b1ac244733951eafdbc325fc88\\raw\\query_01.html",
+      "sha256": "18436a6ae67e1e2e07af1ace43ec68927d4e957f2ff08d5ec860a19bc4557fca",
+      "bytes": 1405171
+    }
+  ]
+}

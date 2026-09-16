@@ -1,0 +1,227 @@
+{
+  "schema_version": "0.3",
+  "run_id": "2b4721204f7b4fd380f4436f7d8e96f7",
+  "phrase": "실례카겔",
+  "mode": "posthoc_observed_phrase_metadata_review",
+  "previous_versions_preserved": [
+    "youtube_phrase_enrichment_v01.json",
+    "youtube_phrase_enrichment_v02.json"
+  ],
+  "input_collection_run_id": "327a6507765a468ca985b01da2352971",
+  "input_directory": "data/collected/youtube_metadata_expansion_20260915_v01/327a6507765a468ca985b01da2352971",
+  "review_type": "AI_assisted_primary_metadata_review",
+  "registration_scope": "After input inspection, before structured report; not a blind independent evaluation",
+  "original_pipeline_T": "2026-09-14T18:20:52.811337+00:00",
+  "source_collection_finished_at": "2026-09-14T18:32:47.078247+00:00",
+  "knowledge_available_at": "2026-09-14T18:35:25.463805+00:00",
+  "eligible_at_original_pipeline_T": false,
+  "source_provenance": "actual_collected",
+  "interpretation_provenance": "AI_assisted_inference",
+  "source_scope": {
+    "source_collection_http_attempts": 3,
+    "source_collection_successes": 3,
+    "review_new_external_calls": 0,
+    "description_scope": "Current player.videoDetails.shortDescription fields from three stored public watch HTML responses; full values read, not only search snippets",
+    "video_or_audio_examined": false,
+    "transcripts_or_comments_read": false,
+    "historical_description_versions_known": false,
+    "note": "Source publication timestamps do not establish that current description text already existed at those historical times."
+  },
+  "sources": [
+    {
+      "video_id": "jxw1Cudx5lA",
+      "observation_id": "youtube:watch:jxw1Cudx5lA:055f455ad92d8280f81f6003",
+      "source_url": "https://www.youtube.com/watch?v=jxw1Cudx5lA",
+      "channel_id": "UClgQvJio7ylGa9kV9b7VzLQ",
+      "creator_label": "스낵타운 SNACKTOWN",
+      "published_at": "2026-05-01T03:00:47+00:00",
+      "publication_source": "player.microformat.publishDate",
+      "available_at": "2026-09-14T18:32:39.074571+00:00",
+      "description_source": "player.videoDetails.shortDescription",
+      "description_read": true,
+      "description_version_at_publication_unknown": true,
+      "provenance": "actual_collected",
+      "source_observation_ids": [
+        "youtube:search:jxw1Cudx5lA:685639c9f2b28d2fbc734600"
+      ]
+    },
+    {
+      "video_id": "Q9hDqYvhrOU",
+      "observation_id": "youtube:watch:Q9hDqYvhrOU:a4d9b5c94edb6a7024af6636",
+      "source_url": "https://www.youtube.com/watch?v=Q9hDqYvhrOU",
+      "channel_id": "UClgQvJio7ylGa9kV9b7VzLQ",
+      "creator_label": "스낵타운 SNACKTOWN",
+      "published_at": "2026-04-14T09:42:05+00:00",
+      "publication_source": "player.microformat.publishDate",
+      "available_at": "2026-09-14T18:32:41.970169+00:00",
+      "description_source": "player.videoDetails.shortDescription",
+      "description_read": true,
+      "description_version_at_publication_unknown": true,
+      "provenance": "actual_collected",
+      "source_observation_ids": [
+        "youtube:search:Q9hDqYvhrOU:0fb055a13bebb8a4ce78670f"
+      ]
+    },
+    {
+      "video_id": "54StMo--pXU",
+      "observation_id": "youtube:watch:54StMo--pXU:33baa224566317b3464cd7d8",
+      "source_url": "https://www.youtube.com/watch?v=54StMo--pXU",
+      "channel_id": "UCeLPm9yH_a_QH8n6445G-Ow",
+      "creator_label": "KBS Kpop",
+      "published_at": "2026-09-01T13:41:44+00:00",
+      "publication_source": "player.microformat.publishDate",
+      "available_at": "2026-09-14T18:32:45.045153+00:00",
+      "description_source": "player.videoDetails.shortDescription",
+      "description_read": true,
+      "description_version_at_publication_unknown": true,
+      "provenance": "actual_collected",
+      "source_observation_ids": [
+        "youtube:search:54StMo--pXU:5527993175994830914b5e9c"
+      ]
+    }
+  ],
+  "supported_source_claims": [
+    {
+      "claim_id": "creator_explicit_parody",
+      "claim": "스낵타운은 Sillaeca Gel을 실리카겔 관련 원테이크 공연 패러디로 직접 소개하며 같은 설명에 실례카겔 해시태그를 사용한다.",
+      "claim_type": "supported_by_creator_description",
+      "evidence_video_ids": [
+        "Q9hDqYvhrOU"
+      ],
+      "minimal_quotes": [
+        "Silica Gel에게 실례하는 Sillaeca Gel",
+        "원테이크 퍼포먼스로 패러디합니다."
+      ],
+      "interpretive_boundary": "패러디라는 성격은 원제작 설명에 명시되어 있다. 웃음의 구체적 장치·말투·몸짓은 직접 시청으로 검증하지 않았다."
+    },
+    {
+      "claim_id": "same_project_followup",
+      "claim": "BIG VOID 영상 설명은 동일 프로젝트의 제2회 및 재등장을 명시하고, NO PAIN 영상과 동일 SNACKTOWN 채널에 속한다.",
+      "claim_type": "supported_by_creator_metadata",
+      "evidence_video_ids": [
+        "jxw1Cudx5lA",
+        "Q9hDqYvhrOU"
+      ],
+      "minimal_quotes": [
+        "제2회에는",
+        "Sillaeca Gel이 또 등장합니다."
+      ],
+      "interpretive_boundary": "동일 프로젝트의 후속 작품 관계이며, 서로 독립된 밈 창작자 두 명의 증거가 아니다."
+    },
+    {
+      "claim_id": "kbs_channel_attribution",
+      "claim": "54StMo--pXU의 실제 watch 메타데이터가 게시 채널을 KBS Kpop, UCeLPm9yH_a_QH8n6445G-Ow로 식별하고 제목·설명에서 두 명칭을 비교한다.",
+      "claim_type": "supported_by_platform_video_metadata",
+      "evidence_video_ids": [
+        "54StMo--pXU"
+      ],
+      "minimal_quotes": [],
+      "interpretive_boundary": "v02의 제목 내 KBS 표기보다 강한 게시채널 근거다. 별도 채널에서의 언급은 확인하지만 독립적인 패러디 재창작이나 영상 내용을 확인한 것은 아니다."
+    }
+  ],
+  "knowledge_record": {
+    "surface_label": "실례카겔",
+    "related_written_label": "Sillaeca Gel",
+    "referent": "스낵타운이 실리카겔 관련 공연 패러디로 소개한 프로젝트·명칭",
+    "referent_status": "supported_by_explicit_creator_description_and_hashtag",
+    "relation_to_silica_gel": "creator_declared_parody",
+    "format_constraint": "named_parody_project_not_forced_slot_template",
+    "possible_communicative_intent": "원밴드·공연과 닮은 점을 장난스럽게 드러내거나 비교하는 기능",
+    "intent_status": "AI_inference; per-occurrence social intent not verified",
+    "evidence_video_ids": [
+      "Q9hDqYvhrOU",
+      "jxw1Cudx5lA",
+      "54StMo--pXU"
+    ],
+    "confidence_scope": "The referent and declared parody relation are supported. Humor mechanism, stance, visual or audio imitation, and appropriate use remain untested.",
+    "model_weight_training_performed": false,
+    "rag_or_context_experiment_performed": false,
+    "model_understanding_evaluation_performed": false,
+    "independent_gold": false
+  },
+  "resolved_since_v02": [
+    {
+      "item": "parody relation",
+      "before": "AI inference from names and truncated metadata",
+      "now": "Explicit creator description identifies parody in NO PAIN metadata"
+    },
+    {
+      "item": "SNACKTOWN project continuity",
+      "before": "Two performance titles with the same channel ID",
+      "now": "Full current description says episode two and return of the named project"
+    },
+    {
+      "item": "KBS-labelled card owner",
+      "before": "Title only; channel ID missing",
+      "now": "Watch videoDetails identifies KBS Kpop and channel ID"
+    },
+    {
+      "item": "publication precision for selected three videos",
+      "before": "Search relative labels or null, not exact dates",
+      "now": "Three source microformat publication timestamps parsed with timezone"
+    }
+  ],
+  "still_unresolved": [
+    "first use or first origin of the phrase across YouTube or other platforms",
+    "whether all other search results are members of the same meme family",
+    "original performance versus clip, repost, commentary, and independent transformation",
+    "independent creator or transformation count",
+    "national prevalence, growth or trend rank",
+    "the exact audiovisual humor mechanism",
+    "independent gold labels and model understanding accuracy"
+  ],
+  "source_claims_not_adopted_as_research_facts": [
+    {
+      "video_id": "Q9hDqYvhrOU",
+      "claim_scope": "Description presents a first appearance and makes a first-in-Korean-media statement",
+      "handling": "Preserved as creator self-description only; not verified expression origin or comparative first claim"
+    },
+    {
+      "video_id": "Q9hDqYvhrOU",
+      "claim_scope": "Description makes popularity statements about the original NO PAIN song",
+      "handling": "Not used as evidence that the candidate phrase itself is nationally prevalent or growing"
+    },
+    {
+      "video_id": "jxw1Cudx5lA",
+      "claim_scope": "Description comments on the original song release and live support",
+      "handling": "Not independently verified or used in candidate trend measurements"
+    }
+  ],
+  "kbs_rights_notice": {
+    "video_id": "54StMo--pXU",
+    "present_in_description": true,
+    "paraphrase": "KBS rights notice prohibits unauthorized reproduction, redistribution and use, including AI training.",
+    "record_only": true,
+    "model_weight_training_performed_in_this_work": false,
+    "additional_permission_gate_created": false
+  },
+  "time_rules": {
+    "publish_time_is_not_available_time": true,
+    "current_description_not_backdated_to_publish_time": true,
+    "all_new_links_valid_only_after_knowledge_available_at": true,
+    "source_temporal_eligibility_does_not_allow_original_T_injection": true
+  },
+  "evaluation_status": "Concrete evidence-backed interpretation of a development-selected case; not discovery/understanding performance evaluation",
+  "cost": {
+    "new_network_calls_in_review": 0,
+    "paid_model_api_calls": 0,
+    "human_review_performed": false,
+    "human_review_minutes": null,
+    "agent_token_cost": null,
+    "agent_token_cost_status": "not_measured_here"
+  },
+  "validation": {
+    "raw_hashes_confirmed": 3,
+    "video_and_channel_ids_present_in_raw": 3,
+    "exact_quotes_found_in_stored_descriptions": true,
+    "selected_watch_records_only": true,
+    "prior_versions_modified": false
+  },
+  "input_hashes": {
+    "data\\collected\\youtube_metadata_expansion_20260915_v01\\327a6507765a468ca985b01da2352971\\manifest.json": "debba96e78e8b3ec6fc9ec14b8fc7d977e819f2a8138f7919d2a0ce9e367c2df",
+    "data\\collected\\youtube_metadata_expansion_20260915_v01\\327a6507765a468ca985b01da2352971\\observations.jsonl": "8eb7c1b7815445650f65efed4f52fd20c063c499ad7efff861a8a98b1d83a749",
+    "data\\collected\\youtube_metadata_expansion_20260915_v01\\327a6507765a468ca985b01da2352971\\raw\\54StMo--pXU.html": "8d5c2e2a163bb55945e1ee8a175613dbd08e8f870ff7510ee37c1367f3e7d157",
+    "data\\collected\\youtube_metadata_expansion_20260915_v01\\327a6507765a468ca985b01da2352971\\raw\\jxw1Cudx5lA.html": "1759899282c1294cd53c437b91d9b4f2a4eb8546f331542930f27e6318deb01b",
+    "data\\collected\\youtube_metadata_expansion_20260915_v01\\327a6507765a468ca985b01da2352971\\raw\\Q9hDqYvhrOU.html": "704154ac41bb5341ba89e5770d8962b96036d3ee3b5855ff9a02a8a63a817a3c"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "checked_on": "2026-09-11",
+  "review_type": "selected_publisher_pdf_comparison",
+  "sources": [
+    {
+      "source_id": "zhou_2024_social_memeing",
+      "requested_url": "https://aclanthology.org/2024.naacl-long.166.pdf",
+      "local_pdf": "data/literature/private_fulltexts/final_version_followup_v01/zhou_2024_naacl_published.pdf",
+      "sha256": "386916aee9a26d5a85bb27d4d984ef594dd7e64cdd90871aebd7f2dedd203f44",
+      "bytes": 32532878,
+      "read_pdf_pages_1_based": [
+        2,
+        3,
+        4,
+        5,
+        9
+      ],
+      "read_scope": "selected_sections_not_entire_page_visual_review",
+      "sections": [
+        "2 Methods",
+        "3 SemanticMemes Dataset",
+        "4 Evaluation",
+        "11 Limitations"
+      ],
+      "limits": "Official page links Original and v2; canonical PDF downloaded is 21 pages versus bibliography 3005-3024. Explicit v2 byte equality and full historical diff not tested."
+    },
+    {
+      "source_id": "bates_2025_template",
+      "requested_url": "https://aclanthology.org/2025.naacl-long.525.pdf",
+      "local_pdf": "data/literature/private_fulltexts/final_version_followup_v01/bates_2025_naacl_published.pdf",
+      "sha256": "969925eecb7cd40e17cc14cdde72e93b590977694b82bf5cb92ca01f14bb46cc",
+      "bytes": 14837929,
+      "read_pdf_pages_1_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "read_scope": "selected_sections_not_entire_page_visual_review",
+      "sections": [
+        "3 KYMKB",
+        "4 Template-Meme Analysis",
+        "5 Template-Aware Splitter",
+        "5.1 Down-sampling",
+        "5.1.1 Entire Dataset",
+        "Limitations"
+      ],
+      "limits": "Selected body paragraphs read; numerical tables not audited or used as evidence of this project performance; appendices and replication not reviewed."
+    }
+  ],
+  "prior_version_comparison": [
+    "https://arxiv.org/html/2311.09130v1 sections2-4",
+    "https://arxiv.org/html/2311.06649v2 sections5.1-5.1.1"
+  ],
+  "access_log": [
+    "Web tool exceeded content-size limits for both ACL PDFs.",
+    "Default local download failed with socket access error WinError10013.",
+    "Reviewed network read escalation downloaded two public PDFs; no user data uploaded or fees incurred.",
+    "OpenReview RIu5lyNXjT forum and PDF returned verification challenge; no access controls bypassed."
+  ],
+  "numeric_effects_transcribed": false,
+  "replication_performed": false,
+  "code_or_prompts_changed": false
+}

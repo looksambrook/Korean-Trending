@@ -1,0 +1,32 @@
+{
+  "objective": "YouTube meme discovery and contextual understanding primary literature review",
+  "stage": "desk_research",
+  "parameters": {
+    "source_ids": [
+      "YL01",
+      "YL02",
+      "YL03",
+      "YL04",
+      "YL05",
+      "YL06",
+      "YL07"
+    ],
+    "selected_body_sections_only": true,
+    "retrospective_registration": true,
+    "reviewed_on": "2026-09-15"
+  },
+  "data_snapshots": [
+    {
+      "id": "research_handoff_20260915",
+      "sha256": "230ac438f189dd231cb0ec07f19596dca4dfee16df1c953b08eae3010f4a9899"
+    }
+  ],
+  "code_hashes": {},
+  "prompt_hashes": {},
+  "config_hashes": {},
+  "modality": [
+    "text",
+    "metadata"
+  ],
+  "provenance": "not_applicable"
+}

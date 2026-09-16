@@ -1,0 +1,143 @@
+{
+  "run_id": "80372646d6d641508450889dfe1009d5",
+  "fingerprint": "4a6823d6166beb84c8a53e806d83740a7f41d53cadb4ddb52eebd5b897c53cdf",
+  "status": "succeeded",
+  "started_at": "2026-09-15T05:45:33.432162+00:00",
+  "finished_at": "2026-09-15T05:48:26.077710+00:00",
+  "retry_of": null,
+  "retry_reason": null,
+  "spec": {
+    "code_hashes": {
+      "research_log.py": "27f212b06b72571cf06e276963dffeb942d1b6b2595e37a3a0c763ba8c82a330"
+    },
+    "config_hashes": {},
+    "data_snapshots": [],
+    "modality": [
+      "audio",
+      "video"
+    ],
+    "objective": "Bounded acquisition of at most one rights-documented actual meme audio and one actual meme video, with clearly labelled nonmeme video control fallback",
+    "parameters": {
+      "accounts": false,
+      "max_audio_files": 1,
+      "max_file_bytes": 20000000,
+      "max_video_files": 1,
+      "nonmeme_video_control_fallback_permitted": true,
+      "original_inputs_only_no_synthetic_gold": true,
+      "paid_cost_cap_usd": 0,
+      "sampling": "known_seed_retrieval",
+      "search_minutes_cap": 5,
+      "youtube_restriction_bypass": false
+    },
+    "prompt_hashes": {},
+    "provenance": "actual_collected",
+    "stage": "access_probe"
+  },
+  "finish": {
+    "actual_cost": {
+      "amount": 0,
+      "api_units": 0,
+      "currency": "USD",
+      "human_minutes": 0
+    },
+    "artifacts": [
+      {
+        "bytes": 5578,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\collect_media.py",
+        "sha256": "3f8eab51c44dd3f21c6cdc627be46a00a52489edc4738c0b2fa1eed7235cba74"
+      },
+      {
+        "bytes": 7684,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\manifest.json",
+        "sha256": "0204600fc69c2d97205d678478c7ca52c506b62876b4c51d1cf473441c348a24"
+      },
+      {
+        "bytes": 3592,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\README.md",
+        "sha256": "1d453a9c8b7692d35077ac22a21978defdb3802f05ad218cf77e4c3875e5da8e"
+      },
+      {
+        "bytes": 2338,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\registration.json",
+        "sha256": "c595ca960cf58ab8b16c1d351da166a500d8ca285a18c8e3972c21dee80a8b49"
+      },
+      {
+        "bytes": 954,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\verification.json",
+        "sha256": "650d418040daf4b4ad9b2830ed08e168a0c17e575cdb1255846610fa55568f74"
+      },
+      {
+        "bytes": 17432378,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\media\\mazatlan_2018.webm",
+        "sha256": "efc30525d68d63b343065ff35cda7d17d18531933d5f16f967f37e31805a82ea"
+      },
+      {
+        "bytes": 630,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\media\\mazatlan_2018.webm.receipt.json",
+        "sha256": "7f77ccbb4515d21626ea3069a61153228ff66f916de83ac4c33cc95efca08d5b"
+      },
+      {
+        "bytes": 1768708,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\media\\monkeys_spinning_monkeys.ogg",
+        "sha256": "11af354e68a4a1eea2474ff2d277dc8b7a6bb82679ab53b755ca3ee2b83972fd"
+      },
+      {
+        "bytes": 636,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\media\\monkeys_spinning_monkeys.ogg.receipt.json",
+        "sha256": "3e2b668c6ccf3ca4280125ec3980f00bb62d3311190ee0c02dfb0f3570462524"
+      },
+      {
+        "bytes": 123229,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\raw\\audio_commons.html",
+        "sha256": "d04b9d38752274a2bdb7d7d4ed1df8e42f5e2e2a3ea8041afcc6435afbc39b56"
+      },
+      {
+        "bytes": 462,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\raw\\audio_commons.html.receipt.json",
+        "sha256": "5162d4292feffe0adc4162cf34f497ea203ee796e20f629768a8d0d0331f051e"
+      },
+      {
+        "bytes": 32178,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\raw\\cc_by4.html",
+        "sha256": "231a5dac65bbf135ba27145969a63cd289faadc172f1512c4810a6c60ba91036"
+      },
+      {
+        "bytes": 373,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\raw\\cc_by4.html.receipt.json",
+        "sha256": "b00d3991741fc944076a00827b4786c57d4fcd6df23da108065cd5083d39954b"
+      },
+      {
+        "bytes": 26826,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\raw\\composer.html",
+        "sha256": "0aaccc3d496fc4ae189e27e3fe2d4f5216266e3bcccf2e0ba77fb1b57a28fa94"
+      },
+      {
+        "bytes": 415,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\raw\\composer.html.receipt.json",
+        "sha256": "6904a36954d031d8169b43b85041e114c1795baa51827022c295d60a7a493f24"
+      },
+      {
+        "bytes": 124543,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\raw\\tiktok_usage.html",
+        "sha256": "8754d324650d0d066e7da920bc538ef5ce6a84e2e19a29d698f91c4849fb4ea9"
+      },
+      {
+        "bytes": 457,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\raw\\tiktok_usage.html.receipt.json",
+        "sha256": "73e529894b3f66d9fd157e79f08ecf3ae431a2578acdfd324548062cf77ba961"
+      },
+      {
+        "bytes": 101972,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\raw\\video_commons.html",
+        "sha256": "e2c72f6cba3da9afbd9756887a98d2a3225ae754caecc3d7380fa8a12a25bb0e"
+      },
+      {
+        "bytes": 466,
+        "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\raw\\video_commons.html.receipt.json",
+        "sha256": "d2e42050e13f368394f1267af62097ee315d5533365df7c93f59a3c1dc0f8a37"
+      }
+    ],
+    "notes": "Within bounded search acquired 1 actual published Monkeys Spinning Monkeys Ogg (CC-BY 4.0, composer and Commons licence verified; official TikTok page documents comedic reuse) and 1 separate CC0 ordinary street video control candidate, each below 20 MB. Video is not meme evidence. Seven HTTP receipts and media SHA1 against Commons validated. No original performance or Korean meme independent variation gold. No local decoding/semantic model calls/human judgments/paid cost in collection. Raw response/license pages, source URLs, timestamps, code and hashes preserved.",
+    "status": "succeeded"
+  }
+}

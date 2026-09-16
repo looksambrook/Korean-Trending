@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-09-15T05:37:37.387173+00:00",
+  "attempts": [
+    {
+      "phase": "initial_connectivity_probe",
+      "url": "https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%95%BC%ED%98%B8",
+      "result": "failed",
+      "error": "URLError WinError10013; default shell socket access denied; no body retained"
+    },
+    {
+      "phase": "first_registered_collection",
+      "result": "partial",
+      "retained_sources": [
+        "muyaho_kowiki.html",
+        "doge_kowiki.html",
+        "doge_taiki_original_commons.html"
+      ],
+      "error": "Parser expected fullImage class, actual page uses fullImageLink; corrected before retry; original response files preserved"
+    }
+  ],
+  "registration_failures_this_subtask": [],
+  "note": "No registration failure occurred in this subtask; any earlier root task failures remain in their original logs. Initial web source search preceded registration and is disclosed in registration.json."
+}

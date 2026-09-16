@@ -1,0 +1,5 @@
+{"event": "before_model_import", "elapsed_seconds": 0.003648, "revision": "7ae557604adf67be50417f59c2c2f167def9a775"}
+{"event": "before_model_load", "elapsed_seconds": 9.634341}
+{"event": "model_loaded", "elapsed_seconds": 27.810556, "base_hash": {"sha256": "9db8ca6c4e687d0942f5e1dd62a7f5857404eb7ab100a27ad78e2b96a22c5b27", "parameters": 494032768}, "adapter_hash": {"sha256": "2b142e05174c8007b2f8fc6b8e92b349d1f292a67d8d3c47d424a39a28ed6626", "parameters": 270336}}
+{"event": "generation_started", "elapsed_seconds": 27.936134, "case_id": "mu_eval_01", "condition": "C0", "input_tokens": 149}
+{"event": "failed", "elapsed_seconds": 31.459328, "failure": {"type": "RuntimeError", "message": "CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`"}}

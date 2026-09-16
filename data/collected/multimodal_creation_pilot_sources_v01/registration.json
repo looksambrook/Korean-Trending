@@ -1,0 +1,78 @@
+{
+  "attempted_at": "2026-09-15T05:35:25.633923+00:00",
+  "spec": {
+    "objective": "Collect a small rights-documented actual Korean meme text and image support candidate bundle, not evaluation gold",
+    "stage": "access_probe",
+    "parameters": {
+      "sampling": "known_seed_retrieval",
+      "max_families": 3,
+      "allowed_hosts": [
+        "ko.wikipedia.org",
+        "ko.wiktionary.org",
+        "commons.wikimedia.org",
+        "upload.wikimedia.org",
+        "creativecommons.org"
+      ],
+      "raw_downloads_before_registration": 0,
+      "initial_web_search_before_registration": true,
+      "initial_search_scope": "Find Wikimedia text/image pages; no files downloaded; registration is not retroactively claimed",
+      "no_model_calls": true,
+      "no_human_gold": true,
+      "budget_usd": 0
+    },
+    "data_snapshots": [],
+    "code_hashes": {
+      "research_log.py": "27f212b06b72571cf06e276963dffeb942d1b6b2595e37a3a0c763ba8c82a330"
+    },
+    "prompt_hashes": {},
+    "config_hashes": {},
+    "modality": [
+      "text",
+      "image"
+    ],
+    "provenance": "actual_collected"
+  },
+  "registration": {
+    "run_id": "41c48389e93647b39f50244f7480f433",
+    "fingerprint": "b1fc9ef1c520a32325b63dd9b82c0ce6d896b5e672e4e38258658bd6ea17b114",
+    "status": "started",
+    "started_at": "2026-09-15T05:35:25.639454+00:00",
+    "finished_at": null,
+    "retry_of": null,
+    "retry_reason": null,
+    "spec": {
+      "code_hashes": {
+        "research_log.py": "27f212b06b72571cf06e276963dffeb942d1b6b2595e37a3a0c763ba8c82a330"
+      },
+      "config_hashes": {},
+      "data_snapshots": [],
+      "modality": [
+        "image",
+        "text"
+      ],
+      "objective": "Collect a small rights-documented actual Korean meme text and image support candidate bundle, not evaluation gold",
+      "parameters": {
+        "allowed_hosts": [
+          "ko.wikipedia.org",
+          "ko.wiktionary.org",
+          "commons.wikimedia.org",
+          "upload.wikimedia.org",
+          "creativecommons.org"
+        ],
+        "budget_usd": 0,
+        "initial_search_scope": "Find Wikimedia text/image pages; no files downloaded; registration is not retroactively claimed",
+        "initial_web_search_before_registration": true,
+        "max_families": 3,
+        "no_human_gold": true,
+        "no_model_calls": true,
+        "raw_downloads_before_registration": 0,
+        "sampling": "known_seed_retrieval"
+      },
+      "prompt_hashes": {},
+      "provenance": "actual_collected",
+      "stage": "access_probe"
+    },
+    "finish": null
+  },
+  "status": "registered"
+}

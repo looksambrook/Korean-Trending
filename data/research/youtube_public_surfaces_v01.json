@@ -1,0 +1,85 @@
+{
+  "reviewed_on_local": "2026-09-15",
+  "timezone": "Asia/Seoul",
+  "registered_at_utc": "2026-09-14T17:46:08.437312+00:00",
+  "scope": "official_help_and_blog_text_plus_limited_surface_probe_no_dataset",
+  "sources": [
+    {
+      "url": "https://support.google.com/youtube/answer/7239739?hl=en",
+      "title": "Trending Charts on YouTube",
+      "scope": "help article body inspected",
+      "finding": "Category charts; country-level non-personalized; current rows not inspected."
+    },
+    {
+      "url": "https://support.google.com/trends/answer/4365533?hl=en",
+      "title": "FAQ about Google Trends data",
+      "scope": "help article body inspected",
+      "finding": "Normalized sample interest; low-volume zero is not proof of absence."
+    },
+    {
+      "url": "https://support.google.com/trends/answer/4359550?hl=en",
+      "title": "Compare Trends search terms",
+      "scope": "help article body inspected",
+      "finding": "Term/topic and region/time comparisons; no actual trend series exported."
+    },
+    {
+      "url": "https://support.google.com/trends/answer/17309543",
+      "title": "Compare search terms and topics",
+      "scope": "help article body inspected",
+      "finding": "YouTube Search term/topic semantics; selected expression lookup is not unseeded discovery."
+    },
+    {
+      "url": "https://support.google.com/trends/answer/3076011?hl=en",
+      "title": "Explore the searches that are Trending now",
+      "scope": "help article body inspected",
+      "finding": "Google Search query surges; not YouTube video trends."
+    },
+    {
+      "url": "https://blog.youtube/intl/ko-kr/culture-and-trends/year-on-youtube-2025-korea/",
+      "title": "Year on YouTube 2025 Korea",
+      "scope": "blog article body inspected",
+      "finding": "Retrospective selected cultural examples, not independent discovery gold."
+    },
+    {
+      "url": "https://blog.youtube/culture-and-trends/youtube-culture-trends-modern-mainstream-research/",
+      "title": "Modern mainstream research",
+      "scope": "announcement article body only; linked full report and survey data not inspected",
+      "finding": "Background on participatory culture; no borrowed empirical results for our pilot."
+    }
+  ],
+  "access_attempts": [
+    {
+      "url": "https://charts.youtube.com/charts/TrendingTrailers/US",
+      "tool": "web.open via official help link",
+      "outcome": "page title returned, zero readable rows",
+      "interpretation": "No chart video IDs or ranking observed; this does not prove site unavailable."
+    },
+    {
+      "url": "https://charts.youtube.com/charts/TrendingVideos/us/weekly",
+      "tool": "web.open via official help link",
+      "outcome": "page title returned, zero readable rows",
+      "interpretation": "US route from help; no KR chart observation claimed."
+    },
+    {
+      "url": "https://www.youtube.com/gaming",
+      "tool": "web.open via official help link",
+      "outcome": "generic footer/links, no ranking rows",
+      "interpretation": "No gaming trend content collected."
+    },
+    {
+      "url": "https://charts.youtube.com/charts/TrendingVideos/us/weekly",
+      "tool": "cua.getBrowser",
+      "outcome": "No browser is available",
+      "interpretation": "No browser session or visible content; no repeated attempt without changed environment."
+    },
+    {
+      "url": "https://support.google.com/trends/answer/4355000?hl=en&ref_topic=4365530",
+      "tool": "web.open via help link",
+      "outcome": "failed redirect to Google sorry page",
+      "interpretation": "Related-search help body not inspected; no bypass or repeated attempt."
+    }
+  ],
+  "youtube_api_calls": 0,
+  "model_experiment_calls": 0,
+  "actual_meme_observations": 0
+}

@@ -1,0 +1,27 @@
+{
+  "run_id": "70df2fe2d5cb4cabbdd253a9a1c18e07",
+  "audited_at": "2026-09-15T00:23:51.460740+00:00",
+  "current_objective": "Executable code or pipeline that finds memes",
+  "gates": {
+    "new_public_collection_without_api_key": "proved by final run feed child and raw requests",
+    "no_preselected_meme_names_or_manual_candidate_selection": "default config plus saved automatic seeds and source links",
+    "automatic_followup_and_typed_families": "actual final search and metadata manifests; three supported textual reuse families",
+    "non_meme_uncertainty_and_link_errors_visible": "one final pending family; initial ambiguous-reference link downgraded in actual error analysis",
+    "source_time_provenance_and_cost": "all actual evidence links/times preserved, new knowledge not backdated, 20 bounded HTTP GETs, zero paid API calls",
+    "usable_entry_point_and_outputs": "find_memes.py CLI, standalone report, JSON, identification CLI, usage documentation",
+    "regressions": "24 changed-module tests passed; not semantic accuracy"
+  },
+  "current_code_changes_after_live_run": [
+    "CLI propagates optional model resource failure",
+    "NFC original-source query check",
+    "report display for repeated expressions"
+  ],
+  "model_inference": "not executed; local memory insufficient, exact U0/U1 inputs prepared",
+  "remaining_research": [
+    "independent gold, recall and family error evaluation",
+    "video/audio understanding",
+    "multi-platform expansion",
+    "controlled model understanding experiments"
+  ],
+  "new_network_calls_in_this_audit": 0
+}

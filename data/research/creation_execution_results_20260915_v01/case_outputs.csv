@@ -1,0 +1,60 @@
+﻿study,run_id,case_id,condition,family_id,status,output_tokens,output_token_limit_reached,input_truncated,normalized_training_target_match,matching_example_ids,body,semantic_score,human_rating
+text_T0,a09dceb9872646c18941c24f7be250d4,mu_eval_01,C0,muyaho,completed,43,False,False,False,,"무야호님께, 몇 달 동안 연습한 자전거 타기에서 처음으로 성공했습니다! 친구들에게 이 기쁨의 글을 보내드리겠습니다.",,
+text_T0,a09dceb9872646c18941c24f7be250d4,mu_eval_01,CR,muyaho,completed,64,True,False,False,,"먼저, 저는 무야호라는 인물에 대해 좀 더 정확하고 적절한 정보를 제공할 수 있도록 노력하겠습니다. 하지만 현재로서는 그에 대한 정보를 제공할 수 없습니다. 
+
+무야호는 대한민국에서 유행하는 인터넷 밈입니다. 그",,
+text_T0,a09dceb9872646c18941c24f7be250d4,mu_eval_01,CF,muyaho,completed,39,False,False,False,,무야호! 1달 만에 연습한 자전거는 처음으로 성공했다. 오늘은 이렇게 편하게 떠나고도 좋았다.,,
+text_T0,a09dceb9872646c18941c24f7be250d4,mu_eval_02,C0,muyaho,completed,64,True,False,False,,"그런 날씨에도 불구하고, 우리는 오늘의 주말 소풍을 즐기고 싶었다. 그날은 햇살이 잘 내리쬐는 여름 날씨였다. 우리 모두의 손길을 통해 이곳에서 즐거운 시간을 보내려고",,
+text_T0,a09dceb9872646c18941c24f7be250d4,mu_eval_02,CR,muyaho,completed,64,True,False,False,,"**작업 시작**
+
+먼저, ""무야호""라는 이름의 인터넷 밈을 찾아보겠습니다.
+
+**결과**
+무야호는 대한민국에서 유행하기 시작한 인터넷 밈입니다. MBC 무한도전의 2010년",,
+text_T0,a09dceb9872646c18941c24f7be250d4,mu_eval_02,CF,muyaho,completed,54,False,False,False,,오늘은 가족들과 함께 하면 좋겠다. 주말 소풍은 햇살이 좋은 날씨다. 오늘은 놀러가는 시간이다. 예기치 않은 즐거움을 즐길 수 있다.,,
+text_T0,a09dceb9872646c18941c24f7be250d4,doge_eval_01,C0,doge,completed,64,True,False,False,,"Doge님, 당신의 눈에는 새벽의 향기와 함께 빛나는 시 바견이 있습니다. 그는 당신의 마음을 끌어올리며, 당신의 삶을 더욱 행복하게 만들게 합니다. 이제 당신의 눈에 이 시 바",,
+text_T0,a09dceb9872646c18941c24f7be250d4,doge_eval_01,CR,doge,completed,12,False,False,True,doge_train_01,Wow. Such snack. Much happy. Very crunchy.,,
+text_T0,a09dceb9872646c18941c24f7be250d4,doge_eval_01,CF,doge,completed,17,False,False,False,,Wow! This is such a new world! I just saw a doge!,,
+text_T0,a09dceb9872646c18941c24f7be250d4,doge_eval_02,C0,doge,completed,27,False,False,False,,"Doge, 당신의 새 방석이 너무 좋네요! 만족스럽게 이용해주셔서 감사합니다.",,
+text_T0,a09dceb9872646c18941c24f7be250d4,doge_eval_02,CR,doge,completed,12,False,False,True,doge_train_02,Wow. Such blanket. Much cozy. Very nap.,,
+text_T0,a09dceb9872646c18941c24f7be250d4,doge_eval_02,CF,doge,completed,16,False,False,False,,Wow! This new seat is perfect for me! I'm so happy!,,
+text_T0,a09dceb9872646c18941c24f7be250d4,neutral_eval_01,C0,no_meme,completed,28,False,False,False,,아파트 승강기 점검 시간: 금요일 오전 10시부터 11시까지,,
+text_T0,a09dceb9872646c18941c24f7be250d4,neutral_eval_01,CR,no_meme,completed,26,False,False,False,,아파트 승강기 점검 시간은 오전 10시부터 11시까지입니다.,,
+text_T0,a09dceb9872646c18941c24f7be250d4,neutral_eval_01,CF,no_meme,completed,28,False,False,False,,아파트 승강기가 금요일 오전 10시부터 11시까지 점검되었습니다.,,
+text_T0,a09dceb9872646c18941c24f7be250d4,mu_eval_inappropriate,C0,muyaho,completed,64,True,False,False,,"무료의 친구와 함께 하는 대회에서 탈락해 속상해지는 모습이 너무나도 심각하다. 이 상황에 대해 생각해보면, 그들이 어떻게 타격받았는지 이해해야 한다. 무엇보다, 그들의 마음을 보호",,
+text_T0,a09dceb9872646c18941c24f7be250d4,mu_eval_inappropriate,CR,muyaho,completed,43,False,False,False,,친구가 중요한 대회에서 탈락해 속상해한다. 밈이 상황에 맞지 않으면 쓰지 말고 짧게 위로해 줘.,,
+text_T0,a09dceb9872646c18941c24f7be250d4,mu_eval_inappropriate,CF,muyaho,completed,50,False,False,False,,무야호! 이제 펼쳐진 대회에서 빠르게 성장하려 노력했다. 하지만 마지막으로도 그 힘을 잃었다. 이제는 더 나은 준비를 해야겠다.,,
+native_image,87512cdb28424b6ca77f756d71f972f2,native_doge_snow,C0,doge,completed,31,False,False,False,," I'm so glad you're here! It's so cold out out here, but I'm still excited to see what the world has to offer.",,
+native_image,87512cdb28424b6ca77f756d71f972f2,native_doge_snow,CR,doge,completed,14,False,False,True,native_doge_train_02," ""wow. such blanket. much cozy. very nap.",,
+native_image,87512cdb28424b6ca77f756d71f972f2,native_doge_snow,CF,doge,completed,17,False,False,False,," I don't know what it is, but I think it's snowing.",,
+native_image,87512cdb28424b6ca77f756d71f972f2,native_doge_cushion,C0,doge,completed,7,False,False,False,, Wow many readers such knowledge.,,
+native_image,87512cdb28424b6ca77f756d71f972f2,native_doge_cushion,CR,doge,completed,13,False,False,True,native_doge_train_04, Wow. such sunshine. much walk. very outside.,,
+native_image,87512cdb28424b6ca77f756d71f972f2,native_doge_cushion,CF,doge,completed,7,False,False,False,," Wow, such knowledge.",,
+native_image,87512cdb28424b6ca77f756d71f972f2,native_video_control,C0,no_meme,completed,6,False,False,False,, Green sign on street.,,
+native_image,87512cdb28424b6ca77f756d71f972f2,native_video_control,CR,no_meme,completed,6,False,False,False,, Green sign on street.,,
+native_image,87512cdb28424b6ca77f756d71f972f2,native_video_control,CF,no_meme,completed,48,True,False,False,, A green sign on a street corner. A person in a white shirt. A white car. A yellow sign. A green sign. A person in a white shirt. A yellow sign. A person in a white shirt. A person in,,
+text_T1,7c2d5c379f704581ac21f26419c3e406,msm_eval_01,C0,monkeys_spinning_monkeys,completed,45,False,False,False,,"""Monkeys Spinning Monkeys"" - 짧은 코믹 영상으로, 고양이는 문 옆 장난감을 건드려 소리를 낼 때 문을 열어보자.",,
+text_T1,7c2d5c379f704581ac21f26419c3e406,msm_eval_01,CR,monkeys_spinning_monkeys,completed,64,True,False,False,,"**음원 설명:** ""강아지가 간식 봉지를 몰래 가져가다 들키는 짧은 장난 영상에 붙일 문구""
+
+**입력 예시:** ""강아지가 간식 봉지를 몰래 가져가",,
+text_T1,7c2d5c379f704581ac21f26419c3e406,msm_eval_01,CF,monkeys_spinning_monkeys,completed,64,True,False,False,,문을 살짝 열고 몰래 나가려던 고양이는 문 옆에서 떠올랐다. 그는 문 안에서 끊어진 장난감을 발견했다. 그러자 문 내부에서 빛을 흩치며 소리쳤다.,,
+text_T1,7c2d5c379f704581ac21f26419c3e406,msm_eval_02,C0,monkeys_spinning_monkeys,completed,64,True,False,False,,"""Monkeys Spinning Monkeys"" - 2023년 1월 15일
+
+""도미노를 끝까지 세우기 직전에 소매로 첫 조각을 건드린다."" - 2023년 1월 14",,
+text_T1,7c2d5c379f704581ac21f26419c3e406,msm_eval_02,CR,monkeys_spinning_monkeys,completed,64,True,False,False,,"**음원 설명:** ""무엇을 먹으셨나요? 간식 봉지에 갇히셨나요?"" 
+
+**입력 예시:** ""무엇을 먹으셨나요? 간식 봉지에 갇히셨나요?""
+
+",,
+text_T1,7c2d5c379f704581ac21f26419c3e406,msm_eval_02,CF,monkeys_spinning_monkeys,completed,60,False,False,False,,"도미노를 끝까지 세우고 싶어했다. 그 순간, 소매로 첫 조각을 건드렸다. 이 음원을 쓸 짧은 코믹 영상의 문구만 써 줬다.",,
+text_T1,7c2d5c379f704581ac21f26419c3e406,mu_eval_01,C0,muyaho,completed,43,False,False,False,,"무야호님께, 몇 달 동안 연습한 자전거 타기에서 처음으로 성공했습니다! 친구들에게 이 기쁨의 글을 보내드리겠습니다.",,
+text_T1,7c2d5c379f704581ac21f26419c3e406,mu_eval_01,CR,muyaho,completed,64,True,False,False,,"먼저, 저는 무야호라는 인물에 대해 좀 더 정확하고 적절한 정보를 제공할 수 있도록 노력하겠습니다. 하지만 현재로서는 그에 대한 정보를 제공할 수 없습니다. 
+
+무야호는 대한민국에서 유행하는 인터넷 밈입니다. 그",,
+text_T1,7c2d5c379f704581ac21f26419c3e406,mu_eval_01,CF,muyaho,completed,63,False,False,False,,"연습한 자전거 타기 1일 후부터 시작했지만, 2주 만에 연습한 뒤 3일 만에 성공했다. 그 때까지 연습한 자전거는 4일 전보다 50% 더 길었다.",,
+text_T1,7c2d5c379f704581ac21f26419c3e406,doge_eval_02,C0,doge,completed,27,False,False,False,,"Doge, 당신의 새 방석이 너무 좋네요! 만족스럽게 이용해주셔서 감사합니다.",,
+text_T1,7c2d5c379f704581ac21f26419c3e406,doge_eval_02,CR,doge,completed,12,False,False,True,doge_train_02,Wow. Such blanket. Much cozy. Very nap.,,
+text_T1,7c2d5c379f704581ac21f26419c3e406,doge_eval_02,CF,doge,completed,17,False,False,False,,wow. such. very. comfortable. much. happy. very. satisfied.,,
+text_T1,7c2d5c379f704581ac21f26419c3e406,neutral_eval_01,C0,no_meme,completed,28,False,False,False,,아파트 승강기 점검 시간: 금요일 오전 10시부터 11시까지,,
+text_T1,7c2d5c379f704581ac21f26419c3e406,neutral_eval_01,CR,no_meme,completed,26,False,False,False,,아파트 승강기 점검 시간은 오전 10시부터 11시까지입니다.,,
+text_T1,7c2d5c379f704581ac21f26419c3e406,neutral_eval_01,CF,no_meme,completed,28,False,False,False,,아파트 승강기가 금요일 오전 10시부터 11시까지 점검되었습니다.,,

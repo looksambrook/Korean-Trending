@@ -1,0 +1,32 @@
+{
+  "version": "youtube-collect-v1",
+  "mode": "channels",
+  "channels": [
+    {"id": "UCUj6rrhMTR9pipbAWBAMvUQ"},
+    {"id": "UCNhofiqfw5nl-NeDJkXtPvw"},
+    {"id": "UC-uIpGINZDL-VIHQQzJW8jw"}
+  ],
+  "query_kind": "no_named_seed",
+  "known_meme_seed_names": [],
+  "selection_reason": "침착맨·빠니보틀·TEO 공개 채널의 접근진단 편의 표본. 밈 이름을 검색하지 않고 각 채널 최신 업로드 최대 1개를 관찰한다. 한국 YouTube의 대표 모집단이나 확정 연구 표본으로 간주하지 않는다.",
+  "limits": {
+    "max_videos": 3,
+    "max_videos_per_channel": 1,
+    "max_comments_total": 20,
+    "max_top_level_comments_per_video": 5,
+    "max_replies_per_thread": 1,
+    "max_playlist_pages_per_channel": 1,
+    "max_search_pages": 1,
+    "max_comment_pages_per_video": 1,
+    "max_reply_pages_per_thread": 1,
+    "max_search_calls": 0,
+    "max_other_calls": 20
+  },
+  "publication_start": null,
+  "publication_end": null,
+  "comment_order": "time",
+  "region_code": "KR",
+  "relevance_language": "ko",
+  "timeout_seconds": 15,
+  "retention_days": 30
+}

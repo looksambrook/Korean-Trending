@@ -1,0 +1,36 @@
+{
+  "run_id": "5cf51061295943018366e3a278f09d2f",
+  "registration_timing": "before this execution",
+  "execution_started_at": "2026-09-15T04:57:20.988433+00:00",
+  "execution_finished_at": "2026-09-15T04:57:22.675595+00:00",
+  "recorded_at": "2026-09-15T04:57:22.675617+00:00",
+  "command": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_multimodal_meme_dataset.py",
+    "-v"
+  ],
+  "stdout": "",
+  "stderr": "test_fixed_partition_survives_revision_and_blocks_new_bridge (test_multimodal_meme_dataset.MultimodalMemeDatasetTests.test_fixed_partition_survives_revision_and_blocks_new_bridge) ... ok\ntest_group_leakage_and_hash_tampering_are_rejected (test_multimodal_meme_dataset.MultimodalMemeDatasetTests.test_group_leakage_and_hash_tampering_are_rejected) ... ok\ntest_time_version_and_gold_isolation_preserve_equal_supervision (test_multimodal_meme_dataset.MultimodalMemeDatasetTests.test_time_version_and_gold_isolation_preserve_equal_supervision) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 1.447s\n\nOK\n",
+  "exit_code": 0,
+  "final_file_sha256": {
+    "src/multimodal_meme_dataset.py": "a479232255e1d249e03f6b85c017f2c552581703bd0bc7e43d9ea5e15977cebc",
+    "data/schemas/multimodal_meme_record.schema.json": "23e2b3d25ab09793b23fe60e32119bbabef6b1da4f403347588e073c990be211",
+    "tests/test_multimodal_meme_dataset.py": "9dfca4cf6478af100f0f1be8e8ad19123a0729263e5899e8c96827d73c54b25f"
+  },
+  "fixture_provenance": "ai_synthetic",
+  "actual_research_data_used": false,
+  "model_experiment_performed": false,
+  "network_requests": 0,
+  "human_evaluation_performed": false,
+  "media_decode_verified": false,
+  "benchmark_completed": false
+}

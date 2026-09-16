@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-09-15T06:01:12.937998+00:00",
+  "registration_failures": [],
+  "attempts": [
+    {
+      "stage": "licence_marker_parse",
+      "status": "failed_then_fixed",
+      "reason": "Markdown bold **Annotations** interrupted literal substring; actual CC-BY4.0 declaration directly read and preserved; matching ignores bold markers only"
+    },
+    {
+      "stage": "local_pdf_copy",
+      "status": "failed_not_retried",
+      "reason": "PDF exceeds remaining 4,074,427 byte cap; response read at most remaining+1=4,074,428 bytes then rejected; no PDF retained",
+      "known_successful_raw_body_bytes": 925573,
+      "failed_pdf_probe_body_bytes": 4074428,
+      "note": "Successful retained bytes are below 5 MB; successful plus failed streamed bodies reach 5,000,001 bytes due to one-byte overflow detector. Web tool transfer totals unknown."
+    }
+  ],
+  "paper_verified_scope": [
+    "ACL paper section 3.1 meme source",
+    "section 3.2 human Collect-Edit-Judge",
+    "section 3.3 final data description",
+    "ethics and terms of use",
+    "Appendix A annotator recruitment/training"
+  ],
+  "paper_local_copy": false,
+  "new_recruitment": false,
+  "new_model_evaluation": false
+}

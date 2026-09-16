@@ -1,0 +1,4 @@
+Kevin MacLeod (incompetech.com)
+https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_~_Monkeys_Spinning_Monkeys.ogg
+CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/
+원본에서 디코딩한 16 kHz 모노 WAV의 앞 3초를 잘라 AAC로 인코딩하고 해당 요청의 모든 조건 영상에 같은 음원으로 결합했습니다.

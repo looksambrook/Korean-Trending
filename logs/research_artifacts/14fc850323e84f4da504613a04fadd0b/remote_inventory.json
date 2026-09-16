@@ -1,0 +1,67 @@
+[
+  {
+    "name": "README.md",
+    "bytes": 16400,
+    "expected_lfs_sha256": null
+  },
+  {
+    "name": "added_tokens.json",
+    "bytes": 4739,
+    "expected_lfs_sha256": null
+  },
+  {
+    "name": "chat_template.json",
+    "bytes": 429,
+    "expected_lfs_sha256": null
+  },
+  {
+    "name": "config.json",
+    "bytes": 7353,
+    "expected_lfs_sha256": null
+  },
+  {
+    "name": "generation_config.json",
+    "bytes": 136,
+    "expected_lfs_sha256": null
+  },
+  {
+    "name": "merges.txt",
+    "bytes": 466391,
+    "expected_lfs_sha256": null
+  },
+  {
+    "name": "model.safetensors",
+    "bytes": 513028808,
+    "expected_lfs_sha256": "74dea5904032e5ae99a2e0eef5179e6ac0f1dedc3ab0c7c2a5d4d387c843203e"
+  },
+  {
+    "name": "preprocessor_config.json",
+    "bytes": 486,
+    "expected_lfs_sha256": null
+  },
+  {
+    "name": "processor_config.json",
+    "bytes": 68,
+    "expected_lfs_sha256": null
+  },
+  {
+    "name": "special_tokens_map.json",
+    "bytes": 1069,
+    "expected_lfs_sha256": null
+  },
+  {
+    "name": "tokenizer.json",
+    "bytes": 3548256,
+    "expected_lfs_sha256": null
+  },
+  {
+    "name": "tokenizer_config.json",
+    "bytes": 28249,
+    "expected_lfs_sha256": null
+  },
+  {
+    "name": "vocab.json",
+    "bytes": 800662,
+    "expected_lfs_sha256": null
+  }
+]

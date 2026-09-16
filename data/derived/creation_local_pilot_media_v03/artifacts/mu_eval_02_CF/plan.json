@@ -1,0 +1,22 @@
+{
+  "schema_version": "creation-plan-v1",
+  "plan_id": "mu_eval_02_CF",
+  "provenance": "ai_synthetic",
+  "plan_origin": "model_generated",
+  "model_run_id": "a09dceb9872646c18941c24f7be250d4",
+  "text": "오늘은 가족들과 함께 하면 좋겠다. 주말 소풍은 햇살이 좋은 날씨다. 오늘은 놀러가는 시간이다. 예기치 않은 즐거움을 즐길 수 있다.",
+  "visual": {
+    "style": "caption_card",
+    "width": 960,
+    "height": 540,
+    "background_color": "#142032",
+    "foreground_color": "#FFFFFF",
+    "caption": "오늘은 가족들과 함께 하면 좋겠다. 주말 소풍은 햇살이 좋은 날씨다. 오늘은 놀러가는 시간이다. 예기치 않은 즐거움을 즐길 수 있다.",
+    "font_size": 52
+  },
+  "video": {
+    "fps": 12,
+    "duration_seconds": 3,
+    "frame_count": 36
+  }
+}

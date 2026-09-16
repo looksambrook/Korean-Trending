@@ -1,0 +1,36 @@
+{
+  "run_id": "b840ec7bf99e408b8ca9947dad0b6af1",
+  "execution_started_at": "2026-09-15T05:05:26.755651+00:00",
+  "execution_finished_at": "2026-09-15T05:05:30.292200+00:00",
+  "recorded_at": "2026-09-15T05:05:30.292226+00:00",
+  "registration": "before execution",
+  "command": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_multimodal_creation_split.py",
+    "-v"
+  ],
+  "stdout": "",
+  "stderr": "test_historical_test_family_support_is_equal_and_distinct_from_evaluation (test_multimodal_creation_split.TwoAxisCreationTests.test_historical_test_family_support_is_equal_and_distinct_from_evaluation) ... ok\ntest_new_cross_partition_link_blocks_adaptation_and_evaluation_exports (test_multimodal_creation_split.TwoAxisCreationTests.test_new_cross_partition_link_blocks_adaptation_and_evaluation_exports) ... ok\ntest_unknown_permissions_withhold_support_and_invalid_mode_is_logged_retryable (test_multimodal_creation_split.TwoAxisCreationTests.test_unknown_permissions_withhold_support_and_invalid_mode_is_logged_retryable) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 3.221s\n\nOK\n",
+  "exit_code": 0,
+  "file_sha256": {
+    "src/multimodal_creation_split.py": "da9f19dfe7e20bf81583577bd79014d4adb3fd5508e2fed14a20c193322e32c3",
+    "src/multimodal_meme_dataset.py": "a479232255e1d249e03f6b85c017f2c552581703bd0bc7e43d9ea5e15977cebc",
+    "tests/test_multimodal_creation_split.py": "d6ba3134dabef1f1d2b2025b5e4e153f0b205ca04dce27aa951add2a4d70c83a",
+    "data/schemas/multimodal_meme_record.schema.json": "23e2b3d25ab09793b23fe60e32119bbabef6b1da4f403347588e073c990be211",
+    "docs/multimodal_creation_split_usage.md": "b87f31447dc48be5976464b00b1f5111d1379e348b5e7be67534f340a6753edc"
+  },
+  "fixture_provenance": "ai_synthetic",
+  "actual_research_data_used": false,
+  "model_calls": 0,
+  "independent_gold_verified": false,
+  "native_media_decoding_performed": false
+}

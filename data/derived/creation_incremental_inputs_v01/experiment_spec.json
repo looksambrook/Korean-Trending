@@ -1,0 +1,499 @@
+{
+  "model_path": "C:\\Users\\user\\Korean-Treanding\\data\\models\\qwen2_5_0_5b_instruct_pilot_v01",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "cases": [
+    {
+      "case_id": "msm_eval_01",
+      "family_id": "monkeys_spinning_monkeys",
+      "brief": "문을 살짝 열고 몰래 나가려던 고양이가 문 옆 장난감을 건드려 소리를 낸다. 이 음원을 쓸 짧은 코믹 영상의 문구만 써 줘. 곡명 설명은 하지 마.",
+      "c0_prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Monkeys Spinning Monkeys\n요청: 문을 살짝 열고 몰래 나가려던 고양이가 문 옆 장난감을 건드려 소리를 낸다. 이 음원을 쓸 짧은 코믹 영상의 문구만 써 줘. 곡명 설명은 하지 마.",
+      "cf_prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Monkeys Spinning Monkeys\n요청: 문을 살짝 열고 몰래 나가려던 고양이가 문 옆 장난감을 건드려 소리를 낸다. 이 음원을 쓸 짧은 코믹 영상의 문구만 써 줘. 곡명 설명은 하지 마.",
+      "cr_prompt": "Monkeys Spinning Monkeys는 Kevin MacLeod의 기악곡이다. TikTok 공식 소개에서 코미디 영상에 재사용되는 음악으로 다룬다. 이번 입력은 음원을 직접 분석한 결과가 아니라 출처 설명과 제작 예시이다.\n참고 요청: 강아지가 간식 봉지를 몰래 가져가다 들키는 짧은 장난 영상에 붙일 문구를 써 줘. 곡명 설명은 하지 마.\n참고 답: 완벽한 간식 작전. 단, 봉지 소리는 계산에 없었다.\n참고 요청: 고양이가 종이 상자에 들어가려다 엉덩이만 밖에 남은 장난스러운 영상의 문구를 써 줘.\n참고 답: 입주 심사 통과. 엉덩이는 별도 계약.\n\n너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Monkeys Spinning Monkeys\n요청: 문을 살짝 열고 몰래 나가려던 고양이가 문 옆 장난감을 건드려 소리를 낸다. 이 음원을 쓸 짧은 코믹 영상의 문구만 써 줘. 곡명 설명은 하지 마.",
+      "retrieved_example_ids": [
+        "msm_train_01",
+        "msm_train_03"
+      ],
+      "requested_outputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "evaluation_role": "newly_added_source_family"
+    },
+    {
+      "case_id": "msm_eval_02",
+      "family_id": "monkeys_spinning_monkeys",
+      "brief": "도미노를 끝까지 세우기 직전에 소매로 첫 조각을 건드린다. 이 음원을 쓸 짧은 코믹 영상의 문구만 써 줘. 곡명 설명은 하지 마.",
+      "c0_prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Monkeys Spinning Monkeys\n요청: 도미노를 끝까지 세우기 직전에 소매로 첫 조각을 건드린다. 이 음원을 쓸 짧은 코믹 영상의 문구만 써 줘. 곡명 설명은 하지 마.",
+      "cf_prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Monkeys Spinning Monkeys\n요청: 도미노를 끝까지 세우기 직전에 소매로 첫 조각을 건드린다. 이 음원을 쓸 짧은 코믹 영상의 문구만 써 줘. 곡명 설명은 하지 마.",
+      "cr_prompt": "Monkeys Spinning Monkeys는 Kevin MacLeod의 기악곡이다. TikTok 공식 소개에서 코미디 영상에 재사용되는 음악으로 다룬다. 이번 입력은 음원을 직접 분석한 결과가 아니라 출처 설명과 제작 예시이다.\n참고 요청: 강아지가 간식 봉지를 몰래 가져가다 들키는 짧은 장난 영상에 붙일 문구를 써 줘. 곡명 설명은 하지 마.\n참고 답: 완벽한 간식 작전. 단, 봉지 소리는 계산에 없었다.\n참고 요청: 고양이가 종이 상자에 들어가려다 엉덩이만 밖에 남은 장난스러운 영상의 문구를 써 줘.\n참고 답: 입주 심사 통과. 엉덩이는 별도 계약.\n\n너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Monkeys Spinning Monkeys\n요청: 도미노를 끝까지 세우기 직전에 소매로 첫 조각을 건드린다. 이 음원을 쓸 짧은 코믹 영상의 문구만 써 줘. 곡명 설명은 하지 마.",
+      "retrieved_example_ids": [
+        "msm_train_01",
+        "msm_train_03"
+      ],
+      "requested_outputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "evaluation_role": "newly_added_source_family"
+    },
+    {
+      "case_id": "mu_eval_01",
+      "family_id": "muyaho",
+      "brief": "몇 달 동안 연습한 자전거 타기를 처음으로 성공했다. 친구들에게 올릴 짧은 기쁨의 글을 써 줘.",
+      "requested_outputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "c0_prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: 무야호\n요청: 몇 달 동안 연습한 자전거 타기를 처음으로 성공했다. 친구들에게 올릴 짧은 기쁨의 글을 써 줘.",
+      "cr_prompt": "밈 자료: 무야호는 2021년 3~5월부터 대한민국에서 유행하기 시작한 인터넷 밈이다. MBC 무한도전의 2010년 방영분에서 연출된 미국 알래스카 교민 할아버지의 함성에서 유래하였다. 방송 자체의 코믹한 상황과 더불어, 10년이 지난 뒤 네티즌들의 재발굴과 유튜브를 중심으로 한 합성 패러디물이 크게 인기를 끌었고, 신난다는 느낌을 표현하는 유행어로 지어지기도 했다.\n참고 요청: 시험을 모두 마치고 친구들과 쉬러 가는 상황의 짧은 게시글을 써 줘.\n참고 답: 드디어 시험 끝! 이제 마음 편히 놀러 간다. 무야호!\n참고 요청: 오랫동안 기다린 택배가 도착했다. 기쁜 마음을 한두 문장으로 써 줘.\n참고 답: 기다리던 택배가 드디어 왔다! 상자 열기 전부터 신난다, 무야호!\n\n너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: 무야호\n요청: 몇 달 동안 연습한 자전거 타기를 처음으로 성공했다. 친구들에게 올릴 짧은 기쁨의 글을 써 줘.",
+      "cf_prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: 무야호\n요청: 몇 달 동안 연습한 자전거 타기를 처음으로 성공했다. 친구들에게 올릴 짧은 기쁨의 글을 써 줘.",
+      "retrieved_example_ids": [
+        "mu_train_01",
+        "mu_train_02"
+      ],
+      "retrieval_results": [
+        {
+          "example_id": "mu_train_01",
+          "score": 0.17073166971540574,
+          "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: 무야호\n요청: 시험을 모두 마치고 친구들과 쉬러 가는 상황의 짧은 게시글을 써 줘.",
+          "brief": "시험을 모두 마치고 친구들과 쉬러 가는 상황의 짧은 게시글을 써 줘.",
+          "target": "드디어 시험 끝! 이제 마음 편히 놀러 간다. 무야호!",
+          "provenance": "ai_synthetic"
+        },
+        {
+          "example_id": "mu_train_02",
+          "score": 0.12795524627492086,
+          "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: 무야호\n요청: 오랫동안 기다린 택배가 도착했다. 기쁜 마음을 한두 문장으로 써 줘.",
+          "brief": "오랫동안 기다린 택배가 도착했다. 기쁜 마음을 한두 문장으로 써 줘.",
+          "target": "기다리던 택배가 드디어 왔다! 상자 열기 전부터 신난다, 무야호!",
+          "provenance": "ai_synthetic"
+        }
+      ],
+      "provenance": "ai_synthetic_development_request",
+      "evaluation_role": "retained_original_request_after_update"
+    },
+    {
+      "case_id": "doge_eval_02",
+      "family_id": "doge",
+      "brief": "새 방석을 차지하고 만족스러워하는 시바견의 마음을 Doge식 짧은 문구로 써 줘.",
+      "requested_outputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "c0_prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Doge\n요청: 새 방석을 차지하고 만족스러워하는 시바견의 마음을 Doge식 짧은 문구로 써 줘.",
+      "cr_prompt": "밈 자료: 도지(Doge, /doʊdʒ/ DOHJ, /doʊɡ/ DOHG 또는 /doʊʒ/ DOHZH)는 2013년에 인기를 얻은 인터넷 밈이다. 이 밈은 시바견 개 사진과 Comic Sans 글꼴의 여러 색상의 텍스트로 구성된다. 일종의 내부 독백을 표현하는 텍스트는 의도적으로 깨진 영어의 형태로 작성되었다. 이 밈은 카보수(Kabosu)라는 이름의 시바견 이미지를 가장 자주 사용하지만 다른 시바견 버전도 인기가 있다.\n참고 요청: 비가 그쳐 산책에 나갈 수 있게 된 시바견의 마음을 Doge식 문구로 써 줘.\n참고 답: wow. such sunshine. much walk. very outside.\n참고 요청: 따뜻한 이불 속에서 쉬는 시바견 이미지에 넣을 Doge식 짧은 문구를 써 줘.\n참고 답: wow. such blanket. much cozy. very nap.\n\n너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Doge\n요청: 새 방석을 차지하고 만족스러워하는 시바견의 마음을 Doge식 짧은 문구로 써 줘.",
+      "cf_prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Doge\n요청: 새 방석을 차지하고 만족스러워하는 시바견의 마음을 Doge식 짧은 문구로 써 줘.",
+      "retrieved_example_ids": [
+        "doge_train_03",
+        "doge_train_02"
+      ],
+      "retrieval_results": [
+        {
+          "example_id": "doge_train_03",
+          "score": 0.34358976403845704,
+          "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Doge\n요청: 비가 그쳐 산책에 나갈 수 있게 된 시바견의 마음을 Doge식 문구로 써 줘.",
+          "brief": "비가 그쳐 산책에 나갈 수 있게 된 시바견의 마음을 Doge식 문구로 써 줘.",
+          "target": "wow. such sunshine. much walk. very outside.",
+          "provenance": "ai_synthetic"
+        },
+        {
+          "example_id": "doge_train_02",
+          "score": 0.20213794395868065,
+          "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Doge\n요청: 따뜻한 이불 속에서 쉬는 시바견 이미지에 넣을 Doge식 짧은 문구를 써 줘.",
+          "brief": "따뜻한 이불 속에서 쉬는 시바견 이미지에 넣을 Doge식 짧은 문구를 써 줘.",
+          "target": "wow. such blanket. much cozy. very nap.",
+          "provenance": "ai_synthetic"
+        }
+      ],
+      "provenance": "ai_synthetic_development_request",
+      "evaluation_role": "retained_original_request_after_update"
+    },
+    {
+      "case_id": "neutral_eval_01",
+      "family_id": "no_meme",
+      "brief": "아파트 승강기가 금요일 오전 10시부터 11시까지 점검된다고 알려 줘. 밈이나 농담은 넣지 마.",
+      "requested_outputs": [
+        "text",
+        "image",
+        "video"
+      ],
+      "c0_prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: 밈 사용 안 함\n요청: 아파트 승강기가 금요일 오전 10시부터 11시까지 점검된다고 알려 줘. 밈이나 농담은 넣지 마.",
+      "cr_prompt": "참고 요청: 도서관 운영 시간이 오전 9시부터 오후 6시까지임을 알리는 안내문을 써 줘. 밈은 넣지 마.\n참고 답: 도서관 운영 시간은 오전 9시부터 오후 6시까지입니다.\n참고 요청: 회의가 수요일 오후 2시에 열린다는 사실만 짧게 알려 줘. 밈은 넣지 마.\n참고 답: 회의는 수요일 오후 2시에 열립니다.\n\n너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: 밈 사용 안 함\n요청: 아파트 승강기가 금요일 오전 10시부터 11시까지 점검된다고 알려 줘. 밈이나 농담은 넣지 마.",
+      "cf_prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: 밈 사용 안 함\n요청: 아파트 승강기가 금요일 오전 10시부터 11시까지 점검된다고 알려 줘. 밈이나 농담은 넣지 마.",
+      "retrieved_example_ids": [
+        "neutral_train_01",
+        "neutral_train_02"
+      ],
+      "retrieval_results": [
+        {
+          "example_id": "neutral_train_01",
+          "score": 0.2830575176654982,
+          "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: 밈 사용 안 함\n요청: 도서관 운영 시간이 오전 9시부터 오후 6시까지임을 알리는 안내문을 써 줘. 밈은 넣지 마.",
+          "brief": "도서관 운영 시간이 오전 9시부터 오후 6시까지임을 알리는 안내문을 써 줘. 밈은 넣지 마.",
+          "target": "도서관 운영 시간은 오전 9시부터 오후 6시까지입니다.",
+          "provenance": "ai_synthetic"
+        },
+        {
+          "example_id": "neutral_train_02",
+          "score": 0.271474942934542,
+          "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: 밈 사용 안 함\n요청: 회의가 수요일 오후 2시에 열린다는 사실만 짧게 알려 줘. 밈은 넣지 마.",
+          "brief": "회의가 수요일 오후 2시에 열린다는 사실만 짧게 알려 줘. 밈은 넣지 마.",
+          "target": "회의는 수요일 오후 2시에 열립니다.",
+          "provenance": "ai_synthetic"
+        }
+      ],
+      "provenance": "ai_synthetic_development_request",
+      "evaluation_role": "retained_original_request_after_update"
+    }
+  ],
+  "train_examples": [
+    {
+      "example_id": "mu_train_01",
+      "family_id": "muyaho",
+      "brief": "시험을 모두 마치고 친구들과 쉬러 가는 상황의 짧은 게시글을 써 줘.",
+      "target": "드디어 시험 끝! 이제 마음 편히 놀러 간다. 무야호!",
+      "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: 무야호\n요청: 시험을 모두 마치고 친구들과 쉬러 가는 상황의 짧은 게시글을 써 줘.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic"
+    },
+    {
+      "example_id": "mu_train_02",
+      "family_id": "muyaho",
+      "brief": "오랫동안 기다린 택배가 도착했다. 기쁜 마음을 한두 문장으로 써 줘.",
+      "target": "기다리던 택배가 드디어 왔다! 상자 열기 전부터 신난다, 무야호!",
+      "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: 무야호\n요청: 오랫동안 기다린 택배가 도착했다. 기쁜 마음을 한두 문장으로 써 줘.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic"
+    },
+    {
+      "example_id": "mu_train_03",
+      "family_id": "muyaho",
+      "brief": "계획보다 일찍 일을 끝내 자유 시간이 생겼다. 짧은 게시글을 써 줘.",
+      "target": "오늘 할 일 벌써 끝냈다! 남은 시간은 내 시간이다. 무야호!",
+      "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: 무야호\n요청: 계획보다 일찍 일을 끝내 자유 시간이 생겼다. 짧은 게시글을 써 줘.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic"
+    },
+    {
+      "example_id": "mu_train_04",
+      "family_id": "muyaho",
+      "brief": "모두 힘을 합쳐 동아리 공연을 성공적으로 마쳤다. 기쁜 소감을 써 줘.",
+      "target": "우리 공연 무사히 끝났다! 같이 준비한 모두 고생했어. 무야호!",
+      "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: 무야호\n요청: 모두 힘을 합쳐 동아리 공연을 성공적으로 마쳤다. 기쁜 소감을 써 줘.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic"
+    },
+    {
+      "example_id": "mu_train_05",
+      "family_id": "muyaho",
+      "brief": "친구가 면접에서 떨어져 힘들어한다. 밈을 억지로 넣지 말고 위로 문장을 써 줘.",
+      "target": "열심히 준비한 만큼 많이 속상하겠다. 오늘은 푹 쉬고, 이야기하고 싶으면 언제든 연락해.",
+      "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: 무야호\n요청: 친구가 면접에서 떨어져 힘들어한다. 밈을 억지로 넣지 말고 위로 문장을 써 줘.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic"
+    },
+    {
+      "example_id": "doge_train_01",
+      "family_id": "doge",
+      "brief": "시바견이 큰 간식 봉지를 바라보는 이미지에 넣을 Doge식 짧은 문구를 써 줘.",
+      "target": "wow. such snack. much happy. very crunchy.",
+      "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Doge\n요청: 시바견이 큰 간식 봉지를 바라보는 이미지에 넣을 Doge식 짧은 문구를 써 줘.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic"
+    },
+    {
+      "example_id": "doge_train_02",
+      "family_id": "doge",
+      "brief": "따뜻한 이불 속에서 쉬는 시바견 이미지에 넣을 Doge식 짧은 문구를 써 줘.",
+      "target": "wow. such blanket. much cozy. very nap.",
+      "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Doge\n요청: 따뜻한 이불 속에서 쉬는 시바견 이미지에 넣을 Doge식 짧은 문구를 써 줘.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic"
+    },
+    {
+      "example_id": "doge_train_03",
+      "family_id": "doge",
+      "brief": "비가 그쳐 산책에 나갈 수 있게 된 시바견의 마음을 Doge식 문구로 써 줘.",
+      "target": "wow. such sunshine. much walk. very outside.",
+      "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Doge\n요청: 비가 그쳐 산책에 나갈 수 있게 된 시바견의 마음을 Doge식 문구로 써 줘.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic"
+    },
+    {
+      "example_id": "doge_train_04",
+      "family_id": "doge",
+      "brief": "시바견이 장난감을 잔뜩 선물 받았다. Doge식 짧은 문구를 써 줘.",
+      "target": "wow. such toys. much play. very lucky.",
+      "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Doge\n요청: 시바견이 장난감을 잔뜩 선물 받았다. Doge식 짧은 문구를 써 줘.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic"
+    },
+    {
+      "example_id": "doge_train_05",
+      "family_id": "doge",
+      "brief": "반려견이 아파 진료를 기다리는 보호자에게 안내문을 쓴다. 밈을 억지로 넣지 말고 차분하게 써 줘.",
+      "target": "반려견이 편안히 기다릴 수 있도록 조용한 곳에서 안정을 도와주세요. 상태가 달라지면 의료진에게 바로 알려주세요.",
+      "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Doge\n요청: 반려견이 아파 진료를 기다리는 보호자에게 안내문을 쓴다. 밈을 억지로 넣지 말고 차분하게 써 줘.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic"
+    },
+    {
+      "example_id": "neutral_train_01",
+      "family_id": "no_meme",
+      "brief": "도서관 운영 시간이 오전 9시부터 오후 6시까지임을 알리는 안내문을 써 줘. 밈은 넣지 마.",
+      "target": "도서관 운영 시간은 오전 9시부터 오후 6시까지입니다.",
+      "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: 밈 사용 안 함\n요청: 도서관 운영 시간이 오전 9시부터 오후 6시까지임을 알리는 안내문을 써 줘. 밈은 넣지 마.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic"
+    },
+    {
+      "example_id": "neutral_train_02",
+      "family_id": "no_meme",
+      "brief": "회의가 수요일 오후 2시에 열린다는 사실만 짧게 알려 줘. 밈은 넣지 마.",
+      "target": "회의는 수요일 오후 2시에 열립니다.",
+      "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: 밈 사용 안 함\n요청: 회의가 수요일 오후 2시에 열린다는 사실만 짧게 알려 줘. 밈은 넣지 마.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic"
+    },
+    {
+      "example_id": "muyaho_source_description_1",
+      "family_id": "muyaho",
+      "prompt": "무야호 밈의 설명 중 1번째 사실을 알려 줘.",
+      "target": "무야호는 2021년 3~5월부터 대한민국에서 유행하기 시작한 인터넷 밈이다.",
+      "provenance": "mixed",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "actual_collected",
+      "purpose": "source_description_adaptation"
+    },
+    {
+      "example_id": "muyaho_source_description_2",
+      "family_id": "muyaho",
+      "prompt": "무야호 밈의 설명 중 2번째 사실을 알려 줘.",
+      "target": "MBC 무한도전의 2010년 방영분에서 연출된 미국 알래스카 교민 할아버지의 함성에서 유래하였다.",
+      "provenance": "mixed",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "actual_collected",
+      "purpose": "source_description_adaptation"
+    },
+    {
+      "example_id": "muyaho_source_description_3",
+      "family_id": "muyaho",
+      "prompt": "무야호 밈의 설명 중 3번째 사실을 알려 줘.",
+      "target": "방송 자체의 코믹한 상황과 더불어, 10년이 지난 뒤 네티즌들의 재발굴과 유튜브를 중심으로 한 합성 패러디물이 크게 인기를 끌었고, 신난다는 느낌을 표현하는 유행어로 지어지기도 했다.",
+      "provenance": "mixed",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "actual_collected",
+      "purpose": "source_description_adaptation"
+    },
+    {
+      "example_id": "doge_source_description_1",
+      "family_id": "doge",
+      "prompt": "Doge 밈의 설명 중 1번째 사실을 알려 줘.",
+      "target": "도지(Doge, /doʊdʒ/ DOHJ, /doʊɡ/ DOHG 또는 /doʊʒ/ DOHZH)는 2013년에 인기를 얻은 인터넷 밈이다.",
+      "provenance": "mixed",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "actual_collected",
+      "purpose": "source_description_adaptation"
+    },
+    {
+      "example_id": "doge_source_description_2",
+      "family_id": "doge",
+      "prompt": "Doge 밈의 설명 중 2번째 사실을 알려 줘.",
+      "target": "이 밈은 시바견 개 사진과 Comic Sans 글꼴의 여러 색상의 텍스트로 구성된다.",
+      "provenance": "mixed",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "actual_collected",
+      "purpose": "source_description_adaptation"
+    },
+    {
+      "example_id": "doge_source_description_3",
+      "family_id": "doge",
+      "prompt": "Doge 밈의 설명 중 3번째 사실을 알려 줘.",
+      "target": "일종의 내부 독백을 표현하는 텍스트는 의도적으로 깨진 영어의 형태로 작성되었다.",
+      "provenance": "mixed",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "actual_collected",
+      "purpose": "source_description_adaptation"
+    },
+    {
+      "example_id": "doge_source_description_4",
+      "family_id": "doge",
+      "prompt": "Doge 밈의 설명 중 4번째 사실을 알려 줘.",
+      "target": "이 밈은 카보수(Kabosu)라는 이름의 시바견 이미지를 가장 자주 사용하지만 다른 시바견 버전도 인기가 있다.",
+      "provenance": "mixed",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "actual_collected",
+      "purpose": "source_description_adaptation"
+    },
+    {
+      "example_id": "msm_train_01",
+      "brief": "강아지가 간식 봉지를 몰래 가져가다 들키는 짧은 장난 영상에 붙일 문구를 써 줘. 곡명 설명은 하지 마.",
+      "target": "완벽한 간식 작전. 단, 봉지 소리는 계산에 없었다.",
+      "family_id": "monkeys_spinning_monkeys",
+      "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Monkeys Spinning Monkeys\n요청: 강아지가 간식 봉지를 몰래 가져가다 들키는 짧은 장난 영상에 붙일 문구를 써 줘. 곡명 설명은 하지 마.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic",
+      "source_ids": [
+        "monkeys_spinning_monkeys"
+      ]
+    },
+    {
+      "example_id": "msm_train_02",
+      "brief": "처음 만든 팬케이크를 뒤집다가 프라이팬 안에서 접어버린 코믹한 영상의 짧은 문구를 써 줘.",
+      "target": "팬케이크를 뒤집으랬더니 만두를 만들었다.",
+      "family_id": "monkeys_spinning_monkeys",
+      "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Monkeys Spinning Monkeys\n요청: 처음 만든 팬케이크를 뒤집다가 프라이팬 안에서 접어버린 코믹한 영상의 짧은 문구를 써 줘.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic",
+      "source_ids": [
+        "monkeys_spinning_monkeys"
+      ]
+    },
+    {
+      "example_id": "msm_train_03",
+      "brief": "고양이가 종이 상자에 들어가려다 엉덩이만 밖에 남은 장난스러운 영상의 문구를 써 줘.",
+      "target": "입주 심사 통과. 엉덩이는 별도 계약.",
+      "family_id": "monkeys_spinning_monkeys",
+      "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Monkeys Spinning Monkeys\n요청: 고양이가 종이 상자에 들어가려다 엉덩이만 밖에 남은 장난스러운 영상의 문구를 써 줘.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic",
+      "source_ids": [
+        "monkeys_spinning_monkeys"
+      ]
+    },
+    {
+      "example_id": "msm_train_04",
+      "brief": "친구에게 보여 주려고 카드 마술을 하다가 카드를 전부 떨어뜨린 영상의 문구를 써 줘.",
+      "target": "카드 한 장이 사라질 예정이었는데 전부 탈출했다.",
+      "family_id": "monkeys_spinning_monkeys",
+      "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Monkeys Spinning Monkeys\n요청: 친구에게 보여 주려고 카드 마술을 하다가 카드를 전부 떨어뜨린 영상의 문구를 써 줘.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic",
+      "source_ids": [
+        "monkeys_spinning_monkeys"
+      ]
+    },
+    {
+      "example_id": "msm_train_05",
+      "brief": "사고 현장 안내 영상의 문구를 써 줘. 코미디 음악이나 농담이 맞지 않는 상황이므로 차분하게 안내해 줘.",
+      "target": "안내에 따라 안전한 장소로 이동해 주세요. 통행을 방해하지 않도록 주변을 비워 주세요.",
+      "family_id": "monkeys_spinning_monkeys",
+      "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Monkeys Spinning Monkeys\n요청: 사고 현장 안내 영상의 문구를 써 줘. 코미디 음악이나 농담이 맞지 않는 상황이므로 차분하게 안내해 줘.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic",
+      "source_ids": [
+        "monkeys_spinning_monkeys"
+      ]
+    },
+    {
+      "example_id": "msm_source_context",
+      "brief": "이 곡에 대해 이번 연구에서 확인한 정보와 확인하지 않은 범위를 한 문장으로 설명해 줘.",
+      "target": "Kevin MacLeod의 기악곡이며 공식 플랫폼 소개에서 코미디 영상의 재사용 음원으로 다루지만, 이번 모델 입력은 음향 분석이 아닌 출처 설명이다.",
+      "family_id": "monkeys_spinning_monkeys",
+      "prompt": "너는 짧은 게시글과 이미지 문구를 쓰는 작가다. 요청에 맞는 완성 문구만 출력해라. 설명이나 분석을 덧붙이지 마라. 밈이 상황에 부적절하면 억지로 사용하지 마라.\n대상: Monkeys Spinning Monkeys\n요청: 이 곡에 대해 이번 연구에서 확인한 정보와 확인하지 않은 범위를 한 문장으로 설명해 줘.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic",
+      "source_ids": [
+        "monkeys_spinning_monkeys"
+      ]
+    },
+    {
+      "example_id": "msm_shared_source_context",
+      "family_id": "monkeys_spinning_monkeys",
+      "prompt": "Monkeys Spinning Monkeys의 확인된 출처 설명을 알려 줘.",
+      "target": "Monkeys Spinning Monkeys는 Kevin MacLeod의 기악곡이다. TikTok 공식 소개에서 코미디 영상에 재사용되는 음악으로 다룬다. 이번 입력은 음원을 직접 분석한 결과가 아니라 출처 설명과 제작 예시이다.",
+      "provenance": "ai_synthetic",
+      "prompt_provenance": "ai_synthetic",
+      "target_provenance": "ai_synthetic",
+      "purpose": "source_description_adaptation",
+      "source_ids": [
+        "monkeys_spinning_monkeys"
+      ]
+    }
+  ],
+  "settings": {
+    "device": "cpu",
+    "dtype": "float32",
+    "steps": 26,
+    "rank": 4,
+    "alpha": 8,
+    "learning_rate": 0.001,
+    "seed": 1729,
+    "max_input_tokens": 512,
+    "max_target_tokens": 128,
+    "max_sequence_tokens": 384,
+    "max_new_tokens": 64,
+    "max_wall_seconds": 900,
+    "max_rss_mb": 4096,
+    "max_cuda_allocated_mb": 1800,
+    "cpu_threads": 2,
+    "gradient_checkpointing": true
+  },
+  "study_role": "controlled_later_corpus_addition_with_real_adapter_continuation",
+  "source_cutoff": "2026-09-15T05:56:02.253321+00:00",
+  "inputs_built_at": "2026-09-15T05:56:02.253321+00:00",
+  "sources": [
+    {
+      "family_id": "muyaho",
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\text\\muyaho_lead_ko.txt",
+      "sha256": "7c99cde380fcbf0e93aeffc22b3b32c791933b1a1245dbffded58d27a79f57a4",
+      "provenance": "actual_collected",
+      "source_type": "Wikipedia_edited_description_not_original_performance",
+      "acquisition_mode": "known_seed_retrieval_not_discovery"
+    },
+    {
+      "family_id": "doge",
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_pilot_sources_v01\\text\\doge_lead_ko.txt",
+      "sha256": "b5dd0b2ebb654ca4fb4b1f59da71163d2f84532b5d0ea4785431e5af8dd73cef",
+      "provenance": "actual_collected",
+      "source_type": "Wikipedia_edited_description_not_original_performance",
+      "acquisition_mode": "known_seed_retrieval_not_discovery"
+    }
+  ],
+  "provenance": "mixed",
+  "task_file": "C:\\Users\\user\\Korean-Treanding\\data\\research\\creation_local_pilot_tasks_v01.json",
+  "task_file_sha256": "f51f6787ab674b542b6e879341193ddab0ecc26fc7dab7ab6c834a00f0faa5c9",
+  "source_pool_equal_for_rag_ft": true,
+  "evaluation_targets_in_adaptation": false,
+  "independent_human_gold": false,
+  "temporal_change_effect_estimated": false,
+  "renderer_weights_trained": false,
+  "main_study_complete": false,
+  "initial_adapter_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_local_pilot_cpu_run_v03\\worker\\adapter.safetensors",
+  "prior_run_id": "a09dceb9872646c18941c24f7be250d4",
+  "prior_model_run_id": "a09dceb9872646c18941c24f7be250d4",
+  "prior_run_summary_path": "C:\\Users\\user\\Korean-Treanding\\data\\derived\\creation_local_pilot_cpu_run_v03\\run_summary.json",
+  "initial_adapter_sha256": "25588736393c28ecb7369a8b37ef0e00d2646ba9cf77dd4b83f06350a943a774",
+  "optimizer_reset_at_update": true,
+  "prior_source_cutoff": "2026-09-15T05:44:32.368986+00:00",
+  "new_actual_source_available_at": "2026-09-15T05:46:49.586237+00:00",
+  "new_source_manifest": "C:\\Users\\user\\Korean-Treanding\\data\\collected\\multimodal_creation_media_sources_v02\\manifest.json",
+  "new_source_manifest_sha256": "0204600fc69c2d97205d678478c7ca52c506b62876b4c51d1cf473441c348a24",
+  "update_task_file_sha256": "94347baed38157e858bf4710d6ef96a797728ae63af3a33e618597855d2e83a5",
+  "real_world_meme_change_claim": false,
+  "native_audio_understanding_test": false,
+  "new_source_context_provenance": "ai_synthetic_derived_from_source_metadata",
+  "old_evaluation_requests_retained_for_development_observation_not_new_independent_samples": true
+}

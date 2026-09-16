@@ -1,0 +1,11 @@
+{
+  "mode": "posthoc_search_expansion",
+  "video_ids": ["PxbIQJ0ZMhw", "9CRMpR8uMKI", "NFUUP6Och1w"],
+  "source_run_id": "9d4767b1ac244733951eafdbc325fc88",
+  "source_manifest": "data/collected/youtube_meme_form_expansion_v01/9d4767b1ac244733951eafdbc325fc88/manifest.json",
+  "source_observations": "data/collected/youtube_meme_form_expansion_v01/9d4767b1ac244733951eafdbc325fc88/observations.jsonl",
+  "selection_reason": "동일 인용 문장 구조가 게임·관계·공연 문맥의 서로 다른 표현으로 변형된 세 실제 검색 결과를 선택했다. 게시자와 문맥을 확인하며 영상의 독립 제작·재게시 여부는 메타데이터만으로 확정하지 않는다. 원래 알려진 밈명 검색이 아니라 관측 구조의 사후 확장이다.",
+  "timeout_seconds": 15,
+  "max_response_bytes": 8000000,
+  "retention_days": 30
+}

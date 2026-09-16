@@ -1,0 +1,30 @@
+# Local dependencies and Python caches
+/.local_dependencies/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Downloaded model weights; keep configs, tokenizers, and acquisition records
+/data/models/**/*.safetensors
+/data/models/**/*.bin
+/data/models/**/*.pt
+/data/models/**/*.pth
+/data/models/**/*.ckpt
+/data/models/**/*.onnx
+/data/models/**/*.gguf
+/data/models/**/*.h5
+/data/models/**/*.msgpack
+/data/models/**/.cache/
+
+# Local research copies, not for redistribution
+/data/literature/private_fulltexts/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+!.env.template

@@ -1,0 +1,68 @@
+{
+  "attempted_at": "2026-09-15T05:45:33.422469+00:00",
+  "spec": {
+    "objective": "Bounded acquisition of at most one rights-documented actual meme audio and one actual meme video, with clearly labelled nonmeme video control fallback",
+    "stage": "access_probe",
+    "parameters": {
+      "sampling": "known_seed_retrieval",
+      "search_minutes_cap": 5,
+      "max_audio_files": 1,
+      "max_video_files": 1,
+      "max_file_bytes": 20000000,
+      "paid_cost_cap_usd": 0,
+      "accounts": false,
+      "youtube_restriction_bypass": false,
+      "nonmeme_video_control_fallback_permitted": true,
+      "original_inputs_only_no_synthetic_gold": true
+    },
+    "data_snapshots": [],
+    "code_hashes": {
+      "research_log.py": "27f212b06b72571cf06e276963dffeb942d1b6b2595e37a3a0c763ba8c82a330"
+    },
+    "prompt_hashes": {},
+    "config_hashes": {},
+    "modality": [
+      "audio",
+      "video"
+    ],
+    "provenance": "actual_collected"
+  },
+  "registration": {
+    "run_id": "80372646d6d641508450889dfe1009d5",
+    "fingerprint": "4a6823d6166beb84c8a53e806d83740a7f41d53cadb4ddb52eebd5b897c53cdf",
+    "status": "started",
+    "started_at": "2026-09-15T05:45:33.432162+00:00",
+    "finished_at": null,
+    "retry_of": null,
+    "retry_reason": null,
+    "spec": {
+      "code_hashes": {
+        "research_log.py": "27f212b06b72571cf06e276963dffeb942d1b6b2595e37a3a0c763ba8c82a330"
+      },
+      "config_hashes": {},
+      "data_snapshots": [],
+      "modality": [
+        "audio",
+        "video"
+      ],
+      "objective": "Bounded acquisition of at most one rights-documented actual meme audio and one actual meme video, with clearly labelled nonmeme video control fallback",
+      "parameters": {
+        "accounts": false,
+        "max_audio_files": 1,
+        "max_file_bytes": 20000000,
+        "max_video_files": 1,
+        "nonmeme_video_control_fallback_permitted": true,
+        "original_inputs_only_no_synthetic_gold": true,
+        "paid_cost_cap_usd": 0,
+        "sampling": "known_seed_retrieval",
+        "search_minutes_cap": 5,
+        "youtube_restriction_bypass": false
+      },
+      "prompt_hashes": {},
+      "provenance": "actual_collected",
+      "stage": "access_probe"
+    },
+    "finish": null
+  },
+  "status": "registered"
+}

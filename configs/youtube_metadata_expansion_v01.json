@@ -1,0 +1,12 @@
+{
+  "version": "youtube-watch-metadata-v1",
+  "mode": "posthoc_search_expansion",
+  "video_ids": ["jxw1Cudx5lA", "Q9hDqYvhrOU", "54StMo--pXU"],
+  "source_run_id": "fbfd5698ba994f959bb750623713d378",
+  "source_manifest": "data/collected/youtube_search_expansion_20260915_v01/fbfd5698ba994f959bb750623713d378/manifest.json",
+  "source_observations": "data/collected/youtube_search_expansion_20260915_v01/fbfd5698ba994f959bb750623713d378/observations.jsonl",
+  "selection_reason": "실례카겔 사후 공개 검색에서 관측한 Sillaeca Gel - BIG VOID / THE LAST TAKE, Sillaeca Gel - NO PAIN / THE LAST TAKE 및 KBS 표시 Shorts의 최초 watch HTML에서 정확한 제목·설명·채널 식별자·발행일 표기를 확인한다. 스낵타운 및 KBS라는 채널 귀속은 이 수집 결과로 확인할 대상이며 표현의 최초 기원이나 독립 변형을 미리 확정하지 않는다. 3개 영상 메타데이터 확인에만 한정한다.",
+  "timeout_seconds": 15,
+  "max_response_bytes": 8000000,
+  "retention_days": 30
+}

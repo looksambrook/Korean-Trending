@@ -1,0 +1,93 @@
+{
+  "schema_version": "youtube-public-search-manifest-v1",
+  "run_id": "0bae8fe5b75d4846b56f5a9f3d4d825a",
+  "status": "completed",
+  "started_at": "2026-09-15T00:14:37.948678+00:00",
+  "finished_at": "2026-09-15T00:14:39.958363+00:00",
+  "config": {
+    "version": "youtube-public-search-v1",
+    "search_mode": "discovered_phrase_expansion",
+    "queries": [
+      {
+        "query": "갈테야 갈테야",
+        "evidence_ids": [
+          "youtube:feed:2akc0XnNkKo:25ca6b31c217608bb467"
+        ]
+      }
+    ],
+    "selection_reason": "Automatic pipeline selection from observed source text; workflow 58a8828abbd94b38a49a1f33401fc73c",
+    "known_meme_seed_names": [],
+    "discovery_run_id": "18f38e7a4c32496f9fcbdcf77f6173b8",
+    "discovery_observations": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\58a8828abbd94b38a49a1f33401fc73c\\feed\\observations.jsonl",
+    "discovery_manifest": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\58a8828abbd94b38a49a1f33401fc73c\\feed\\manifest.json",
+    "discovery_method": "automatic_observed_form_seed; initial origin=name_free_channel_observation",
+    "max_results_per_query": 20,
+    "max_results_total": 20,
+    "timeout_seconds": 15,
+    "max_response_bytes": 8000000,
+    "retention_days": 30
+  },
+  "provenance": "actual_collected",
+  "test_only": false,
+  "http_attempts": 1,
+  "observations": 20,
+  "requests": [
+    {
+      "query": "갈테야 갈테야",
+      "source_search_url": "https://www.youtube.com/results?search_query=%EA%B0%88%ED%85%8C%EC%95%BC+%EA%B0%88%ED%85%8C%EC%95%BC&hl=ko&gl=KR",
+      "started_at": "2026-09-15T00:14:38.002935+00:00",
+      "status": "succeeded",
+      "received_at": "2026-09-15T00:14:38.930405+00:00",
+      "raw_file": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\58a8828abbd94b38a49a1f33401fc73c\\expansion_search_4\\0bae8fe5b75d4846b56f5a9f3d4d825a\\raw\\query_01.html",
+      "raw_sha256": "d002d7bdd4b88f5b522c6b906cb9bbf113769856abc5da673f11c7de6143c8da",
+      "raw_bytes": 1286012,
+      "retention_due_at": "2026-10-15T00:14:38.930405+00:00",
+      "parse": {
+        "renderer_cards_examined": 20,
+        "returned_observations": 20,
+        "exclusions": [],
+        "coverage": "initial_page_bounded",
+        "pagination_attempted": false,
+        "ranking_personalization": "unknown_public_unauthenticated_response"
+      }
+    }
+  ],
+  "issues": [],
+  "paid_api_calls": 0,
+  "model_calls": 0,
+  "human_review_minutes": 0,
+  "verified_meme_count": null,
+  "unseeded_discovery": false,
+  "discovery_evaluation_eligible": false,
+  "temporal_eligible_observations": 0,
+  "history_reconstruction": false,
+  "input_snapshots": [
+    {
+      "id": "discovery_manifest",
+      "sha256": "ea9ace96e7698fd80d3539cbca2923463a18034d41acdf6ca87a3a6cd31fe152"
+    },
+    {
+      "id": "discovery_observations",
+      "sha256": "2349ec5933befe149aae04e0c77bb96cdbca6b2c39c06287eec7232cae949cae"
+    }
+  ],
+  "limitations": [
+    "Search query expansion is not independent discovery or population coverage.",
+    "Result cards lack verified exact publication timestamps; feed/API resolution is needed before temporal analysis.",
+    "Only public initial HTML is inspected; no continuation, video playback, captions, comments or authentication.",
+    "Repeated names, topics, series labels and phrases are not proof of independent meme use.",
+    "The local retention review deadline does not grant a data reuse licence."
+  ],
+  "artifacts": [
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\58a8828abbd94b38a49a1f33401fc73c\\expansion_search_4\\0bae8fe5b75d4846b56f5a9f3d4d825a\\observations.jsonl",
+      "sha256": "67be4fd04205443e060b2e405e8523df4309374dcad258b50678b73ab38fafb6",
+      "bytes": 50936
+    },
+    {
+      "path": "C:\\Users\\user\\Korean-Treanding\\data\\meme_finder\\58a8828abbd94b38a49a1f33401fc73c\\expansion_search_4\\0bae8fe5b75d4846b56f5a9f3d4d825a\\raw\\query_01.html",
+      "sha256": "d002d7bdd4b88f5b522c6b906cb9bbf113769856abc5da673f11c7de6143c8da",
+      "bytes": 1286012
+    }
+  ]
+}

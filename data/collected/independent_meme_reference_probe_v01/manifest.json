@@ -1,0 +1,106 @@
+{
+  "run_id": "703814ca7d6b46dd8b000d50aae54517",
+  "collected_at": "2026-09-15T06:00:42.462281+00:00",
+  "dataset": "MemeInterpret",
+  "source_repository": "https://github.com/npnkhoi/MemeInterpret",
+  "source_commit": "5d12d11321e5190cf142c68a8152c5b1c07688c3",
+  "code_sha256": "265f2fa990524a23b944c3a221e00c8670455c339ccb59ebb09d0b8cf7555903",
+  "annotations_license": "CC-BY-4.0",
+  "annotations_license_source": "https://raw.githubusercontent.com/npnkhoi/MemeInterpret/5d12d11321e5190cf142c68a8152c5b1c07688c3/README.md",
+  "code_license": "not_confirmed_in_inspected_README; no upstream code imported",
+  "image_license": "separate Facebook Hateful Memes conditions; images not acquired",
+  "upstream_split": "test",
+  "upstream_annotation_rows": 1000,
+  "sample_rows": 3,
+  "schema_observed": {
+    "img_path": [
+      "str"
+    ],
+    "text": [
+      "str"
+    ],
+    "label": [
+      "int"
+    ],
+    "auto_image_caption": [
+      "str"
+    ],
+    "image_caption": [
+      "str"
+    ],
+    "surface_message": [
+      "str"
+    ],
+    "background_knowledge_list": [
+      "list"
+    ],
+    "meme_caption_list": [
+      "list"
+    ]
+  },
+  "sample_selection": "first_3_rows_in_upstream_order_for_schema_probe_only",
+  "probe_exposed_image_ids": [
+    "fhm_img/original/01284.png",
+    "fhm_img/original/01324.png",
+    "fhm_img/original/01325.png"
+  ],
+  "human_annotation_fields": [
+    "image_caption",
+    "surface_message",
+    "background_knowledge_list",
+    "meme_caption_list"
+  ],
+  "machine_generated_field": "auto_image_caption",
+  "inherited_fields": [
+    "text",
+    "label",
+    "img_path"
+  ],
+  "raw_annotations_provenance": "externally_human_authored_per_authors_paper_with_explicit_separate_machine_field",
+  "protected_reference_use": "External caption/understanding targets only; never insert targets or derived explanations into corresponding model input/training; this probe has not run an evaluation",
+  "historical_availability": "Acquired current versions only; human-annotation per-record creation times unknown; no retrospective T availability claim",
+  "eligible_creation_quality_gold": false,
+  "new_human_evaluation_completed": false,
+  "images_acquired": 0,
+  "upstream_model_overlap_unknown": true,
+  "http_receipts": [
+    {
+      "url": "https://api.github.com/repos/npnkhoi/MemeInterpret/commits/master",
+      "final_url": "https://api.github.com/repos/npnkhoi/MemeInterpret/commits/master",
+      "received_at": "2026-09-15T05:59:10.256319+00:00",
+      "path": "raw/commit.json",
+      "bytes": 14797,
+      "sha256": "0bdd8d045e8628086ea43dfb93cdbb52870eb353d81efc613208a53bfed80369",
+      "content_type": "application/json; charset=utf-8",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/npnkhoi/MemeInterpret/5d12d11321e5190cf142c68a8152c5b1c07688c3/README.md",
+      "final_url": "https://raw.githubusercontent.com/npnkhoi/MemeInterpret/5d12d11321e5190cf142c68a8152c5b1c07688c3/README.md",
+      "received_at": "2026-09-15T05:59:10.561484+00:00",
+      "path": "raw/README.upstream.md",
+      "bytes": 10659,
+      "sha256": "d15fc10dd291f7ace6a37314a57467be9dcb4122cd5fcd1b8c6c25932c61ff36",
+      "content_type": "text/plain; charset=utf-8",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/npnkhoi/MemeInterpret/5d12d11321e5190cf142c68a8152c5b1c07688c3/data/memeinterpret/test_data.json",
+      "final_url": "https://raw.githubusercontent.com/npnkhoi/MemeInterpret/5d12d11321e5190cf142c68a8152c5b1c07688c3/data/memeinterpret/test_data.json",
+      "received_at": "2026-09-15T05:59:39.654668+00:00",
+      "path": "raw/test_data.upstream.json",
+      "bytes": 900117,
+      "sha256": "72ff2951f55b87e6a47b8e91653938fa3aa73af0774e5670926b5a08f2778921",
+      "content_type": "text/plain; charset=utf-8",
+      "status": 200
+    }
+  ],
+  "retained_successful_response_bytes": 925573,
+  "adaptation_allowed": false,
+  "access_role": "evaluation_reference_only",
+  "pdf_copy_retained": false,
+  "paid_cost_usd": 0,
+  "model_calls": 0,
+  "human_review_minutes": 0,
+  "paper_read_scope": "Read sections 3.1-3.3, ethics/terms paragraph and Appendix A via primary ACL text. Did not reproduce or validate paper experimental scores."
+}

@@ -1,0 +1,172 @@
+{
+  "run_id": "0673d8a7e2e94b21b49a88242b0d4257",
+  "studies": [
+    {
+      "study": "text_T0",
+      "run_id": "a09dceb9872646c18941c24f7be250d4",
+      "status": "completed",
+      "planned_response_count": 18,
+      "completed_responses": 18,
+      "optimizer_steps": 38,
+      "generation_attempts": 18,
+      "base_hashes_measured_equal": true,
+      "adapter_changed": true,
+      "wall_seconds": 378.26575,
+      "sampled_peak_rss_bytes": 3074744320,
+      "rendered_formats": {
+        "text": 18,
+        "image": 18,
+        "video": 18
+      },
+      "normalized_training_target_matches_by_arm": {
+        "C0": 0,
+        "CR": 2,
+        "CF": 0
+      },
+      "token_limit_counts_by_arm": {
+        "C0": 3,
+        "CR": 2,
+        "CF": 0
+      },
+      "semantic_quality_not_evaluated": true
+    },
+    {
+      "study": "native_image",
+      "run_id": "87512cdb28424b6ca77f756d71f972f2",
+      "status": "completed",
+      "planned_response_count": 9,
+      "completed_responses": 9,
+      "optimizer_steps": 12,
+      "generation_attempts": 9,
+      "base_hashes_measured_equal": true,
+      "adapter_changed": true,
+      "wall_seconds": 156.201232,
+      "sampled_peak_rss_bytes": 2035408896,
+      "rendered_formats": {
+        "text": 9,
+        "image": 9,
+        "video": 9
+      },
+      "normalized_training_target_matches_by_arm": {
+        "C0": 0,
+        "CR": 2,
+        "CF": 0
+      },
+      "token_limit_counts_by_arm": {
+        "C0": 0,
+        "CR": 0,
+        "CF": 1
+      },
+      "semantic_quality_not_evaluated": true
+    },
+    {
+      "study": "text_T1",
+      "run_id": "7c2d5c379f704581ac21f26419c3e406",
+      "status": "completed",
+      "planned_response_count": 15,
+      "completed_responses": 15,
+      "optimizer_steps": 26,
+      "generation_attempts": 15,
+      "base_hashes_measured_equal": true,
+      "adapter_changed": true,
+      "wall_seconds": 275.047829,
+      "sampled_peak_rss_bytes": 3404713984,
+      "rendered_formats": {
+        "text": 15,
+        "image": 15,
+        "video": 15
+      },
+      "normalized_training_target_matches_by_arm": {
+        "C0": 0,
+        "CR": 1,
+        "CF": 0
+      },
+      "token_limit_counts_by_arm": {
+        "C0": 1,
+        "CR": 3,
+        "CF": 1
+      },
+      "semantic_quality_not_evaluated": true
+    }
+  ],
+  "main_experiment_generations": 42,
+  "main_experiment_optimizer_steps": 76,
+  "earlier_CPU_smoke_excluded_from_main_counts": {
+    "run_id": "22e0491200f84f0e8640b139abb9c4b3",
+    "optimizer_steps": 2,
+    "completed_generations": 3
+  },
+  "failed_GPU_attempt_excluded_from_success_counts": {
+    "run_id": "f8e084e3d1ff467f8a1874fb37d7907d",
+    "completed_generations": 0,
+    "attempts": 1,
+    "optimizer_steps": 0
+  },
+  "retained_request_output_changes": [
+    {
+      "case_id": "mu_eval_01",
+      "condition": "C0",
+      "output_text_unchanged": true,
+      "interpretation": "literal repeat diagnostic, not retained-meaning accuracy"
+    },
+    {
+      "case_id": "mu_eval_01",
+      "condition": "CR",
+      "output_text_unchanged": true,
+      "interpretation": "literal repeat diagnostic, not retained-meaning accuracy"
+    },
+    {
+      "case_id": "doge_eval_02",
+      "condition": "C0",
+      "output_text_unchanged": true,
+      "interpretation": "literal repeat diagnostic, not retained-meaning accuracy"
+    },
+    {
+      "case_id": "doge_eval_02",
+      "condition": "CR",
+      "output_text_unchanged": true,
+      "interpretation": "literal repeat diagnostic, not retained-meaning accuracy"
+    },
+    {
+      "case_id": "neutral_eval_01",
+      "condition": "C0",
+      "output_text_unchanged": true,
+      "interpretation": "literal repeat diagnostic, not retained-meaning accuracy"
+    },
+    {
+      "case_id": "neutral_eval_01",
+      "condition": "CR",
+      "output_text_unchanged": true,
+      "interpretation": "literal repeat diagnostic, not retained-meaning accuracy"
+    },
+    {
+      "case_id": "mu_eval_01",
+      "condition": "CF",
+      "output_text_unchanged": false,
+      "interpretation": "literal repeat diagnostic, not retained-meaning accuracy"
+    },
+    {
+      "case_id": "doge_eval_02",
+      "condition": "CF",
+      "output_text_unchanged": false,
+      "interpretation": "literal repeat diagnostic, not retained-meaning accuracy"
+    },
+    {
+      "case_id": "neutral_eval_01",
+      "condition": "CF",
+      "output_text_unchanged": true,
+      "interpretation": "literal repeat diagnostic, not retained-meaning accuracy"
+    }
+  ],
+  "human_ratings_count": 0,
+  "semantic_scores": null,
+  "statistical_superiority_test_performed": false,
+  "native_audio_model_evaluation_performed": false,
+  "real_world_meme_trend_change_evaluated": false,
+  "independent_family_generalization_evaluated": false,
+  "native_video_stream_understanding_evaluated": false,
+  "image_video_generator_weights_trained": false,
+  "local_compute_cost_measured": false,
+  "paid_GPU_or_model_API_charges_incurred": false,
+  "paper_level_goal_completed": false
+}

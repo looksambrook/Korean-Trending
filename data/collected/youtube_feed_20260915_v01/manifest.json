@@ -1,0 +1,57 @@
+{
+  "run_id": "731e6a2ee35b49a4a5d152c9cf580ff3",
+  "status": "failed",
+  "snapshot_id": "youtube_feed_access_2026-09-15_v01",
+  "provenance": "actual_collected",
+  "finished_at": "2026-09-14T18:20:39.972094+00:00",
+  "history_reconstruction": false,
+  "source_method": "official_channel_atom_feed",
+  "counts": {
+    "requests": 3,
+    "channels_ok": 0,
+    "channels_failed": 3,
+    "observations": 0,
+    "exclusions": 0
+  },
+  "requests": [
+    {
+      "channel_id": "UCUj6rrhMTR9pipbAWBAMvUQ",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUj6rrhMTR9pipbAWBAMvUQ",
+      "started_at": "2026-09-14T18:20:39.618415+00:00",
+      "status": "failed",
+      "error_type": "URLError",
+      "error": "<urlopen error [WinError 10013] 액세스 권한에 의해 숨겨진 소켓에 액세스를 시도했습니다>"
+    },
+    {
+      "channel_id": "UCNhofiqfw5nl-NeDJkXtPvw",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNhofiqfw5nl-NeDJkXtPvw",
+      "started_at": "2026-09-14T18:20:39.802527+00:00",
+      "status": "failed",
+      "error_type": "URLError",
+      "error": "<urlopen error [WinError 10013] 액세스 권한에 의해 숨겨진 소켓에 액세스를 시도했습니다>"
+    },
+    {
+      "channel_id": "UC-uIpGINZDL-VIHQQzJW8jw",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-uIpGINZDL-VIHQQzJW8jw",
+      "started_at": "2026-09-14T18:20:39.873608+00:00",
+      "status": "failed",
+      "error_type": "URLError",
+      "error": "<urlopen error [WinError 10013] 액세스 권한에 의해 숨겨진 소켓에 액세스를 시도했습니다>"
+    }
+  ],
+  "files": {
+    "observations": "observations.jsonl",
+    "exclusions": "exclusions.jsonl"
+  },
+  "limitations": [
+    "Convenience channel cohort; no platform-wide or historical completeness",
+    "Metadata only; no comments, captions, audio or video",
+    "Repeated phrases are candidates, not confirmed memes",
+    "Retention due date is a local review deadline, not a licence"
+  ],
+  "cost": {
+    "paid_api_calls": 0,
+    "model_calls": 0,
+    "human_review_minutes": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "objective": "YouTube public trends surfaces and Google Trends interpretation",
+  "stage": "desk_research",
+  "parameters": {
+    "source_urls": [
+      "https://blog.youtube/culture-and-trends/youtube-culture-trends-modern-mainstream-research/",
+      "https://blog.youtube/intl/ko-kr/culture-and-trends/year-on-youtube-2025-korea/",
+      "https://support.google.com/trends/answer/17309543",
+      "https://support.google.com/trends/answer/3076011?hl=en",
+      "https://support.google.com/trends/answer/4359550?hl=en",
+      "https://support.google.com/trends/answer/4365533?hl=en",
+      "https://support.google.com/youtube/answer/7239739?hl=en"
+    ],
+    "retrospective_registration": true,
+    "reviewed_on": "2026-09-15"
+  },
+  "data_snapshots": [
+    {
+      "id": "research_handoff_20260915",
+      "sha256": "230ac438f189dd231cb0ec07f19596dca4dfee16df1c953b08eae3010f4a9899"
+    }
+  ],
+  "code_hashes": {},
+  "prompt_hashes": {},
+  "config_hashes": {},
+  "modality": [
+    "text",
+    "metadata"
+  ],
+  "provenance": "not_applicable"
+}

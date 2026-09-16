@@ -1,0 +1,26 @@
+{
+  "schema_version": "multimodal-compute-price-observation-v1",
+  "run_id": "23598897829c4d55ac3aa828e5ff175a",
+  "checked_at": "2026-09-15T05:10:07+00:00",
+  "checked_at_kst": "2026-09-15T14:10:07+09:00",
+  "record_origin": "ai_structured_from_official_provider_page_text",
+  "source_access": "public_official_HTML_body_read_through_web_tool",
+  "full_original_html_archived": false,
+  "currency": "USD",
+  "gpu_count_per_scenario": 1,
+  "scenario_hours": [1, 10],
+  "scenario_is_training_duration_estimate": false,
+  "prices": [
+    {"provider": "Runpod", "product": "Pods", "gpu": "RTX A6000", "vram_gb": 48, "hourly_usd": "0.53", "one_hour_usd": "0.53", "ten_hours_usd": "5.30", "price_status": "official_public_display_not_region_or_cloud_specific_quote", "price_url": "https://www.runpod.io/pricing", "on_demand_basis_url": "https://docs.runpod.io/pods/pricing", "region": null, "cloud_type": null, "availability_verified": false},
+    {"provider": "Runpod", "product": "Pods", "gpu": "A100 PCIe", "vram_gb": 80, "hourly_usd": "1.59", "one_hour_usd": "1.59", "ten_hours_usd": "15.90", "price_status": "official_public_display_not_region_or_cloud_specific_quote", "price_url": "https://www.runpod.io/pricing", "on_demand_basis_url": "https://docs.runpod.io/pods/pricing", "region": null, "cloud_type": null, "availability_verified": false},
+    {"provider": "Lambda", "product": "Instances 1x", "gpu": "A6000", "vram_gb": 48, "hourly_usd": "1.09", "one_hour_usd": "1.09", "ten_hours_usd": "10.90", "price_status": "official_1x_instance_table_per_GPU_hour", "price_url": "https://lambda.ai/pricing", "on_demand_basis_url": "https://lambda.ai/instances", "included_ram_gib": 100, "included_ssd_gib": 512, "region": null, "availability_verified": false, "applicable_tax_additional": true},
+    {"provider": "Lambda", "product": "Instances 1x", "gpu": "H100 PCIe", "vram_gb": 80, "hourly_usd": "3.29", "one_hour_usd": "3.29", "ten_hours_usd": "32.90", "price_status": "official_1x_instance_table_per_GPU_hour", "price_url": "https://lambda.ai/pricing", "on_demand_basis_url": "https://lambda.ai/instances", "included_ram_gib": 225, "included_ssd_tib": 1, "region": null, "availability_verified": false, "applicable_tax_additional": true}
+  ],
+  "source_links": ["https://www.runpod.io/pricing", "https://docs.runpod.io/pods/pricing", "https://lambda.ai/pricing", "https://lambda.ai/instances"],
+  "source_page_updated_at": {"https://www.runpod.io/pricing": "2026-09-13", "https://docs.runpod.io/pods/pricing": "2026-07-20", "https://lambda.ai/pricing": null, "https://lambda.ai/instances": null},
+  "tool_issue": {"kind": "invalid_click_reference", "resolved_by": "opening_same_official_link_with_valid_page_reference", "provider_resource_created": false},
+  "excluded_from_cost_scenarios": ["storage_outside_listed_included_instance_SSD", "taxes", "currency_conversion_and_payment_fees", "preprocessing", "other_model_or_renderer_services", "human_evaluation"],
+  "actual_commercial_actions": {"account_creation": 0, "server_creation": 0, "provider_account_API_calls": 0, "model_or_training_calls": 0, "payment_actions": 0, "paid_GPU_hours": 0, "rental_spending_usd": "0.00"},
+  "gpu_selection_confirmed": false,
+  "research_memory_or_runtime_measured": false
+}

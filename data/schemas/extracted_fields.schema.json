@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Automatic extraction fields v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "form_labels",
+    "functions",
+    "preservation_constraints",
+    "editable_elements",
+    "adaptation_modes",
+    "usage_context",
+    "modality_dependency",
+    "uncertainty_notes"
+  ],
+  "properties": {
+    "form_labels": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/fact"
+      }
+    },
+    "functions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/fact"
+      }
+    },
+    "preservation_constraints": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/fact"
+      }
+    },
+    "editable_elements": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/fact"
+      }
+    },
+    "adaptation_modes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/fact"
+      }
+    },
+    "usage_context": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/fact"
+      }
+    },
+    "modality_dependency": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/fact"
+      }
+    },
+    "uncertainty_notes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/fact"
+      }
+    }
+  },
+  "$defs": {
+    "fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "evidence_ids",
+        "certainty"
+      ],
+      "properties": {
+        "value": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "certainty": {
+          "enum": [
+            "supported",
+            "tentative"
+          ]
+        }
+      }
+    }
+  },
+  "$comment": "Cross-record evidence membership and empty-evidence rules enforced by src/meme_pipeline.py; schema alone cannot establish factual support."
+}
